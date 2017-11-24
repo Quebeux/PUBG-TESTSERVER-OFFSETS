@@ -1,5 +1,5 @@
 /// <summary>
-/// Auto-generated offsets targetting PUBG v 3.2.12
+/// Auto-generated offsets for PUBG 
 /// Extracted from https://github.com/TJ888/PUBG-SDK
 /// </summary>
 
