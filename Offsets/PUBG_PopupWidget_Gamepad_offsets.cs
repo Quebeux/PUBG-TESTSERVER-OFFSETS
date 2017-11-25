@@ -7,31 +7,31 @@ namespace Offsets
 {
 	public class UPopupWidget_Gamepad_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary>UWidgetAnimation *</summary>
+		///<summary><![CDATA[UWidgetAnimation *]]></summary>
 		public const int PopupEmerging = 0x0248;
 
-		///<summary>UButtonWidget_C *</summary>
+		///<summary><![CDATA[UButtonWidget_C *]]></summary>
 		public const int CANCEL = 0x0250;
 
-		///<summary>UCircularThrobber *</summary>
+		///<summary><![CDATA[UCircularThrobber *]]></summary>
 		public const int CircularThrobber_1 = 0x0258;
 
-		///<summary>UButtonWidget_C *</summary>
+		///<summary><![CDATA[UButtonWidget_C *]]></summary>
 		public const int OK = 0x0260;
 
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int TextBlock_172 = 0x0268;
 
-		///<summary>UBorder *</summary>
+		///<summary><![CDATA[UBorder *]]></summary>
 		public const int Waiting = 0x0270;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int Message = 0x0278;
 
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int ButtonClickDispatcher = 0x0290;
 
 	}

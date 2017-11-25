@@ -7,7 +7,7 @@ namespace Offsets
 {
 	public class UBP_VehicleStanceWidget_C
 	{
-		///<summary>UInvalidationBox *</summary>
+		///<summary><![CDATA[UInvalidationBox *]]></summary>
 		public const int InvalidationBox_SpeedText = 0x0358;
 
 	}

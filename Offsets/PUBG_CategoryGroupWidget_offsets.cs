@@ -7,16 +7,16 @@ namespace Offsets
 {
 	public class UCategoryGroupWidget_C
 	{
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int Category = 0x0240;
 
-		///<summary>UVerticalBox *</summary>
+		///<summary><![CDATA[UVerticalBox *]]></summary>
 		public const int SlotList = 0x0248;
 
-		///<summary>UVerticalBox *</summary>
+		///<summary><![CDATA[UVerticalBox *]]></summary>
 		public const int VerticalBox_1 = 0x0250;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int CategoryName = 0x0258;
 
 	}

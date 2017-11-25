@@ -7,58 +7,58 @@ namespace Offsets
 {
 	public class UQualitySliderWidget_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int Button_1 = 0x0248;
 
-		///<summary>UEditableText *</summary>
+		///<summary><![CDATA[UEditableText *]]></summary>
 		public const int EditableText_3 = 0x0250;
 
-		///<summary>UBorder *</summary>
+		///<summary><![CDATA[UBorder *]]></summary>
 		public const int FocusImage = 0x0258;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int LeftButton = 0x0260;
 
-		///<summary>USlider *</summary>
+		///<summary><![CDATA[USlider *]]></summary>
 		public const int QualitySlider = 0x0268;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int RightButotn = 0x0270;
 
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int TextBlock_1 = 0x0278;
 
-		///<summary>float</summary>
+		///<summary><![CDATA[float]]></summary>
 		public const int RangeMin = 0x0280;
 
-		///<summary>float</summary>
+		///<summary><![CDATA[float]]></summary>
 		public const int RangeMax = 0x0284;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int QualityName = 0x0288;
 
-		///<summary>FName</summary>
+		///<summary><![CDATA[FName]]></summary>
 		public const int SensitiveName = 0x02A0;
 
-		///<summary>TArray<FKey></summary>
+		///<summary><![CDATA[TArray<FKey>]]></summary>
 		public const int IncreaseValueKeyList = 0x02A8;
 
-		///<summary>TArray<FKey></summary>
+		///<summary><![CDATA[TArray<FKey>]]></summary>
 		public const int DecreaseValueKeyList = 0x02B8;
 
-		///<summary>float</summary>
+		///<summary><![CDATA[float]]></summary>
 		public const int KeyUpTime = 0x02C8;
 
-		///<summary>bool</summary>
+		///<summary><![CDATA[bool]]></summary>
 		public const int bPressed = 0x02CC;
 
-		///<summary>unsigned char[0x3]</summary>
+		///<summary><![CDATA[unsigned char[0x3]]]></summary>
 		public const int UnknownData00 = 0x02CD;
 
-		///<summary>float</summary>
+		///<summary><![CDATA[float]]></summary>
 		public const int KeyDownStartTime = 0x02D0;
 
 	}

@@ -7,19 +7,19 @@ namespace Offsets
 {
 	public class UMiniMapWidget_C
 	{
-		///<summary>UCanvasPanel *</summary>
+		///<summary><![CDATA[UCanvasPanel *]]></summary>
 		public const int CanvasPanel_381 = 0x0240;
 
-		///<summary>UImage *</summary>
+		///<summary><![CDATA[UImage *]]></summary>
 		public const int Image_483 = 0x0248;
 
-		///<summary>UMapGridWidget_C *</summary>
+		///<summary><![CDATA[UMapGridWidget_C *]]></summary>
 		public const int MapGridWidget = 0x0250;
 
-		///<summary>FVector2D</summary>
+		///<summary><![CDATA[FVector2D]]></summary>
 		public const int ViewSize = 0x0258;
 
-		///<summary>ATslCharacter *</summary>
+		///<summary><![CDATA[ATslCharacter *]]></summary>
 		public const int Character = 0x0260;
 
 	}

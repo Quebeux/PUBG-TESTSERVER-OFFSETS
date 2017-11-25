@@ -7,22 +7,22 @@ namespace Offsets
 {
 	public class ACharacterProxyBase_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0810;
 
-		///<summary>UTslAccessoryComponent *</summary>
+		///<summary><![CDATA[UTslAccessoryComponent *]]></summary>
 		public const int Slot_Thrown = 0x0818;
 
-		///<summary>UTslAccessoryComponent *</summary>
+		///<summary><![CDATA[UTslAccessoryComponent *]]></summary>
 		public const int Slot_Melee = 0x0820;
 
-		///<summary>UTslAccessoryComponent *</summary>
+		///<summary><![CDATA[UTslAccessoryComponent *]]></summary>
 		public const int Slot_SideArm = 0x0828;
 
-		///<summary>UTslAccessoryComponent *</summary>
+		///<summary><![CDATA[UTslAccessoryComponent *]]></summary>
 		public const int Slot_Secondary = 0x0830;
 
-		///<summary>UTslAccessoryComponent *</summary>
+		///<summary><![CDATA[UTslAccessoryComponent *]]></summary>
 		public const int Slot_Primary = 0x0838;
 
 	}

@@ -7,16 +7,16 @@ namespace Offsets
 {
 	public class UCharacterCapture_Gamepad_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary>UWidgetAnimation *</summary>
+		///<summary><![CDATA[UWidgetAnimation *]]></summary>
 		public const int FadeIn = 0x0248;
 
-		///<summary>UImage *</summary>
+		///<summary><![CDATA[UImage *]]></summary>
 		public const int CaptureImage = 0x0250;
 
-		///<summary>ACharacterStudio *</summary>
+		///<summary><![CDATA[ACharacterStudio *]]></summary>
 		public const int CharacterStudio = 0x0258;
 
 	}

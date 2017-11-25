@@ -7,28 +7,28 @@ namespace Offsets
 {
 	public class USelfPutHelperWidget_C
 	{
-		///<summary>TScriptInterface<USlotInterface></summary>
+		///<summary><![CDATA[TScriptInterface<USlotInterface>]]></summary>
 		public const int SlotInterface = 0x0240;
 
-		///<summary>TScriptInterface<USlotContainerInterface></summary>
+		///<summary><![CDATA[TScriptInterface<USlotContainerInterface>]]></summary>
 		public const int SlotContainer = 0x0250;
 
-		///<summary>TArray<int></summary>
+		///<summary><![CDATA[TArray<int>]]></summary>
 		public const int EnableSelfPutIndexList = 0x0260;
 
-		///<summary>int</summary>
+		///<summary><![CDATA[int]]></summary>
 		public const int SelectSelfPutIndex = 0x0270;
 
-		///<summary>bool</summary>
+		///<summary><![CDATA[bool]]></summary>
 		public const int bIsSelfPutMode = 0x0274;
 
-		///<summary>unsigned char[0x3]</summary>
+		///<summary><![CDATA[unsigned char[0x3]]]></summary>
 		public const int UnknownData00 = 0x0275;
 
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int OnNotifySelfPut = 0x0278;
 
-		///<summary>EWeaponAttachmentSlotID</summary>
+		///<summary><![CDATA[EWeaponAttachmentSlotID]]></summary>
 		public const int AttachmentSlotID = 0x0288;
 
 	}

@@ -7,13 +7,13 @@ namespace Offsets
 {
 	public class UChildOptionTitleWidget_C
 	{
-		///<summary>UImage *</summary>
+		///<summary><![CDATA[UImage *]]></summary>
 		public const int Image_1 = 0x0240;
 
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int TextBlock_1 = 0x0248;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int DisplayTitleText = 0x0250;
 
 	}

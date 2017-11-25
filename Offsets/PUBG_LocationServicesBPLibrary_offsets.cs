@@ -7,7 +7,7 @@ namespace Offsets
 {
 	public class ULocationServicesImpl
 	{
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int OnLocationChanged = 0x0028;
 
 	}

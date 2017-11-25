@@ -7,13 +7,13 @@ namespace Offsets
 {
 	public class AInputEventActor_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x03B0;
 
-		///<summary>USceneComponent *</summary>
+		///<summary><![CDATA[USceneComponent *]]></summary>
 		public const int DefaultSceneRoot = 0x03B8;
 
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int OnInputAction = 0x03C0;
 
 	}

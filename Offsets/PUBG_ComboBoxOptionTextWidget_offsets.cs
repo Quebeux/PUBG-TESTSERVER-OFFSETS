@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UComboBoxOptionTextWidget_C
 	{
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int TextBlock_1 = 0x0240;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int DisplayName = 0x0248;
 
 	}

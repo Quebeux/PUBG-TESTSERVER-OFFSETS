@@ -7,16 +7,16 @@ namespace Offsets
 {
 	public class AWeapCrossbow_1_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0D68;
 
-		///<summary>TEnumAsByte<ENUM_CrossbowState></summary>
+		///<summary><![CDATA[TEnumAsByte<ENUM_CrossbowState>]]></summary>
 		public const int CurrentState = 0x0D70;
 
-		///<summary>TEnumAsByte<ENUM_CrossbowState></summary>
+		///<summary><![CDATA[TEnumAsByte<ENUM_CrossbowState>]]></summary>
 		public const int LastState = 0x0D71;
 
-		///<summary>bool</summary>
+		///<summary><![CDATA[bool]]></summary>
 		public const int bWantsToReload = 0x0D72;
 
 	}

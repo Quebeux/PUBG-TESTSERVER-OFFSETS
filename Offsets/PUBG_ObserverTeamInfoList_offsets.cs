@@ -7,19 +7,19 @@ namespace Offsets
 {
 	public class UObserverTeamInfoList_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary>UCanvasPanel *</summary>
+		///<summary><![CDATA[UCanvasPanel *]]></summary>
 		public const int CanvasPanel_1 = 0x0248;
 
-		///<summary>UVerticalBox *</summary>
+		///<summary><![CDATA[UVerticalBox *]]></summary>
 		public const int TeamList = 0x0250;
 
-		///<summary>UVerticalBox *</summary>
+		///<summary><![CDATA[UVerticalBox *]]></summary>
 		public const int VerticalBox_7 = 0x0258;
 
-		///<summary>TArray<ATslCharacter * ></summary>
+		///<summary><![CDATA[TArray<ATslCharacter * >]]></summary>
 		public const int RefreshedPlayerLIst = 0x0260;
 
 	}

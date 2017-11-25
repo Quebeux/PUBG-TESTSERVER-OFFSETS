@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UBP_CompassMarkerWidget_C
 	{
-		///<summary>UImage *</summary>
+		///<summary><![CDATA[UImage *]]></summary>
 		public const int CompassMarkerImage = 0x0300;
 
-		///<summary>UInvalidationBox *</summary>
+		///<summary><![CDATA[UInvalidationBox *]]></summary>
 		public const int InvalidationBox_Marker = 0x0308;
 
 	}

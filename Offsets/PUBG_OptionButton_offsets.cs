@@ -7,19 +7,19 @@ namespace Offsets
 {
 	public class UOptionButton_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int Button_2 = 0x0248;
 
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int TextBlock_1 = 0x0250;
 
-		///<summary>FText</summary>
+		///<summary><![CDATA[FText]]></summary>
 		public const int DisplayButtonText = 0x0258;
 
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int OnClicked = 0x0270;
 
 	}

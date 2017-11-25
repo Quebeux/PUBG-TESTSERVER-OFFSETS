@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UReplayTimelineKillEventItem_C
 	{
-		///<summary>UBorder *</summary>
+		///<summary><![CDATA[UBorder *]]></summary>
 		public const int Border_44 = 0x0240;
 
-		///<summary>FString</summary>
+		///<summary><![CDATA[FString]]></summary>
 		public const int KillTooltipText = 0x0248;
 
 	}

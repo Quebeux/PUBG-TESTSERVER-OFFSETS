@@ -7,25 +7,25 @@ namespace Offsets
 {
 	public class ULobbyMessagePopupWidget_C
 	{
-		///<summary>FPointerToUberGraphFrame</summary>
+		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
 		public const int UberGraphFrame = 0x03B0;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int Button_Cancel = 0x03B8;
 
-		///<summary>UButton *</summary>
+		///<summary><![CDATA[UButton *]]></summary>
 		public const int Button_OK = 0x03C0;
 
-		///<summary>UImage *</summary>
+		///<summary><![CDATA[UImage *]]></summary>
 		public const int Image_28 = 0x03C8;
 
-		///<summary>UTextBlock *</summary>
+		///<summary><![CDATA[UTextBlock *]]></summary>
 		public const int MessageText = 0x03D0;
 
-		///<summary>USizeBox *</summary>
+		///<summary><![CDATA[USizeBox *]]></summary>
 		public const int SizeBox_2 = 0x03D8;
 
-		///<summary>FScriptMulticastDelegate</summary>
+		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
 		public const int ButtonClick = 0x03E0;
 
 	}
