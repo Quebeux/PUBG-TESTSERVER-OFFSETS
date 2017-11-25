@@ -7,49 +7,49 @@ namespace Offsets
 {
 	public class UInGameMenuWidget_Gamepad_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x0290;
 
-		///<summary><![CDATA[UButtonWidget_C *]]></summary>
+		///<summary>UButtonWidget_C *</summary>
 		public const int GamepadGuide = 0x0298;
 
-		///<summary><![CDATA[UButtonWidget_C *]]></summary>
+		///<summary>UButtonWidget_C *</summary>
 		public const int GotoLobbyButton = 0x02A0;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_1 = 0x02A8;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_2 = 0x02B0;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_3 = 0x02B8;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_4 = 0x02C0;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_5 = 0x02C8;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_6 = 0x02D0;
 
-		///<summary><![CDATA[UWidgetSwitcher *]]></summary>
+		///<summary>UWidgetSwitcher *</summary>
 		public const int MainMenuSwitcher = 0x02D8;
 
-		///<summary><![CDATA[UButtonWidget_C *]]></summary>
+		///<summary>UButtonWidget_C *</summary>
 		public const int Settings = 0x02E0;
 
-		///<summary><![CDATA[UButtonWidget_C *]]></summary>
+		///<summary>UButtonWidget_C *</summary>
 		public const int TeamManagement = 0x02E8;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int TextBlock_3 = 0x02F0;
 
-		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int TestDispatcher = 0x02F8;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int IsGamePad = 0x0308;
 
 	}

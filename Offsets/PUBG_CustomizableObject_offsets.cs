@@ -7,131 +7,131 @@ namespace Offsets
 {
 	public class UCustomizableSkeletalComponent
 	{
-		///<summary><![CDATA[UCustomizableObjectInstance *]]></summary>
+		///<summary>UCustomizableObjectInstance *</summary>
 		public const int CustomizableObjectInstance = 0x03E0;
 
-		///<summary><![CDATA[unsigned char[0x48]]]></summary>
+		///<summary>unsigned char[0x48]</summary>
 		public const int UnknownData00 = 0x03E8;
 
 	}
 
 	public class UCustomizableObjectInstance
 	{
-		///<summary><![CDATA[UCustomizableObject *]]></summary>
+		///<summary>UCustomizableObject *</summary>
 		public const int CustomizableObject = 0x0028;
 
-		///<summary><![CDATA[USkeletalMesh *]]></summary>
+		///<summary>USkeletalMesh *</summary>
 		public const int SkeletalMesh = 0x0030;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int State = 0x0038;
 
-		///<summary><![CDATA[unsigned char[0x4]]]></summary>
+		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData00 = 0x003C;
 
-		///<summary><![CDATA[TArray<FCustomizableObjectBoolParameterValue>]]></summary>
+		///<summary>TArray&lt;FCustomizableObjectBoolParameterValue&gt;</summary>
 		public const int BoolParameters = 0x0040;
 
-		///<summary><![CDATA[TArray<FCustomizableObjectIntParameterValue>]]></summary>
+		///<summary>TArray&lt;FCustomizableObjectIntParameterValue&gt;</summary>
 		public const int IntParameters = 0x0050;
 
-		///<summary><![CDATA[TArray<FCustomizableObjectFloatParameterValue>]]></summary>
+		///<summary>TArray&lt;FCustomizableObjectFloatParameterValue&gt;</summary>
 		public const int FloatParameters = 0x0060;
 
-		///<summary><![CDATA[TArray<FCustomizableObjectVectorParameterValue>]]></summary>
+		///<summary>TArray&lt;FCustomizableObjectVectorParameterValue&gt;</summary>
 		public const int VectorParameters = 0x0070;
 
-		///<summary><![CDATA[TArray<FCustomizableObjectProjectorParameterValue>]]></summary>
+		///<summary>TArray&lt;FCustomizableObjectProjectorParameterValue&gt;</summary>
 		public const int ProjectorParameters = 0x0080;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bBuildRawData = 0x0090;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bBuildRenderData = 0x0091;
 
-		///<summary><![CDATA[unsigned char[0x116]]]></summary>
+		///<summary>unsigned char[0x116]</summary>
 		public const int UnknownData01 = 0x0092;
 
-		///<summary><![CDATA[UCustomizableInstancePrivateData *]]></summary>
+		///<summary>UCustomizableInstancePrivateData *</summary>
 		public const int PrivateData = 0x01A8;
 
 	}
 
 	public class UCustomizableInstancePrivateData
 	{
-		///<summary><![CDATA[unsigned char[0x8]]]></summary>
+		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData00 = 0x0028;
 
-		///<summary><![CDATA[TArray<FGeneratedMaterial>]]></summary>
+		///<summary>TArray&lt;FGeneratedMaterial&gt;</summary>
 		public const int GeneratedMaterials = 0x0030;
 
-		///<summary><![CDATA[TArray<FGeneratedMesh>]]></summary>
+		///<summary>TArray&lt;FGeneratedMesh&gt;</summary>
 		public const int GeneratedMeshes = 0x0040;
 
-		///<summary><![CDATA[TArray<FGeneratedTexture>]]></summary>
+		///<summary>TArray&lt;FGeneratedTexture&gt;</summary>
 		public const int GeneratedTextures = 0x0050;
 
-		///<summary><![CDATA[unsigned char[0xB0]]]></summary>
+		///<summary>unsigned char[0xB0]</summary>
 		public const int UnknownData01 = 0x0060;
 
 	}
 
 	public class UCustomizableObject
 	{
-		///<summary><![CDATA[USkeletalMesh *]]></summary>
+		///<summary>USkeletalMesh *</summary>
 		public const int ReferenceSkeletalMesh = 0x0028;
 
-		///<summary><![CDATA[UStaticMesh *]]></summary>
+		///<summary>UStaticMesh *</summary>
 		public const int ReferenceStaticMesh = 0x0030;
 
-		///<summary><![CDATA[ECustomizableObjectRelevancy]]></summary>
+		///<summary>ECustomizableObjectRelevancy</summary>
 		public const int Relevancy = 0x0038;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bDisableTextureLayoutManagement = 0x0039;
 
-		///<summary><![CDATA[unsigned char[0x6]]]></summary>
+		///<summary>unsigned char[0x6]</summary>
 		public const int UnknownData00 = 0x003A;
 
-		///<summary><![CDATA[TArray<UMaterialInterface * >]]></summary>
+		///<summary>TArray&lt;UMaterialInterface * &gt;</summary>
 		public const int ReferencedMaterials = 0x0040;
 
-		///<summary><![CDATA[TArray<FMutableModelImageProperties>]]></summary>
+		///<summary>TArray&lt;FMutableModelImageProperties&gt;</summary>
 		public const int ImageProperties = 0x0050;
 
-		///<summary><![CDATA[TMap<FString,FCustomizableObjectIdPair>]]></summary>
+		///<summary>TMap&lt;FString,FCustomizableObjectIdPair&gt;</summary>
 		public const int GroupNodeMap = 0x0060;
 
-		///<summary><![CDATA[FCompilationOptions]]></summary>
+		///<summary>FCompilationOptions</summary>
 		public const int CompileOptions = 0x00B0;
 
-		///<summary><![CDATA[FGuid]]></summary>
+		///<summary>FGuid</summary>
 		public const int VersionId = 0x00BC;
 
-		///<summary><![CDATA[unsigned char[0x4]]]></summary>
+		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData01 = 0x00CC;
 
-		///<summary><![CDATA[TArray<FMutableModelParameterProperties>]]></summary>
+		///<summary>TArray&lt;FMutableModelParameterProperties&gt;</summary>
 		public const int ParameterProperties = 0x00D0;
 
-		///<summary><![CDATA[unsigned char[0x10]]]></summary>
+		///<summary>unsigned char[0x10]</summary>
 		public const int UnknownData02 = 0x00E0;
 
 	}
 
 	public class UCustomizableObjectSystem
 	{
-		///<summary><![CDATA[unsigned char[0x28]]]></summary>
+		///<summary>unsigned char[0x28]</summary>
 		public const int UnknownData00 = 0x0028;
 
-		///<summary><![CDATA[TArray<FMutableTextureTracker>]]></summary>
+		///<summary>TArray&lt;FMutableTextureTracker&gt;</summary>
 		public const int TextureTrackerArray = 0x0050;
 
-		///<summary><![CDATA[TArray<UTexture2D * >]]></summary>
+		///<summary>TArray&lt;UTexture2D * &gt;</summary>
 		public const int ProtectedCachedTextures = 0x0060;
 
-		///<summary><![CDATA[unsigned char[0x80]]]></summary>
+		///<summary>unsigned char[0x80]</summary>
 		public const int UnknownData01 = 0x0070;
 
 	}

@@ -7,32 +7,32 @@ namespace Offsets
 {
 	public class UActorSequence
 	{
-		///<summary><![CDATA[UMovieScene *]]></summary>
+		///<summary>UMovieScene *</summary>
 		public const int MovieScene = 0x0330;
 
-		///<summary><![CDATA[FActorSequenceObjectReferenceMap]]></summary>
+		///<summary>FActorSequenceObjectReferenceMap</summary>
 		public const int ObjectReferences = 0x0338;
 
-		///<summary><![CDATA[unsigned char[0x8]]]></summary>
+		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData00 = 0x0358;
 
 	}
 
 	public class UActorSequenceComponent
 	{
-		///<summary><![CDATA[unsigned char[0x20]]]></summary>
+		///<summary>unsigned char[0x20]</summary>
 		public const int UnknownData00 = 0x01E0;
 
-		///<summary><![CDATA[UActorSequence *]]></summary>
+		///<summary>UActorSequence *</summary>
 		public const int Sequence = 0x0200;
 
-		///<summary><![CDATA[UActorSequencePlayer *]]></summary>
+		///<summary>UActorSequencePlayer *</summary>
 		public const int SequencePlayer = 0x0208;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bAutoPlay = 0x0210;
 
-		///<summary><![CDATA[unsigned char[0xF]]]></summary>
+		///<summary>unsigned char[0xF]</summary>
 		public const int UnknownData01 = 0x0211;
 
 	}

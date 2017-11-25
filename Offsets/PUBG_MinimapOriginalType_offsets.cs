@@ -7,7 +7,7 @@ namespace Offsets
 {
 	public class UMinimapOriginalType_C
 	{
-		///<summary><![CDATA[URetainerBox *]]></summary>
+		///<summary>URetainerBox *</summary>
 		public const int Minimap_RetainerBox = 0x0240;
 
 	}

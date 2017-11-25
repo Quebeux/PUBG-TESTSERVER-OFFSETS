@@ -7,109 +7,109 @@ namespace Offsets
 {
 	public class ACameraRig_Crane
 	{
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CranePitch = 0x03B0;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CraneYaw = 0x03B4;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CraneArmLength = 0x03B8;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bLockMountPitch = 0x03BC;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bLockMountYaw = 0x03BD;
 
-		///<summary><![CDATA[unsigned char[0x2]]]></summary>
+		///<summary>unsigned char[0x2]</summary>
 		public const int UnknownData00 = 0x03BE;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int TransformComponent = 0x03C0;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int CraneYawControl = 0x03C8;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int CranePitchControl = 0x03D0;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int CraneCameraMount = 0x03D8;
 
 	}
 
 	public class ACameraRig_Rail
 	{
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CurrentPositionOnRail = 0x03B0;
 
-		///<summary><![CDATA[unsigned char[0x4]]]></summary>
+		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData00 = 0x03B4;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int TransformComponent = 0x03B8;
 
-		///<summary><![CDATA[USplineComponent *]]></summary>
+		///<summary>USplineComponent *</summary>
 		public const int RailSplineComponent = 0x03C0;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int RailCameraMount = 0x03C8;
 
 	}
 
 	public class ACineCameraActor
 	{
-		///<summary><![CDATA[FCameraLookatTrackingSettings]]></summary>
+		///<summary>FCameraLookatTrackingSettings</summary>
 		public const int LookatTrackingSettings = 0x0910;
 
-		///<summary><![CDATA[unsigned char[0x10]]]></summary>
+		///<summary>unsigned char[0x10]</summary>
 		public const int UnknownData00 = 0x0940;
 
 	}
 
 	public class UCineCameraComponent
 	{
-		///<summary><![CDATA[FCameraFilmbackSettings]]></summary>
+		///<summary>FCameraFilmbackSettings</summary>
 		public const int FilmbackSettings = 0x0990;
 
-		///<summary><![CDATA[FCameraLensSettings]]></summary>
+		///<summary>FCameraLensSettings</summary>
 		public const int LensSettings = 0x099C;
 
-		///<summary><![CDATA[FCameraFocusSettings]]></summary>
+		///<summary>FCameraFocusSettings</summary>
 		public const int FocusSettings = 0x09B0;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CurrentFocalLength = 0x09E8;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CurrentAperture = 0x09EC;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CurrentFocusDistance = 0x09F0;
 
-		///<summary><![CDATA[unsigned char[0xC]]]></summary>
+		///<summary>unsigned char[0xC]</summary>
 		public const int UnknownData00 = 0x09F4;
 
-		///<summary><![CDATA[TArray<FNamedFilmbackPreset>]]></summary>
+		///<summary>TArray&lt;FNamedFilmbackPreset&gt;</summary>
 		public const int FilmbackPresets = 0x0A00;
 
-		///<summary><![CDATA[TArray<FNamedLensPreset>]]></summary>
+		///<summary>TArray&lt;FNamedLensPreset&gt;</summary>
 		public const int LensPresets = 0x0A10;
 
-		///<summary><![CDATA[FString]]></summary>
+		///<summary>FString</summary>
 		public const int DefaultFilmbackPresetName = 0x0A20;
 
-		///<summary><![CDATA[FString]]></summary>
+		///<summary>FString</summary>
 		public const int DefaultLensPresetName = 0x0A30;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int DefaultLensFocalLength = 0x0A40;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int DefaultLensFStop = 0x0A44;
 
-		///<summary><![CDATA[unsigned char[0x8]]]></summary>
+		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData01 = 0x0A48;
 
 	}

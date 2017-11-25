@@ -7,25 +7,25 @@ namespace Offsets
 {
 	public class UQualityComboBox_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary><![CDATA[UButton *]]></summary>
+		///<summary>UButton *</summary>
 		public const int Button_1 = 0x0248;
 
-		///<summary><![CDATA[UComboBoxString *]]></summary>
+		///<summary>UComboBoxString *</summary>
 		public const int ComboBox = 0x0250;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int TextBlock_1 = 0x0258;
 
-		///<summary><![CDATA[FText]]></summary>
+		///<summary>FText</summary>
 		public const int DisplayName = 0x0260;
 
-		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnSelectionChanged = 0x0278;
 
-		///<summary><![CDATA[TArray<FComboBoxOption>]]></summary>
+		///<summary>TArray&lt;FComboBoxOption&gt;</summary>
 		public const int OptionList = 0x0288;
 
 	}

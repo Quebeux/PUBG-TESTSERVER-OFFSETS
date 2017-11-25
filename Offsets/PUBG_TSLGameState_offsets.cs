@@ -7,16 +7,16 @@ namespace Offsets
 {
 	public class ATSLGameState_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x04D8;
 
-		///<summary><![CDATA[USceneComponent *]]></summary>
+		///<summary>USceneComponent *</summary>
 		public const int DefaultSceneRoot = 0x04E0;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int SplineCount = 0x04E8;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int SplineComponentCount = 0x04EC;
 
 	}

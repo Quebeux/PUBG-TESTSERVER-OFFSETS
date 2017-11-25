@@ -7,73 +7,73 @@ namespace Offsets
 {
 	public class UWeaponAttachmentSlotWidget_Gamepad_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x0348;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int AttachmentIcon = 0x0350;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int AttachmentIconBlock = 0x0358;
 
-		///<summary><![CDATA[UBorder *]]></summary>
+		///<summary>UBorder *</summary>
 		public const int AttachmentSlotBackground = 0x0360;
 
-		///<summary><![CDATA[UCanvasPanel *]]></summary>
+		///<summary>UCanvasPanel *</summary>
 		public const int CanvasPanel_1 = 0x0368;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int VerticalBox_3 = 0x0370;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int IconSize_1 = 0x0378;
 
-		///<summary><![CDATA[unsigned char[0x4]]]></summary>
+		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData00 = 0x037C;
 
-		///<summary><![CDATA[UWeaponItem *]]></summary>
+		///<summary>UWeaponItem *</summary>
 		public const int WeaponItem = 0x0380;
 
-		///<summary><![CDATA[EWeaponAttachmentSlotID]]></summary>
+		///<summary>EWeaponAttachmentSlotID</summary>
 		public const int AttachmentSlotID = 0x0388;
 
-		///<summary><![CDATA[unsigned char[0x7]]]></summary>
+		///<summary>unsigned char[0x7]</summary>
 		public const int UnknownData01 = 0x0389;
 
-		///<summary><![CDATA[UAttachableItem *]]></summary>
+		///<summary>UAttachableItem *</summary>
 		public const int DragDroppingAttachableItem = 0x0390;
 
-		///<summary><![CDATA[UMaterialInstanceDynamic *]]></summary>
+		///<summary>UMaterialInstanceDynamic *</summary>
 		public const int SlotBackgroundMaterial = 0x0398;
 
-		///<summary><![CDATA[AInventory *]]></summary>
+		///<summary>AInventory *</summary>
 		public const int Inventory = 0x03A0;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bWantFocus = 0x03A8;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bSelfAttachFocus = 0x03A9;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bSelfAttachmentPutFocus = 0x03AA;
 
-		///<summary><![CDATA[unsigned char[0x5]]]></summary>
+		///<summary>unsigned char[0x5]</summary>
 		public const int UnknownData02 = 0x03AB;
 
-		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnWidgetMove = 0x03B0;
 
-		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnAttachmentFocused = 0x03C0;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bSubFocus = 0x03D0;
 
-		///<summary><![CDATA[unsigned char[0x7]]]></summary>
+		///<summary>unsigned char[0x7]</summary>
 		public const int UnknownData03 = 0x03D1;
 
-		///<summary><![CDATA[UInventoryWidget_Gamepad_C *]]></summary>
+		///<summary>UInventoryWidget_Gamepad_C *</summary>
 		public const int SaveInventory_Gamepad = 0x03D8;
 
 	}

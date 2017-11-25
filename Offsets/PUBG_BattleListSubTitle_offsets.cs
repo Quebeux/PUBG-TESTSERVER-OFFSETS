@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UBattleListSubTitle_C
 	{
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int TextSubTitle = 0x0240;
 
-		///<summary><![CDATA[FString]]></summary>
+		///<summary>FString</summary>
 		public const int SubTitle = 0x0248;
 
 	}

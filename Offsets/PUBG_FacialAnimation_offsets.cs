@@ -7,16 +7,16 @@ namespace Offsets
 {
 	public class UAudioCurveSourceComponent
 	{
-		///<summary><![CDATA[unsigned char[0x8]]]></summary>
+		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData00 = 0x06B0;
 
-		///<summary><![CDATA[FName]]></summary>
+		///<summary>FName</summary>
 		public const int CurveSourceBindingName = 0x06B8;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int CurveSyncOffset = 0x06C0;
 
-		///<summary><![CDATA[unsigned char[0x2C]]]></summary>
+		///<summary>unsigned char[0x2C]</summary>
 		public const int UnknownData01 = 0x06C4;
 
 	}

@@ -7,13 +7,13 @@ namespace Offsets
 {
 	public class UNetworkProblemWidget_C
 	{
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int IconBlinking = 0x02F0;
 
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int Vanishing = 0x02F8;
 
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int Emerging = 0x0300;
 
 	}

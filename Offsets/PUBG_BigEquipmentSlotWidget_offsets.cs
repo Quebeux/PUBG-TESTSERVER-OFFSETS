@@ -7,61 +7,61 @@ namespace Offsets
 {
 	public class UBigEquipmentSlotWidget_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x0348;
 
-		///<summary><![CDATA[UBorder *]]></summary>
+		///<summary>UBorder *</summary>
 		public const int Background = 0x0350;
 
-		///<summary><![CDATA[UCanvasPanel *]]></summary>
+		///<summary>UCanvasPanel *</summary>
 		public const int CanvasPanel_7 = 0x0358;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int DurabilityGauge = 0x0360;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int DurabilityGaugeBlock = 0x0368;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int DurabilityIcon = 0x0370;
 
-		///<summary><![CDATA[UOverlay *]]></summary>
+		///<summary>UOverlay *</summary>
 		public const int DurabilityIconBlock = 0x0378;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int DurationNumber = 0x0380;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int FocusColorBG = 0x0388;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Icon = 0x0390;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int IconBlock = 0x0398;
 
-		///<summary><![CDATA[UCanvasPanel *]]></summary>
+		///<summary>UCanvasPanel *</summary>
 		public const int ItemIconLayer = 0x03A0;
 
-		///<summary><![CDATA[UEquipableItem *]]></summary>
+		///<summary>UEquipableItem *</summary>
 		public const int EquipableItem = 0x03A8;
 
-		///<summary><![CDATA[UMaterialInstanceDynamic *]]></summary>
+		///<summary>UMaterialInstanceDynamic *</summary>
 		public const int SlotBackgroundMaterial = 0x03B0;
 
-		///<summary><![CDATA[UItem *]]></summary>
+		///<summary>UItem *</summary>
 		public const int DragDroppingItem = 0x03B8;
 
-		///<summary><![CDATA[UEquipableItem *]]></summary>
+		///<summary>UEquipableItem *</summary>
 		public const int DragDroppingEquipableItem = 0x03C0;
 
-		///<summary><![CDATA[UMaterialInstanceDynamic *]]></summary>
+		///<summary>UMaterialInstanceDynamic *</summary>
 		public const int DurabilityMaterial = 0x03C8;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bSmallSlot = 0x03D0;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bWnatFocus = 0x03D1;
 
 	}

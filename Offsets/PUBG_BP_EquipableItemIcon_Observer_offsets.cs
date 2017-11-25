@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UBP_EquipableItemIcon_Observer_C
 	{
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int NoBagSapce = 0x0378;
 
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int Warning = 0x0380;
 
 	}

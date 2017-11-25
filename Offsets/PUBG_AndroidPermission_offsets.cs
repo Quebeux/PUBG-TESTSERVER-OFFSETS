@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UAndroidPermissionCallbackProxy
 	{
-		///<summary><![CDATA[FScriptMulticastDelegate]]></summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnPermissionsGrantedDynamicDelegate = 0x0028;
 
-		///<summary><![CDATA[unsigned char[0x48]]]></summary>
+		///<summary>unsigned char[0x48]</summary>
 		public const int UnknownData00 = 0x0038;
 
 	}

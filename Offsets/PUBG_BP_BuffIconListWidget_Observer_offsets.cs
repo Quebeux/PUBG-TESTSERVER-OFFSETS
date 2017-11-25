@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UBP_BuffIconListWidget_Observer_C
 	{
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int HealBuffIcon = 0x0368;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int RunBuffIcon = 0x0370;
 
 	}

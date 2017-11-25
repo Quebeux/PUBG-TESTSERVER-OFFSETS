@@ -7,7 +7,7 @@ namespace Offsets
 {
 	public class UItem_Heal_MedKit_C
 	{
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int PrintTime = 0x0200;
 
 	}

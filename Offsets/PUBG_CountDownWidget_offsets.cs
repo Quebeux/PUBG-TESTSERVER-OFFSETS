@@ -7,13 +7,13 @@ namespace Offsets
 {
 	public class UCountDownWidget_C
 	{
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int CountDownBlock = 0x0240;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int CountDownText = 0x0248;
 
-		///<summary><![CDATA[ATslGameState *]]></summary>
+		///<summary>ATslGameState *</summary>
 		public const int TslGameState = 0x0250;
 
 	}

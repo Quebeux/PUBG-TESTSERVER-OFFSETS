@@ -7,10 +7,10 @@ namespace Offsets
 {
 	public class UBP_KillMessageListWidget_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x02E8;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int VerticalBox_1 = 0x02F0;
 
 	}

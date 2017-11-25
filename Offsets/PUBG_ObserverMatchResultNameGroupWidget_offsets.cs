@@ -7,55 +7,55 @@ namespace Offsets
 {
 	public class UObserverMatchResultNameGroupWidget_C
 	{
-		///<summary><![CDATA[UBorder *]]></summary>
+		///<summary>UBorder *</summary>
 		public const int GroupLayer = 0x0240;
 
-		///<summary><![CDATA[UHorizontalBox *]]></summary>
+		///<summary>UHorizontalBox *</summary>
 		public const int Hexa = 0x0248;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_1 = 0x0250;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_2 = 0x0258;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_3 = 0x0260;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_4 = 0x0268;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_5 = 0x0270;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_6 = 0x0278;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_7 = 0x0280;
 
-		///<summary><![CDATA[UObserverMatchResultNameWidget_C *]]></summary>
+		///<summary>UObserverMatchResultNameWidget_C *</summary>
 		public const int MatchResulttInfo_8 = 0x0288;
 
-		///<summary><![CDATA[UHorizontalBox *]]></summary>
+		///<summary>UHorizontalBox *</summary>
 		public const int Octa = 0x0290;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int RankingText = 0x0298;
 
-		///<summary><![CDATA[UHorizontalBox *]]></summary>
+		///<summary>UHorizontalBox *</summary>
 		public const int SoloOrDuo = 0x02A0;
 
-		///<summary><![CDATA[UHorizontalBox *]]></summary>
+		///<summary>UHorizontalBox *</summary>
 		public const int Squad = 0x02A8;
 
-		///<summary><![CDATA[TArray<FTslPlayerMatchResultInfo>]]></summary>
+		///<summary>TArray&lt;FTslPlayerMatchResultInfo&gt;</summary>
 		public const int PlayerMatchResultInfos = 0x02B0;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int Ranking = 0x02C0;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int bSmall = 0x02C4;
 
 	}

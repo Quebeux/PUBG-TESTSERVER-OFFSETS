@@ -7,19 +7,19 @@ namespace Offsets
 {
 	public class UZombieGroupWidget_C
 	{
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_7 = 0x0240;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int VerticalBox_1 = 0x0248;
 
-		///<summary><![CDATA[UVerticalBox *]]></summary>
+		///<summary>UVerticalBox *</summary>
 		public const int VerticalBox_12 = 0x0250;
 
-		///<summary><![CDATA[TArray<FTslPlayerMatchResultInfo>]]></summary>
+		///<summary>TArray&lt;FTslPlayerMatchResultInfo&gt;</summary>
 		public const int PlayerMatchResultInfos = 0x0258;
 
-		///<summary><![CDATA[TArray<UZombieMatchResultNameWidget_C * >]]></summary>
+		///<summary>TArray&lt;UZombieMatchResultNameWidget_C * &gt;</summary>
 		public const int ZombieMatchResultNameWidgets = 0x0268;
 
 	}

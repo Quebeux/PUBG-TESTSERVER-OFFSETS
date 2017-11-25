@@ -7,7 +7,7 @@ namespace Offsets
 {
 	public class UBP_HealItemSelectorWidget_Gamepad_C
 	{
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int HealIcon = 0x0330;
 
 	}

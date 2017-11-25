@@ -7,28 +7,28 @@ namespace Offsets
 {
 	public class UCompassTestWidget_C
 	{
-		///<summary><![CDATA[FPointerToUberGraphFrame]]></summary>
+		///<summary>FPointerToUberGraphFrame</summary>
 		public const int UberGraphFrame = 0x0240;
 
-		///<summary><![CDATA[UWidgetAnimation *]]></summary>
+		///<summary>UWidgetAnimation *</summary>
 		public const int AnimTest = 0x0248;
 
-		///<summary><![CDATA[UTextBlock *]]></summary>
+		///<summary>UTextBlock *</summary>
 		public const int TextElement = 0x0250;
 
-		///<summary><![CDATA[UCurveVector *]]></summary>
+		///<summary>UCurveVector *</summary>
 		public const int MagniCurveVector = 0x0258;
 
-		///<summary><![CDATA[UCurveFloat *]]></summary>
+		///<summary>UCurveFloat *</summary>
 		public const int MagniCurve = 0x0260;
 
-		///<summary><![CDATA[APlayerController *]]></summary>
+		///<summary>APlayerController *</summary>
 		public const int RefPlayerController = 0x0268;
 
-		///<summary><![CDATA[FText]]></summary>
+		///<summary>FText</summary>
 		public const int Direction = 0x0270;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int Divider = 0x0288;
 
 	}

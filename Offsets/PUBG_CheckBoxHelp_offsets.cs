@@ -7,13 +7,13 @@ namespace Offsets
 {
 	public class UCheckBoxHelp_C
 	{
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_12 = 0x0240;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_13 = 0x0248;
 
-		///<summary><![CDATA[UImage *]]></summary>
+		///<summary>UImage *</summary>
 		public const int Image_16 = 0x0250;
 
 	}

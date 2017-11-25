@@ -7,19 +7,19 @@ namespace Offsets
 {
 	public class UItem_Boost_EnergyDrink_C
 	{
-		///<summary><![CDATA[ATslCharacter *]]></summary>
+		///<summary>ATslCharacter *</summary>
 		public const int Character = 0x01F8;
 
-		///<summary><![CDATA[int]]></summary>
+		///<summary>int</summary>
 		public const int PrintTime = 0x0200;
 
-		///<summary><![CDATA[bool]]></summary>
+		///<summary>bool</summary>
 		public const int isProcessing = 0x0204;
 
-		///<summary><![CDATA[unsigned char[0x3]]]></summary>
+		///<summary>unsigned char[0x3]</summary>
 		public const int UnknownData00 = 0x0205;
 
-		///<summary><![CDATA[float]]></summary>
+		///<summary>float</summary>
 		public const int BoostGaugeAmount = 0x0208;
 
 	}
