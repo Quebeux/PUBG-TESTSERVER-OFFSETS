@@ -35,10 +35,16 @@ namespace Offsets
 		public const int Default = 0x0568;
 
 		///<summary>UImage *</summary>
-		public const int ProgressCircle = 0x0570;
+		public const int Image_6 = 0x0570;
 
 		///<summary>UImage *</summary>
-		public const int ProgressCircleBg = 0x0578;
+		public const int Image_7 = 0x0578;
+
+		///<summary>UImage *</summary>
+		public const int ProgressCircle = 0x0580;
+
+		///<summary>UImage *</summary>
+		public const int ProgressCircleBg = 0x0588;
 
 	}
 

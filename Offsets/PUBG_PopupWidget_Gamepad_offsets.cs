@@ -14,7 +14,7 @@ namespace Offsets
 		public const int PopupEmerging = 0x0248;
 
 		///<summary>UButtonWidget_C *</summary>
-		public const int CANCEL = 0x0250;
+		public const int Cancel = 0x0250;
 
 		///<summary>UCircularThrobber *</summary>
 		public const int CircularThrobber_1 = 0x0258;
