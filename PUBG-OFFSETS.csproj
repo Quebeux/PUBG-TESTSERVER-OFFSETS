@@ -96,6 +96,7 @@
 <Compile Include="Offsets\PUBG_BP_TeamInfoListWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_TeamInfoWidget_new_test_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_TeamMarkWidget_new_3_offsets.cs" />
+<Compile Include="Offsets\PUBG_BP_TeamOverallKillCountWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_VehicleFuelWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_VehicleStanceWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_WeaponSlotHudWidget_offsets.cs" />

@@ -1515,6 +1515,9 @@ namespace Offsets
 		///<summary>FSkinData</summary>
 		public const int SkinData = 0x07B8;
 
+		///<summary>AWeaponProcessor *</summary>
+		public const int TemporaryWeaponProcessor = 0x07D8;
+
 	}
 
 	public class UWeaponItem
@@ -1991,64 +1994,64 @@ namespace Offsets
 	public class ATslWeapon_Gun
 	{
 		///<summary>bool</summary>
-		public const int bSpawnBulletFromBarrel = 0x07D8;
+		public const int bSpawnBulletFromBarrel = 0x07E0;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData00 = 0x07D9;
+		public const int UnknownData00 = 0x07E1;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int VariableZoomStepAk = 0x07E0;
+		public const int VariableZoomStepAk = 0x07E8;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int ZeroingStepAk = 0x07E8;
+		public const int ZeroingStepAk = 0x07F0;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x07F0;
+		public const int UnknownData01 = 0x07F8;
 
 		///<summary>int</summary>
-		public const int AmmoPerClip = 0x07F4;
+		public const int AmmoPerClip = 0x07FC;
 
 		///<summary>int</summary>
-		public const int CurrentAmmoInClip = 0x07F8;
+		public const int CurrentAmmoInClip = 0x0800;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsHipped = 0x07FC;
+		public const int bIsHipped = 0x0804;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x07FD;
+		public const int UnknownData02 = 0x0805;
 
 		///<summary>float</summary>
-		public const int TimeBetweenShots = 0x0800;
+		public const int TimeBetweenShots = 0x0808;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData03 = 0x0804;
+		public const int UnknownData03 = 0x080C;
 
 		///<summary>int</summary>
-		public const int FiringModeIndex = 0x082C;
+		public const int FiringModeIndex = 0x0834;
 
 		///<summary>unsigned char[0x88]</summary>
-		public const int UnknownData04 = 0x0830;
+		public const int UnknownData04 = 0x0838;
 
 		///<summary>FWeaponGunData</summary>
-		public const int WeaponGunConfig = 0x08B8;
+		public const int WeaponGunConfig = 0x08C0;
 
 		///<summary>FWeaponDeviationData</summary>
-		public const int WeaponDeviationConfig = 0x0948;
+		public const int WeaponDeviationConfig = 0x0950;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData05 = 0x098C;
+		public const int UnknownData05 = 0x0994;
 
 		///<summary>FWeaponGunAnim</summary>
-		public const int WeaponGunAnim = 0x0990;
+		public const int WeaponGunAnim = 0x0998;
 
 		///<summary>FWeaponPPSettings</summary>
-		public const int WeaponGunPostprocessSettings = 0x0A80;
+		public const int WeaponGunPostprocessSettings = 0x0A88;
 
 		///<summary>FName</summary>
-		public const int ScopingAttachPoint = 0x0AD0;
+		public const int ScopingAttachPoint = 0x0AD8;
 
 		///<summary>FName</summary>
-		public const int ScopingFocusPoint = 0x0AD8;
+		public const int ScopingFocusPoint = 0x0AE0;
 
 	}
 
@@ -2142,7 +2145,7 @@ namespace Offsets
 		///<summary>int</summary>
 		public const int CurrentWeaponIndex = 0x0458;
 
-		///<summary>unsigned char[0x14]</summary>
+		///<summary>unsigned char[0x24]</summary>
 		public const int UnknownData02 = 0x045C;
 
 	}
@@ -8884,7 +8887,7 @@ namespace Offsets
 	public class ATslWeapon_Projectile
 	{
 		///<summary>FProjectileWeaponData</summary>
-		public const int ProjectileConfig = 0x0AE0;
+		public const int ProjectileConfig = 0x0AE8;
 
 	}
 
@@ -12189,144 +12192,144 @@ namespace Offsets
 	public class ATslWeapon_Trajectory
 	{
 		///<summary>float</summary>
-		public const int TrajectoryGravityZ = 0x0AE0;
+		public const int TrajectoryGravityZ = 0x0AE8;
 
 		///<summary>float</summary>
-		public const int RecoilSpreadScale = 0x0AE4;
+		public const int RecoilSpreadScale = 0x0AEC;
 
 		///<summary>bool</summary>
-		public const int FireAtViewPoint = 0x0AE8;
+		public const int FireAtViewPoint = 0x0AF0;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0AE9;
+		public const int UnknownData00 = 0x0AF1;
 
 		///<summary>float</summary>
-		public const int DefaultTimerFrequency = 0x0AEC;
+		public const int DefaultTimerFrequency = 0x0AF4;
 
 		///<summary>float</summary>
-		public const int CrouchSpreadModifier = 0x0AF0;
+		public const int CrouchSpreadModifier = 0x0AF8;
 
 		///<summary>float</summary>
-		public const int ProneSpreadModifier = 0x0AF4;
+		public const int ProneSpreadModifier = 0x0AFC;
 
 		///<summary>float</summary>
-		public const int WalkSpread = 0x0AF8;
+		public const int WalkSpread = 0x0B00;
 
 		///<summary>float</summary>
-		public const int RunSpread = 0x0AFC;
+		public const int RunSpread = 0x0B04;
 
 		///<summary>float</summary>
-		public const int JumpSpread = 0x0B00;
+		public const int JumpSpread = 0x0B08;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x0B04;
+		public const int UnknownData01 = 0x0B0C;
 
 		///<summary>FTrajectoryWeaponData</summary>
-		public const int TrajectoryConfig = 0x0B08;
+		public const int TrajectoryConfig = 0x0B10;
 
 		///<summary>FRecoilInfo</summary>
-		public const int RecoilInfo = 0x0B88;
+		public const int RecoilInfo = 0x0B90;
 
 		///<summary>UClass *</summary>
-		public const int ImpactTemplate = 0x0BF0;
+		public const int ImpactTemplate = 0x0BF8;
 
 		///<summary>UParticleSystem *</summary>
-		public const int TrailFX = 0x0BF8;
+		public const int TrailFX = 0x0C00;
 
 		///<summary>FName</summary>
-		public const int TrailTargetParam = 0x0C50;
+		public const int TrailTargetParam = 0x0C58;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData02 = 0x0C58;
+		public const int UnknownData02 = 0x0C60;
 
 		///<summary>float</summary>
-		public const int WeaponSpread = 0x0C70;
+		public const int WeaponSpread = 0x0C78;
 
 		///<summary>float</summary>
-		public const int RecoilModifier_Stand = 0x0C74;
+		public const int RecoilModifier_Stand = 0x0C7C;
 
 		///<summary>float</summary>
-		public const int RecoilModifier_Crouch = 0x0C78;
+		public const int RecoilModifier_Crouch = 0x0C80;
 
 		///<summary>float</summary>
-		public const int RecoilModifier_Prone = 0x0C7C;
+		public const int RecoilModifier_Prone = 0x0C84;
 
 		///<summary>float</summary>
-		public const int VerticalRecoilMin = 0x0C80;
+		public const int VerticalRecoilMin = 0x0C88;
 
 		///<summary>float</summary>
-		public const int VerticalRecoilMax = 0x0C84;
+		public const int VerticalRecoilMax = 0x0C8C;
 
 		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData03 = 0x0C88;
+		public const int UnknownData03 = 0x0C90;
 
 	}
 
 	public class ATslWeapon_Melee
 	{
 		///<summary>UAkAudioEvent *</summary>
-		public const int AttackSoundAk = 0x07D8;
+		public const int AttackSoundAk = 0x07E0;
 
 		///<summary>TArray&lt;FMeleeWeaponAnim&gt;</summary>
-		public const int AttackAnims = 0x07E0;
+		public const int AttackAnims = 0x07E8;
 
 		///<summary>float</summary>
-		public const int Damage = 0x07F0;
+		public const int Damage = 0x07F8;
 
 		///<summary>float</summary>
-		public const int WeaponImpact = 0x07F4;
+		public const int WeaponImpact = 0x07FC;
 
 		///<summary>UClass *</summary>
-		public const int DamageType = 0x07F8;
+		public const int DamageType = 0x0800;
 
 		///<summary>TEnumAsByte&lt;EHitCheckType&gt;</summary>
-		public const int HitCheckType = 0x0800;
+		public const int HitCheckType = 0x0808;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0801;
+		public const int UnknownData00 = 0x0809;
 
 		///<summary>float</summary>
-		public const int AllowedHitRangeLeeway = 0x0804;
+		public const int AllowedHitRangeLeeway = 0x080C;
 
 		///<summary>UClass *</summary>
-		public const int ImpactTemplate = 0x0808;
+		public const int ImpactTemplate = 0x0810;
 
 		///<summary>UCapsuleComponent *</summary>
-		public const int HitCapsuleComponent = 0x0810;
+		public const int HitCapsuleComponent = 0x0818;
 
-		///<summary>unsigned char[0x78]</summary>
-		public const int UnknownData01 = 0x0818;
+		///<summary>unsigned char[0x80]</summary>
+		public const int UnknownData01 = 0x0820;
 
 	}
 
 	public class ATslWeapon_Throwable
 	{
 		///<summary>FThrowableWeaponData</summary>
-		public const int ThrowableConfig = 0x07D8;
+		public const int ThrowableConfig = 0x07E0;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData00 = 0x0878;
+		public const int UnknownData00 = 0x0880;
 
 		///<summary>TEnumAsByte&lt;EThrowableState&gt;</summary>
-		public const int ThrowableState = 0x0890;
+		public const int ThrowableState = 0x0898;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData01 = 0x0891;
+		public const int UnknownData01 = 0x0899;
 
 		///<summary>FName</summary>
-		public const int ThrowWeaponSocketName = 0x0898;
+		public const int ThrowWeaponSocketName = 0x08A0;
 
 		///<summary>FVector</summary>
-		public const int PawnMotionContributionMultiplier = 0x08A0;
+		public const int PawnMotionContributionMultiplier = 0x08A8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData02 = 0x08AC;
+		public const int UnknownData02 = 0x08B4;
 
 		///<summary>ATslParticle *</summary>
-		public const int CookingEffect = 0x08B0;
+		public const int CookingEffect = 0x08B8;
 
 		///<summary>AActor *</summary>
-		public const int RingAttachment = 0x08B8;
+		public const int RingAttachment = 0x08C0;
 
 	}
 
