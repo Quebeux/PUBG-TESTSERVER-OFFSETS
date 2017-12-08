@@ -14,10 +14,10 @@ namespace Offsets
 		public const int Border_51 = 0x0298;
 
 		///<summary>UImage *</summary>
-		public const int GuideImage = 0x02A0;
+		public const int Image_20 = 0x02A0;
 
-		///<summary>UImage *</summary>
-		public const int Image_20 = 0x02A8;
+		///<summary>UOnDemandImageWidget_C *</summary>
+		public const int OnDemandImageWidget = 0x02A8;
 
 		///<summary>UTextBlock *</summary>
 		public const int TextBlock_2 = 0x02B0;
@@ -36,6 +36,24 @@ namespace Offsets
 
 		///<summary>int</summary>
 		public const int State = 0x02D8;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData00 = 0x02DC;
+
+		///<summary>TAssetPtr&lt;UTexture&gt;</summary>
+		public const int Help_Swim = 0x02E0;
+
+		///<summary>TAssetPtr&lt;UTexture&gt;</summary>
+		public const int Help_Vehicle = 0x0300;
+
+		///<summary>TAssetPtr&lt;UTexture&gt;</summary>
+		public const int Help_Basic = 0x0320;
+
+		///<summary>TAssetPtr&lt;UTexture&gt;</summary>
+		public const int Help_Aim = 0x0340;
+
+		///<summary>TAssetPtr&lt;UTexture&gt;</summary>
+		public const int Help_Map = 0x0360;
 
 	}
 

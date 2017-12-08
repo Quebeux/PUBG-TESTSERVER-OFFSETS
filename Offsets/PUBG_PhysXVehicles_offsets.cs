@@ -352,8 +352,11 @@ namespace Offsets
 		///<summary>FVector</summary>
 		public const int Velocity = 0x00F0;
 
-		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData04 = 0x00FC;
+		///<summary>float</summary>
+		public const int RealWheelRotationSpeed = 0x00FC;
+
+		///<summary>unsigned char[0x8]</summary>
+		public const int UnknownData04 = 0x0100;
 
 	}
 

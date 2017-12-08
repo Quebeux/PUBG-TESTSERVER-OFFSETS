@@ -95,7 +95,7 @@ namespace Offsets
 		public const int TimeCheck = 0x0334;
 
 		///<summary>bool</summary>
-		public const int bIsSlotScrollUp = 0x0338;
+		public const int bLoop = 0x0338;
 
 		///<summary>bool</summary>
 		public const int bIsSlotScrollDown = 0x0339;

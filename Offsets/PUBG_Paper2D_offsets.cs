@@ -63,43 +63,43 @@ namespace Offsets
 	public class UPaperFlipbookComponent
 	{
 		///<summary>UPaperFlipbook *</summary>
-		public const int SourceFlipbook = 0x0930;
+		public const int SourceFlipbook = 0x0940;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int Material = 0x0938;
+		public const int Material = 0x0948;
 
 		///<summary>float</summary>
-		public const int PlayRate = 0x0940;
+		public const int PlayRate = 0x0950;
 
 		///<summary>unsigned char:1</summary>
-		public const int bLooping = 0x0944;
+		public const int bLooping = 0x0954;
 
 		///<summary>unsigned char:1</summary>
-		public const int bReversePlayback = 0x0944;
+		public const int bReversePlayback = 0x0954;
 
 		///<summary>unsigned char:1</summary>
-		public const int bPlaying = 0x0944;
+		public const int bPlaying = 0x0954;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0945;
+		public const int UnknownData00 = 0x0955;
 
 		///<summary>float</summary>
-		public const int AccumulatedTime = 0x0948;
+		public const int AccumulatedTime = 0x0958;
 
 		///<summary>int</summary>
-		public const int CachedFrameIndex = 0x094C;
+		public const int CachedFrameIndex = 0x095C;
 
 		///<summary>FLinearColor</summary>
-		public const int SpriteColor = 0x0950;
+		public const int SpriteColor = 0x0960;
 
 		///<summary>UBodySetup *</summary>
-		public const int CachedBodySetup = 0x0960;
+		public const int CachedBodySetup = 0x0970;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnFinishedPlaying = 0x0968;
+		public const int OnFinishedPlaying = 0x0978;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x0978;
+		public const int UnknownData01 = 0x0988;
 
 	}
 
@@ -113,13 +113,13 @@ namespace Offsets
 	public class UPaperGroupedSpriteComponent
 	{
 		///<summary>TArray&lt;UMaterialInterface * &gt;</summary>
-		public const int InstanceMaterials = 0x0930;
+		public const int InstanceMaterials = 0x0940;
 
 		///<summary>TArray&lt;FSpriteInstanceData&gt;</summary>
-		public const int PerInstanceSpriteData = 0x0940;
+		public const int PerInstanceSpriteData = 0x0950;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData00 = 0x0950;
+		public const int UnknownData00 = 0x0960;
 
 	}
 
@@ -207,13 +207,13 @@ namespace Offsets
 	public class UPaperSpriteComponent
 	{
 		///<summary>UPaperSprite *</summary>
-		public const int SourceSprite = 0x0930;
+		public const int SourceSprite = 0x0940;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int MaterialOverride = 0x0938;
+		public const int MaterialOverride = 0x0948;
 
 		///<summary>FLinearColor</summary>
-		public const int SpriteColor = 0x0940;
+		public const int SpriteColor = 0x0950;
 
 	}
 
@@ -233,46 +233,46 @@ namespace Offsets
 	public class UPaperTerrainComponent
 	{
 		///<summary>bool</summary>
-		public const int bClosedSpline = 0x0830;
+		public const int bClosedSpline = 0x0840;
 
 		///<summary>bool</summary>
-		public const int bFilledSpline = 0x0831;
+		public const int bFilledSpline = 0x0841;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x0832;
+		public const int UnknownData00 = 0x0842;
 
 		///<summary>UPaperTerrainSplineComponent *</summary>
-		public const int AssociatedSpline = 0x0838;
+		public const int AssociatedSpline = 0x0848;
 
 		///<summary>int</summary>
-		public const int RandomSeed = 0x0840;
+		public const int RandomSeed = 0x0850;
 
 		///<summary>float</summary>
-		public const int SegmentOverlapAmount = 0x0844;
+		public const int SegmentOverlapAmount = 0x0854;
 
 		///<summary>FLinearColor</summary>
-		public const int TerrainColor = 0x0848;
+		public const int TerrainColor = 0x0858;
 
 		///<summary>int</summary>
-		public const int ReparamStepsPerSegment = 0x0858;
+		public const int ReparamStepsPerSegment = 0x0868;
 
 		///<summary>TEnumAsByte&lt;ESpriteCollisionMode&gt;</summary>
-		public const int SpriteCollisionDomain = 0x085C;
+		public const int SpriteCollisionDomain = 0x086C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x085D;
+		public const int UnknownData01 = 0x086D;
 
 		///<summary>float</summary>
-		public const int CollisionThickness = 0x0860;
+		public const int CollisionThickness = 0x0870;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData02 = 0x0864;
+		public const int UnknownData02 = 0x0874;
 
 		///<summary>UBodySetup *</summary>
-		public const int CachedBodySetup = 0x0868;
+		public const int CachedBodySetup = 0x0878;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData03 = 0x0870;
+		public const int UnknownData03 = 0x0880;
 
 	}
 
@@ -289,7 +289,7 @@ namespace Offsets
 	public class UPaperTerrainSplineComponent
 	{
 		///<summary>unsigned char[0x40]</summary>
-		public const int UnknownData00 = 0x0910;
+		public const int UnknownData00 = 0x0920;
 
 	}
 
@@ -422,40 +422,40 @@ namespace Offsets
 	public class UPaperTileMapComponent
 	{
 		///<summary>int</summary>
-		public const int MapWidth = 0x0930;
+		public const int MapWidth = 0x0940;
 
 		///<summary>int</summary>
-		public const int MapHeight = 0x0934;
+		public const int MapHeight = 0x0944;
 
 		///<summary>int</summary>
-		public const int TileWidth = 0x0938;
+		public const int TileWidth = 0x0948;
 
 		///<summary>int</summary>
-		public const int TileHeight = 0x093C;
+		public const int TileHeight = 0x094C;
 
 		///<summary>UPaperTileSet *</summary>
-		public const int DefaultLayerTileSet = 0x0940;
+		public const int DefaultLayerTileSet = 0x0950;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int Material = 0x0948;
+		public const int Material = 0x0958;
 
 		///<summary>TArray&lt;UPaperTileLayer * &gt;</summary>
-		public const int TileLayers = 0x0950;
+		public const int TileLayers = 0x0960;
 
 		///<summary>FLinearColor</summary>
-		public const int TileMapColor = 0x0960;
+		public const int TileMapColor = 0x0970;
 
 		///<summary>int</summary>
-		public const int UseSingleLayerIndex = 0x0970;
+		public const int UseSingleLayerIndex = 0x0980;
 
 		///<summary>bool</summary>
-		public const int bUseSingleLayer = 0x0974;
+		public const int bUseSingleLayer = 0x0984;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0975;
+		public const int UnknownData00 = 0x0985;
 
 		///<summary>UPaperTileMap *</summary>
-		public const int TileMap = 0x0978;
+		public const int TileMap = 0x0988;
 
 	}
 

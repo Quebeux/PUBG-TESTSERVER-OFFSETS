@@ -181,6 +181,9 @@ namespace Offsets
 		///<summary>UCurveFloat *</summary>
 		public const int ZoomMultiplierCurve = 0x0408;
 
+		///<summary>bool</summary>
+		public const int bIsObserving = 0x0410;
+
 	}
 
 }

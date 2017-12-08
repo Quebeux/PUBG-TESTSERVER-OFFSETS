@@ -133,95 +133,101 @@ namespace Offsets
 		///<summary>UBorder *</summary>
 		public const int LBBorder = 0x03D8;
 
+		///<summary>UImage *</summary>
+		public const int MenuKey = 0x03E0;
+
 		///<summary>UWidgetSwitcher *</summary>
-		public const int MoveGuide = 0x03E0;
+		public const int MoveGuide = 0x03E8;
 
 		///<summary>UOverlay *</summary>
-		public const int Overlay_1 = 0x03E8;
+		public const int Overlay_1 = 0x03F0;
 
 		///<summary>UPlayerNameWidget_C *</summary>
-		public const int PlayerNameWidget_64 = 0x03F0;
+		public const int PlayerNameWidget_64 = 0x03F8;
 
 		///<summary>UBorder *</summary>
-		public const int RBBorder = 0x03F8;
+		public const int RBBorder = 0x0400;
 
 		///<summary>USelfPutHelperWidget_C *</summary>
-		public const int SelfPutHelperWidget = 0x0400;
+		public const int SelfPutHelperWidget = 0x0408;
 
 		///<summary>UItemListWidget_Gamepad_C *</summary>
-		public const int Vicinity = 0x0408;
+		public const int Vicinity = 0x0410;
 
 		///<summary>UBorder *</summary>
-		public const int VicinityBackgorund = 0x0410;
+		public const int VicinityBackgorund = 0x0418;
 
 		///<summary>UWeaponEquipmentWidget_Gamepad_C *</summary>
-		public const int Weapon = 0x0418;
+		public const int Weapon = 0x0420;
 
 		///<summary>UBorder *</summary>
-		public const int WeaponBackground = 0x0420;
+		public const int WeaponBackground = 0x0428;
 
 		///<summary>bool</summary>
-		public const int wasVicinityEmpty = 0x0428;
+		public const int wasVicinityEmpty = 0x0430;
 
 		///<summary>bool</summary>
-		public const int willDropToVicinity = 0x0429;
+		public const int willDropToVicinity = 0x0431;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x042A;
+		public const int UnknownData00 = 0x0432;
 
 		///<summary>TScriptInterface&lt;USlotInterface&gt;</summary>
-		public const int FocusItemSlot = 0x0430;
+		public const int FocusItemSlot = 0x0438;
 
 		///<summary>TScriptInterface&lt;USlotContainerInterface&gt;</summary>
-		public const int FocusItemSlotContainer = 0x0440;
+		public const int FocusItemSlotContainer = 0x0448;
 
 		///<summary>UItem *</summary>
-		public const int FocusItem = 0x0450;
+		public const int FocusItem = 0x0458;
 
 		///<summary>UEquipableItem *</summary>
-		public const int FocusEquipableItem = 0x0458;
+		public const int FocusEquipableItem = 0x0460;
 
 		///<summary>UAttachableItem *</summary>
-		public const int FocusAttachmentItem = 0x0460;
+		public const int FocusAttachmentItem = 0x0468;
 
 		///<summary>int</summary>
-		public const int SelectIndex = 0x0468;
+		public const int SelectIndex = 0x0470;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x046C;
+		public const int UnknownData01 = 0x0474;
 
 		///<summary>TArray&lt;UUserWidget * &gt;</summary>
-		public const int FocusableWidgetList = 0x0470;
+		public const int FocusableWidgetList = 0x0478;
 
 		///<summary>FLinearColor</summary>
-		public const int NormalBackgroundColor = 0x0480;
+		public const int NormalBackgroundColor = 0x0488;
 
 		///<summary>FLinearColor</summary>
-		public const int FocusBackgroundColor = 0x0490;
+		public const int FocusBackgroundColor = 0x0498;
 
 		///<summary>UMaterialInstanceDynamic *</summary>
-		public const int TEMP_WeightMaterial = 0x04A0;
+		public const int TEMP_WeightMaterial = 0x04A8;
 
 		///<summary>float</summary>
-		public const int TEMP_DisplayingAlphaEnd = 0x04A8;
+		public const int TEMP_DisplayingAlphaEnd = 0x04B0;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData02 = 0x04AC;
+		public const int UnknownData02 = 0x04B4;
 
 		///<summary>FText</summary>
-		public const int TEMP_WeightTooltipText = 0x04B0;
+		public const int TEMP_WeightTooltipText = 0x04B8;
 
 		///<summary>EWeaponAttachmentSlotID</summary>
-		public const int SaveAttachmentSlotId = 0x04C8;
+		public const int SaveAttachmentSlotId = 0x04D0;
 
 		///<summary>EEquipSlotID</summary>
-		public const int SaveEquipmentSlotId = 0x04C9;
+		public const int SaveEquipmentSlotId = 0x04D1;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData03 = 0x04CA;
+		public const int UnknownData03 = 0x04D2;
 
 		///<summary>UBorder *</summary>
-		public const int NewVar_1 = 0x04D0;
+		public const int NewVar_1 = 0x04D8;
+
+		///<summary>TScriptInterface&lt;USlotInterface&gt;</summary>
+		public const int SaveSlotInterface = 0x04E0;
 
 	}
 

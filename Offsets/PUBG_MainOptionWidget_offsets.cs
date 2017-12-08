@@ -34,44 +34,41 @@ namespace Offsets
 		///<summary>UKeyOptionWidget_BP_C *</summary>
 		public const int KeyOptionWidget_BP = 0x02D0;
 
-		///<summary>UOptionSettingsButotn_C *</summary>
-		public const int OkButton = 0x02D8;
+		///<summary>UOptionButton_C *</summary>
+		public const int OptionButton0 = 0x02D8;
 
 		///<summary>UOptionButton_C *</summary>
-		public const int OptionButton0 = 0x02E0;
+		public const int OptionButton1 = 0x02E0;
 
 		///<summary>UOptionButton_C *</summary>
-		public const int OptionButton1 = 0x02E8;
+		public const int OptionButton2 = 0x02E8;
 
 		///<summary>UOptionButton_C *</summary>
-		public const int OptionButton2 = 0x02F0;
-
-		///<summary>UOptionButton_C *</summary>
-		public const int OptionButton3 = 0x02F8;
+		public const int OptionButton3 = 0x02F0;
 
 		///<summary>UHorizontalBox *</summary>
-		public const int OptionButtonHorizontalBox = 0x0300;
+		public const int OptionButtonHorizontalBox = 0x02F8;
 
 		///<summary>UWidgetSwitcher *</summary>
-		public const int OptionSwitch = 0x0308;
+		public const int OptionSwitch = 0x0300;
 
 		///<summary>UOptionTitleWidget_C *</summary>
-		public const int OptionTitleWidget = 0x0310;
+		public const int OptionTitleWidget = 0x0308;
 
 		///<summary>UOptionSettingsButotn_C *</summary>
-		public const int ResetButton = 0x0318;
+		public const int ResetButton = 0x0310;
 
 		///<summary>USoundOptionWidget_C *</summary>
-		public const int SoundOptionWidget = 0x0320;
+		public const int SoundOptionWidget = 0x0318;
 
 		///<summary>UGraphicOptionWidget_C *</summary>
-		public const int VedioOptionWidget = 0x0328;
+		public const int VedioOptionWidget = 0x0320;
 
 		///<summary>UTslBaseOptionWidget *</summary>
-		public const int SelectedOption = 0x0330;
+		public const int SelectedOption = 0x0328;
 
 		///<summary>FText</summary>
-		public const int DisplayOptoinText = 0x0338;
+		public const int DisplayOptoinText = 0x0330;
 
 	}
 

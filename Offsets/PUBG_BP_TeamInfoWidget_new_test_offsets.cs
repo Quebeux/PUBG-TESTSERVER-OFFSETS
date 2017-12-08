@@ -17,7 +17,7 @@ namespace Offsets
 		public const int LifeGaugeWidget = 0x04E0;
 
 		///<summary>UImage *</summary>
-		public const int Line = 0x04E8;
+		public const int LINE = 0x04E8;
 
 		///<summary>UBorder *</summary>
 		public const int MakerBorder = 0x04F0;

@@ -25,6 +25,12 @@ namespace Offsets
 		///<summary>UNewMessageBorderWidget_C *</summary>
 		public const int SystemMessageBox = 0x0268;
 
+		///<summary>TArray&lt;UKillMessageWidget_C * &gt;</summary>
+		public const int KillMessagePool = 0x0270;
+
+		///<summary>int</summary>
+		public const int MessageIndex = 0x0280;
+
 	}
 
 }

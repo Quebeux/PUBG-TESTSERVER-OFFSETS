@@ -13,26 +13,29 @@ namespace Offsets
 		///<summary>UWidgetAnimation *</summary>
 		public const int PopupEmerging = 0x0248;
 
-		///<summary>UButtonWidget_C *</summary>
-		public const int CANCEL = 0x0250;
-
 		///<summary>UCircularThrobber *</summary>
-		public const int CircularThrobber_1 = 0x0258;
+		public const int CircularThrobber_1 = 0x0250;
 
-		///<summary>UButtonWidget_C *</summary>
-		public const int OK = 0x0260;
+		///<summary>UImage *</summary>
+		public const int Image_1 = 0x0258;
+
+		///<summary>UImage *</summary>
+		public const int Image_3 = 0x0260;
+
+		///<summary>UImage *</summary>
+		public const int Image_5 = 0x0268;
 
 		///<summary>UTextBlock *</summary>
-		public const int TextBlock_172 = 0x0268;
+		public const int TextBlock_172 = 0x0270;
 
 		///<summary>UBorder *</summary>
-		public const int Waiting = 0x0270;
+		public const int Waiting = 0x0278;
 
 		///<summary>FText</summary>
-		public const int Message = 0x0278;
+		public const int Message = 0x0280;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ButtonClickDispatcher = 0x0290;
+		public const int ButtonClickDispatcher = 0x0298;
 
 	}
 

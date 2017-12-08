@@ -8,16 +8,16 @@ namespace Offsets
 	public class UMotionControllerComponent
 	{
 		///<summary>unsigned char:1</summary>
-		public const int bDisableLowLatencyUpdate = 0x0830;
+		public const int bDisableLowLatencyUpdate = 0x0840;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0831;
+		public const int UnknownData00 = 0x0841;
 
 		///<summary>ETrackingStatus</summary>
-		public const int CurrentTrackingStatus = 0x0834;
+		public const int CurrentTrackingStatus = 0x0844;
 
 		///<summary>unsigned char[0x5B]</summary>
-		public const int UnknownData01 = 0x0835;
+		public const int UnknownData01 = 0x0845;
 
 	}
 

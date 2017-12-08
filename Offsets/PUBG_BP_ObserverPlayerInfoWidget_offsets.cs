@@ -49,8 +49,11 @@ namespace Offsets
 		///<summary>UBP_CastableIconWidget_C *</summary>
 		public const int PainKiller = 0x04C8;
 
+		///<summary>UTextBlock *</summary>
+		public const int TeamNumberText = 0x04D0;
+
 		///<summary>UImage *</summary>
-		public const int WeaponImage = 0x04D0;
+		public const int WeaponImage = 0x04D8;
 
 	}
 

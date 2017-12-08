@@ -44,76 +44,76 @@ namespace Offsets
 		public const int DeathMessage = 0x0340;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamColor = 0x03C8;
+		public const int TeamColor = 0x03D8;
 
 		///<summary>FSlateColor</summary>
-		public const int ImportantColor = 0x03F0;
+		public const int ImportantColor = 0x0400;
 
 		///<summary>FSlateColor</summary>
-		public const int NormalColor = 0x0418;
+		public const int NormalColor = 0x0428;
 
 		///<summary>FText</summary>
-		public const int KillerNameText = 0x0440;
+		public const int KillerNameText = 0x0450;
 
 		///<summary>FText</summary>
-		public const int ReasonText = 0x0458;
+		public const int ReasonText = 0x0468;
 
 		///<summary>FText</summary>
-		public const int VictimNameText = 0x0470;
+		public const int VictimNameText = 0x0480;
 
 		///<summary>FText</summary>
-		public const int WhatHappenedText = 0x0488;
+		public const int WhatHappenedText = 0x0498;
 
 		///<summary>FText</summary>
-		public const int OptionText = 0x04A0;
+		public const int OptionText = 0x04B0;
 
 		///<summary>FText</summary>
-		public const int MethodText = 0x04B8;
+		public const int MethodText = 0x04C8;
 
 		///<summary>bool</summary>
-		public const int bNotDisplayKiller = 0x04D0;
+		public const int bNotDisplayKiller = 0x04E0;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x04D1;
+		public const int UnknownData00 = 0x04E1;
 
 		///<summary>int</summary>
-		public const int tmpInt = 0x04D4;
+		public const int tmpInt = 0x04E4;
 
 		///<summary>FText</summary>
-		public const int MyKillMsg = 0x04D8;
+		public const int MyKillMsg = 0x04E8;
 
 		///<summary>FText</summary>
-		public const int KillMsgText = 0x04F0;
+		public const int KillMsgText = 0x0500;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamKillerColor = 0x0508;
+		public const int TeamKillerColor = 0x0518;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamKillerDBNOColor = 0x0530;
+		public const int TeamKillerDBNOColor = 0x0540;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamVictimColor = 0x0558;
+		public const int TeamVictimColor = 0x0568;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamVictimDBNOColor = 0x0580;
+		public const int TeamVictimDBNOColor = 0x0590;
 
 		///<summary>FSlateColor</summary>
-		public const int MyMsgColor = 0x05A8;
+		public const int MyMsgColor = 0x05B8;
 
 		///<summary>FSlateColor</summary>
-		public const int NormalDBNOColor = 0x05D0;
+		public const int NormalDBNOColor = 0x05E0;
 
 		///<summary>bool</summary>
-		public const int bIsStealFriendlyFire = 0x05F8;
+		public const int bIsStealFriendlyFire = 0x0608;
 
 		///<summary>bool</summary>
-		public const int bDetailKillMessage = 0x05F9;
+		public const int bDetailKillMessage = 0x0609;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData01 = 0x05FA;
+		public const int UnknownData01 = 0x060A;
 
 		///<summary>FSlateColor</summary>
-		public const int MyKillLogColor = 0x0600;
+		public const int MyKillLogColor = 0x0610;
 
 	}
 

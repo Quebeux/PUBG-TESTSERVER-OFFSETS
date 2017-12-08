@@ -31,31 +31,31 @@ namespace Offsets
 	public class UGeometryCacheComponent
 	{
 		///<summary>UGeometryCache *</summary>
-		public const int GeometryCache = 0x0930;
+		public const int GeometryCache = 0x0940;
 
 		///<summary>bool</summary>
-		public const int bRunning = 0x0938;
+		public const int bRunning = 0x0948;
 
 		///<summary>bool</summary>
-		public const int bLooping = 0x0939;
+		public const int bLooping = 0x0949;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData00 = 0x093A;
+		public const int UnknownData00 = 0x094A;
 
 		///<summary>float</summary>
-		public const int StartTimeOffset = 0x093C;
+		public const int StartTimeOffset = 0x094C;
 
 		///<summary>float</summary>
-		public const int PlaybackSpeed = 0x0940;
+		public const int PlaybackSpeed = 0x0950;
 
 		///<summary>int</summary>
-		public const int NumTracks = 0x0944;
+		public const int NumTracks = 0x0954;
 
 		///<summary>float</summary>
-		public const int ElapsedTime = 0x0948;
+		public const int ElapsedTime = 0x0958;
 
 		///<summary>unsigned char[0x54]</summary>
-		public const int UnknownData01 = 0x094C;
+		public const int UnknownData01 = 0x095C;
 
 	}
 

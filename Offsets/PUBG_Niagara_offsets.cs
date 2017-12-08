@@ -15,22 +15,22 @@ namespace Offsets
 	public class UNiagaraComponent
 	{
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData00 = 0x0830;
+		public const int UnknownData00 = 0x0840;
 
 		///<summary>TArray&lt;FNiagaraVariable&gt;</summary>
-		public const int EffectParameterLocalOverrides = 0x0840;
+		public const int EffectParameterLocalOverrides = 0x0850;
 
 		///<summary>TArray&lt;FNiagaraScriptDataInterfaceInfo&gt;</summary>
-		public const int EffectDataInterfaceLocalOverrides = 0x0850;
+		public const int EffectDataInterfaceLocalOverrides = 0x0860;
 
 		///<summary>TArray&lt;UNiagaraDataInterface * &gt;</summary>
-		public const int InstanceDataInterfaces = 0x0860;
+		public const int InstanceDataInterfaces = 0x0870;
 
 		///<summary>bool</summary>
-		public const int bRenderingEnabled = 0x0870;
+		public const int bRenderingEnabled = 0x0880;
 
 		///<summary>unsigned char[0xF]</summary>
-		public const int UnknownData01 = 0x0871;
+		public const int UnknownData01 = 0x0881;
 
 	}
 

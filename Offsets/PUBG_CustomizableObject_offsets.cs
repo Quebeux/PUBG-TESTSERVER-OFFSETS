@@ -50,11 +50,14 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int bBuildRenderData = 0x0091;
 
-		///<summary>unsigned char[0x116]</summary>
+		///<summary>unsigned char[0x9E]</summary>
 		public const int UnknownData01 = 0x0092;
 
 		///<summary>UCustomizableInstancePrivateData *</summary>
-		public const int PrivateData = 0x01A8;
+		public const int PrivateData = 0x0130;
+
+		///<summary>unsigned char[0x8]</summary>
+		public const int UnknownData02 = 0x0138;
 
 	}
 
@@ -72,7 +75,7 @@ namespace Offsets
 		///<summary>TArray&lt;FGeneratedTexture&gt;</summary>
 		public const int GeneratedTextures = 0x0050;
 
-		///<summary>unsigned char[0xB0]</summary>
+		///<summary>unsigned char[0x138]</summary>
 		public const int UnknownData01 = 0x0060;
 
 	}
@@ -122,17 +125,14 @@ namespace Offsets
 
 	public class UCustomizableObjectSystem
 	{
-		///<summary>unsigned char[0x28]</summary>
+		///<summary>unsigned char[0x10]</summary>
 		public const int UnknownData00 = 0x0028;
 
-		///<summary>TArray&lt;FMutableTextureTracker&gt;</summary>
-		public const int TextureTrackerArray = 0x0050;
-
 		///<summary>TArray&lt;UTexture2D * &gt;</summary>
-		public const int ProtectedCachedTextures = 0x0060;
+		public const int ProtectedCachedTextures = 0x0038;
 
-		///<summary>unsigned char[0x80]</summary>
-		public const int UnknownData01 = 0x0070;
+		///<summary>TArray&lt;FPendingReleaseSkeletalMeshInfo&gt;</summary>
+		public const int PendingReleaseSkeletalMesh = 0x0048;
 
 	}
 

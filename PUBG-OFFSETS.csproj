@@ -55,8 +55,6 @@
 <Compile Include="Offsets\PUBG_BigEquipmentSlotWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BigEquipmentSlotWidget_Gamepad_offsets.cs" />
 <Compile Include="Offsets\PUBG_BloodSpotWidget_offsets.cs" />
-<Compile Include="Offsets\PUBG_BlueZoneGpsWidget_Base_offsets.cs" />
-<Compile Include="Offsets\PUBG_BlueZoneGpsWidget_Circle_offsets.cs" />
 <Compile Include="Offsets\PUBG_BoostGaugeWidget_BP_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AliveHumansInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AlivePlayerInfoWidget_offsets.cs" />
@@ -66,7 +64,6 @@
 <Compile Include="Offsets\PUBG_BP_BuffIconListWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_BuffIconListWidget_Observer_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_CastableIconWidget_offsets.cs" />
-<Compile Include="Offsets\PUBG_BP_Church_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_CompassMarkerWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_CompassWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_EquipableItemIconHudWidget_offsets.cs" />
@@ -92,6 +89,7 @@
 <Compile Include="Offsets\PUBG_BP_ObserverPlayerInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_PP_OutlineCustomDepthOcclusion_Inst_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_ReloadMagazineAnimState_offsets.cs" />
+<Compile Include="Offsets\PUBG_BP_Sky_Sphere_Desert_02_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_StanceManagerWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_TeamInfoListWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_TeamInfoWidget_new_test_offsets.cs" />
@@ -121,12 +119,10 @@
 <Compile Include="Offsets\PUBG_CheckBoxHelp_offsets.cs" />
 <Compile Include="Offsets\PUBG_ChildOptionTitleWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_CinematicCamera_offsets.cs" />
-<Compile Include="Offsets\PUBG_CircleMiniMapWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ClothingSystemRuntimeInterface_offsets.cs" />
 <Compile Include="Offsets\PUBG_ClothingSystemRuntime_offsets.cs" />
 <Compile Include="Offsets\PUBG_CoherentUIGTPlugin_offsets.cs" />
 <Compile Include="Offsets\PUBG_ComboBoxOptionTextWidget_offsets.cs" />
-<Compile Include="Offsets\PUBG_CompassTestWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ConsolGuideWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ConsolGuideWidget_v2_offsets.cs" />
 <Compile Include="Offsets\PUBG_ControlOptionWidget_Gameapd_offsets.cs" />
@@ -196,12 +192,13 @@
 <Compile Include="Offsets\PUBG_LightPropagationVolumeRuntime_offsets.cs" />
 <Compile Include="Offsets\PUBG_ListBaseGroupWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ListBaseGroupWidget_Gamepad_offsets.cs" />
-<Compile Include="Offsets\PUBG_LobbyMessagePopupWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyNameTag_offsets.cs" />
+<Compile Include="Offsets\PUBG_LobbyPostPorcessEffect_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyWebView_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyWidgetMain_offsets.cs" />
 <Compile Include="Offsets\PUBG_LocationServicesBPLibrary_offsets.cs" />
 <Compile Include="Offsets\PUBG_MainLobbyHUD_offsets.cs" />
+<Compile Include="Offsets\PUBG_MainMenuPostProcessEffect_offsets.cs" />
 <Compile Include="Offsets\PUBG_MainOptionWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_MaterialShaderQualitySettings_offsets.cs" />
 <Compile Include="Offsets\PUBG_MediaAssets_offsets.cs" />
@@ -209,7 +206,6 @@
 <Compile Include="Offsets\PUBG_MessageBorderWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_MessageHudWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_MessageWidget_offsets.cs" />
-<Compile Include="Offsets\PUBG_MinimapCircletype_offsets.cs" />
 <Compile Include="Offsets\PUBG_MinimapOriginalType_offsets.cs" />
 <Compile Include="Offsets\PUBG_MiniMapWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_MobilePatchingUtils_offsets.cs" />
@@ -220,6 +216,7 @@
 <Compile Include="Offsets\PUBG_MovieScene_offsets.cs" />
 <Compile Include="Offsets\PUBG_NetworkProblemWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_NewCastingBarWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_NewLobbySystemMenuWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_NewMatchResultWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_NewMessageBorderWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_NewSystemMessageWidget_offsets.cs" />
@@ -230,6 +227,7 @@
 <Compile Include="Offsets\PUBG_ObserverTagManagerWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ObserverTeamInfoList_offsets.cs" />
 <Compile Include="Offsets\PUBG_OceanPlugin_offsets.cs" />
+<Compile Include="Offsets\PUBG_OndemandImageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_OnlineSubsystemSteam_offsets.cs" />
 <Compile Include="Offsets\PUBG_OnlineSubsystemUtils_offsets.cs" />
 <Compile Include="Offsets\PUBG_OnlineSubsystem_offsets.cs" />
@@ -251,10 +249,16 @@
 <Compile Include="Offsets\PUBG_PopupWidget_Gamepad_offsets.cs" />
 <Compile Include="Offsets\PUBG_PresetColorWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ProceduralMeshComponent_offsets.cs" />
+<Compile Include="Offsets\PUBG_P_Environment_Grass_BP_Lobby_offsets.cs" />
+<Compile Include="Offsets\PUBG_P_Environment_Leaf_BP_Lobby_offsets.cs" />
+<Compile Include="Offsets\PUBG_P_Environment_Smoke_03_BP_Lobby_offsets.cs" />
 <Compile Include="Offsets\PUBG_QualityComboBox_offsets.cs" />
 <Compile Include="Offsets\PUBG_QualitySettingsWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_QualitySliderWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_ReplayListItem_offsets.cs" />
+<Compile Include="Offsets\PUBG_ReplayList_BP_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayProblemWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_ReplaySettings_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayTimelineDBNOEventItem_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayTimelineKillEventItem_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayTimeline_offsets.cs" />
@@ -272,7 +276,9 @@
 <Compile Include="Offsets\PUBG_SoundOptionWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_SoundSettingWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_SpectatingSelectionWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_SquadPlayerInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_StackCountHandlingPopupWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_StepperHelp_offsets.cs" />
 <Compile Include="Offsets\PUBG_SystemMessageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_TcpMessaging_offsets.cs" />
 <Compile Include="Offsets\PUBG_TeamCountWidget_offsets.cs" />
@@ -286,8 +292,11 @@
 <Compile Include="Offsets\PUBG_TslItemDragDropOperation_offsets.cs" />
 <Compile Include="Offsets\PUBG_TslItemDragWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_TslLobbyGameMode_offsets.cs" />
-<Compile Include="Offsets\PUBG_TslLobby_offsets.cs" />
+<Compile Include="Offsets\PUBG_TslLobby_cus_offsets.cs" />
+<Compile Include="Offsets\PUBG_TslLobby_v2_offsets.cs" />
+<Compile Include="Offsets\PUBG_TslLobby_ver_3_offsets.cs" />
 <Compile Include="Offsets\PUBG_UdpMessaging_offsets.cs" />
+<Compile Include="Offsets\PUBG_UiReplayList_offsets.cs" />
 <Compile Include="Offsets\PUBG_UiSettings_offsets.cs" />
 <Compile Include="Offsets\PUBG_UMG_offsets.cs" />
 <Compile Include="Offsets\PUBG_VoiceSettingWidget_offsets.cs" />

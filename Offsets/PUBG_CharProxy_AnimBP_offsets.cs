@@ -221,136 +221,145 @@ namespace Offsets
 		public const int AnimGraphNode_StateResult_A5965D5342D8C33B8E9E9393808FB6FD2 = 0x2790;
 
 		///<summary>FAnimNode_SequencePlayer</summary>
-		public const int AnimGraphNode_SequencePlayer_DD2252F14ECBEB3C7ED9A8BCA6D0D021 = 0x27D8;
-
-		///<summary>FAnimNode_BlendListByEnum</summary>
-		public const int AnimGraphNode_BlendListByEnum_22F0D7B94E96A178C615A99283D38A74 = 0x2848;
+		public const int AnimGraphNode_SequencePlayer_1EB49A3E4A3043701C76A29320DF628B = 0x27D8;
 
 		///<summary>FAnimNode_SequencePlayer</summary>
-		public const int AnimGraphNode_SequencePlayer_9F588AE94089767D8A9EA6AA0DBA117A = 0x2928;
+		public const int AnimGraphNode_SequencePlayer_6A16EDEE466CB854EB90319FD188BC55 = 0x2848;
+
+		///<summary>FAnimNode_SequencePlayer</summary>
+		public const int AnimGraphNode_SequencePlayer_DD2252F14ECBEB3C7ED9A8BCA6D0D021 = 0x28B8;
+
+		///<summary>FAnimNode_BlendListByEnum</summary>
+		public const int AnimGraphNode_BlendListByEnum_22F0D7B94E96A178C615A99283D38A74 = 0x2928;
+
+		///<summary>FAnimNode_SequencePlayer</summary>
+		public const int AnimGraphNode_SequencePlayer_9F588AE94089767D8A9EA6AA0DBA117A = 0x2A08;
 
 		///<summary>FAnimNode_Root</summary>
-		public const int AnimGraphNode_StateResult_A5965D5342D8C33B8E9E9393808FB6FD = 0x2998;
+		public const int AnimGraphNode_StateResult_A5965D5342D8C33B8E9E9393808FB6FD = 0x2A78;
 
 		///<summary>FAnimNode_StateMachine</summary>
-		public const int AnimGraphNode_StateMachine_42B4671A4DA1A6449F28E6BF77BB3235 = 0x29E0;
+		public const int AnimGraphNode_StateMachine_42B4671A4DA1A6449F28E6BF77BB3235 = 0x2AC0;
 
 		///<summary>FAnimNode_BlendListByBool</summary>
-		public const int AnimGraphNode_BlendListByBool_DE260CEA407C68776D9118B2960C17E9 = 0x2AB8;
+		public const int AnimGraphNode_BlendListByBool_DE260CEA407C68776D9118B2960C17E9 = 0x2B98;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_FC292CB34C9D970E666EF9B7433D62D3 = 0x2B88;
+		public const int AnimGraphNode_AnimDynamics_FC292CB34C9D970E666EF9B7433D62D3 = 0x2C68;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_631C88D546201C974F742CB8806E8F09 = 0x2E08;
+		public const int AnimGraphNode_AnimDynamics_631C88D546201C974F742CB8806E8F09 = 0x2EE8;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_E9C191E14BB06C296AAC56B0AB1FA6BF = 0x3088;
+		public const int AnimGraphNode_AnimDynamics_E9C191E14BB06C296AAC56B0AB1FA6BF = 0x3168;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_5991C3C04B715B36A0D33080B66FBECE = 0x3308;
+		public const int AnimGraphNode_AnimDynamics_5991C3C04B715B36A0D33080B66FBECE = 0x33E8;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_01099A7D4A5ABA33AFBA468333D3C0E6 = 0x3588;
+		public const int AnimGraphNode_AnimDynamics_01099A7D4A5ABA33AFBA468333D3C0E6 = 0x3668;
 
 		///<summary>FAnimNode_ConvertComponentToLocalSpace</summary>
-		public const int AnimGraphNode_ComponentToLocalSpace_C5CD9ED54ED82C595A0FE5993B0D51A7 = 0x3808;
+		public const int AnimGraphNode_ComponentToLocalSpace_C5CD9ED54ED82C595A0FE5993B0D51A7 = 0x38E8;
 
 		///<summary>FAnimNode_ConvertLocalToComponentSpace</summary>
-		public const int AnimGraphNode_LocalToComponentSpace_0E4D3D22478115959F38A99EB1EFED42 = 0x3850;
+		public const int AnimGraphNode_LocalToComponentSpace_0E4D3D22478115959F38A99EB1EFED42 = 0x3930;
 
 		///<summary>FAnimNode_AnimDynamics</summary>
-		public const int AnimGraphNode_AnimDynamics_5AC0BDB14D2A3D1267886E90B77FE3C8 = 0x3898;
+		public const int AnimGraphNode_AnimDynamics_5AC0BDB14D2A3D1267886E90B77FE3C8 = 0x3978;
 
 		///<summary>TEnumAsByte&lt;EAnimWeaponType&gt;</summary>
-		public const int AnimWeaponType = 0x3B18;
+		public const int AnimWeaponType = 0x3BF8;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData02 = 0x3B19;
+		public const int UnknownData02 = 0x3BF9;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int GripBlendSpace = 0x3B20;
+		public const int GripBlendSpace = 0x3C00;
 
 		///<summary>float</summary>
-		public const int Yaw = 0x3B28;
+		public const int Yaw = 0x3C08;
 
 		///<summary>float</summary>
-		public const int Pitch = 0x3B2C;
+		public const int Pitch = 0x3C0C;
 
 		///<summary>float</summary>
-		public const int Aimstate = 0x3B30;
+		public const int Aimstate = 0x3C10;
 
 		///<summary>float</summary>
-		public const int BlendTime = 0x3B34;
+		public const int BlendTime = 0x3C14;
 
 		///<summary>FVector</summary>
-		public const int PistolOffset = 0x3B38;
+		public const int PistolOffset = 0x3C18;
 
 		///<summary>float</summary>
-		public const int GripType = 0x3B44;
+		public const int GripType = 0x3C24;
 
 		///<summary>float</summary>
-		public const int BlinkAlpha = 0x3B48;
+		public const int BlinkAlpha = 0x3C28;
 
 		///<summary>EWeaponClass</summary>
-		public const int WeaponClassEnum = 0x3B4C;
+		public const int WeaponClassEnum = 0x3C2C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x3B4D;
+		public const int UnknownData03 = 0x3C2D;
 
 		///<summary>float</summary>
-		public const int LH_GripIndex = 0x3B50;
+		public const int LH_GripIndex = 0x3C30;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData04 = 0x3B54;
+		public const int UnknownData04 = 0x3C34;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int LH_GripBS = 0x3B58;
+		public const int LH_GripBS = 0x3C38;
 
 		///<summary>int</summary>
-		public const int Position = 0x3B60;
+		public const int Position = 0x3C40;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData05 = 0x3B64;
+		public const int UnknownData05 = 0x3C44;
 
 		///<summary>ALobbyCharacter *</summary>
-		public const int LobbyCharacterRerefence = 0x3B68;
+		public const int LobbyCharacterRerefence = 0x3C48;
 
 		///<summary>bool</summary>
-		public const int IsLobbyReady = 0x3B70;
+		public const int IsLobbyReady = 0x3C50;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData06 = 0x3B71;
+		public const int UnknownData06 = 0x3C51;
 
 		///<summary>TArray&lt;UAnimSequence * &gt;</summary>
-		public const int AnimNotReady = 0x3B78;
+		public const int AnimNotReady = 0x3C58;
 
 		///<summary>TArray&lt;UAnimSequence * &gt;</summary>
-		public const int AnimReady = 0x3B88;
+		public const int AnimReady = 0x3C68;
 
 		///<summary>TArray&lt;UAnimSequence * &gt;</summary>
-		public const int AnimNotReadyToReady = 0x3B98;
+		public const int AnimNotReadyToReady = 0x3C78;
 
 		///<summary>TArray&lt;UAnimSequence * &gt;</summary>
-		public const int AnimReadyToNotReady = 0x3BA8;
+		public const int AnimReadyToNotReady = 0x3C88;
 
 		///<summary>FVector</summary>
-		public const int Wind = 0x3BB8;
+		public const int Wind = 0x3C98;
 
 		///<summary>FVector</summary>
-		public const int InitialWind = 0x3BC4;
+		public const int InitialWind = 0x3CA4;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve = 0x3BD0;
+		public const int Curve = 0x3CB0;
 
 		///<summary>ELobbyCameraStates</summary>
-		public const int CameraState = 0x3BD8;
+		public const int CameraState = 0x3CB8;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData07 = 0x3BD9;
+		public const int UnknownData07 = 0x3CB9;
 
 		///<summary>ALobbyHUD *</summary>
-		public const int LobbyHUDRef = 0x3BE0;
+		public const int LobbyHUDRef = 0x3CC0;
+
+		///<summary>bool</summary>
+		public const int bIsLobbyCharacterValid = 0x3CC8;
 
 	}
 

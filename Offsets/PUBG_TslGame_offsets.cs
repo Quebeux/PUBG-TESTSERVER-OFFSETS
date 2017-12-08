@@ -148,25 +148,25 @@ namespace Offsets
 	public class UAsyncStaticMeshComponent
 	{
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnStaticMeshLoaded = 0x09C0;
+		public const int OnStaticMeshLoaded = 0x09D0;
 
 		///<summary>TAssetPtr&lt;UStaticMesh&gt;</summary>
-		public const int StaticMeshAsset = 0x09D0;
+		public const int StaticMeshAsset = 0x09E0;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x09F0;
+		public const int UnknownData00 = 0x0A00;
 
 		///<summary>UStaticMesh *</summary>
-		public const int ErrorStaticMesh = 0x09F8;
+		public const int ErrorStaticMesh = 0x0A08;
 
 		///<summary>FName</summary>
-		public const int ClientCollisionProfileNameOverride = 0x0A00;
+		public const int ClientCollisionProfileNameOverride = 0x0A10;
 
 		///<summary>TAssetPtr&lt;UStaticMesh&gt;</summary>
-		public const int PendingStaticMeshAsset = 0x0A08;
+		public const int PendingStaticMeshAsset = 0x0A18;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x0A28;
+		public const int UnknownData01 = 0x0A38;
 
 	}
 
@@ -241,8 +241,17 @@ namespace Offsets
 		///<summary>ATslServerParticle *</summary>
 		public const int AttachedServerPaticle = 0x0400;
 
-		///<summary>unsigned char[0x8]</summary>
+		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData04 = 0x0408;
+
+		///<summary>bool</summary>
+		public const int bClientNotifyStartBuff = 0x040C;
+
+		///<summary>bool</summary>
+		public const int bClientNotifyStopBuff = 0x040D;
+
+		///<summary>unsigned char[0x2]</summary>
+		public const int UnknownData05 = 0x040E;
 
 	}
 
@@ -316,10 +325,10 @@ namespace Offsets
 		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData00 = 0x01E0;
 
-		///<summary>FScriptDelegate</summary>
+		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnCancelCast = 0x01E8;
 
-		///<summary>unsigned char[0x8]</summary>
+		///<summary>unsigned char[0x18]</summary>
 		public const int UnknownData01 = 0x01F8;
 
 	}
@@ -447,107 +456,107 @@ namespace Offsets
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnShowReplayTimeline = 0x06F0;
 
-		///<summary>unsigned char[0x28]</summary>
+		///<summary>unsigned char[0x148]</summary>
 		public const int UnknownData00 = 0x0700;
 
 		///<summary>unsigned char:1</summary>
-		public const int UnknownData01 = 0x0728;
+		public const int UnknownData01 = 0x0848;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsSpectated = 0x0728;
+		public const int bIsSpectated = 0x0848;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x0729;
+		public const int UnknownData02 = 0x0849;
 
 		///<summary>FVector</summary>
-		public const int CameraPeekLeftMove = 0x072C;
+		public const int CameraPeekLeftMove = 0x084C;
 
 		///<summary>FVector</summary>
-		public const int CameraPeekRightMove = 0x0738;
+		public const int CameraPeekRightMove = 0x0858;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData03 = 0x0744;
+		public const int UnknownData03 = 0x0864;
 
 		///<summary>ECameraViewBehaviour</summary>
-		public const int CameraViewBehaviour = 0x0754;
+		public const int CameraViewBehaviour = 0x0874;
 
-		///<summary>unsigned char[0x23]</summary>
-		public const int UnknownData04 = 0x0755;
+		///<summary>unsigned char[0xF]</summary>
+		public const int UnknownData04 = 0x0875;
 
 		///<summary>FVector_NetQuantizeNormal</summary>
-		public const int SpectatorAccumViewRotation = 0x0778;
+		public const int SpectatorAccumViewRotation = 0x0884;
 
 		///<summary>EObserverAuthorityType</summary>
-		public const int ObserverAuthorityType = 0x0784;
+		public const int ObserverAuthorityType = 0x0890;
 
-		///<summary>unsigned char[0x33]</summary>
-		public const int UnknownData05 = 0x0785;
+		///<summary>unsigned char[0x37]</summary>
+		public const int UnknownData05 = 0x0891;
 
 		///<summary>UActorComponent *</summary>
-		public const int InteractionTargetComponent = 0x07B8;
+		public const int InteractionTargetComponent = 0x08C8;
 
 		///<summary>ATslCharacter *</summary>
-		public const int SpectatorViewCharacter = 0x07C0;
+		public const int SpectatorViewCharacter = 0x08D0;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData06 = 0x07C8;
+		public const int UnknownData06 = 0x08D8;
 
 		///<summary>ATslAchievement *</summary>
-		public const int Achievement = 0x07D8;
+		public const int Achievement = 0x08E8;
 
 		///<summary>UMeshComponent *</summary>
-		public const int SpectatorScopeMesh = 0x07E0;
-
-		///<summary>unsigned char[0x58]</summary>
-		public const int UnknownData07 = 0x07E8;
-
-		///<summary>TArray&lt;FNearClippingLevelOverZ&gt;</summary>
-		public const int NearClippingLevelsOverZ = 0x0840;
-
-		///<summary>float</summary>
-		public const int MaxValidPing = 0x0850;
-
-		///<summary>float</summary>
-		public const int DefaultFOV = 0x0854;
-
-		///<summary>float</summary>
-		public const int InteractGamepadHoldTime = 0x0858;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x085C;
-
-		///<summary>UVivoxComponent *</summary>
-		public const int VivoxComponent = 0x0860;
-
-		///<summary>TArray&lt;ATeam * &gt;</summary>
-		public const int Teams = 0x0868;
-
-		///<summary>TArray&lt;TWeakObjectPtr&lt;ATslCharacter&gt;&gt;</summary>
-		public const int ReplicateTeamMembers = 0x0878;
-
-		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData09 = 0x0888;
-
-		///<summary>TArray&lt;TWeakObjectPtr&lt;ATslCharacter&gt;&gt;</summary>
-		public const int ReplicateCharacter = 0x08D8;
-
-		///<summary>TArray&lt;TWeakObjectPtr&lt;ACarePackageItem&gt;&gt;</summary>
-		public const int ReplicateCarePackageItemList = 0x08E8;
-
-		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData10 = 0x08F8;
-
-		///<summary>float</summary>
-		public const int DeathResultDelaySeconds = 0x0918;
-
-		///<summary>unsigned char[0x90]</summary>
-		public const int UnknownData11 = 0x091C;
-
-		///<summary>FPingPongSummary</summary>
-		public const int PingPongSummary = 0x09AC;
+		public const int SpectatorScopeMesh = 0x08F0;
 
 		///<summary>unsigned char[0x60]</summary>
-		public const int UnknownData12 = 0x09B8;
+		public const int UnknownData07 = 0x08F8;
+
+		///<summary>TArray&lt;FNearClippingLevelOverZ&gt;</summary>
+		public const int NearClippingLevelsOverZ = 0x0958;
+
+		///<summary>float</summary>
+		public const int MaxValidPing = 0x0968;
+
+		///<summary>float</summary>
+		public const int DefaultFOV = 0x096C;
+
+		///<summary>float</summary>
+		public const int InteractGamepadHoldTime = 0x0970;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData08 = 0x0974;
+
+		///<summary>UVivoxComponent *</summary>
+		public const int VivoxComponent = 0x0978;
+
+		///<summary>TArray&lt;ATeam * &gt;</summary>
+		public const int Teams = 0x0980;
+
+		///<summary>TArray&lt;TWeakObjectPtr&lt;ATslCharacter&gt;&gt;</summary>
+		public const int ReplicateTeamMembers = 0x0990;
+
+		///<summary>unsigned char[0x50]</summary>
+		public const int UnknownData09 = 0x09A0;
+
+		///<summary>TArray&lt;TWeakObjectPtr&lt;ATslCharacter&gt;&gt;</summary>
+		public const int ReplicateCharacter = 0x09F0;
+
+		///<summary>TArray&lt;TWeakObjectPtr&lt;ACarePackageItem&gt;&gt;</summary>
+		public const int ReplicateCarePackageItemList = 0x0A00;
+
+		///<summary>unsigned char[0x20]</summary>
+		public const int UnknownData10 = 0x0A10;
+
+		///<summary>float</summary>
+		public const int DeathResultDelaySeconds = 0x0A30;
+
+		///<summary>unsigned char[0x90]</summary>
+		public const int UnknownData11 = 0x0A34;
+
+		///<summary>FPingPongSummary</summary>
+		public const int PingPongSummary = 0x0AC4;
+
+		///<summary>unsigned char[0x60]</summary>
+		public const int UnknownData12 = 0x0AD0;
 
 	}
 
@@ -863,28 +872,31 @@ namespace Offsets
 	public class UDoorFrameComponent
 	{
 		///<summary>FTransform</summary>
-		public const int DoorTransform = 0x09C0;
+		public const int DoorTransform = 0x09D0;
 
 		///<summary>FVector</summary>
-		public const int SoundOffsetFromDoor = 0x09F0;
+		public const int SoundOffsetFromDoor = 0x0A00;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x09FC;
+		public const int UnknownData00 = 0x0A0C;
 
 		///<summary>UStaticMesh *</summary>
-		public const int DoorStaticMesh = 0x0A00;
+		public const int DoorStaticMesh = 0x0A10;
 
 		///<summary>UDestructibleMesh *</summary>
-		public const int DoorDestructibleMesh = 0x0A08;
+		public const int DoorDestructibleMesh = 0x0A18;
 
 		///<summary>UDoorDataAsset *</summary>
-		public const int DoorDataAsset = 0x0A10;
+		public const int DoorDataAsset = 0x0A20;
 
 		///<summary>UTslReactionDoorData *</summary>
-		public const int ReactionDoorData = 0x0A18;
+		public const int ReactionDoorData = 0x0A28;
 
-		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData01 = 0x0A20;
+		///<summary>bool</summary>
+		public const int bDisableSubComponents = 0x0A30;
+
+		///<summary>unsigned char[0xF]</summary>
+		public const int UnknownData01 = 0x0A31;
 
 	}
 
@@ -1023,7 +1035,7 @@ namespace Offsets
 
 	public class UHackReporterComponent
 	{
-		///<summary>unsigned char[0x180]</summary>
+		///<summary>unsigned char[0x1C0]</summary>
 		public const int UnknownData00 = 0x01E0;
 
 	}
@@ -1048,8 +1060,8 @@ namespace Offsets
 		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData00 = 0x0064;
 
-		///<summary>ATslHUD *</summary>
-		public const int TslHUD = 0x0068;
+		///<summary>UTslGameInstance *</summary>
+		public const int TslGameInstance = 0x0068;
 
 		///<summary>unsigned char[0x28]</summary>
 		public const int UnknownData01 = 0x0070;
@@ -1077,19 +1089,19 @@ namespace Offsets
 		public const int CastConfig = 0x0220;
 
 		///<summary>bool</summary>
-		public const int bUseTraceCheck = 0x0250;
+		public const int bUseTraceCheck = 0x0258;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData02 = 0x0251;
+		public const int UnknownData02 = 0x0259;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnInteractBy = 0x0258;
+		public const int OnInteractBy = 0x0260;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ClientOnInteractBy = 0x0268;
+		public const int ClientOnInteractBy = 0x0270;
 
-		///<summary>unsigned char[0xE8]</summary>
-		public const int UnknownData03 = 0x0278;
+		///<summary>unsigned char[0xE0]</summary>
+		public const int UnknownData03 = 0x0280;
 
 	}
 
@@ -1151,19 +1163,19 @@ namespace Offsets
 		public const int AttachmentData = 0x01C0;
 
 		///<summary>TAssetPtr&lt;UStaticMesh&gt;</summary>
-		public const int AttachmentMeshAsset = 0x03A8;
+		public const int AttachmentMeshAsset = 0x03B0;
 
 		///<summary>TArray&lt;FWeaponAttachmentWeaponTagData&gt;</summary>
-		public const int AttachmentWeaponTagData = 0x03C8;
+		public const int AttachmentWeaponTagData = 0x03D0;
 
 		///<summary>bool</summary>
-		public const int EquipOnPickUp = 0x03D8;
+		public const int EquipOnPickUp = 0x03E0;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData00 = 0x03D9;
+		public const int UnknownData00 = 0x03E1;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int AttachedSoundAk = 0x03E0;
+		public const int AttachedSoundAk = 0x03E8;
 
 	}
 
@@ -1173,36 +1185,43 @@ namespace Offsets
 		public const int CastConfig = 0x01C0;
 
 		///<summary>bool</summary>
-		public const int bCanUseInWater = 0x01F0;
+		public const int bCanUseInWater = 0x01F8;
 
 		///<summary>ECastableItemType</summary>
-		public const int CastableItemType = 0x01F1;
+		public const int CastableItemType = 0x01F9;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x01F2;
+		public const int UnknownData00 = 0x01FA;
+
+	}
+
+	public class UHealOverTimeItem
+	{
+		///<summary>UClass *</summary>
+		public const int HealOverTimeBuffClass = 0x0200;
 
 	}
 
 	public class UInstantHealItem
 	{
 		///<summary>float</summary>
-		public const int HealLimit = 0x01F8;
+		public const int HealLimit = 0x0200;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x01FC;
+		public const int UnknownData00 = 0x0204;
 
 	}
 
 	public class USkinItem
 	{
 		///<summary>FSkinData</summary>
-		public const int SkinData = 0x01F8;
+		public const int SkinData = 0x0200;
 
 		///<summary>bool</summary>
-		public const int bAutoAction = 0x0218;
+		public const int bAutoAction = 0x0220;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData00 = 0x0219;
+		public const int UnknownData00 = 0x0221;
 
 	}
 
@@ -1864,34 +1883,34 @@ namespace Offsets
 		public const int BombingDelay = 0x04BC;
 
 		///<summary>float</summary>
-		public const int BombingSoundDelay = 0x04C0;
-
-		///<summary>float</summary>
-		public const int OuterRadius = 0x04C4;
+		public const int OuterRadius = 0x04C0;
 
 		///<summary>FVector2D</summary>
-		public const int LimitExceptExplosionRadius = 0x04C8;
+		public const int LimitExceptExplosionRadius = 0x04C4;
 
 		///<summary>float</summary>
-		public const int ExceptExplosionRadius = 0x04D0;
+		public const int ExceptExplosionRadius = 0x04CC;
 
 		///<summary>float</summary>
-		public const int BombProjectileDelayTime = 0x04D4;
+		public const int BombProjectileDelayTime = 0x04D0;
 
 		///<summary>float</summary>
-		public const int RedZoneDuration = 0x04D8;
+		public const int RedZoneDuration = 0x04D4;
 
 		///<summary>FVector2D</summary>
-		public const int BombingInterval = 0x04DC;
+		public const int BombingInterval = 0x04D8;
 
 		///<summary>float</summary>
-		public const int RedZoneLifeTime = 0x04E4;
+		public const int RedZoneLifeTime = 0x04E0;
 
 		///<summary>float</summary>
-		public const int ReyStartHeight = 0x04E8;
+		public const int ReyStartHeight = 0x04E4;
 
 		///<summary>float</summary>
-		public const int RedZoneRadiusOffsetRate = 0x04EC;
+		public const int RedZoneRadiusOffsetRate = 0x04E8;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData00 = 0x04EC;
 
 		///<summary>FText</summary>
 		public const int RedZoneStartText = 0x04F0;
@@ -1903,13 +1922,13 @@ namespace Offsets
 		public const int bFGSquircularMapping = 0x050C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x050D;
+		public const int UnknownData01 = 0x050D;
 
 		///<summary>float</summary>
 		public const int RayCheckAroundLength = 0x0510;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x0514;
+		public const int UnknownData02 = 0x0514;
 
 		///<summary>UClass *</summary>
 		public const int BeginServerPaticleClass = 0x0518;
@@ -1921,7 +1940,7 @@ namespace Offsets
 		public const int BeginSoundDelay = 0x0528;
 
 		///<summary>unsigned char[0x14]</summary>
-		public const int UnknownData02 = 0x052C;
+		public const int UnknownData03 = 0x052C;
 
 		///<summary>TArray&lt;ATslPhysicsVolume * &gt;</summary>
 		public const int OceanPhysicsVolume = 0x0540;
@@ -2014,23 +2033,26 @@ namespace Offsets
 		///<summary>int</summary>
 		public const int CurrentAmmoInClip = 0x0800;
 
+		///<summary>int</summary>
+		public const int CurrentZeroLevel = 0x0804;
+
 		///<summary>unsigned char:1</summary>
-		public const int bIsHipped = 0x0804;
+		public const int bIsHipped = 0x0808;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x0805;
+		public const int UnknownData02 = 0x0809;
 
 		///<summary>float</summary>
-		public const int TimeBetweenShots = 0x0808;
+		public const int TimeBetweenShots = 0x080C;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData03 = 0x080C;
+		public const int UnknownData03 = 0x0810;
 
 		///<summary>int</summary>
-		public const int FiringModeIndex = 0x0834;
+		public const int FiringModeIndex = 0x0838;
 
-		///<summary>unsigned char[0x88]</summary>
-		public const int UnknownData04 = 0x0838;
+		///<summary>unsigned char[0x84]</summary>
+		public const int UnknownData04 = 0x083C;
 
 		///<summary>FWeaponGunData</summary>
 		public const int WeaponGunConfig = 0x08C0;
@@ -2136,17 +2158,17 @@ namespace Offsets
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnWeaponProcessorArmed = 0x03B8;
 
-		///<summary>unsigned char[0x80]</summary>
+		///<summary>unsigned char[0xF0]</summary>
 		public const int UnknownData01 = 0x03C8;
 
 		///<summary>TArray&lt;ATslWeapon * &gt;</summary>
-		public const int EquippedWeapons = 0x0448;
+		public const int EquippedWeapons = 0x04B8;
 
 		///<summary>int</summary>
-		public const int CurrentWeaponIndex = 0x0458;
+		public const int CurrentWeaponIndex = 0x04C8;
 
 		///<summary>unsigned char[0x24]</summary>
-		public const int UnknownData02 = 0x045C;
+		public const int UnknownData02 = 0x04CC;
 
 	}
 
@@ -2318,1127 +2340,1163 @@ namespace Offsets
 		///<summary>UTslPawnInputBindingComponent *</summary>
 		public const int TslPawnInputBindingComponent = 0x0830;
 
+		///<summary>float</summary>
+		public const int YawAccelPct = 0x0838;
+
+		///<summary>float</summary>
+		public const int PitchAccelPct = 0x083C;
+
+		///<summary>float</summary>
+		public const int LastYawAccelDir = 0x0840;
+
+		///<summary>float</summary>
+		public const int LastPitchAccelDir = 0x0844;
+
+		///<summary>float</summary>
+		public const int LastYawInput = 0x0848;
+
+		///<summary>float</summary>
+		public const int LastPitchInput = 0x084C;
+
 		///<summary>FTimerHandle</summary>
-		public const int TimerHandle_Targeting_HoldADS = 0x0838;
+		public const int TimerHandle_Targeting_HoldADS = 0x0850;
 
 		///<summary>bool</summary>
-		public const int bShouldAiming = 0x0840;
+		public const int bShouldAiming = 0x0858;
 
 		///<summary>bool</summary>
-		public const int bPeekLeftToggled = 0x0841;
+		public const int bPeekLeftToggled = 0x0859;
 
 		///<summary>bool</summary>
-		public const int bPeekRightToggled = 0x0842;
+		public const int bPeekRightToggled = 0x085A;
 
 		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData00 = 0x0843;
+		public const int UnknownData00 = 0x085B;
 
 		///<summary>TWeakObjectPtr&lt;ATslPlayerState&gt;</summary>
-		public const int CurrentAttackerPlayerState = 0x0844;
+		public const int CurrentAttackerPlayerState = 0x085C;
 
 		///<summary>TWeakObjectPtr&lt;ATslPlayerState&gt;</summary>
-		public const int LastAttackedPlayerState = 0x084C;
+		public const int LastAttackedPlayerState = 0x0864;
 
 		///<summary>unsigned char[0x4C]</summary>
-		public const int UnknownData01 = 0x0854;
+		public const int UnknownData01 = 0x086C;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int NoBagSpaceDelgate = 0x08A0;
+		public const int NoBagSpaceDelgate = 0x08B8;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData02 = 0x08B0;
+		public const int UnknownData02 = 0x08C8;
 
 		///<summary>unsigned char[0x48]</summary>
-		public const int UnknownData03 = 0x0908;
+		public const int UnknownData03 = 0x0920;
 
 		///<summary>AController *</summary>
-		public const int LastPossessedController = 0x0950;
+		public const int LastPossessedController = 0x0968;
 
 		///<summary>TArray&lt;UAkAudioBank * &gt;</summary>
-		public const int Banks = 0x0958;
+		public const int Banks = 0x0970;
 
 		///<summary>UBuffComponet *</summary>
-		public const int BuffComponent = 0x0968;
+		public const int BuffComponent = 0x0980;
 
 		///<summary>unsigned char[0x40]</summary>
-		public const int UnknownData04 = 0x0970;
+		public const int UnknownData04 = 0x0988;
 
 		///<summary>ECastAnim</summary>
-		public const int Remote_CastAnim = 0x09B0;
+		public const int Remote_CastAnim = 0x09C8;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData05 = 0x09B1;
+		public const int UnknownData05 = 0x09C9;
 
 		///<summary>ATslCharacter *</summary>
-		public const int RevivingCharacter = 0x09B8;
+		public const int RevivingCharacter = 0x09D0;
 
 		///<summary>ATslPlayerState *</summary>
-		public const int GroggyPlayerInstigator = 0x09C0;
+		public const int GroggyPlayerInstigator = 0x09D8;
 
 		///<summary>TMap&lt;UCameraComponent *,float&gt;</summary>
-		public const int SavedCameraFOV = 0x09C8;
+		public const int SavedCameraFOV = 0x09E0;
 
 		///<summary>UCameraComponent *</summary>
-		public const int SavedCamera = 0x0A18;
+		public const int SavedCamera = 0x0A30;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData06 = 0x0A20;
+		public const int UnknownData06 = 0x0A38;
 
 		///<summary>int</summary>
-		public const int CurrentVariableZoomLevel = 0x0A40;
+		public const int CurrentVariableZoomLevel = 0x0A58;
 
 		///<summary>float</summary>
-		public const int BuffFinalSpreadFactor = 0x0A44;
+		public const int BuffFinalSpreadFactor = 0x0A5C;
 
 		///<summary>AInventoryFacade *</summary>
-		public const int InventoryFacade = 0x0A48;
+		public const int InventoryFacade = 0x0A60;
 
 		///<summary>AWeaponProcessor *</summary>
-		public const int WeaponProcessor = 0x0A50;
+		public const int WeaponProcessor = 0x0A68;
 
 		///<summary>unsigned char</summary>
-		public const int CharacterState = 0x0A58;
+		public const int CharacterState = 0x0A70;
 
-		///<summary>unsigned char[0x1F]</summary>
-		public const int UnknownData07 = 0x0A59;
+		///<summary>unsigned char:1</summary>
+		public const int bIsScopingRemote = 0x0A71;
+
+		///<summary>unsigned char:1</summary>
+		public const int bIsFirstPersonRemote = 0x0A71;
+
+		///<summary>unsigned char:1</summary>
+		public const int bIsInVehicleRemote = 0x0A71;
+
+		///<summary>unsigned char[0x1E]</summary>
+		public const int UnknownData07 = 0x0A72;
 
 		///<summary>UClass *</summary>
-		public const int DropPackageType = 0x0A78;
+		public const int DropPackageType = 0x0A90;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int SoundClearAk = 0x0A80;
+		public const int SoundClearAk = 0x0A98;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int RemoteVolumeControlOn = 0x0A88;
+		public const int RemoteVolumeControlOn = 0x0AA0;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int RemoteVolumeControlOff = 0x0A90;
+		public const int RemoteVolumeControlOff = 0x0AA8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int CameraFovRatioCurve = 0x0A98;
+		public const int CameraFovRatioCurve = 0x0AB0;
 
 		///<summary>float</summary>
-		public const int HeavyFallVerticalVelocityThreshold = 0x0AA0;
+		public const int HeavyFallVerticalVelocityThreshold = 0x0AB8;
 
 		///<summary>float</summary>
-		public const int ExtremeFallVerticalVelocityThreshold = 0x0AA4;
+		public const int ExtremeFallVerticalVelocityThreshold = 0x0ABC;
 
 		///<summary>float</summary>
-		public const int ProneFallVerticalVelocityThreshold = 0x0AA8;
+		public const int ProneFallVerticalVelocityThreshold = 0x0AC0;
 
 		///<summary>float</summary>
-		public const int HeavyFallMovementStopTime = 0x0AAC;
+		public const int HeavyFallMovementStopTime = 0x0AC4;
 
 		///<summary>float</summary>
-		public const int ExtremeFallMovementStopTime = 0x0AB0;
+		public const int ExtremeFallMovementStopTime = 0x0AC8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x0AB4;
+		public const int UnknownData08 = 0x0ACC;
 
 		///<summary>float</summary>
-		public const int Punch_Damage = 0x0AB8;
+		public const int Punch_Damage = 0x0AD0;
 
 		///<summary>float</summary>
-		public const int PunchHeavy_Damage = 0x0ABC;
+		public const int PunchHeavy_Damage = 0x0AD4;
 
 		///<summary>UClass *</summary>
-		public const int UnarmedDamageType = 0x0AC0;
+		public const int UnarmedDamageType = 0x0AD8;
 
 		///<summary>UClass *</summary>
-		public const int ZombieDamageType = 0x0AC8;
+		public const int ZombieDamageType = 0x0AE0;
 
 		///<summary>float</summary>
-		public const int Punch_Distance = 0x0AD0;
+		public const int Punch_Distance = 0x0AE8;
 
 		///<summary>float</summary>
-		public const int PunchHeavy_Distance = 0x0AD4;
+		public const int PunchHeavy_Distance = 0x0AEC;
 
 		///<summary>float</summary>
-		public const int Punch_Radius = 0x0AD8;
+		public const int Punch_Radius = 0x0AF0;
 
 		///<summary>float</summary>
-		public const int PunchHeavy_Radius = 0x0ADC;
+		public const int PunchHeavy_Radius = 0x0AF4;
 
 		///<summary>FVector</summary>
-		public const int Punch_InitialLocation = 0x0AE0;
+		public const int Punch_InitialLocation = 0x0AF8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData09 = 0x0AEC;
+		public const int UnknownData09 = 0x0B04;
 
 		///<summary>FVector</summary>
-		public const int LeanLeftTraceOffset = 0x0AF0;
+		public const int LeanLeftTraceOffset = 0x0B08;
 
 		///<summary>FVector</summary>
-		public const int LeanRightTraceOffset = 0x0AFC;
+		public const int LeanRightTraceOffset = 0x0B14;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData10 = 0x0B08;
+		public const int UnknownData10 = 0x0B20;
 
 		///<summary>float</summary>
-		public const int LeanOffset_Stand = 0x0B10;
+		public const int LeanOffset_Stand = 0x0B28;
 
 		///<summary>float</summary>
-		public const int LeanOffset_Crouch = 0x0B14;
+		public const int LeanOffset_Crouch = 0x0B2C;
 
 		///<summary>float</summary>
-		public const int LeanOffset_Prone = 0x0B18;
+		public const int LeanOffset_Prone = 0x0B30;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData11 = 0x0B1C;
+		public const int UnknownData11 = 0x0B34;
 
 		///<summary>float</summary>
-		public const int Sprint_MaxSpeed = 0x0B2C;
+		public const int Sprint_MaxSpeed = 0x0B44;
 
 		///<summary>float</summary>
-		public const int Sprint_MinSpeed = 0x0B30;
+		public const int Sprint_MinSpeed = 0x0B48;
 
 		///<summary>float</summary>
-		public const int SprintingFOV = 0x0B34;
+		public const int SprintingFOV = 0x0B4C;
 
 		///<summary>float</summary>
-		public const int MinimumBreathToHold = 0x0B38;
+		public const int MinimumBreathToHold = 0x0B50;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData12 = 0x0B3C;
+		public const int UnknownData12 = 0x0B54;
 
 		///<summary>FName</summary>
-		public const int SwimPoint = 0x0B40;
+		public const int SwimPoint = 0x0B58;
 
 		///<summary>float</summary>
-		public const int SwimableWaterDepth = 0x0B48;
+		public const int SwimableWaterDepth = 0x0B60;
 
 		///<summary>float</summary>
-		public const int CrouchWaterDepth = 0x0B4C;
+		public const int CrouchWaterDepth = 0x0B64;
 
 		///<summary>float</summary>
-		public const int ProneWaterDepth = 0x0B50;
+		public const int ProneWaterDepth = 0x0B68;
 
 		///<summary>float</summary>
-		public const int WaterFloorDetectionLength = 0x0B54;
+		public const int WaterFloorDetectionLength = 0x0B6C;
 
 		///<summary>float</summary>
-		public const int SwimMaxControllerPitch = 0x0B58;
+		public const int SwimMaxControllerPitch = 0x0B70;
 
 		///<summary>float</summary>
-		public const int UnderwaterSwimGapFromSurface = 0x0B5C;
+		public const int UnderwaterSwimGapFromSurface = 0x0B74;
 
 		///<summary>UClass *</summary>
-		public const int SwimTrailEffectClass = 0x0B60;
+		public const int SwimTrailEffectClass = 0x0B78;
 
 		///<summary>ATslParticle *</summary>
-		public const int SwimTrailEffect = 0x0B68;
+		public const int SwimTrailEffect = 0x0B80;
 
 		///<summary>FName</summary>
-		public const int ParticleSocket_SwimIdleRipple = 0x0B70;
+		public const int ParticleSocket_SwimIdleRipple = 0x0B88;
 
 		///<summary>UClass *</summary>
-		public const int SwimIdleRippleEffectClass = 0x0B78;
+		public const int SwimIdleRippleEffectClass = 0x0B90;
 
 		///<summary>int</summary>
-		public const int maxNumSwimIdleRippleEffect = 0x0B80;
+		public const int maxNumSwimIdleRippleEffect = 0x0B98;
 
 		///<summary>float</summary>
-		public const int SwimIdleRippleOffsetFromSurface = 0x0B84;
+		public const int SwimIdleRippleOffsetFromSurface = 0x0B9C;
 
-		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData13 = 0x0B88;
+		///<summary>unsigned char[0x10]</summary>
+		public const int UnknownData13 = 0x0BA0;
 
 		///<summary>UCharacterBreathComponent *</summary>
-		public const int BreathComponent = 0x0BA0;
+		public const int BreathComponent = 0x0BB0;
 
 		///<summary>FName</summary>
-		public const int BreathPoint = 0x0BA8;
+		public const int BreathPoint = 0x0BB8;
 
 		///<summary>UClass *</summary>
-		public const int UnderwaterChokeEffectClass = 0x0BB0;
+		public const int UnderwaterChokeEffectClass = 0x0BC0;
 
 		///<summary>ATslParticle *</summary>
-		public const int UnderwaterChokeEffect = 0x0BB8;
+		public const int UnderwaterChokeEffect = 0x0BC8;
 
 		///<summary>float</summary>
-		public const int IndoorCheckDistance = 0x0BC0;
+		public const int IndoorCheckDistance = 0x0BD0;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData14 = 0x0BC4;
+		public const int UnknownData14 = 0x0BD4;
 
 		///<summary>float</summary>
-		public const int IndoorCheckHalfConeAngle = 0x0BC8;
+		public const int IndoorCheckHalfConeAngle = 0x0BD8;
 
 		///<summary>float</summary>
-		public const int IndoorCheckSuccessRate = 0x0BCC;
+		public const int IndoorCheckSuccessRate = 0x0BDC;
 
 		///<summary>int</summary>
-		public const int IndoorCheckSamplingQueueSize = 0x0BD0;
+		public const int IndoorCheckSamplingQueueSize = 0x0BE0;
 
 		///<summary>int</summary>
-		public const int IndoorCheckAccuracyMultiplier = 0x0BD4;
+		public const int IndoorCheckAccuracyMultiplier = 0x0BE4;
 
-		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData15 = 0x0BD8;
-
-		///<summary>float</summary>
-		public const int FootSoundObstructionCheckInterval = 0x0BE8;
+		///<summary>unsigned char[0x20]</summary>
+		public const int UnknownData15 = 0x0BE8;
 
 		///<summary>float</summary>
-		public const int FootSoundObstructionCheckMaxDistance = 0x0BEC;
+		public const int FootSoundObstructionCheckInterval = 0x0C08;
+
+		///<summary>float</summary>
+		public const int FootSoundObstructionCheckMaxDistance = 0x0C0C;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData16 = 0x0BF0;
+		public const int UnknownData16 = 0x0C10;
 
 		///<summary>FName</summary>
-		public const int ParachuteAttachPoint = 0x0BF8;
+		public const int ParachuteAttachPoint = 0x0C18;
 
 		///<summary>float</summary>
-		public const int ReleasingParachuteAltitude = 0x0C00;
+		public const int ReleasingParachuteAltitude = 0x0C20;
 
 		///<summary>float</summary>
-		public const int ForceReleasingParachuteAltitude = 0x0C04;
+		public const int ForceReleasingParachuteAltitude = 0x0C24;
 
 		///<summary>float</summary>
-		public const int MinimumParachuteAltitude = 0x0C08;
+		public const int MinimumParachuteAltitude = 0x0C28;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData17 = 0x0C0C;
+		public const int UnknownData17 = 0x0C2C;
 
 		///<summary>UClass *</summary>
-		public const int ParachuteType = 0x0C10;
+		public const int ParachuteType = 0x0C30;
 
 		///<summary>bool</summary>
-		public const int bParachuteLandingAssist = 0x0C18;
+		public const int bParachuteLandingAssist = 0x0C38;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData18 = 0x0C19;
+		public const int UnknownData18 = 0x0C39;
 
 		///<summary>UCastComponent *</summary>
-		public const int CastComponent = 0x0C20;
+		public const int CastComponent = 0x0C40;
 
 		///<summary>UStanceComponent *</summary>
-		public const int StanceComponent = 0x0C28;
+		public const int StanceComponent = 0x0C48;
 
 		///<summary>UHackReporterComponent *</summary>
-		public const int HackReporterComponent = 0x0C30;
+		public const int HackReporterComponent = 0x0C50;
 
 		///<summary>bool</summary>
-		public const int bAcceptHitsWhileNotAlive = 0x0C38;
+		public const int bAcceptHitsWhileNotAlive = 0x0C58;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData19 = 0x0C39;
+		public const int UnknownData19 = 0x0C59;
 
 		///<summary>float</summary>
-		public const int SimulatedHit_Initial = 0x0C3C;
+		public const int SimulatedHit_Initial = 0x0C5C;
 
 		///<summary>float</summary>
-		public const int SimulatedHit_RecoveryPerSecond = 0x0C40;
+		public const int SimulatedHit_RecoveryPerSecond = 0x0C60;
 
 		///<summary>float</summary>
-		public const int SimulatedHit_Value = 0x0C44;
+		public const int SimulatedHit_Value = 0x0C64;
 
 		///<summary>float</summary>
-		public const int SimulatedHit_ImpulsePower = 0x0C48;
+		public const int SimulatedHit_ImpulsePower = 0x0C68;
 
 		///<summary>float</summary>
-		public const int SimlatedHit_PunchLightPower = 0x0C4C;
+		public const int SimlatedHit_PunchLightPower = 0x0C6C;
 
 		///<summary>float</summary>
-		public const int SimlatedHit_PunchHeavyPower = 0x0C50;
+		public const int SimlatedHit_PunchHeavyPower = 0x0C70;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData20 = 0x0C54;
+		public const int UnknownData20 = 0x0C74;
 
 		///<summary>UClass *</summary>
-		public const int PunchImpactEffect = 0x0C58;
+		public const int PunchImpactEffect = 0x0C78;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData21 = 0x0C60;
+		public const int UnknownData21 = 0x0C80;
 
 		///<summary>UCharacterWeaponAnimInfoComponent *</summary>
-		public const int WeaponAnimInfoComponent = 0x0C88;
+		public const int WeaponAnimInfoComponent = 0x0CA8;
 
 		///<summary>UTslAccessoryComponent *</summary>
-		public const int CharacterAccessory_Primary = 0x0C90;
+		public const int CharacterAccessory_Primary = 0x0CB0;
 
 		///<summary>UTslAccessoryComponent *</summary>
-		public const int CharacterAccessory_Secondary = 0x0C98;
+		public const int CharacterAccessory_Secondary = 0x0CB8;
 
 		///<summary>UTslAccessoryComponent *</summary>
-		public const int CharacterAccessory_Sidearm = 0x0CA0;
+		public const int CharacterAccessory_Sidearm = 0x0CC0;
 
 		///<summary>UTslAccessoryComponent *</summary>
-		public const int CharacterAccessory_Melee = 0x0CA8;
+		public const int CharacterAccessory_Melee = 0x0CC8;
 
 		///<summary>UTslAccessoryComponent *</summary>
-		public const int CharacterAccessory_Thrown = 0x0CB0;
+		public const int CharacterAccessory_Thrown = 0x0CD0;
 
 		///<summary>UClass *</summary>
-		public const int FootStepEffectClassInDirt = 0x0CB8;
+		public const int FootStepEffectClassInDirt = 0x0CD8;
 
 		///<summary>UClass *</summary>
-		public const int FootStepEffectClassInGrass = 0x0CC0;
+		public const int FootStepEffectClassInGrass = 0x0CE0;
 
 		///<summary>UClass *</summary>
-		public const int FootStepEffectClassInRock = 0x0CC8;
+		public const int FootStepEffectClassInRock = 0x0CE8;
 
 		///<summary>UClass *</summary>
-		public const int FootStepEffectClassInSand = 0x0CD0;
+		public const int FootStepEffectClassInSand = 0x0CF0;
 
 		///<summary>FName</summary>
-		public const int ParticleSocketFootLeft = 0x0CD8;
+		public const int ParticleSocketFootLeft = 0x0CF8;
 
 		///<summary>FName</summary>
-		public const int ParticleSocketFootRight = 0x0CE0;
+		public const int ParticleSocketFootRight = 0x0D00;
 
 		///<summary>UClass *</summary>
-		public const int FootStepEffectClassInWater = 0x0CE8;
+		public const int FootStepEffectClassInWater = 0x0D08;
 
 		///<summary>ATslParticle *</summary>
-		public const int FootStepEffect = 0x0CF0;
+		public const int FootStepEffect = 0x0D10;
 
 		///<summary>ATeam *</summary>
-		public const int Team = 0x0CF8;
+		public const int Team = 0x0D18;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData22 = 0x0D00;
+		public const int UnknownData22 = 0x0D20;
 
 		///<summary>UTslViewTargetTempComponent *</summary>
-		public const int ViewTargetTempComponent = 0x0D20;
+		public const int ViewTargetTempComponent = 0x0D40;
 
 		///<summary>UTslCharacterValidateLocationComponent *</summary>
-		public const int ValidateLocationComponent = 0x0D28;
+		public const int ValidateLocationComponent = 0x0D48;
 
 		///<summary>UTslThrowableTrajectoryViewComponent *</summary>
-		public const int ThrowableTrajectoryViewComponent = 0x0D30;
+		public const int ThrowableTrajectoryViewComponent = 0x0D50;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData23 = 0x0D38;
+		public const int UnknownData23 = 0x0D58;
 
 		///<summary>FString</summary>
-		public const int CharacterNetId = 0x0D58;
+		public const int CharacterNetId = 0x0D78;
 
 		///<summary>FString</summary>
-		public const int CharacterName = 0x0D68;
+		public const int CharacterName = 0x0D88;
 
 		///<summary>FName</summary>
-		public const int HeadAttachPoint = 0x0D78;
+		public const int HeadAttachPoint = 0x0D98;
 
 		///<summary>float</summary>
-		public const int CameraHeadHideDistance = 0x0D80;
+		public const int CameraHeadHideDistance = 0x0DA0;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData24 = 0x0D84;
+		public const int UnknownData24 = 0x0DA4;
 
 		///<summary>FVector</summary>
-		public const int CrouchedCameraMove = 0x0D90;
+		public const int CrouchedCameraMove = 0x0DB0;
 
 		///<summary>FVector</summary>
-		public const int PronedCameraMove = 0x0D9C;
+		public const int PronedCameraMove = 0x0DBC;
 
 		///<summary>FVector</summary>
-		public const int GroggyCameraMove = 0x0DA8;
+		public const int GroggyCameraMove = 0x0DC8;
 
 		///<summary>float</summary>
-		public const int CrouchedCameraMoveSpeed = 0x0DB4;
+		public const int CrouchedCameraMoveSpeed = 0x0DD4;
 
 		///<summary>float</summary>
-		public const int PronedCameraMoveSpeed = 0x0DB8;
+		public const int PronedCameraMoveSpeed = 0x0DD8;
 
 		///<summary>float</summary>
-		public const int GroggyCameraMoveSpeed = 0x0DBC;
+		public const int GroggyCameraMoveSpeed = 0x0DDC;
 
 		///<summary>unsigned char[0x48]</summary>
-		public const int UnknownData25 = 0x0DC0;
+		public const int UnknownData25 = 0x0DE0;
 
 		///<summary>FTakeHitInfo</summary>
-		public const int LastTakeHitInfo = 0x0E08;
+		public const int LastTakeHitInfo = 0x0E28;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData26 = 0x0E48;
+		public const int UnknownData26 = 0x0E68;
 
 		///<summary>float</summary>
-		public const int TargetingSpeedModifier = 0x0E4C;
+		public const int TargetingSpeedModifier = 0x0E6C;
 
 		///<summary>TEnumAsByte&lt;ETargetingType&gt;</summary>
-		public const int TargetingType = 0x0E50;
+		public const int TargetingType = 0x0E70;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData27 = 0x0E51;
+		public const int UnknownData27 = 0x0E71;
 
 		///<summary>float</summary>
-		public const int Stand_RunningSpeedModifier = 0x0E54;
+		public const int Stand_RunningSpeedModifier = 0x0E74;
 
 		///<summary>float</summary>
-		public const int Stand_SprintingSpeedModifier = 0x0E58;
+		public const int Stand_SprintingSpeedModifier = 0x0E78;
 
 		///<summary>float</summary>
-		public const int Stand_SprintingBigGunModifier = 0x0E5C;
+		public const int Stand_SprintingBigGunModifier = 0x0E7C;
 
 		///<summary>float</summary>
-		public const int Stand_SprintingRifleModifier = 0x0E60;
+		public const int Stand_SprintingRifleModifier = 0x0E80;
 
 		///<summary>float</summary>
-		public const int Stand_SprintingSmallGunMOdifier = 0x0E64;
+		public const int Stand_SprintingSmallGunMOdifier = 0x0E84;
 
 		///<summary>float</summary>
-		public const int Crouch_RunningSpeedModifier = 0x0E68;
+		public const int Crouch_RunningSpeedModifier = 0x0E88;
 
 		///<summary>float</summary>
-		public const int Crouch_SprintingSpeedModifier = 0x0E6C;
+		public const int Crouch_SprintingSpeedModifier = 0x0E8C;
 
 		///<summary>float</summary>
-		public const int Prone_RunningSpeedModifier = 0x0E70;
+		public const int Prone_RunningSpeedModifier = 0x0E90;
 
 		///<summary>float</summary>
-		public const int Prone_SprintingSpeedModifier = 0x0E74;
+		public const int Prone_SprintingSpeedModifier = 0x0E94;
 
 		///<summary>float</summary>
-		public const int ReviveCastingTime = 0x0E78;
+		public const int ReviveCastingTime = 0x0E98;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToRun = 0x0E7C;
+		public const int bWantsToRun = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToSprint = 0x0E7C;
+		public const int bWantsToSprint = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToSprintingAuto = 0x0E7C;
+		public const int bWantsToSprintingAuto = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToRollingLeft = 0x0E7C;
+		public const int bWantsToRollingLeft = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToRollingRight = 0x0E7C;
+		public const int bWantsToRollingRight = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsPeekLeft = 0x0E7C;
+		public const int bIsPeekLeft = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsPeekRight = 0x0E7C;
+		public const int bIsPeekRight = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int IgnoreRotation = 0x0E7C;
+		public const int IgnoreRotation = 0x0E9C;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsGroggying = 0x0E7D;
+		public const int bIsGroggying = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsThirdPerson = 0x0E7D;
+		public const int bIsThirdPerson = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int UnknownData28 = 0x0E7D;
+		public const int UnknownData28 = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsReviving = 0x0E7D;
+		public const int bIsReviving = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsWeaponObstructed = 0x0E7D;
+		public const int bIsWeaponObstructed = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsCoatEquipped = 0x0E7D;
+		public const int bIsCoatEquipped = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsZombie = 0x0E7D;
+		public const int bIsZombie = 0x0E9D;
 
 		///<summary>unsigned char:1</summary>
-		public const int bIsThrowHigh = 0x0E7D;
+		public const int bIsThrowHigh = 0x0E9D;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData29 = 0x0E7E;
+		public const int UnknownData29 = 0x0E9E;
 
 		///<summary>bool</summary>
-		public const int bUseRightShoulderAiming = 0x0E80;
+		public const int bUseRightShoulderAiming = 0x0EA0;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData30 = 0x0E81;
+		public const int UnknownData30 = 0x0EA1;
 
 		///<summary>FRotator</summary>
-		public const int GunDirectionSway = 0x0E84;
+		public const int GunDirectionSway = 0x0EA4;
 
 		///<summary>FVector_NetQuantizeNormal</summary>
-		public const int AimOffsets = 0x0E90;
+		public const int AimOffsets = 0x0EB0;
 
 		///<summary>FVector_NetQuantizeNormal</summary>
-		public const int LastAimOffsets = 0x0E9C;
+		public const int LastAimOffsets = 0x0EBC;
 
 		///<summary>float</summary>
-		public const int AimoffsetsLastRepTime = 0x0EA8;
+		public const int AimoffsetsLastRepTime = 0x0EC8;
 
 		///<summary>unsigned char[0x38]</summary>
-		public const int UnknownData31 = 0x0EAC;
+		public const int UnknownData31 = 0x0ECC;
 
 		///<summary>FRotator</summary>
-		public const int CurrentAutoRotator = 0x0EE4;
+		public const int CurrentAutoRotator = 0x0F04;
 
 		///<summary>float</summary>
-		public const int AutoPitchValueMax = 0x0EF0;
+		public const int AutoPitchValueMax = 0x0F10;
 
 		///<summary>float</summary>
-		public const int AutoPitchBlendSpeed = 0x0EF4;
+		public const int AutoPitchBlendSpeed = 0x0F14;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData32 = 0x0EF8;
+		public const int UnknownData32 = 0x0F18;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_JumpCamera = 0x0F00;
+		public const int Curve_JumpCamera = 0x0F20;
 
 		///<summary>UCurveVector *</summary>
-		public const int Curve_FPPCameraOffsetByFOV = 0x0F08;
+		public const int Curve_FPPCameraOffsetByFOV = 0x0F28;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_DBNOFadeOut = 0x0F10;
+		public const int Curve_DBNOFadeOut = 0x0F30;
 
 		///<summary>float</summary>
-		public const int DBNOFadeOutLerpSpeed = 0x0F18;
+		public const int DBNOFadeOutLerpSpeed = 0x0F38;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData33 = 0x0F1C;
+		public const int UnknownData33 = 0x0F3C;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_StandWalk = 0x0F20;
+		public const int Curve_StandWalk = 0x0F40;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_StandRun = 0x0F28;
+		public const int Curve_StandRun = 0x0F48;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_StandSprint = 0x0F30;
+		public const int Curve_StandSprint = 0x0F50;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_CrouchWalk = 0x0F38;
+		public const int Curve_CrouchWalk = 0x0F58;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_CrouchRun = 0x0F40;
+		public const int Curve_CrouchRun = 0x0F60;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_CrouchSprint = 0x0F48;
+		public const int Curve_CrouchSprint = 0x0F68;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_ProneWalk = 0x0F50;
+		public const int Curve_ProneWalk = 0x0F70;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_ProneRun = 0x0F58;
+		public const int Curve_ProneRun = 0x0F78;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_ProneSprint = 0x0F60;
+		public const int Curve_ProneSprint = 0x0F80;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_Swim = 0x0F68;
+		public const int Curve_Swim = 0x0F88;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_UnderwaterSwim = 0x0F70;
+		public const int Curve_UnderwaterSwim = 0x0F90;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_StandScope = 0x0F78;
+		public const int Curve_StandScope = 0x0F98;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_CrouchScope = 0x0F80;
+		public const int Curve_CrouchScope = 0x0FA0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_ProneScope = 0x0F88;
+		public const int Curve_ProneScope = 0x0FA8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_StandAim = 0x0F90;
+		public const int Curve_StandAim = 0x0FB0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_CrouchAim = 0x0F98;
+		public const int Curve_CrouchAim = 0x0FB8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_ProneAim = 0x0FA0;
+		public const int Curve_ProneAim = 0x0FC0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_DBNO = 0x0FA8;
+		public const int Curve_DBNO = 0x0FC8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_GroundAngle = 0x0FB0;
+		public const int Curve_GroundAngle = 0x0FD0;
 
 		///<summary>UCurveVector *</summary>
-		public const int Curve_WeaponSway = 0x0FB8;
+		public const int Curve_WeaponSway = 0x0FD8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_TurningLerp = 0x0FC0;
+		public const int Curve_TurningLerp = 0x0FE0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_TurningLerpLocomotion = 0x0FC8;
+		public const int Curve_TurningLerpLocomotion = 0x0FE8;
 
 		///<summary>float</summary>
-		public const int DirectionalSpeedModifier = 0x0FD0;
+		public const int DirectionalSpeedModifier = 0x0FF0;
 
 		///<summary>float</summary>
-		public const int PointDamageForceMultiplier = 0x0FD4;
+		public const int PointDamageForceMultiplier = 0x0FF4;
 
 		///<summary>float</summary>
-		public const int PointDamageForce_MapMin = 0x0FD8;
+		public const int PointDamageForce_MapMin = 0x0FF8;
 
 		///<summary>float</summary>
-		public const int PointDamageForce_MapMax = 0x0FDC;
+		public const int PointDamageForce_MapMax = 0x0FFC;
 
 		///<summary>float</summary>
-		public const int RadialDamageForceMultiplier = 0x0FE0;
+		public const int RadialDamageForceMultiplier = 0x1000;
 
 		///<summary>TEnumAsByte&lt;ERadialImpulseFalloff&gt;</summary>
-		public const int RadialDamageFalloffType = 0x0FE4;
+		public const int RadialDamageFalloffType = 0x1004;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData34 = 0x0FE5;
+		public const int UnknownData34 = 0x1005;
 
 		///<summary>UAnimMontage *</summary>
-		public const int RollLeftAnim = 0x0FE8;
+		public const int RollLeftAnim = 0x1008;
 
 		///<summary>UAnimMontage *</summary>
-		public const int RollRightAnim = 0x0FF0;
+		public const int RollRightAnim = 0x1010;
 
 		///<summary>FCharacterAnim</summary>
-		public const int CharacterAnim = 0x0FF8;
+		public const int CharacterAnim = 0x1018;
 
 		///<summary>AController *</summary>
-		public const int NetOwnerController = 0x1008;
+		public const int NetOwnerController = 0x1028;
 
 		///<summary>float</summary>
-		public const int LeanAlphaSpeed = 0x1010;
+		public const int LeanAlphaSpeed = 0x1030;
 
 		///<summary>float</summary>
-		public const int TurnSpeedHip = 0x1014;
+		public const int TurnSpeedHip = 0x1034;
 
 		///<summary>float</summary>
-		public const int TurnSpeedAimed = 0x1018;
+		public const int TurnSpeedAimed = 0x1038;
 
 		///<summary>float</summary>
-		public const int TurnSpeedOverLimit = 0x101C;
+		public const int TurnSpeedOverLimit = 0x103C;
 
 		///<summary>float</summary>
-		public const int MinTurnAngleHip = 0x1020;
+		public const int MinTurnAngleHip = 0x1040;
 
 		///<summary>float</summary>
-		public const int MinTurnAngleAim = 0x1024;
+		public const int MinTurnAngleAim = 0x1044;
 
 		///<summary>float</summary>
-		public const int TurnLinearEndThreshold = 0x1028;
+		public const int TurnLinearEndThreshold = 0x1048;
 
 		///<summary>bool</summary>
-		public const int bNonLinearTurn = 0x102C;
+		public const int bNonLinearTurn = 0x104C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData35 = 0x102D;
+		public const int UnknownData35 = 0x104D;
 
 		///<summary>float</summary>
-		public const int TurnNonLinearEndThreshold = 0x1030;
+		public const int TurnNonLinearEndThreshold = 0x1050;
 
 		///<summary>float</summary>
-		public const int TurnNonLinearInterpSpeed = 0x1034;
+		public const int TurnNonLinearInterpSpeed = 0x1054;
 
 		///<summary>float</summary>
-		public const int CapsuleTurnInterpSpeedLocomotion = 0x1038;
+		public const int CapsuleTurnInterpSpeedLocomotion = 0x1058;
 
 		///<summary>float</summary>
-		public const int CapsuleTurnInterpSpeedLocomotionSprint = 0x103C;
+		public const int CapsuleTurnInterpSpeedLocomotionSprint = 0x105C;
 
 		///<summary>float</summary>
-		public const int CapsuleTurnInterpSpeedLocomotionProne = 0x1040;
+		public const int CapsuleTurnInterpSpeedLocomotionProne = 0x1060;
 
 		///<summary>float</summary>
-		public const int CapsuleTurnInterpSpeedStationary = 0x1044;
+		public const int CapsuleTurnInterpSpeedStationary = 0x1064;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData36 = 0x1048;
+		public const int UnknownData36 = 0x1068;
 
 		///<summary>FName</summary>
-		public const int FPPCameraBoneName = 0x1060;
+		public const int FPPCameraBoneName = 0x1080;
 
 		///<summary>FName</summary>
-		public const int TPPCameraBoneName = 0x1068;
+		public const int TPPCameraBoneName = 0x1088;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData37 = 0x1070;
+		public const int UnknownData37 = 0x1090;
 
 		///<summary>float</summary>
-		public const int AimStateDefaultTime = 0x107C;
+		public const int AimStateDefaultTime = 0x109C;
 
 		///<summary>float</summary>
-		public const int AimStateReturnTime = 0x1080;
+		public const int AimStateReturnTime = 0x10A0;
 
 		///<summary>float</summary>
-		public const int AimStateDrawTime = 0x1084;
+		public const int AimStateDrawTime = 0x10A4;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData38 = 0x1088;
+		public const int UnknownData38 = 0x10A8;
 
 		///<summary>bool</summary>
-		public const int bAimStateActive = 0x1090;
+		public const int bAimStateActive = 0x10B0;
 
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData39 = 0x1091;
+		///<summary>bool</summary>
+		public const int bFreeMode = 0x10B1;
 
-		///<summary>float</summary>
-		public const int CanGroggyDamageTime = 0x1094;
-
-		///<summary>FText</summary>
-		public const int GroggyStartText = 0x1098;
-
-		///<summary>FText</summary>
-		public const int GroggyCancelText = 0x10B0;
-
-		///<summary>FText</summary>
-		public const int GroggyFinishText = 0x10C8;
+		///<summary>unsigned char[0x6]</summary>
+		public const int UnknownData39 = 0x10B2;
 
 		///<summary>float</summary>
-		public const int GamepadRunningValue = 0x10E0;
+		public const int CanGroggyDamageTime = 0x10B8;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData40 = 0x10BC;
+
+		///<summary>FText</summary>
+		public const int GroggyStartText = 0x10C0;
+
+		///<summary>FText</summary>
+		public const int GroggyCancelText = 0x10D8;
+
+		///<summary>FText</summary>
+		public const int GroggyFinishText = 0x10F0;
+
+		///<summary>float</summary>
+		public const int GamepadRunningValue = 0x1108;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData40 = 0x10E4;
+		public const int UnknownData41 = 0x110C;
 
 		///<summary>FRotator</summary>
-		public const int BlendTargetViewRotation = 0x10F0;
+		public const int BlendTargetViewRotation = 0x1118;
 
 		///<summary>FVector2D</summary>
-		public const int DesiredDirection = 0x10FC;
+		public const int DesiredDirection = 0x1124;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData41 = 0x1104;
+		public const int UnknownData42 = 0x112C;
 
 		///<summary>UClass *</summary>
-		public const int InvulnerablilityBuff = 0x1108;
+		public const int InvulnerablilityBuff = 0x1130;
 
 		///<summary>bool</summary>
-		public const int bInvulnerablilityEffectVisible = 0x1110;
+		public const int bInvulnerablilityEffectVisible = 0x1138;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData42 = 0x1111;
-
-		///<summary>TArray&lt;UClass * &gt;</summary>
-		public const int ComponentsToDestroyOnDedicatedServer = 0x1118;
-
-		///<summary>TArray&lt;FZombieCustomizationData&gt;</summary>
-		public const int ZombieCustomizationData = 0x1128;
-
-		///<summary>bool</summary>
-		public const int bIsHoldingBreath = 0x1138;
-
-		///<summary>unsigned char[0x3]</summary>
 		public const int UnknownData43 = 0x1139;
 
-		///<summary>float</summary>
-		public const int Health = 0x113C;
+		///<summary>TArray&lt;UClass * &gt;</summary>
+		public const int ComponentsToDestroyOnDedicatedServer = 0x1140;
+
+		///<summary>TArray&lt;FZombieCustomizationData&gt;</summary>
+		public const int ZombieCustomizationData = 0x1150;
+
+		///<summary>bool</summary>
+		public const int bIsHoldingBreath = 0x1160;
+
+		///<summary>unsigned char[0x3]</summary>
+		public const int UnknownData44 = 0x1161;
 
 		///<summary>float</summary>
-		public const int HealthMax = 0x1140;
+		public const int Health = 0x1164;
 
 		///<summary>float</summary>
-		public const int GroggyHealth = 0x1144;
+		public const int HealthMax = 0x1168;
 
 		///<summary>float</summary>
-		public const int GroggyHealthMax = 0x1148;
+		public const int GroggyHealth = 0x116C;
 
 		///<summary>float</summary>
-		public const int DecreaseGroggyHealthPerSecond = 0x114C;
+		public const int GroggyHealthMax = 0x1170;
 
 		///<summary>float</summary>
-		public const int GroggyDamageWeight = 0x1150;
+		public const int DecreaseGroggyHealthPerSecond = 0x1174;
+
+		///<summary>float</summary>
+		public const int GroggyDamageWeight = 0x1178;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData44 = 0x1154;
+		public const int UnknownData45 = 0x117C;
 
 		///<summary>UClass *</summary>
-		public const int GroggyDamageType = 0x1158;
+		public const int GroggyDamageType = 0x1180;
 
 		///<summary>float</summary>
-		public const int HealthByRevive = 0x1160;
+		public const int HealthByRevive = 0x1188;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData45 = 0x1164;
+		public const int UnknownData46 = 0x118C;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int GroggyToDieAkEvent = 0x1168;
+		public const int GroggyToDieAkEvent = 0x1190;
 
 		///<summary>float</summary>
-		public const int BoostGauge = 0x1170;
+		public const int BoostGauge = 0x1198;
 
 		///<summary>float</summary>
-		public const int BoostGaugeMax = 0x1174;
+		public const int BoostGaugeMax = 0x119C;
 
 		///<summary>float</summary>
-		public const int DecreaseTimerSecond = 0x1178;
+		public const int DecreaseTimerSecond = 0x11A0;
 
 		///<summary>float</summary>
-		public const int DecreaseBoostGaugeByTime = 0x117C;
+		public const int DecreaseBoostGaugeByTime = 0x11A4;
 
 		///<summary>TArray&lt;FBuffWithBoostGauge&gt;</summary>
-		public const int BuffWithBoostGauge = 0x1180;
+		public const int BuffWithBoostGauge = 0x11A8;
 
 		///<summary>UClass *</summary>
-		public const int MedKitClass = 0x1190;
+		public const int MedKitClass = 0x11B8;
 
 		///<summary>UClass *</summary>
-		public const int FirstAidClass = 0x1198;
+		public const int FirstAidClass = 0x11C0;
 
 		///<summary>UClass *</summary>
-		public const int BandageClass = 0x11A0;
+		public const int BandageClass = 0x11C8;
 
 		///<summary>UClass *</summary>
-		public const int AdrenalineClass = 0x11A8;
+		public const int AdrenalineClass = 0x11D0;
 
 		///<summary>UClass *</summary>
-		public const int PainKillerClass = 0x11B0;
+		public const int PainKillerClass = 0x11D8;
 
 		///<summary>UClass *</summary>
-		public const int EnergyDrinkClass = 0x11B8;
+		public const int EnergyDrinkClass = 0x11E0;
 
 		///<summary>TArray&lt;UClass * &gt;</summary>
-		public const int BoostItemClasses = 0x11C0;
+		public const int BoostItemClasses = 0x11E8;
 
 		///<summary>TArray&lt;UClass * &gt;</summary>
-		public const int HealItemClasses = 0x11D0;
+		public const int HealItemClasses = 0x11F8;
 
 		///<summary>UClass *</summary>
-		public const int GrenadeClass = 0x11E0;
+		public const int GrenadeClass = 0x1208;
 
 		///<summary>UClass *</summary>
-		public const int MolotovClass = 0x11E8;
+		public const int MolotovClass = 0x1210;
 
 		///<summary>UClass *</summary>
-		public const int SmokeBombClass = 0x11F0;
+		public const int SmokeBombClass = 0x1218;
 
 		///<summary>UClass *</summary>
-		public const int FlashBangClass = 0x11F8;
+		public const int FlashBangClass = 0x1220;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData46 = 0x1200;
+		public const int UnknownData47 = 0x1228;
 
 		///<summary>TWeakObjectPtr&lt;ATslPlayerState&gt;</summary>
-		public const int LaunchInstigator = 0x1204;
+		public const int LaunchInstigator = 0x122C;
 
 		///<summary>TWeakObjectPtr&lt;AActor&gt;</summary>
-		public const int LaunchCauser = 0x120C;
+		public const int LaunchCauser = 0x1234;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData47 = 0x1214;
+		public const int UnknownData48 = 0x123C;
 
 		///<summary>UClass *</summary>
-		public const int LaunchDamageTypeClass = 0x1218;
+		public const int LaunchDamageTypeClass = 0x1240;
 
 		///<summary>double</summary>
-		public const int LastLaunchTime = 0x1220;
+		public const int LastLaunchTime = 0x1248;
 
 		///<summary>APlayerState *</summary>
-		public const int AuthorizedPlayerState = 0x1228;
+		public const int AuthorizedPlayerState = 0x1250;
 
 		///<summary>EEquipableItemSoundType</summary>
-		public const int ShoesSoundType = 0x1230;
+		public const int ShoesSoundType = 0x1258;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData48 = 0x1231;
+		public const int UnknownData49 = 0x1259;
 
 		///<summary>UInteractorComponent *</summary>
-		public const int InteractorComponent = 0x1238;
+		public const int InteractorComponent = 0x1260;
 
 		///<summary>UInteractionComponent *</summary>
-		public const int InteractionComponent = 0x1240;
+		public const int InteractionComponent = 0x1268;
+
+		///<summary>unsigned char[0x18]</summary>
+		public const int UnknownData50 = 0x1270;
 
 		///<summary>UVehicleRiderComponent *</summary>
-		public const int VehicleRiderComponent = 0x1248;
+		public const int VehicleRiderComponent = 0x1288;
 
 		///<summary>UClass *</summary>
-		public const int OutSidePlayerAreaEffectClass = 0x1250;
+		public const int OutSidePlayerAreaEffectClass = 0x1290;
 
 		///<summary>ATslPostProcessEffect *</summary>
-		public const int OutSidePlayerAreaEffect = 0x1258;
+		public const int OutSidePlayerAreaEffect = 0x1298;
 
 		///<summary>UClass *</summary>
-		public const int DBNOEffectClass = 0x1260;
+		public const int DBNOEffectClass = 0x12A0;
 
 		///<summary>ATslPostProcessEffect *</summary>
-		public const int DBNOEffect = 0x1268;
+		public const int DBNOEffect = 0x12A8;
 
 		///<summary>unsigned char[0x1E0]</summary>
-		public const int UnknownData49 = 0x1270;
+		public const int UnknownData51 = 0x12B0;
 
 		///<summary>USkeletalMeshComponent *</summary>
-		public const int ShadowMesh = 0x1450;
+		public const int ShadowMesh = 0x1490;
 
 		///<summary>float</summary>
-		public const int TargetingFOV = 0x1458;
+		public const int TargetingFOV = 0x1498;
 
 		///<summary>float</summary>
-		public const int AimingDelay = 0x145C;
+		public const int AimingDelay = 0x149C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData50 = 0x1460;
+		public const int UnknownData52 = 0x14A0;
 
 		///<summary>float</summary>
-		public const int ScopingDelay = 0x1464;
+		public const int ScopingDelay = 0x14A4;
 
 		///<summary>float</summary>
-		public const int AttackStateOffDelayTime = 0x1468;
+		public const int AttackStateOffDelayTime = 0x14A8;
 
 		///<summary>float</summary>
-		public const int HitStateOffDelayTime = 0x146C;
+		public const int HitStateOffDelayTime = 0x14AC;
 
 		///<summary>float</summary>
-		public const int HitMePlayerStateOffDelayTime = 0x1470;
+		public const int HitMePlayerStateOffDelayTime = 0x14B0;
 
 		///<summary>unsigned char[0x34]</summary>
-		public const int UnknownData51 = 0x1474;
+		public const int UnknownData53 = 0x14B4;
 
 		///<summary>UTslPlayerDamageConfig *</summary>
-		public const int DamageConfig = 0x14A8;
+		public const int DamageConfig = 0x14E8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData52 = 0x14B0;
+		public const int UnknownData54 = 0x14F0;
 
 		///<summary>float</summary>
-		public const int FallDamageFactor = 0x14B4;
+		public const int FallDamageFactor = 0x14F4;
 
 		///<summary>float</summary>
-		public const int FallDamageVelocityMin = 0x14B8;
+		public const int FallDamageVelocityMin = 0x14F8;
 
 		///<summary>bool</summary>
-		public const int bIsActiveRagdollActive = 0x14BC;
+		public const int bIsActiveRagdollActive = 0x14FC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData53 = 0x14BD;
+		public const int UnknownData55 = 0x14FD;
 
 		///<summary>float</summary>
-		public const int CorpseLifeSpan = 0x14C0;
+		public const int CorpseLifeSpan = 0x1500;
 
-		///<summary>unsigned char[0x54]</summary>
-		public const int UnknownData54 = 0x14C4;
-
-		///<summary>FVector</summary>
-		public const int JumpStartLocation_CP = 0x1518;
+		///<summary>unsigned char[0xAC]</summary>
+		public const int UnknownData56 = 0x1504;
 
 		///<summary>FVector</summary>
-		public const int LandPredictedLocation_CP = 0x1524;
+		public const int JumpStartLocation_CP = 0x15B0;
+
+		///<summary>FVector</summary>
+		public const int LandPredictedLocation_CP = 0x15BC;
 
 		///<summary>float</summary>
-		public const int FallHeight_CP = 0x1530;
+		public const int FallHeight_CP = 0x15C8;
 
 		///<summary>bool</summary>
-		public const int bIsVaulting_CP = 0x1534;
+		public const int bIsVaulting_CP = 0x15CC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData55 = 0x1535;
+		public const int UnknownData57 = 0x15CD;
 
 		///<summary>float</summary>
-		public const int VaultTimer_CP = 0x1538;
+		public const int VaultTimer_CP = 0x15D0;
 
 		///<summary>FVector</summary>
-		public const int VaultEndVelocity_CP = 0x153C;
+		public const int VaultEndVelocity_CP = 0x15D4;
 
 		///<summary>FVector</summary>
-		public const int VaultLastLocation_CP = 0x1548;
+		public const int VaultLastLocation_CP = 0x15E0;
 
 		///<summary>bool</summary>
-		public const int bIsClimbing_CP = 0x1554;
+		public const int bIsClimbing_CP = 0x15EC;
 
 		///<summary>bool</summary>
-		public const int bEndVaultToFall_CP = 0x1555;
+		public const int bEndVaultToFall_CP = 0x15ED;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData56 = 0x1556;
+		public const int UnknownData58 = 0x15EE;
 
 		///<summary>FVector</summary>
-		public const int VaultEndVelocityVectorMutliplier = 0x1558;
+		public const int VaultEndVelocityVectorMutliplier = 0x15F0;
 
 		///<summary>float</summary>
-		public const int VaultEndVelocityVectorClamp = 0x1564;
+		public const int VaultEndVelocityVectorClamp = 0x15FC;
 
 		///<summary>ATslVaultingHelper *</summary>
-		public const int VaultingHelperRef = 0x1568;
+		public const int VaultingHelperRef = 0x1600;
 
 		///<summary>bool</summary>
-		public const int bIsVaultingSystemEnabled = 0x1570;
+		public const int bIsVaultingSystemEnabled = 0x1608;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData57 = 0x1571;
+		public const int UnknownData59 = 0x1609;
 
 		///<summary>float</summary>
-		public const int VaultingDirection_CP = 0x1574;
+		public const int VaultingDirection_CP = 0x160C;
 
 		///<summary>UVaultingData *</summary>
-		public const int CurrentVaultData_CP = 0x1578;
+		public const int CurrentVaultData_CP = 0x1610;
 
 		///<summary>bool</summary>
-		public const int bServerFinishedVault = 0x1580;
+		public const int bServerFinishedVault = 0x1618;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData58 = 0x1581;
+		public const int UnknownData60 = 0x1619;
 
 		///<summary>float</summary>
-		public const int JumpDelay = 0x1584;
+		public const int JumpDelay = 0x161C;
 
 		///<summary>float</summary>
-		public const int JumpLastTimer = 0x1588;
+		public const int JumpLastTimer = 0x1620;
 
 		///<summary>bool</summary>
-		public const int bWantsToVault = 0x158C;
+		public const int bWantsToVault = 0x1624;
 
 		///<summary>bool</summary>
-		public const int bWantsToCancelVault = 0x158D;
+		public const int bWantsToCancelVault = 0x1625;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData59 = 0x158E;
+		public const int UnknownData61 = 0x1626;
 
 		///<summary>float</summary>
-		public const int VaultProbeLoopTime = 0x1590;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData60 = 0x1594;
-
-		///<summary>FAnimUpdateRateSettings</summary>
-		public const int AnimationUpdateRateSettings = 0x1598;
-
-		///<summary>float</summary>
-		public const int TO_CulledMovementTickrate = 0x1610;
-
-		///<summary>float</summary>
-		public const int TO_CulledActorTickInterval = 0x1614;
-
-		///<summary>float</summary>
-		public const int TO_MinimumDistance = 0x1618;
-
-		///<summary>bool</summary>
-		public const int bRunTickOptimization = 0x161C;
-
-		///<summary>bool</summary>
-		public const int bRunTickOptimization_Anim = 0x161D;
-
-		///<summary>bool</summary>
-		public const int bRunTickOptimization_Movement = 0x161E;
-
-		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData61 = 0x161F;
-
-		///<summary>float</summary>
-		public const int TO_RenderedTolerance = 0x1620;
-
-		///<summary>bool</summary>
-		public const int bTickOptimization_Move_Active = 0x1624;
-
-		///<summary>bool</summary>
-		public const int bTickOptimization_Anim_Active = 0x1625;
-
-		///<summary>bool</summary>
-		public const int bTickOptimization_Actor_Active = 0x1626;
-
-		///<summary>unsigned char[0x5]</summary>
-		public const int UnknownData62 = 0x1627;
+		public const int VaultProbeLoopTime = 0x1628;
 
 		///<summary>float</summary>
 		public const int GamepadReloadHoldTime = 0x162C;
 
-		///<summary>float</summary>
-		public const int GamepadUnarmHoldTime = 0x1630;
+		///<summary>FTimerHandle</summary>
+		public const int TimerHandle_GamepadReloadHold = 0x1630;
+
+		///<summary>FAnimUpdateRateSettings</summary>
+		public const int AnimationUpdateRateSettings = 0x1638;
 
 		///<summary>float</summary>
-		public const int GamepadNextGunWeaponTabMaxTime = 0x1634;
+		public const int TO_CulledMovementTickrate = 0x16B0;
 
-		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData63 = 0x1638;
+		///<summary>float</summary>
+		public const int TO_CulledActorTickInterval = 0x16B4;
+
+		///<summary>float</summary>
+		public const int TO_MinimumDistance = 0x16B8;
+
+		///<summary>bool</summary>
+		public const int bRunTickOptimization = 0x16BC;
+
+		///<summary>bool</summary>
+		public const int bRunTickOptimization_Anim = 0x16BD;
+
+		///<summary>bool</summary>
+		public const int bRunTickOptimization_Movement = 0x16BE;
+
+		///<summary>unsigned char[0x1]</summary>
+		public const int UnknownData62 = 0x16BF;
+
+		///<summary>float</summary>
+		public const int TO_RenderedTolerance = 0x16C0;
+
+		///<summary>bool</summary>
+		public const int bTickOptimization_Move_Active = 0x16C4;
+
+		///<summary>bool</summary>
+		public const int bTickOptimization_Anim_Active = 0x16C5;
+
+		///<summary>bool</summary>
+		public const int bTickOptimization_Actor_Active = 0x16C6;
+
+		///<summary>unsigned char[0x5]</summary>
+		public const int UnknownData63 = 0x16C7;
+
+		///<summary>float</summary>
+		public const int GamepadUnarmHoldTime = 0x16CC;
+
+		///<summary>float</summary>
+		public const int GamepadNextGunWeaponTabMaxTime = 0x16D0;
+
+		///<summary>unsigned char[0x54]</summary>
+		public const int UnknownData64 = 0x16D4;
 
 		///<summary>UBluezoneInOutComponent *</summary>
-		public const int BluezoneInOut = 0x1688;
+		public const int BluezoneInOut = 0x1728;
 
 		///<summary>UBluezoneInOutSoundEffectComponent *</summary>
-		public const int BluezoneInOutSoundEffect = 0x1690;
+		public const int BluezoneInOutSoundEffect = 0x1730;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData64 = 0x1698;
+		public const int UnknownData65 = 0x1738;
 
 	}
 
@@ -3691,16 +3749,16 @@ namespace Offsets
 		public const int CastConfig = 0x0430;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData03 = 0x0460;
+		public const int UnknownData03 = 0x0468;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnInteractBy = 0x0468;
+		public const int OnInteractBy = 0x0470;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ClientOnInteractBy = 0x0478;
+		public const int ClientOnInteractBy = 0x0480;
 
-		///<summary>unsigned char[0x68]</summary>
-		public const int UnknownData04 = 0x0488;
+		///<summary>unsigned char[0x60]</summary>
+		public const int UnknownData04 = 0x0490;
 
 	}
 
@@ -4592,239 +4650,239 @@ namespace Offsets
 
 	public class ATslWheeledVehicle
 	{
-		///<summary>unsigned char[0x20]</summary>
+		///<summary>unsigned char[0x90]</summary>
 		public const int UnknownData00 = 0x0420;
 
 		///<summary>USphereComponent *</summary>
-		public const int ActivationTrigger = 0x0440;
+		public const int ActivationTrigger = 0x04B0;
 
 		///<summary>float</summary>
-		public const int Health = 0x0448;
+		public const int Health = 0x04B8;
 
 		///<summary>float</summary>
-		public const int HealthMax = 0x044C;
+		public const int HealthMax = 0x04BC;
 
 		///<summary>float</summary>
-		public const int Fuel = 0x0450;
+		public const int Fuel = 0x04C0;
 
 		///<summary>float</summary>
-		public const int FuelMax = 0x0454;
+		public const int FuelMax = 0x04C4;
 
 		///<summary>bool</summary>
-		public const int bStabilizeActive = 0x0458;
+		public const int bStabilizeActive = 0x04C8;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x0459;
+		public const int UnknownData01 = 0x04C9;
 
 		///<summary>float</summary>
-		public const int AirControlPitchInput = 0x045C;
+		public const int AirControlPitchInput = 0x04CC;
 
 		///<summary>float</summary>
-		public const int SpeedKPH = 0x0460;
+		public const int SpeedKPH = 0x04D0;
 
 		///<summary>float</summary>
-		public const int ThrottleInput = 0x0464;
+		public const int ThrottleInput = 0x04D4;
 
 		///<summary>float</summary>
-		public const int RPM = 0x0468;
+		public const int RPM = 0x04D8;
 
 		///<summary>float</summary>
-		public const int Brake = 0x046C;
+		public const int Brake = 0x04DC;
 
 		///<summary>float</summary>
-		public const int LatMax = 0x0470;
+		public const int LatMax = 0x04E0;
 
 		///<summary>float</summary>
-		public const int LongSum = 0x0474;
+		public const int LongSum = 0x04E4;
 
 		///<summary>float</summary>
-		public const int WaterDepthMax = 0x0478;
+		public const int WaterDepthMax = 0x04E8;
 
 		///<summary>float</summary>
-		public const int SurfaceMax = 0x047C;
+		public const int SurfaceMax = 0x04EC;
 
 		///<summary>float</summary>
-		public const int SuspensionMax = 0x0480;
+		public const int SuspensionMax = 0x04F0;
 
 		///<summary>int</summary>
-		public const int FlatTireCount = 0x0484;
+		public const int FlatTireCount = 0x04F4;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDirtySpeedKPH = 0x0488;
+		public const int bDirtySpeedKPH = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDirtyThrottleInput = 0x0488;
+		public const int bDirtyThrottleInput = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDirtyRPM = 0x0488;
+		public const int bDirtyRPM = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDirtyWaterDepthMax = 0x0488;
+		public const int bDirtyWaterDepthMax = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDirtyBrake = 0x0488;
+		public const int bDirtyBrake = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDetectedStartup = 0x0488;
+		public const int bDetectedStartup = 0x04F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDetectedBraking = 0x0488;
+		public const int bDetectedBraking = 0x04F8;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData02 = 0x0489;
+		public const int UnknownData02 = 0x04F9;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int WheelsLatSlip = 0x0490;
+		public const int WheelsLatSlip = 0x0500;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int WheelsLongSlip = 0x04A0;
+		public const int WheelsLongSlip = 0x0510;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int WheelsSuspensionOffset = 0x04B0;
+		public const int WheelsSuspensionOffset = 0x0520;
 
 		///<summary>TArray&lt;UPhysicalMaterial * &gt;</summary>
-		public const int WheelsContactSurface = 0x04C0;
+		public const int WheelsContactSurface = 0x0530;
 
 		///<summary>TArray&lt;UPhysicalMaterial * &gt;</summary>
-		public const int TestWheelsContactSurface_prev = 0x04D0;
+		public const int TestWheelsContactSurface_prev = 0x0540;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int WheelsSuspensionMaxDrop = 0x04E0;
+		public const int WheelsSuspensionMaxDrop = 0x0550;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int WheelsSuspensionMaxRaise = 0x04F0;
+		public const int WheelsSuspensionMaxRaise = 0x0560;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int NullSound = 0x0500;
+		public const int NullSound = 0x0570;
 
 		///<summary>FTslImpactSoundInfo</summary>
-		public const int ImpactSound = 0x0508;
+		public const int ImpactSound = 0x0578;
 
 		///<summary>FTslImpactSoundInfo</summary>
-		public const int LandingSound = 0x0568;
+		public const int LandingSound = 0x05D8;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int StartupSound = 0x05C8;
+		public const int StartupSound = 0x0638;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int BreakSound = 0x05D0;
+		public const int BreakSound = 0x0640;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int StopSound = 0x05D8;
+		public const int StopSound = 0x0648;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int CharacterHitSound = 0x05E0;
+		public const int CharacterHitSound = 0x0650;
 
 		///<summary>float</summary>
-		public const int MaxClampThrottleInClutch = 0x05E8;
+		public const int MaxClampThrottleInClutch = 0x0658;
 
 		///<summary>bool</summary>
-		public const int bApplyCustomAnimUpdaterateSettings = 0x05EC;
+		public const int bApplyCustomAnimUpdaterateSettings = 0x065C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x05ED;
+		public const int UnknownData03 = 0x065D;
 
 		///<summary>FAnimUpdateRateSettings</summary>
-		public const int AnimUpdateRateSettings = 0x05F0;
+		public const int AnimUpdateRateSettings = 0x0660;
 
 		///<summary>unsigned char:1</summary>
-		public const int bWantsToBoosting = 0x0668;
+		public const int bWantsToBoosting = 0x06D8;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData04 = 0x0669;
+		public const int UnknownData04 = 0x06D9;
 
 		///<summary>float</summary>
-		public const int TorqueMultiplierForBoosting = 0x066C;
+		public const int TorqueMultiplierForBoosting = 0x06DC;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData05 = 0x0670;
+		public const int UnknownData05 = 0x06E0;
 
 		///<summary>UTslVehicleHitComponent *</summary>
-		public const int VehicleHitComponent = 0x0678;
+		public const int VehicleHitComponent = 0x06E8;
 
 		///<summary>UTslVehicleCommonComponent *</summary>
-		public const int VehicleCommonComponent = 0x0680;
+		public const int VehicleCommonComponent = 0x06F0;
 
 		///<summary>UTslVehicleSeatComponent *</summary>
-		public const int VehicleSeatComponent = 0x0688;
+		public const int VehicleSeatComponent = 0x06F8;
 
 		///<summary>UTslVehicleEffectComponent *</summary>
-		public const int VehicleEffectComponent = 0x0690;
+		public const int VehicleEffectComponent = 0x0700;
 
 		///<summary>UTslVehicleSyncComponent *</summary>
-		public const int VehicleSyncComponent = 0x0698;
+		public const int VehicleSyncComponent = 0x0708;
 
 		///<summary>UTslVehicleTempComponent *</summary>
-		public const int VehicleTempComponent = 0x06A0;
+		public const int VehicleTempComponent = 0x0710;
 
 		///<summary>UTslPawnInputBindingComponent *</summary>
-		public const int TslPawnInputBindingComponent = 0x06A8;
+		public const int TslPawnInputBindingComponent = 0x0718;
 
 		///<summary>UTslHornComponent *</summary>
-		public const int TslHornComponent = 0x06B0;
+		public const int TslHornComponent = 0x0720;
 
 		///<summary>UAkComponent *</summary>
-		public const int AudioComEngine = 0x06B8;
+		public const int AudioComEngine = 0x0728;
 
 		///<summary>UBuoyancyForceComponent *</summary>
-		public const int BuoyancyForceComponent = 0x06C0;
+		public const int BuoyancyForceComponent = 0x0730;
 
 		///<summary>FName</summary>
-		public const int SinkPoint = 0x06C8;
+		public const int SinkPoint = 0x0738;
 
 		///<summary>UClass *</summary>
-		public const int SinkBuffType = 0x06D0;
+		public const int SinkBuffType = 0x0740;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData06 = 0x06D8;
+		public const int UnknownData06 = 0x0748;
 
 		///<summary>UBuffComponet *</summary>
-		public const int BuffComponent = 0x06E0;
+		public const int BuffComponent = 0x0750;
 
 		///<summary>TArray&lt;UClass * &gt;</summary>
-		public const int ComponentsToDestroyOnDedicatedServer = 0x06E8;
+		public const int ComponentsToDestroyOnDedicatedServer = 0x0758;
 
 		///<summary>bool</summary>
-		public const int bProcessAutoEject = 0x06F8;
+		public const int bProcessAutoEject = 0x0768;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData07 = 0x06F9;
+		public const int UnknownData07 = 0x0769;
 
 		///<summary>float</summary>
-		public const int AutoEjectGroundDistance = 0x06FC;
+		public const int AutoEjectGroundDistance = 0x076C;
 
 		///<summary>float</summary>
-		public const int AutoEjectRoll = 0x0700;
+		public const int AutoEjectRoll = 0x0770;
 
 		///<summary>float</summary>
-		public const int AutoEjectPitch = 0x0704;
+		public const int AutoEjectPitch = 0x0774;
 
 		///<summary>float</summary>
-		public const int AutoEject_RiseRate = 0x0708;
+		public const int AutoEject_RiseRate = 0x0778;
 
 		///<summary>float</summary>
-		public const int AutoEject_FallRate = 0x070C;
+		public const int AutoEject_FallRate = 0x077C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x0710;
+		public const int UnknownData08 = 0x0780;
 
 		///<summary>bool</summary>
-		public const int bRunStabilizeOnEntry = 0x0714;
+		public const int bRunStabilizeOnEntry = 0x0784;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData09 = 0x0715;
+		public const int UnknownData09 = 0x0785;
 
 		///<summary>float</summary>
-		public const int StabilizeInitialTimer = 0x0718;
+		public const int StabilizeInitialTimer = 0x0788;
 
 		///<summary>float</summary>
-		public const int StablizeCurrentTimer = 0x071C;
+		public const int StablizeCurrentTimer = 0x078C;
 
 		///<summary>float</summary>
-		public const int SteeringYawBias = 0x0720;
+		public const int SteeringYawBias = 0x0790;
 
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData10 = 0x0724;
+		///<summary>unsigned char[0xC]</summary>
+		public const int UnknownData10 = 0x0794;
 
 	}
 
@@ -4995,239 +5053,239 @@ namespace Offsets
 
 	public class UTslCharacterMovement
 	{
-		///<summary>unsigned char[0x60]</summary>
+		///<summary>unsigned char[0x98]</summary>
 		public const int UnknownData00 = 0x0840;
 
 		///<summary>float</summary>
-		public const int MaxProneSpeed = 0x08A0;
+		public const int MaxProneSpeed = 0x08D8;
 
 		///<summary>float</summary>
-		public const int MaxGroggySpeed = 0x08A4;
+		public const int MaxGroggySpeed = 0x08DC;
 
 		///<summary>float</summary>
-		public const int JumpedHalfHeight = 0x08A8;
+		public const int JumpedHalfHeight = 0x08E0;
 
 		///<summary>float</summary>
-		public const int JumpVelocityLossScale = 0x08AC;
+		public const int JumpVelocityLossScale = 0x08E4;
 
 		///<summary>float</summary>
-		public const int SpeedToJumpModifier = 0x08B0;
+		public const int SpeedToJumpModifier = 0x08E8;
 
 		///<summary>float</summary>
-		public const int MinJumpZVelocity = 0x08B4;
+		public const int MinJumpZVelocity = 0x08EC;
 
 		///<summary>float</summary>
-		public const int MaxJumpZVelocity = 0x08B8;
+		public const int MaxJumpZVelocity = 0x08F0;
 
 		///<summary>float</summary>
-		public const int LandingJumpDecreaseModifier = 0x08BC;
+		public const int LandingJumpDecreaseModifier = 0x08F4;
 
 		///<summary>float</summary>
-		public const int RecoveryWalkSpeedRatePerSec = 0x08C0;
+		public const int RecoveryWalkSpeedRatePerSec = 0x08F8;
 
 		///<summary>float</summary>
-		public const int MinWalkSpeedModifier = 0x08C4;
+		public const int MinWalkSpeedModifier = 0x08FC;
 
 		///<summary>float</summary>
-		public const int WalkSpeedModifierUnit = 0x08C8;
+		public const int WalkSpeedModifierUnit = 0x0900;
 
 		///<summary>float</summary>
-		public const int MinStandingJumpXYSpeed = 0x08CC;
+		public const int MinStandingJumpXYSpeed = 0x0904;
 
 		///<summary>float</summary>
-		public const int SpeedInWaterModifier = 0x08D0;
+		public const int SpeedInWaterModifier = 0x0908;
 
 		///<summary>bool</summary>
-		public const int bUseCPVault = 0x08D4;
+		public const int bUseCPVault = 0x090C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x08D5;
+		public const int UnknownData01 = 0x090D;
 
 		///<summary>int</summary>
-		public const int HeightFor200 = 0x0928;
+		public const int HeightFor200 = 0x0960;
 
 		///<summary>int</summary>
-		public const int HeightFor160 = 0x092C;
+		public const int HeightFor160 = 0x0964;
 
 		///<summary>int</summary>
-		public const int HeightFor120 = 0x0930;
+		public const int HeightFor120 = 0x0968;
 
 		///<summary>int</summary>
-		public const int HeightFor90 = 0x0934;
+		public const int HeightFor90 = 0x096C;
 
 		///<summary>int</summary>
-		public const int HeightFor60 = 0x0938;
+		public const int HeightFor60 = 0x0970;
 
 		///<summary>float</summary>
-		public const int SizeForNarrow = 0x093C;
+		public const int SizeForNarrow = 0x0974;
 
 		///<summary>int</summary>
-		public const int SizeForSlide = 0x0940;
+		public const int SizeForSlide = 0x0978;
 
 		///<summary>float</summary>
-		public const int VelocityForMobile = 0x0944;
+		public const int VelocityForMobile = 0x097C;
 
 		///<summary>float</summary>
-		public const int GlobalVaultScale = 0x0948;
+		public const int GlobalVaultScale = 0x0980;
 
 		///<summary>float</summary>
-		public const int VaultCancelDTScalar = 0x094C;
+		public const int VaultCancelDTScalar = 0x0984;
 
 		///<summary>float</summary>
-		public const int MinVelocityForStaticVaultCheck = 0x0950;
+		public const int MinVelocityForStaticVaultCheck = 0x0988;
 
 		///<summary>FVector2D</summary>
-		public const int MaxVaultDistanceByVelocityInMap = 0x0954;
+		public const int MaxVaultDistanceByVelocityInMap = 0x098C;
 
 		///<summary>FVector2D</summary>
-		public const int MaxVaultDistanceByVelocityOutMap = 0x095C;
+		public const int MaxVaultDistanceByVelocityOutMap = 0x0994;
 
 		///<summary>FVaultingTask</summary>
-		public const int CurrentVaultingTask = 0x0964;
+		public const int CurrentVaultingTask = 0x099C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData02 = 0x09A4;
+		public const int UnknownData02 = 0x09DC;
 
 		///<summary>UVaultingData *</summary>
-		public const int CurrentVaultingData = 0x09A8;
+		public const int CurrentVaultingData = 0x09E0;
 
 		///<summary>float</summary>
-		public const int V_Timer_CP = 0x09B0;
+		public const int V_Timer_CP = 0x09E8;
 
 		///<summary>float</summary>
-		public const int AnimMultiplierPreApex = 0x09B4;
+		public const int AnimMultiplierPreApex = 0x09EC;
 
 		///<summary>float</summary>
-		public const int AnimMultiplierPostApex = 0x09B8;
+		public const int AnimMultiplierPostApex = 0x09F0;
 
 		///<summary>bool</summary>
-		public const int bIsVaulting_CP = 0x09BC;
+		public const int bIsVaulting_CP = 0x09F4;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x09BD;
+		public const int UnknownData03 = 0x09F5;
 
 		///<summary>FVector</summary>
-		public const int CharacterRelLocation = 0x09C0;
+		public const int CharacterRelLocation = 0x09F8;
 
 		///<summary>FVector</summary>
-		public const int LastVaultLocation = 0x09CC;
+		public const int LastVaultLocation = 0x0A04;
 
 		///<summary>FVector</summary>
-		public const int AveragedVelocity = 0x09D8;
+		public const int AveragedVelocity = 0x0A10;
 
 		///<summary>float</summary>
-		public const int LastVaultTime = 0x09E4;
+		public const int LastVaultTime = 0x0A1C;
 
 		///<summary>float</summary>
-		public const int VaultCancelAnimSpeed = 0x09E8;
+		public const int VaultCancelAnimSpeed = 0x0A20;
 
 		///<summary>bool</summary>
-		public const int bWantsToCancelVault = 0x09EC;
+		public const int bWantsToCancelVault = 0x0A24;
 
 		///<summary>unsigned char[0x63]</summary>
-		public const int UnknownData04 = 0x09ED;
+		public const int UnknownData04 = 0x0A25;
 
 		///<summary>float</summary>
-		public const int MaxSwimAcceleration = 0x0A50;
+		public const int MaxSwimAcceleration = 0x0A88;
 
 		///<summary>float</summary>
-		public const int MaxZSpeedOutOfWaterModifier = 0x0A54;
+		public const int MaxZSpeedOutOfWaterModifier = 0x0A8C;
 
 		///<summary>FRotator</summary>
-		public const int MaxSwimmingRotationRate = 0x0A58;
+		public const int MaxSwimmingRotationRate = 0x0A90;
 
 		///<summary>FRotator</summary>
-		public const int SwimmingRotationAcceleration = 0x0A64;
+		public const int SwimmingRotationAcceleration = 0x0A9C;
 
 		///<summary>float</summary>
-		public const int MaxZSpeedOutOfWaterModifierForStandingSwimming = 0x0A70;
+		public const int MaxZSpeedOutOfWaterModifierForStandingSwimming = 0x0AA8;
 
 		///<summary>float</summary>
-		public const int WaveRidingModifier = 0x0A74;
+		public const int WaveRidingModifier = 0x0AAC;
 
 		///<summary>float</summary>
-		public const int WaveRidingSmoothingFactor = 0x0A78;
+		public const int WaveRidingSmoothingFactor = 0x0AB0;
 
 		///<summary>float</summary>
-		public const int WaveRidingModifierUnderWater = 0x0A7C;
+		public const int WaveRidingModifierUnderWater = 0x0AB4;
 
 		///<summary>float</summary>
-		public const int StayingUnderWaterDepthBand = 0x0A80;
+		public const int StayingUnderWaterDepthBand = 0x0AB8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData05 = 0x0A84;
+		public const int UnknownData05 = 0x0ABC;
 
 		///<summary>float</summary>
-		public const int MaxUnderwaterSwimSpeed = 0x0A88;
+		public const int MaxUnderwaterSwimSpeed = 0x0AC0;
 
 		///<summary>float</summary>
-		public const int MaxUnderwaterSwimAcceleration = 0x0A8C;
+		public const int MaxUnderwaterSwimAcceleration = 0x0AC4;
 
 		///<summary>float</summary>
-		public const int BrakingDecelerationUnderwaterSwimming = 0x0A90;
+		public const int BrakingDecelerationUnderwaterSwimming = 0x0AC8;
 
 		///<summary>FRotator</summary>
-		public const int MaxUnderwaterSwimmingRotationRate = 0x0A94;
+		public const int MaxUnderwaterSwimmingRotationRate = 0x0ACC;
 
 		///<summary>FRotator</summary>
-		public const int UnderwaterSwimmingRotationAcceleration = 0x0AA0;
+		public const int UnderwaterSwimmingRotationAcceleration = 0x0AD8;
 
 		///<summary>float</summary>
-		public const int MinimumHighAltitude = 0x0AAC;
+		public const int MinimumHighAltitude = 0x0AE4;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData06 = 0x0AB0;
+		public const int UnknownData06 = 0x0AE8;
 
 		///<summary>float</summary>
-		public const int MaxFallLateralSpeedAtHighAltitude = 0x0AB4;
+		public const int MaxFallLateralSpeedAtHighAltitude = 0x0AEC;
 
 		///<summary>float</summary>
-		public const int TerminalVelocityAtHighAltitude = 0x0AB8;
+		public const int TerminalVelocityAtHighAltitude = 0x0AF0;
 
 		///<summary>float</summary>
-		public const int DecreaseTerminalVelocityAtHighAltitude = 0x0ABC;
+		public const int DecreaseTerminalVelocityAtHighAltitude = 0x0AF4;
 
 		///<summary>float</summary>
-		public const int MaxFallAccelerationAtHighAltitude = 0x0AC0;
+		public const int MaxFallAccelerationAtHighAltitude = 0x0AF8;
 
 		///<summary>FRotator</summary>
-		public const int FallRotationRateAtHighAltitude = 0x0AC4;
+		public const int FallRotationRateAtHighAltitude = 0x0AFC;
 
 		///<summary>float</summary>
-		public const int AirControlAtHighAltitude = 0x0AD0;
+		public const int AirControlAtHighAltitude = 0x0B08;
 
 		///<summary>float</summary>
-		public const int AirControlBoostMultiplierAtHighAltitude = 0x0AD4;
+		public const int AirControlBoostMultiplierAtHighAltitude = 0x0B0C;
 
 		///<summary>float</summary>
-		public const int AirControlBoostVelocityThresholdAtHighAltitude = 0x0AD8;
+		public const int AirControlBoostVelocityThresholdAtHighAltitude = 0x0B10;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData07 = 0x0ADC;
+		public const int UnknownData07 = 0x0B14;
 
 		///<summary>UClass *</summary>
-		public const int FallingDamageType = 0x0AE0;
+		public const int FallingDamageType = 0x0B18;
 
 		///<summary>UCurveFloat *</summary>
-		public const int EjectDamageCurve = 0x0AE8;
+		public const int EjectDamageCurve = 0x0B20;
 
 		///<summary>float</summary>
-		public const int FallingDamageMinZCut = 0x0AF0;
+		public const int FallingDamageMinZCut = 0x0B28;
 
 		///<summary>float</summary>
-		public const int FallingDamageVDampingZ = 0x0AF4;
+		public const int FallingDamageVDampingZ = 0x0B2C;
 
 		///<summary>float</summary>
-		public const int FallingDamageFactor = 0x0AF8;
+		public const int FallingDamageFactor = 0x0B30;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData08 = 0x0AFC;
+		public const int UnknownData08 = 0x0B34;
 
 		///<summary>bool</summary>
-		public const int UseBlockedHitDamage = 0x0B08;
+		public const int UseBlockedHitDamage = 0x0B40;
 
-		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData09 = 0x0B09;
+		///<summary>unsigned char[0xF]</summary>
+		public const int UnknownData09 = 0x0B41;
 
 	}
 
@@ -5496,904 +5554,964 @@ namespace Offsets
 		public const int LocomotionDirection_CP = 0x05D0;
 
 		///<summary>float</summary>
-		public const int LocomotionJumpDirection_CP = 0x05D4;
+		public const int LocomotionDirectionClamped_CP = 0x05D4;
 
 		///<summary>float</summary>
-		public const int LeanYaw_CP = 0x05D8;
+		public const int LocomotionJumpDirection_CP = 0x05D8;
+
+		///<summary>float</summary>
+		public const int LeanYaw_CP = 0x05DC;
 
 		///<summary>FRotator</summary>
-		public const int LastAbsoluteDirection_CP = 0x05DC;
+		public const int LastAbsoluteDirection_CP = 0x05E0;
 
 		///<summary>FRotator</summary>
-		public const int ControlRotation_CP = 0x05E8;
+		public const int ControlRotation_CP = 0x05EC;
 
 		///<summary>FRotator</summary>
-		public const int ControlRotationLastMovement_CP = 0x05F4;
+		public const int ControlRotationLastMovement_CP = 0x05F8;
 
 		///<summary>FRotator</summary>
-		public const int CharacterRotation_CP = 0x0600;
+		public const int CharacterRotation_CP = 0x0604;
 
 		///<summary>TEnumAsByte&lt;EAnimStance&gt;</summary>
-		public const int Stance_CP = 0x060C;
+		public const int Stance_CP = 0x0610;
 
 		///<summary>bool</summary>
-		public const int bIsSprintingFast_CP = 0x060D;
+		public const int bIsSprintingFast_CP = 0x0611;
 
 		///<summary>bool</summary>
-		public const int bIsSprinting_CP = 0x060E;
+		public const int bIsSprinting_CP = 0x0612;
 
 		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData03 = 0x060F;
+		public const int UnknownData03 = 0x0613;
 
 		///<summary>float</summary>
-		public const int WeaponGripType_CP = 0x0610;
+		public const int WeaponGripType_CP = 0x0614;
 
 		///<summary>float</summary>
-		public const int SprintAlpha_CP = 0x0614;
+		public const int SprintAlpha_CP = 0x0618;
 
 		///<summary>float</summary>
-		public const int SprintLocoAlpha_CP = 0x0618;
+		public const int SprintLocoAlpha_CP = 0x061C;
 
 		///<summary>float</summary>
-		public const int SprintValue_CP = 0x061C;
+		public const int SprintAlphaPitchComponent_CP = 0x0620;
+
+		///<summary>float</summary>
+		public const int SprintAlphaSprintLimit_High = 0x0624;
+
+		///<summary>float</summary>
+		public const int SprintAlphaSprintLimit_Low = 0x0628;
+
+		///<summary>float</summary>
+		public const int SprintValue_CP = 0x062C;
 
 		///<summary>bool</summary>
-		public const int bLocalQuickThrowHigh_CP = 0x0620;
+		public const int bLocalQuickThrowHigh_CP = 0x0630;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData04 = 0x0621;
+		public const int UnknownData04 = 0x0631;
 
 		///<summary>float</summary>
-		public const int LocalThrowModeSwitchAlpha_CP = 0x0624;
+		public const int LocalThrowModeSwitchAlpha_CP = 0x0634;
 
 		///<summary>bool</summary>
-		public const int bIsJumping_CP = 0x0628;
+		public const int bIsJumping_CP = 0x0638;
 
 		///<summary>bool</summary>
-		public const int bJumpForward_CP = 0x0629;
+		public const int bJumpForward_CP = 0x0639;
 
 		///<summary>bool</summary>
-		public const int bIsSwimming_CP = 0x062A;
+		public const int bIsSwimming_CP = 0x063A;
 
 		///<summary>bool</summary>
-		public const int bIsUnderWater_CP = 0x062B;
+		public const int bIsUnderWater_CP = 0x063B;
 
 		///<summary>bool</summary>
-		public const int bIsDBNO_CP = 0x062C;
+		public const int bIsDBNO_CP = 0x063C;
 
 		///<summary>TEnumAsByte&lt;EAnimStance&gt;</summary>
-		public const int DBNOEntryStance = 0x062D;
+		public const int DBNOEntryStance = 0x063D;
 
 		///<summary>bool</summary>
-		public const int bIsReviving_CP = 0x062E;
+		public const int bIsReviving_CP = 0x063E;
 
 		///<summary>bool</summary>
-		public const int bIsUpperbody_CP = 0x062F;
+		public const int bIsUpperbody_CP = 0x063F;
 
 		///<summary>bool</summary>
-		public const int bIsTransitioning_CP = 0x0630;
+		public const int bIsTransitioning_CP = 0x0640;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData05 = 0x0631;
+		public const int UnknownData05 = 0x0641;
 
 		///<summary>int</summary>
-		public const int PlayerID_CP = 0x0634;
+		public const int PlayerID_CP = 0x0644;
 
 		///<summary>int</summary>
-		public const int AirCraftIDAnim_CP = 0x0638;
+		public const int AirCraftIDAnim_CP = 0x0648;
 
 		///<summary>bool</summary>
-		public const int bIsEquippingPistol_CP = 0x063C;
+		public const int bIsEquippingPistol_CP = 0x064C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData06 = 0x063D;
+		public const int UnknownData06 = 0x064D;
 
 		///<summary>UAnimMontage *</summary>
-		public const int PistolEquipMontageRefCP = 0x0640;
+		public const int PistolEquipMontageRefCP = 0x0650;
 
 		///<summary>bool</summary>
-		public const int bIsFlying_CP = 0x0648;
+		public const int bIsFlying_CP = 0x0658;
 
 		///<summary>bool</summary>
-		public const int bIsLocalPlayer = 0x0649;
+		public const int bIsLocalPlayer = 0x0659;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData07 = 0x064A;
+		public const int UnknownData07 = 0x065A;
 
 		///<summary>float</summary>
-		public const int LocalPlayerAlpha = 0x064C;
+		public const int LocalPlayerAlpha = 0x065C;
 
 		///<summary>bool</summary>
-		public const int bIsPunching_CP = 0x0650;
+		public const int bIsPunching_CP = 0x0660;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData08 = 0x0651;
+		public const int UnknownData08 = 0x0661;
 
 		///<summary>float</summary>
-		public const int PunchingAlpha_CP = 0x0654;
+		public const int PunchingAlpha_CP = 0x0664;
 
 		///<summary>TEnumAsByte&lt;EAnimWeaponType&gt;</summary>
-		public const int Weapon_CP = 0x0658;
+		public const int Weapon_CP = 0x0668;
 
 		///<summary>bool</summary>
-		public const int bIsArmedWithGun_CP = 0x0659;
+		public const int bIsArmedWithGun_CP = 0x0669;
 
 		///<summary>bool</summary>
-		public const int bIsArmedWithThrown_CP = 0x065A;
+		public const int bIsArmedWithThrown_CP = 0x066A;
 
 		///<summary>bool</summary>
-		public const int bIsPreparingThrow_CP = 0x065B;
+		public const int bIsPreparingThrow_CP = 0x066B;
 
 		///<summary>float</summary>
-		public const int ThrowableAdditionalAimYaw_CP = 0x065C;
+		public const int ThrowableAdditionalAimYaw_CP = 0x066C;
 
 		///<summary>UAnimMontage *</summary>
-		public const int CurrentRecoilMontage_CP = 0x0660;
+		public const int CurrentRecoilMontage_CP = 0x0670;
 
 		///<summary>UBlendSpace1D *</summary>
-		public const int GripBlendSpace_CP = 0x0668;
+		public const int GripBlendSpace_CP = 0x0678;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int GripBlendSpaceLH_CP = 0x0670;
+		public const int GripBlendSpaceLH_CP = 0x0680;
 
 		///<summary>float</summary>
-		public const int LHGripIndex_CP = 0x0678;
+		public const int LHGripIndex_CP = 0x0688;
 
 		///<summary>bool</summary>
-		public const int bIsReloading_CP = 0x067C;
+		public const int bIsReloading_CP = 0x068C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData09 = 0x067D;
+		public const int UnknownData09 = 0x068D;
 
 		///<summary>FVector</summary>
-		public const int HandWeaponOffset_CP = 0x0680;
+		public const int HandWeaponOffset_CP = 0x0690;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData10 = 0x068C;
+		public const int UnknownData10 = 0x069C;
 
 		///<summary>FTransform</summary>
-		public const int WeaponInertia_CP = 0x0690;
+		public const int WeaponInertia_CP = 0x06A0;
 
 		///<summary>float</summary>
-		public const int ReloadAlpha_CP = 0x06C0;
+		public const int ReloadAlpha_CP = 0x06D0;
 
 		///<summary>float</summary>
-		public const int HandWeaponOffsetAlpha_CP = 0x06C4;
+		public const int HandWeaponOffsetAlpha_CP = 0x06D4;
+
+		///<summary>FRotator</summary>
+		public const int RightClavicleRotation_CP = 0x06D8;
 
 		///<summary>float</summary>
-		public const int FinalRecoilAlpha_CP = 0x06C8;
+		public const int FinalRecoilAlpha_CP = 0x06E4;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_CP = 0x06E8;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Pistol = 0x06F0;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_SMG = 0x06F8;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Rifle = 0x0700;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Sniper = 0x0708;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Pistol_FPP = 0x0710;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_SMG_FPP = 0x0718;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Rifle_FPP = 0x0720;
+
+		///<summary>UBlendSpaceBase *</summary>
+		public const int WeaponLocomotionBlendspace_Sniper_FPP = 0x0728;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaX_Scalar_CP = 0x0730;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaY_Scalar_CP = 0x0734;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaX_Clamp_CP = 0x0738;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaY_Clamp_CP = 0x073C;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_InerpSpeed_CP = 0x0740;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaX_Scalar_ADS_CP = 0x0744;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaY_Scalar_ADS_CP = 0x0748;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaX_Clamp_ADS_CP = 0x074C;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaY_Clamp_ADS_CP = 0x0750;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_InerpSpeed_ADS_CP = 0x0754;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_InerpSpeed_YawScalar_CP = 0x0758;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_YawToRollScalar_CP = 0x075C;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_YawToRollScalar_ADS_CP = 0x0760;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaRoll_Clamp_ADS_CP = 0x0764;
+
+		///<summary>float</summary>
+		public const int WeaponInertiaRoll_Clamp_CP = 0x0768;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_Yaw_CP = 0x076C;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_Pitch_CP = 0x0770;
+
+		///<summary>float</summary>
+		public const int WeaponInertia_Roll_CP = 0x0774;
+
+		///<summary>float</summary>
+		public const int SprintWeaponLoweringAlpha_CP = 0x0778;
+
+		///<summary>float</summary>
+		public const int RecoilRollValue_CP = 0x077C;
+
+		///<summary>float</summary>
+		public const int RecoilTimer_CP = 0x0780;
+
+		///<summary>float</summary>
+		public const int RecoilRollRand_CP = 0x0784;
+
+		///<summary>float</summary>
+		public const int RecoilTimerScale_CP = 0x0788;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData11 = 0x06CC;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_CP = 0x06D0;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Pistol = 0x06D8;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_SMG = 0x06E0;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Rifle = 0x06E8;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Sniper = 0x06F0;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Pistol_FPP = 0x06F8;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_SMG_FPP = 0x0700;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Rifle_FPP = 0x0708;
-
-		///<summary>UBlendSpaceBase *</summary>
-		public const int WeaponLocomotionBlendspace_Sniper_FPP = 0x0710;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaX_Scalar_CP = 0x0718;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaY_Scalar_CP = 0x071C;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaX_Clamp_CP = 0x0720;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaY_Clamp_CP = 0x0724;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_InerpSpeed_CP = 0x0728;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaX_Scalar_ADS_CP = 0x072C;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaY_Scalar_ADS_CP = 0x0730;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaX_Clamp_ADS_CP = 0x0734;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaY_Clamp_ADS_CP = 0x0738;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_InerpSpeed_ADS_CP = 0x073C;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_InerpSpeed_YawScalar_CP = 0x0740;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_YawToRollScalar_CP = 0x0744;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_YawToRollScalar_ADS_CP = 0x0748;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaRoll_Clamp_ADS_CP = 0x074C;
-
-		///<summary>float</summary>
-		public const int WeaponInertiaRoll_Clamp_CP = 0x0750;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_Yaw_CP = 0x0754;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_Pitch_CP = 0x0758;
-
-		///<summary>float</summary>
-		public const int WeaponInertia_Roll_CP = 0x075C;
-
-		///<summary>float</summary>
-		public const int SprintWeaponLoweringAlpha_CP = 0x0760;
-
-		///<summary>float</summary>
-		public const int RecoilRollValue_CP = 0x0764;
-
-		///<summary>float</summary>
-		public const int RecoilTimer_CP = 0x0768;
-
-		///<summary>float</summary>
-		public const int RecoilRollRand_CP = 0x076C;
-
-		///<summary>float</summary>
-		public const int RecoilTimerScale_CP = 0x0770;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData12 = 0x0774;
+		public const int UnknownData11 = 0x078C;
 
 		///<summary>UCurveFloat *</summary>
-		public const int RecoilRollCurve_CP = 0x0778;
+		public const int RecoilRollCurve_CP = 0x0790;
 
 		///<summary>float</summary>
-		public const int WeaponStabilityAlpha_CP = 0x0780;
+		public const int WeaponStabilityAlpha_CP = 0x0798;
 
 		///<summary>float</summary>
-		public const int WeaponStabilityRefSpeed_CP = 0x0784;
+		public const int WeaponStabilityRefSpeed_CP = 0x079C;
 
 		///<summary>FVector2D</summary>
-		public const int WeaponStabilityRefMapIn_CP = 0x0788;
+		public const int WeaponStabilityRefMapIn_CP = 0x07A0;
 
 		///<summary>FVector2D</summary>
-		public const int WeaponStabilityRefMapOut_CP = 0x0790;
+		public const int WeaponStabilityRefMapOut_CP = 0x07A8;
 
 		///<summary>float</summary>
-		public const int WeaponStabilityInterpSpeed_CP = 0x0798;
+		public const int WeaponStabilityInterpSpeed_CP = 0x07B0;
 
 		///<summary>bool</summary>
-		public const int bIsAiming_CP = 0x079C;
+		public const int bIsAiming_CP = 0x07B4;
 
 		///<summary>bool</summary>
-		public const int bIsScoping_CP = 0x079D;
+		public const int bIsScoping_CP = 0x07B5;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData13 = 0x079E;
+		public const int UnknownData12 = 0x07B6;
 
 		///<summary>float</summary>
-		public const int WeaponAimState_CP = 0x07A0;
+		public const int WeaponAimState_CP = 0x07B8;
 
 		///<summary>float</summary>
-		public const int SprintAlphaModifier_CP = 0x07A4;
+		public const int SprintAlphaModifier_CP = 0x07BC;
 
 		///<summary>bool</summary>
-		public const int bIsAimingBackward_CP = 0x07A8;
+		public const int bIsAimingBackward_CP = 0x07C0;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData14 = 0x07A9;
+		public const int UnknownData13 = 0x07C1;
 
 		///<summary>float</summary>
-		public const int Yaw_CP = 0x07AC;
+		public const int Yaw_CP = 0x07C4;
 
 		///<summary>float</summary>
-		public const int RotationYaw_CP = 0x07B0;
+		public const int RotationYaw_CP = 0x07C8;
 
 		///<summary>float</summary>
-		public const int Pitch_CP = 0x07B4;
+		public const int Pitch_CP = 0x07CC;
 
 		///<summary>float</summary>
-		public const int YawNormalized_CP = 0x07B8;
+		public const int YawNormalized_CP = 0x07D0;
 
 		///<summary>float</summary>
-		public const int DesiredPitch_CP = 0x07BC;
+		public const int DesiredPitch_CP = 0x07D4;
 
 		///<summary>unsigned char</summary>
-		public const int AimDirectionCardinal_CP = 0x07C0;
+		public const int AimDirectionCardinal_CP = 0x07D8;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData15 = 0x07C1;
+		public const int UnknownData14 = 0x07D9;
 
 		///<summary>FRotator</summary>
-		public const int AORot_CP = 0x07C4;
+		public const int AORot_CP = 0x07DC;
 
 		///<summary>FRotator</summary>
-		public const int AORotBackwards_CP = 0x07D0;
+		public const int AORotBackwards_CP = 0x07E8;
 
 		///<summary>float</summary>
-		public const int SwimmingPitch_CP = 0x07DC;
+		public const int SwimmingPitch_CP = 0x07F4;
 
 		///<summary>float</summary>
-		public const int ForceAddAimOffset_CP = 0x07E0;
+		public const int ForceAddAimOffset_CP = 0x07F8;
 
 		///<summary>float</summary>
-		public const int WeaponCollisionAlpha_CP = 0x07E4;
+		public const int WeaponCollisionAlpha_CP = 0x07FC;
 
 		///<summary>bool</summary>
-		public const int bWeaponObstructedHigh_CP = 0x07E8;
-
-		///<summary>bool</summary>
-		public const int bIsFalling_CP = 0x07E9;
-
-		///<summary>bool</summary>
-		public const int bWasFalling_CP = 0x07EA;
-
-		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData16 = 0x07EB;
-
-		///<summary>float</summary>
-		public const int FallingAlpha_CP = 0x07EC;
-
-		///<summary>FVector2D</summary>
-		public const int FallingMap2D = 0x07F0;
-
-		///<summary>FVector2D</summary>
-		public const int FallingMapZ = 0x07F8;
-
-		///<summary>bool</summary>
-		public const int bForceFall_CP = 0x0800;
-
-		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData17 = 0x0801;
-
-		///<summary>UAnimMontage *</summary>
-		public const int MontageFallingRifle_CP = 0x0808;
-
-		///<summary>UAnimMontage *</summary>
-		public const int MontageFallingUnarmed_CP = 0x0810;
-
-		///<summary>float</summary>
-		public const int LandingAlpha_CP = 0x0818;
-
-		///<summary>bool</summary>
-		public const int bLocalForceProne_CP = 0x081C;
+		public const int bWeaponObstructedHigh_CP = 0x0800;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData18 = 0x081D;
+		public const int UnknownData15 = 0x0801;
 
 		///<summary>float</summary>
-		public const int JumpHeight_CP = 0x0820;
-
-		///<summary>float</summary>
-		public const int FallHeight_CP = 0x0824;
-
-		///<summary>FVector</summary>
-		public const int JumpStartLocation_CP = 0x0828;
-
-		///<summary>FVector</summary>
-		public const int LandPredictionVector_CP = 0x0834;
-
-		///<summary>float</summary>
-		public const int LeanLeftAlpha_CP = 0x0840;
-
-		///<summary>float</summary>
-		public const int LeanRightAlpha_CP = 0x0844;
-
-		///<summary>float</summary>
-		public const int LeanTwoSideAlpha_CP = 0x0848;
-
-		///<summary>float</summary>
-		public const int LeanLeftApplyTranslation_CP = 0x084C;
-
-		///<summary>float</summary>
-		public const int LeanInterpSpeed_CP = 0x0850;
-
-		///<summary>float</summary>
-		public const int LeanInterpSpeedCollisionClamp_CP = 0x0854;
+		public const int WeaponCollisionReloadAlpha_CP = 0x0804;
 
 		///<summary>bool</summary>
-		public const int bUseLinearLeanInterp = 0x0858;
+		public const int bIsFalling_CP = 0x0808;
 
 		///<summary>bool</summary>
-		public const int bIsFreefalling_CP = 0x0859;
-
-		///<summary>bool</summary>
-		public const int bIsParachuting_CP = 0x085A;
-
-		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData19 = 0x085B;
-
-		///<summary>float</summary>
-		public const int FreefallX_CP = 0x085C;
-
-		///<summary>float</summary>
-		public const int FreefallY_CP = 0x0860;
-
-		///<summary>float</summary>
-		public const int FreeFallAlpha_CP = 0x0864;
-
-		///<summary>bool</summary>
-		public const int bIsParachuteLanding_CP = 0x0868;
-
-		///<summary>bool</summary>
-		public const int bIsParachuteMoving_CP = 0x0869;
+		public const int bWasFalling_CP = 0x0809;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData20 = 0x086A;
+		public const int UnknownData16 = 0x080A;
 
 		///<summary>float</summary>
-		public const int Freefall_Yaw_CP = 0x086C;
+		public const int FallingAlpha_CP = 0x080C;
+
+		///<summary>FVector2D</summary>
+		public const int FallingMap2D = 0x0810;
+
+		///<summary>FVector2D</summary>
+		public const int FallingMapZ = 0x0818;
+
+		///<summary>bool</summary>
+		public const int bForceFall_CP = 0x0820;
+
+		///<summary>unsigned char[0x7]</summary>
+		public const int UnknownData17 = 0x0821;
+
+		///<summary>UAnimMontage *</summary>
+		public const int MontageFallingRifle_CP = 0x0828;
+
+		///<summary>UAnimMontage *</summary>
+		public const int MontageFallingUnarmed_CP = 0x0830;
 
 		///<summary>float</summary>
-		public const int Freefall_Pitch_CP = 0x0870;
+		public const int LandingAlpha_CP = 0x0838;
 
 		///<summary>bool</summary>
-		public const int bIsFreelooking_CP = 0x0874;
-
-		///<summary>bool</summary>
-		public const int bIsMeleeAttacking_CP = 0x0875;
-
-		///<summary>bool</summary>
-		public const int bLocalForceRotationHipLeft_CP = 0x0876;
-
-		///<summary>bool</summary>
-		public const int bLocalForceRotationHipRight_CP = 0x0877;
-
-		///<summary>bool</summary>
-		public const int bLocalForceRotationAimed_CP = 0x0878;
+		public const int bLocalForceProne_CP = 0x083C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData21 = 0x0879;
+		public const int UnknownData18 = 0x083D;
 
 		///<summary>float</summary>
-		public const int RotationPlayrateAimed_CP = 0x087C;
+		public const int JumpHeight_CP = 0x0840;
 
 		///<summary>float</summary>
-		public const int RotationPlayrateAimedAdditiveSpine_CP = 0x0880;
-
-		///<summary>FRotator</summary>
-		public const int LastRotation_CP = 0x0884;
-
-		///<summary>FRotator</summary>
-		public const int Freelook_Body_CP = 0x0890;
-
-		///<summary>FRotator</summary>
-		public const int Freelook_Delta_CP = 0x089C;
-
-		///<summary>int</summary>
-		public const int IdleIndex_CP = 0x08A8;
-
-		///<summary>int</summary>
-		public const int LastIdleIndex_CP = 0x08AC;
-
-		///<summary>float</summary>
-		public const int IdleTimer_CP = 0x08B0;
-
-		///<summary>float</summary>
-		public const int IdleTriggerRandom = 0x08B4;
-
-		///<summary>float</summary>
-		public const int IdleTriggerTimeMin_CP = 0x08B8;
-
-		///<summary>float</summary>
-		public const int IdleTriggerTimeVariation_CP = 0x08BC;
-
-		///<summary>FTransform</summary>
-		public const int SlotPrimary_CP = 0x08C0;
-
-		///<summary>FTransform</summary>
-		public const int SlotSecondary_CP = 0x08F0;
-
-		///<summary>FTransform</summary>
-		public const int SlotMelee_CP = 0x0920;
-
-		///<summary>FTransform</summary>
-		public const int SlotThrown_CP = 0x0950;
+		public const int FallHeight_CP = 0x0844;
 
 		///<summary>FVector</summary>
-		public const int SlotPrimary_Offset_CP = 0x0980;
+		public const int JumpStartLocation_CP = 0x0848;
 
 		///<summary>FVector</summary>
-		public const int SlotSecondary_Offset_CP = 0x098C;
-
-		///<summary>FVector</summary>
-		public const int SlotPrimary_Location_CP = 0x0998;
-
-		///<summary>FVector</summary>
-		public const int SlotSecondary_Location_CP = 0x09A4;
-
-		///<summary>FVector</summary>
-		public const int SlotMelee_Location_CP = 0x09B0;
-
-		///<summary>FVector</summary>
-		public const int SlotThrown_Location_CP = 0x09BC;
-
-		///<summary>FRotator</summary>
-		public const int SlotPrimary_Rotation_CP = 0x09C8;
-
-		///<summary>FRotator</summary>
-		public const int SlotSecondary_Rotation_CP = 0x09D4;
-
-		///<summary>FRotator</summary>
-		public const int SlotMelee_Rotation_CP = 0x09E0;
-
-		///<summary>FRotator</summary>
-		public const int SlotThrown_Rotation_CP = 0x09EC;
+		public const int LandPredictionVector_CP = 0x0854;
 
 		///<summary>float</summary>
-		public const int AnimDynamicsStandAlpha_CP = 0x09F8;
+		public const int LeanLeftAlpha_CP = 0x0860;
 
 		///<summary>float</summary>
-		public const int AnimDynamicsStandSprintAlpha_CP = 0x09FC;
+		public const int LeanRightAlpha_CP = 0x0864;
 
 		///<summary>float</summary>
-		public const int AnimDynamicsCrouchAlpha_CP = 0x0A00;
+		public const int LeanTwoSideAlpha_CP = 0x0868;
 
 		///<summary>float</summary>
-		public const int AnimDynamicsProneAlpha_CP = 0x0A04;
+		public const int LeanLeftApplyTranslation_CP = 0x086C;
 
-		///<summary>FVector</summary>
-		public const int EFCoat_CP = 0x0A08;
+		///<summary>float</summary>
+		public const int LeanInterpSpeed_CP = 0x0870;
+
+		///<summary>float</summary>
+		public const int LeanInterpSpeedCollisionClamp_CP = 0x0874;
 
 		///<summary>bool</summary>
-		public const int bLocalFPP_CP = 0x0A14;
+		public const int bUseLinearLeanInterp = 0x0878;
+
+		///<summary>bool</summary>
+		public const int bIsFreefalling_CP = 0x0879;
+
+		///<summary>bool</summary>
+		public const int bIsParachuting_CP = 0x087A;
+
+		///<summary>unsigned char[0x1]</summary>
+		public const int UnknownData19 = 0x087B;
+
+		///<summary>float</summary>
+		public const int FreefallX_CP = 0x087C;
+
+		///<summary>float</summary>
+		public const int FreefallY_CP = 0x0880;
+
+		///<summary>float</summary>
+		public const int FreeFallAlpha_CP = 0x0884;
+
+		///<summary>bool</summary>
+		public const int bIsParachuteLanding_CP = 0x0888;
+
+		///<summary>bool</summary>
+		public const int bIsParachuteMoving_CP = 0x0889;
+
+		///<summary>unsigned char[0x2]</summary>
+		public const int UnknownData20 = 0x088A;
+
+		///<summary>float</summary>
+		public const int Freefall_Yaw_CP = 0x088C;
+
+		///<summary>float</summary>
+		public const int Freefall_Pitch_CP = 0x0890;
+
+		///<summary>bool</summary>
+		public const int bIsFreelooking_CP = 0x0894;
+
+		///<summary>bool</summary>
+		public const int bIsMeleeAttacking_CP = 0x0895;
+
+		///<summary>bool</summary>
+		public const int bLocalForceRotationHipLeft_CP = 0x0896;
+
+		///<summary>bool</summary>
+		public const int bLocalForceRotationHipRight_CP = 0x0897;
+
+		///<summary>bool</summary>
+		public const int bLocalForceRotationAimed_CP = 0x0898;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData22 = 0x0A15;
+		public const int UnknownData21 = 0x0899;
 
 		///<summary>float</summary>
-		public const int LocalFPPAlpha_CP = 0x0A18;
+		public const int RotationPlayrateAimed_CP = 0x089C;
 
 		///<summary>float</summary>
-		public const int LocalFPPAlphaVehicleAimAO_CP = 0x0A1C;
-
-		///<summary>bool</summary>
-		public const int bIsInAircraft_CP = 0x0A20;
-
-		///<summary>bool</summary>
-		public const int bIsDriver_CP = 0x0A21;
-
-		///<summary>bool</summary>
-		public const int bIsSitting_CP = 0x0A22;
-
-		///<summary>bool</summary>
-		public const int bIsInVehicle_CP = 0x0A23;
-
-		///<summary>float</summary>
-		public const int LocalSteerInput_CP = 0x0A24;
-
-		///<summary>float</summary>
-		public const int LocalSteerInputMoto_CP = 0x0A28;
-
-		///<summary>float</summary>
-		public const int LocalStopMoto_CP = 0x0A2C;
-
-		///<summary>float</summary>
-		public const int LocalThrottleInput_CP = 0x0A30;
+		public const int RotationPlayrateAimedAdditiveSpine_CP = 0x08A0;
 
 		///<summary>FRotator</summary>
-		public const int GasThighRot_CP = 0x0A34;
+		public const int LastRotation_CP = 0x08A4;
 
 		///<summary>FRotator</summary>
-		public const int GasAnkleRot_CP = 0x0A40;
+		public const int Freelook_Body_CP = 0x08B0;
+
+		///<summary>FRotator</summary>
+		public const int Freelook_Delta_CP = 0x08BC;
+
+		///<summary>int</summary>
+		public const int IdleIndex_CP = 0x08C8;
+
+		///<summary>int</summary>
+		public const int LastIdleIndex_CP = 0x08CC;
+
+		///<summary>float</summary>
+		public const int IdleTimer_CP = 0x08D0;
+
+		///<summary>float</summary>
+		public const int IdleTriggerRandom = 0x08D4;
+
+		///<summary>float</summary>
+		public const int IdleTriggerTimeMin_CP = 0x08D8;
+
+		///<summary>float</summary>
+		public const int IdleTriggerTimeVariation_CP = 0x08DC;
+
+		///<summary>FTransform</summary>
+		public const int SlotPrimary_CP = 0x08E0;
+
+		///<summary>FTransform</summary>
+		public const int SlotSecondary_CP = 0x0910;
+
+		///<summary>FTransform</summary>
+		public const int SlotMelee_CP = 0x0940;
+
+		///<summary>FTransform</summary>
+		public const int SlotThrown_CP = 0x0970;
+
+		///<summary>FVector</summary>
+		public const int SlotPrimary_Offset_CP = 0x09A0;
+
+		///<summary>FVector</summary>
+		public const int SlotSecondary_Offset_CP = 0x09AC;
+
+		///<summary>FVector</summary>
+		public const int SlotPrimary_Location_CP = 0x09B8;
+
+		///<summary>FVector</summary>
+		public const int SlotSecondary_Location_CP = 0x09C4;
+
+		///<summary>FVector</summary>
+		public const int SlotMelee_Location_CP = 0x09D0;
+
+		///<summary>FVector</summary>
+		public const int SlotThrown_Location_CP = 0x09DC;
+
+		///<summary>FRotator</summary>
+		public const int SlotPrimary_Rotation_CP = 0x09E8;
+
+		///<summary>FRotator</summary>
+		public const int SlotSecondary_Rotation_CP = 0x09F4;
+
+		///<summary>FRotator</summary>
+		public const int SlotMelee_Rotation_CP = 0x0A00;
+
+		///<summary>FRotator</summary>
+		public const int SlotThrown_Rotation_CP = 0x0A0C;
+
+		///<summary>float</summary>
+		public const int AnimDynamicsStandAlpha_CP = 0x0A18;
+
+		///<summary>float</summary>
+		public const int AnimDynamicsStandSprintAlpha_CP = 0x0A1C;
+
+		///<summary>float</summary>
+		public const int AnimDynamicsCrouchAlpha_CP = 0x0A20;
+
+		///<summary>float</summary>
+		public const int AnimDynamicsProneAlpha_CP = 0x0A24;
+
+		///<summary>FVector</summary>
+		public const int EFCoat_CP = 0x0A28;
+
+		///<summary>bool</summary>
+		public const int bLocalFPP_CP = 0x0A34;
+
+		///<summary>unsigned char[0x3]</summary>
+		public const int UnknownData22 = 0x0A35;
+
+		///<summary>float</summary>
+		public const int LocalFPPAlpha_CP = 0x0A38;
+
+		///<summary>float</summary>
+		public const int LocalFPPAlphaVehicleAimAO_CP = 0x0A3C;
+
+		///<summary>bool</summary>
+		public const int bIsInAircraft_CP = 0x0A40;
+
+		///<summary>bool</summary>
+		public const int bIsDriver_CP = 0x0A41;
+
+		///<summary>bool</summary>
+		public const int bIsSitting_CP = 0x0A42;
+
+		///<summary>bool</summary>
+		public const int bIsInVehicle_CP = 0x0A43;
+
+		///<summary>float</summary>
+		public const int LocalSteerInput_CP = 0x0A44;
+
+		///<summary>float</summary>
+		public const int LocalSteerInputMoto_CP = 0x0A48;
+
+		///<summary>float</summary>
+		public const int LocalStopMoto_CP = 0x0A4C;
+
+		///<summary>float</summary>
+		public const int LocalThrottleInput_CP = 0x0A50;
+
+		///<summary>FRotator</summary>
+		public const int GasThighRot_CP = 0x0A54;
+
+		///<summary>FRotator</summary>
+		public const int GasAnkleRot_CP = 0x0A60;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData23 = 0x0A4C;
+		public const int UnknownData23 = 0x0A6C;
 
 		///<summary>FTransform</summary>
-		public const int GasKneeTransformX_CP = 0x0A50;
+		public const int GasKneeTransformX_CP = 0x0A70;
 
 		///<summary>float</summary>
-		public const int LocalBrakeInput_CP = 0x0A80;
+		public const int LocalBrakeInput_CP = 0x0AA0;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData24 = 0x0A84;
+		public const int UnknownData24 = 0x0AA4;
 
 		///<summary>FTransform</summary>
-		public const int BrakeKneeTransform_CP = 0x0A90;
+		public const int BrakeKneeTransform_CP = 0x0AB0;
 
 		///<summary>FRotator</summary>
-		public const int BrakeAnkleRot_CP = 0x0AC0;
+		public const int BrakeAnkleRot_CP = 0x0AE0;
 
 		///<summary>float</summary>
-		public const int BackwardAOAlpha_CP = 0x0ACC;
+		public const int BackwardAOAlpha_CP = 0x0AEC;
 
 		///<summary>float</summary>
-		public const int AimBlendAlpha_CP = 0x0AD0;
+		public const int AimBlendAlpha_CP = 0x0AF0;
 
 		///<summary>bool</summary>
-		public const int bHasContact_CP = 0x0AD4;
+		public const int bHasContact_CP = 0x0AF4;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData25 = 0x0AD5;
+		public const int UnknownData25 = 0x0AF5;
 
 		///<summary>float</summary>
-		public const int GroundContactMoto_CP = 0x0AD8;
+		public const int GroundContactMoto_CP = 0x0AF8;
 
 		///<summary>float</summary>
-		public const int AirControlPitchInput_CP = 0x0ADC;
+		public const int AirControlPitchInput_CP = 0x0AFC;
 
 		///<summary>FTransform</summary>
-		public const int DriverIK_CP = 0x0AE0;
+		public const int DriverIK_CP = 0x0B00;
 
 		///<summary>float</summary>
-		public const int PassengerIKAlpha_CP = 0x0B10;
+		public const int PassengerIKAlpha_CP = 0x0B30;
 
 		///<summary>FVector</summary>
-		public const int DriverSpineLocWS_CP = 0x0B14;
+		public const int DriverSpineLocWS_CP = 0x0B34;
 
 		///<summary>EVehicleAnimType</summary>
-		public const int VehicleSeatType_CP = 0x0B20;
+		public const int VehicleSeatType_CP = 0x0B40;
 
 		///<summary>bool</summary>
-		public const int bMotoHasDriver_CP = 0x0B21;
+		public const int bMotoHasDriver_CP = 0x0B41;
 
 		///<summary>bool</summary>
-		public const int bVaultCanceled = 0x0B22;
+		public const int bVaultCanceled = 0x0B42;
 
 		///<summary>bool</summary>
-		public const int bIsVaulting_CP = 0x0B23;
+		public const int bIsVaulting_CP = 0x0B43;
 
 		///<summary>float</summary>
-		public const int AnimHairAlpha = 0x0B24;
+		public const int AnimHairAlpha = 0x0B44;
 
 		///<summary>float</summary>
-		public const int VaultTimer_CP = 0x0B28;
+		public const int VaultTimer_CP = 0x0B48;
 
 		///<summary>float</summary>
-		public const int VaultTimerLast_CP = 0x0B2C;
+		public const int VaultTimerLast_CP = 0x0B4C;
 
 		///<summary>EVaultAnimType</summary>
-		public const int LocalVaultType_CP = 0x0B30;
+		public const int LocalVaultType_CP = 0x0B50;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData26 = 0x0B31;
+		public const int UnknownData26 = 0x0B51;
 
 		///<summary>UAnimSequenceBase *</summary>
-		public const int VaultAnimSequence_CP = 0x0B38;
+		public const int VaultAnimSequence_CP = 0x0B58;
 
 		///<summary>float</summary>
-		public const int VaultAnimLength_CP = 0x0B40;
+		public const int VaultAnimLength_CP = 0x0B60;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData27 = 0x0B44;
+		public const int UnknownData27 = 0x0B64;
 
 		///<summary>UCurveFloat *</summary>
-		public const int VaultCurve_CP = 0x0B48;
+		public const int VaultCurve_CP = 0x0B68;
 
 		///<summary>float</summary>
-		public const int VaultBlendInTime_CP = 0x0B50;
+		public const int VaultBlendInTime_CP = 0x0B70;
 
 		///<summary>float</summary>
-		public const int VaultBlendOutTime_CP = 0x0B54;
+		public const int VaultBlendOutTime_CP = 0x0B74;
 
 		///<summary>bool</summary>
-		public const int bEndVaultToFall_CP = 0x0B58;
+		public const int bEndVaultToFall_CP = 0x0B78;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData28 = 0x0B59;
+		public const int UnknownData28 = 0x0B79;
 
 		///<summary>float</summary>
-		public const int VaultBlendOutProgressTime_CP = 0x0B5C;
+		public const int VaultBlendOutProgressTime_CP = 0x0B7C;
 
 		///<summary>float</summary>
-		public const int VaultBlendOutExactTime_CP = 0x0B60;
+		public const int VaultBlendOutExactTime_CP = 0x0B80;
 
 		///<summary>float</summary>
-		public const int VaultLastActionTimer_CP = 0x0B64;
+		public const int VaultLastActionTimer_CP = 0x0B84;
 
 		///<summary>float</summary>
-		public const int VaultAnimTime_CP = 0x0B68;
+		public const int VaultAnimTime_CP = 0x0B88;
 
 		///<summary>float</summary>
-		public const int VaultBlendOutTimeBuffer = 0x0B6C;
+		public const int VaultBlendOutTimeBuffer = 0x0B8C;
 
 		///<summary>ECastAnim</summary>
-		public const int CurrentCastAnim_CP = 0x0B70;
+		public const int CurrentCastAnim_CP = 0x0B90;
 
 		///<summary>bool</summary>
-		public const int bIsActiveRagdoll_CP = 0x0B71;
+		public const int bIsActiveRagdoll_CP = 0x0B91;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData29 = 0x0B72;
+		public const int UnknownData29 = 0x0B92;
 
 		///<summary>float</summary>
-		public const int WeaponIKLH_CP = 0x0B74;
+		public const int WeaponIKLH_CP = 0x0B94;
 
 		///<summary>float</summary>
-		public const int WeaponIKRH_CP = 0x0B78;
+		public const int WeaponIKRH_CP = 0x0B98;
 
 		///<summary>float</summary>
-		public const int MontageIKLH_CP = 0x0B7C;
+		public const int MontageIKLH_CP = 0x0B9C;
 
 		///<summary>float</summary>
-		public const int MontageIKRH_CP = 0x0B80;
+		public const int MontageIKRH_CP = 0x0BA0;
 
 		///<summary>float</summary>
-		public const int IgnoreWeaponTransform_CP = 0x0B84;
+		public const int IgnoreWeaponTransform_CP = 0x0BA4;
 
 		///<summary>float</summary>
-		public const int PickupIKAlpha_CP = 0x0B88;
+		public const int PickupIKAlpha_CP = 0x0BA8;
 
 		///<summary>float</summary>
-		public const int TargetIKRH_CP = 0x0B8C;
+		public const int TargetIKRH_CP = 0x0BAC;
 
 		///<summary>float</summary>
-		public const int TargetIKLH_CP = 0x0B90;
+		public const int TargetIKLH_CP = 0x0BB0;
 
 		///<summary>float</summary>
-		public const int ForceLegsFromAnim_CP = 0x0B94;
+		public const int ForceLegsFromAnim_CP = 0x0BB4;
 
 		///<summary>ATslWeapon_Gun *</summary>
-		public const int LastGunCache_CP = 0x0B98;
+		public const int LastGunCache_CP = 0x0BB8;
 
 		///<summary>ATslWheeledVehicle *</summary>
-		public const int CachedWheeledVehicle_CP = 0x0BA0;
+		public const int CachedWheeledVehicle_CP = 0x0BC0;
 
 		///<summary>ATslFloatingVehicle *</summary>
-		public const int CachedFloatingVehicle_CP = 0x0BA8;
+		public const int CachedFloatingVehicle_CP = 0x0BC8;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int PassengerAimBS_CP = 0x0BB0;
+		public const int PassengerAimBS_CP = 0x0BD0;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int PassengerTransitionOut_CP = 0x0BB8;
+		public const int PassengerTransitionOut_CP = 0x0BD8;
 
 		///<summary>UBlendSpaceBase *</summary>
-		public const int PassengerTransitionIn_CP = 0x0BC0;
+		public const int PassengerTransitionIn_CP = 0x0BE0;
 
 		///<summary>UAnimSequenceBase *</summary>
-		public const int PassengerIdle_Rifle_CP = 0x0BC8;
+		public const int PassengerIdle_Rifle_CP = 0x0BE8;
 
 		///<summary>UAnimSequenceBase *</summary>
-		public const int PassengerIdle_Unarmed_CP = 0x0BD0;
+		public const int PassengerIdle_Unarmed_CP = 0x0BF0;
 
 		///<summary>UAnimSequenceBase *</summary>
-		public const int PassengerIdle_Grenade_CP = 0x0BD8;
+		public const int PassengerIdle_Grenade_CP = 0x0BF8;
 
 		///<summary>UAnimSequenceBase *</summary>
-		public const int PassengerIdle_Melee_CP = 0x0BE0;
+		public const int PassengerIdle_Melee_CP = 0x0C00;
 
 		///<summary>UCurveFloat *</summary>
-		public const int CurveAimState_CP = 0x0BE8;
+		public const int CurveAimState_CP = 0x0C08;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData30 = 0x0BF0;
+		public const int UnknownData30 = 0x0C10;
 
 		///<summary>bool</summary>
-		public const int bIsLOD1 = 0x0BF8;
+		public const int bIsLOD1 = 0x0C18;
 
 		///<summary>bool</summary>
-		public const int bIsLOD2 = 0x0BF9;
+		public const int bIsLOD2 = 0x0C19;
 
 		///<summary>bool</summary>
-		public const int bIsWearingCoat = 0x0BFA;
+		public const int bIsWearingCoat = 0x0C1A;
 
 		///<summary>unsigned char[0x9]</summary>
-		public const int UnknownData31 = 0x0BFB;
+		public const int UnknownData31 = 0x0C1B;
 
 		///<summary>float</summary>
-		public const int AnimatedHairsAlpha = 0x0C04;
+		public const int AnimatedHairsAlpha = 0x0C24;
 
 		///<summary>bool</summary>
-		public const int bIsParentalControl = 0x0C08;
+		public const int bIsParentalControl = 0x0C28;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData32 = 0x0C09;
+		public const int UnknownData32 = 0x0C29;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontageMeleeAttack1 = 0x0C10;
+		public const int MontageMeleeAttack1 = 0x0C30;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontageMeleeAttack2 = 0x0C18;
+		public const int MontageMeleeAttack2 = 0x0C38;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontageMeleeAttack3 = 0x0C20;
+		public const int MontageMeleeAttack3 = 0x0C40;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontagePunchingAttack1 = 0x0C28;
+		public const int MontagePunchingAttack1 = 0x0C48;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontagePunchingAttack2 = 0x0C30;
+		public const int MontagePunchingAttack2 = 0x0C50;
 
 		///<summary>UAnimMontage *</summary>
-		public const int MontagePunchingAttack3 = 0x0C38;
+		public const int MontagePunchingAttack3 = 0x0C58;
 
 		///<summary>float</summary>
-		public const int FPPSprintAnimScalar = 0x0C40;
+		public const int FPPSprintAnimScalar = 0x0C60;
 
 		///<summary>FVector</summary>
-		public const int FPP_PrimaryAndSecondaryItemOffset = 0x0C44;
+		public const int FPP_PrimaryAndSecondaryItemOffset = 0x0C64;
 
 		///<summary>float</summary>
-		public const int PunchingAlphaOneTarget_CP = 0x0C50;
+		public const int PunchingAlphaOneTarget_CP = 0x0C70;
 
 		///<summary>float</summary>
-		public const int PunchingAlphaInterpSpeed = 0x0C54;
+		public const int PunchingAlphaInterpSpeed = 0x0C74;
 
 		///<summary>float</summary>
-		public const int SprintWeaponLoweringScalar_CP = 0x0C58;
+		public const int SprintWeaponLoweringScalar_CP = 0x0C78;
 
 		///<summary>float</summary>
-		public const int ThrowStateSwitchInterpSpeed = 0x0C5C;
+		public const int ThrowStateSwitchInterpSpeed = 0x0C7C;
 
 		///<summary>float</summary>
-		public const int VaultingEvalTimeout = 0x0C60;
+		public const int VaultingEvalTimeout = 0x0C80;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData33 = 0x0C64;
+		public const int UnknownData33 = 0x0C84;
 
 		///<summary>UAnimDB *</summary>
-		public const int UnarmedAnimDB_CP = 0x0C68;
+		public const int UnarmedAnimDB_CP = 0x0C88;
 
 		///<summary>UAnimDB *</summary>
-		public const int RifleAnimDB_CP = 0x0C70;
+		public const int RifleAnimDB_CP = 0x0C90;
 
 		///<summary>UAnimDB *</summary>
-		public const int MeleeAnimDB_CP = 0x0C78;
+		public const int MeleeAnimDB_CP = 0x0C98;
 
 		///<summary>UAnimDB *</summary>
-		public const int GrenadeAnimDB_CP = 0x0C80;
+		public const int GrenadeAnimDB_CP = 0x0CA0;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData34 = 0x0C88;
+		public const int UnknownData34 = 0x0CA8;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotPrimary_Male_CP = 0x0C90;
+		public const int DefaultSlotPrimary_Male_CP = 0x0CB0;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotSecondary_Male_CP = 0x0CC0;
+		public const int DefaultSlotSecondary_Male_CP = 0x0CE0;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotMelee_Male_CP = 0x0CF0;
+		public const int DefaultSlotMelee_Male_CP = 0x0D10;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotThrown_Male_CP = 0x0D20;
+		public const int DefaultSlotThrown_Male_CP = 0x0D40;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotPrimary_Female_CP = 0x0D50;
+		public const int DefaultSlotPrimary_Female_CP = 0x0D70;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotSecondary_Female_CP = 0x0D80;
+		public const int DefaultSlotSecondary_Female_CP = 0x0DA0;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotThrown_Female_CP = 0x0DB0;
+		public const int DefaultSlotThrown_Female_CP = 0x0DD0;
 
 		///<summary>FTransform</summary>
-		public const int DefaultSlotMelee_Female_CP = 0x0DE0;
+		public const int DefaultSlotMelee_Female_CP = 0x0E00;
 
 		///<summary>float</summary>
-		public const int SprintLocoTimeMultiplier = 0x0E10;
+		public const int SprintLocoTimeMultiplier = 0x0E30;
 
 		///<summary>float</summary>
-		public const int SprintLocoTimeMultiplier_FPP = 0x0E14;
+		public const int SprintLocoTimeMultiplier_FPP = 0x0E34;
 
 		///<summary>float</summary>
-		public const int SprintLocoTimeAlphaScalar = 0x0E18;
+		public const int SprintLocoTimeAlphaScalar = 0x0E38;
 
 		///<summary>float</summary>
-		public const int SprintLocoTimeAlphaScalar_FPP = 0x0E1C;
+		public const int SprintLocoTimeAlphaScalar_FPP = 0x0E3C;
+
+		///<summary>float</summary>
+		public const int SprintLocoInstantScalar = 0x0E40;
+
+		///<summary>float</summary>
+		public const int LocomotionDirectionInterp = 0x0E44;
+
+		///<summary>float</summary>
+		public const int LeanYawInterpSpeedMin = 0x0E48;
+
+		///<summary>float</summary>
+		public const int LeanYawInterpSpeedMax = 0x0E4C;
+
+		///<summary>float</summary>
+		public const int LeanYawGlobalMultiplier = 0x0E50;
+
+		///<summary>float</summary>
+		public const int LeanYawClamp = 0x0E54;
+
+		///<summary>float</summary>
+		public const int SprintLocoStandLimit_High = 0x0E58;
+
+		///<summary>float</summary>
+		public const int SprintLocoCrouchLimit_High = 0x0E5C;
+
+		///<summary>float</summary>
+		public const int SprintLocoProneLimit_High = 0x0E60;
+
+		///<summary>float</summary>
+		public const int SprintLocoStandLimit_Low = 0x0E64;
+
+		///<summary>float</summary>
+		public const int SprintLocoCrouchLimit_Low = 0x0E68;
+
+		///<summary>float</summary>
+		public const int SprintLocoProneLimit_Low = 0x0E6C;
+
+		///<summary>float</summary>
+		public const int SprintLocoLimitInterpSpeed = 0x0E70;
+
+		///<summary>FRotator</summary>
+		public const int RightClavicleCompensation = 0x0E74;
 
 	}
 
@@ -6505,11 +6623,8 @@ namespace Offsets
 		///<summary>float</summary>
 		public const int GpsResetTimeCheck = 0x0670;
 
-		///<summary>bool</summary>
-		public const int bUseHighlight = 0x0674;
-
-		///<summary>unsigned char[0x33]</summary>
-		public const int UnknownData01 = 0x0675;
+		///<summary>unsigned char[0x34]</summary>
+		public const int UnknownData01 = 0x0674;
 
 		///<summary>FCanvasIcon</summary>
 		public const int TimePlaceBg = 0x06A8;
@@ -6571,291 +6686,294 @@ namespace Offsets
 		///<summary>FString</summary>
 		public const int SceneCapturePackageName = 0x08F8;
 
-		///<summary>UHighlightSession *</summary>
-		public const int HighlightSession = 0x0908;
-
-		///<summary>unsigned char[0xA0]</summary>
-		public const int UnknownData06 = 0x0910;
+		///<summary>unsigned char[0xB8]</summary>
+		public const int UnknownData06 = 0x0908;
 
 	}
 
 	public class UTslSettings
 	{
-		///<summary>UClass *</summary>
-		public const int DialogUMGWidgetClass = 0x0028;
+		///<summary>bool</summary>
+		public const int SupportedClientReplay = 0x0028;
 
 		///<summary>bool</summary>
-		public const int bSupportKillcamEnable = 0x0030;
+		public const int SupportedKillcam = 0x0029;
 
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0031;
+		///<summary>unsigned char[0x2]</summary>
+		public const int UnknownData00 = 0x002A;
 
 		///<summary>int</summary>
-		public const int MaxReplaysForNullStreamer = 0x0034;
+		public const int MaxReplaysForNullStreamer = 0x002C;
 
 		///<summary>float</summary>
-		public const int RepDistance_Item = 0x0038;
+		public const int RepDistance_Item = 0x0030;
 
 		///<summary>float</summary>
-		public const int RepDistance_Character = 0x003C;
+		public const int RepDistance_Character = 0x0034;
 
 		///<summary>float</summary>
-		public const int RepDistance_Weapon = 0x0040;
+		public const int RepDistance_Weapon = 0x0038;
 
 		///<summary>float</summary>
-		public const int RepDistance_Vehicle = 0x0044;
+		public const int RepDistance_Vehicle = 0x003C;
 
 		///<summary>float</summary>
-		public const int RepDistance_Parachute = 0x0048;
+		public const int RepDistance_Parachute = 0x0040;
 
 		///<summary>float</summary>
-		public const int RepDistance_Door = 0x004C;
+		public const int RepDistance_Door = 0x0044;
 
 		///<summary>float</summary>
-		public const int RepDistance_Window = 0x0050;
+		public const int RepDistance_Window = 0x0048;
 
 		///<summary>float</summary>
-		public const int RepFrequency_Character = 0x0054;
+		public const int RepFrequency_Character = 0x004C;
 
 		///<summary>float</summary>
-		public const int RepFrequency_WheeledVehicle = 0x0058;
+		public const int RepFrequency_WheeledVehicle = 0x0050;
 
 		///<summary>float</summary>
-		public const int RepFrequency_FloatingVehicle = 0x005C;
+		public const int RepFrequency_FloatingVehicle = 0x0054;
 
 		///<summary>float</summary>
-		public const int RepFrequency_Parachute = 0x0060;
+		public const int RepFrequency_Parachute = 0x0058;
 
 		///<summary>float</summary>
-		public const int RepFrequency_Aircraft = 0x0064;
+		public const int RepFrequency_Aircraft = 0x005C;
 
 		///<summary>float</summary>
-		public const int RepFrequency_CarePackage = 0x0068;
+		public const int RepFrequency_CarePackage = 0x0060;
 
 		///<summary>float</summary>
-		public const int RepVehicle_SpawnDistance = 0x006C;
+		public const int RepVehicle_SpawnDistance = 0x0064;
 
 		///<summary>float</summary>
-		public const int RepVehicle_UnspawnDistance = 0x0070;
+		public const int RepVehicle_UnspawnDistance = 0x0068;
 
 		///<summary>FRigidBodyErrorCorrection</summary>
-		public const int RepVehicle_PhysicErrorCorrection = 0x0074;
+		public const int RepVehicle_PhysicErrorCorrection = 0x006C;
 
 		///<summary>float</summary>
-		public const int CharacterCorrection_MaxSpeed = 0x0090;
+		public const int CharacterCorrection_MaxSpeed = 0x0088;
 
 		///<summary>float</summary>
-		public const int CharacterCorrection_MaxSpeedPositionError = 0x0094;
+		public const int CharacterCorrection_MaxSpeedPositionError = 0x008C;
 
 		///<summary>float</summary>
-		public const int CharacterCorrection_ZeroSpeedPositionError = 0x0098;
+		public const int CharacterCorrection_ZeroSpeedPositionError = 0x0090;
 
 		///<summary>bool</summary>
-		public const int bBattlEyeEnabled = 0x009C;
+		public const int bBattlEyeEnabled = 0x0094;
 
 		///<summary>bool</summary>
-		public const int bBattlEyeEnabledInPIE = 0x009D;
+		public const int bBattlEyeEnabledInPIE = 0x0095;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData01 = 0x009E;
+		public const int UnknownData01 = 0x0096;
 
 		///<summary>float</summary>
-		public const int BattlEyeReliablePacketIntervalOnClient = 0x00A0;
+		public const int BattlEyeReliablePacketIntervalOnClient = 0x0098;
 
 		///<summary>float</summary>
-		public const int BattlEyeReliablePacketIntervalOnServer = 0x00A4;
+		public const int BattlEyeReliablePacketIntervalOnServer = 0x009C;
 
 		///<summary>bool</summary>
-		public const int bChineseLicensing = 0x00A8;
+		public const int bChineseLicensing = 0x00A0;
 
 		///<summary>bool</summary>
-		public const int bKoreanRating = 0x00A9;
+		public const int bKoreanRating = 0x00A1;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData02 = 0x00AA;
+		public const int UnknownData02 = 0x00A2;
 
 		///<summary>float</summary>
-		public const int GameStateLogInterval = 0x00AC;
+		public const int GameStateLogInterval = 0x00A4;
 
 		///<summary>float</summary>
-		public const int ServerStatLogInterval = 0x00B0;
+		public const int ServerStatLogInterval = 0x00A8;
 
 		///<summary>float</summary>
-		public const int CharacterPositionLogInterval = 0x00B4;
+		public const int CharacterPositionLogInterval = 0x00AC;
 
 		///<summary>float</summary>
-		public const int DestructibleComponentMaxDrawDistance = 0x00B8;
+		public const int DestructibleComponentMaxDrawDistance = 0x00B0;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x00BC;
+		public const int UnknownData03 = 0x00B4;
 
 		///<summary>UClass *</summary>
-		public const int CharacterClassToPlay = 0x00C0;
+		public const int CharacterClassToPlay = 0x00B8;
 
 		///<summary>TArray&lt;FBoneBinding&gt;</summary>
-		public const int BoneMapping = 0x00C8;
+		public const int BoneMapping = 0x00C0;
 
 		///<summary>TArray&lt;FStringAssetReference&gt;</summary>
-		public const int TestVehicleClasses = 0x00D8;
+		public const int TestVehicleClasses = 0x00D0;
 
 		///<summary>TArray&lt;FStringAssetReference&gt;</summary>
-		public const int TestFloatingVehicleClasses = 0x00E8;
+		public const int TestFloatingVehicleClasses = 0x00E0;
 
 		///<summary>TArray&lt;FChineseLicensingDefaultCustomizeData&gt;</summary>
-		public const int ChineseLicensingDefaultCustomizeData = 0x00F8;
+		public const int ChineseLicensingDefaultCustomizeData = 0x00F0;
 
 		///<summary>float</summary>
-		public const int StoppedWheeledVehicleSpeedThreshold = 0x0108;
+		public const int StoppedWheeledVehicleSpeedThreshold = 0x0100;
 
 		///<summary>float</summary>
-		public const int StoppedFloatingVehicleSpeedThreshold = 0x010C;
+		public const int StoppedFloatingVehicleSpeedThreshold = 0x0104;
 
 		///<summary>float</summary>
-		public const int LastDriverDuration = 0x0110;
+		public const int LastDriverDuration = 0x0108;
 
 		///<summary>float</summary>
-		public const int InteractableDistanceToleranceOnDedicatedServer = 0x0114;
+		public const int InteractableDistanceToleranceOnDedicatedServer = 0x010C;
 
 		///<summary>float</summary>
-		public const int InteractableDistance_ItemDefault = 0x0118;
+		public const int InteractableDistance_ItemDefault = 0x0110;
 
 		///<summary>float</summary>
-		public const int InteractableSpeed_ItemDefault = 0x011C;
+		public const int InteractableSpeed_ItemDefault = 0x0114;
 
 		///<summary>FInteractionCollisionData</summary>
-		public const int InteractionCollisionForFPS = 0x0120;
+		public const int InteractionCollisionForFPS = 0x0118;
 
 		///<summary>FInteractionCollisionData</summary>
-		public const int InteractionCollisionForTPS = 0x0134;
+		public const int InteractionCollisionForTPS = 0x012C;
 
 		///<summary>bool</summary>
-		public const int bPreventFinishMatchInPIE = 0x0148;
+		public const int bPreventFinishMatchInPIE = 0x0140;
 
 		///<summary>bool</summary>
-		public const int bEnableInitialItemDonator = 0x0149;
+		public const int bEnableInitialItemDonator = 0x0141;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData04 = 0x014A;
+		public const int UnknownData04 = 0x0142;
 
 		///<summary>float</summary>
-		public const int InventoryMaxSpaceDefault = 0x014C;
+		public const int InventoryMaxSpaceDefault = 0x0144;
 
 		///<summary>UTexture *</summary>
-		public const int ErrorIconTexture = 0x0150;
+		public const int ErrorIconTexture = 0x0148;
 
 		///<summary>UTexture *</summary>
-		public const int LoadingIconTexture = 0x0158;
+		public const int LoadingIconTexture = 0x0150;
 
 		///<summary>TArray&lt;UObject * &gt;</summary>
-		public const int AssetsForPackageIntegrity = 0x0160;
+		public const int AssetsForPackageIntegrity = 0x0158;
 
 		///<summary>float</summary>
-		public const int UICrosshairDistance = 0x0170;
+		public const int UICrosshairDistance = 0x0168;
 
 		///<summary>float</summary>
-		public const int UICrosshairInterpSpeed = 0x0174;
+		public const int UICrosshairInterpSpeed = 0x016C;
 
 		///<summary>float</summary>
-		public const int UICrosshairDisableDistance = 0x0178;
+		public const int UICrosshairDisableDistance = 0x0170;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData05 = 0x017C;
+		public const int UnknownData05 = 0x0174;
 
 		///<summary>float</summary>
-		public const int GameTimeMultiplier = 0x0188;
+		public const int GameTimeMultiplier = 0x0180;
 
 		///<summary>bool</summary>
-		public const int AimOffsetRayCast = 0x018C;
+		public const int AimOffsetRayCast = 0x0184;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData06 = 0x018D;
+		public const int UnknownData06 = 0x0185;
 
 		///<summary>float</summary>
-		public const int MeleeWeaponPitchMin = 0x0190;
+		public const int MeleeWeaponPitchMin = 0x0188;
 
 		///<summary>float</summary>
-		public const int MeleeWeaponPitchMax = 0x0194;
+		public const int MeleeWeaponPitchMax = 0x018C;
 
 		///<summary>bool</summary>
-		public const int EnableThrowLagCompensation = 0x0198;
+		public const int EnableThrowLagCompensation = 0x0190;
 
 		///<summary>bool</summary>
-		public const int FullRecoilRecovery = 0x0199;
+		public const int FullRecoilRecovery = 0x0191;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData07 = 0x019A;
+		public const int UnknownData07 = 0x0192;
 
 		///<summary>FLevelLoadingBoostParameters</summary>
-		public const int LevelLoadingBoostParameters = 0x019C;
+		public const int LevelLoadingBoostParameters = 0x0194;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x01AC;
-
-		///<summary>TArray&lt;FNearClippingValue&gt;</summary>
-		public const int NearClippingValues = 0x01B0;
-
-		///<summary>TArray&lt;FTslGame_FCustomizableCategoryData&gt;</summary>
-		public const int CustomizableCategoryData = 0x01C0;
-
-		///<summary>TArray&lt;FCustomizableActionName&gt;</summary>
-		public const int CustomizableActionNames = 0x01D0;
-
-		///<summary>TArray&lt;FTslGame_FCustomizableAxisName&gt;</summary>
-		public const int CustomizableAxisNames = 0x01E0;
-
-		///<summary>TArray&lt;FCustomizableMouseSensitiveName&gt;</summary>
-		public const int CustomizableMouseSensitiveNames = 0x01F0;
-
-		///<summary>TArray&lt;FCustomizableGamePadSensitiveName&gt;</summary>
-		public const int CustomizableGamePadSensitiveNames = 0x0200;
-
-		///<summary>TArray&lt;FSurportQualityLevel&gt;</summary>
-		public const int SupportedQualityLevels = 0x0210;
-
-		///<summary>TArray&lt;FScreenResolution&gt;</summary>
-		public const int SupportedScreenResolutions = 0x0220;
-
-		///<summary>FStringAssetReference</summary>
-		public const int MouseSensitivityCurve = 0x0230;
-
-		///<summary>FStringAssetReference</summary>
-		public const int GammaCurve = 0x0240;
+		public const int UnknownData08 = 0x01A4;
 
 		///<summary>TArray&lt;FString&gt;</summary>
-		public const int CultureNames = 0x0250;
+		public const int ErangelIgnoreWeatherIds = 0x01A8;
+
+		///<summary>TArray&lt;FNearClippingValue&gt;</summary>
+		public const int NearClippingValues = 0x01B8;
+
+		///<summary>TArray&lt;FTslGame_FCustomizableCategoryData&gt;</summary>
+		public const int CustomizableCategoryData = 0x01C8;
+
+		///<summary>TArray&lt;FCustomizableActionName&gt;</summary>
+		public const int CustomizableActionNames = 0x01D8;
+
+		///<summary>TArray&lt;FTslGame_FCustomizableAxisName&gt;</summary>
+		public const int CustomizableAxisNames = 0x01E8;
+
+		///<summary>TArray&lt;FCustomizableMouseSensitiveName&gt;</summary>
+		public const int CustomizableMouseSensitiveNames = 0x01F8;
+
+		///<summary>TArray&lt;FCustomizableGamePadSensitiveName&gt;</summary>
+		public const int CustomizableGamePadSensitiveNames = 0x0208;
+
+		///<summary>TArray&lt;FSurportQualityLevel&gt;</summary>
+		public const int SupportedQualityLevels = 0x0218;
+
+		///<summary>TArray&lt;FScreenResolution&gt;</summary>
+		public const int SupportedScreenResolutions = 0x0228;
+
+		///<summary>FStringAssetReference</summary>
+		public const int MouseSensitivityCurve = 0x0238;
+
+		///<summary>FStringAssetReference</summary>
+		public const int GammaCurve = 0x0248;
 
 		///<summary>TArray&lt;FColorBlindType&gt;</summary>
-		public const int ColorBlindTypes = 0x0260;
+		public const int ColorBlindTypes = 0x0258;
 
 		///<summary>TArray&lt;FPresetColor&gt;</summary>
-		public const int CrosshairColors = 0x0270;
+		public const int CrosshairColors = 0x0268;
 
 		///<summary>TArray&lt;FKeyInputModeName&gt;</summary>
-		public const int KeyInputModeNames = 0x0280;
+		public const int KeyInputModeNames = 0x0278;
 
 		///<summary>TArray&lt;FUiType&gt;</summary>
-		public const int MiniMapTypeList = 0x0290;
+		public const int MiniMapTypeList = 0x0288;
 
 		///<summary>float</summary>
-		public const int MinimumScreenResolutionRatio = 0x02A0;
+		public const int MinimumScreenResolutionRatio = 0x0298;
 
 		///<summary>FScreenResolution</summary>
-		public const int MinimumScreenResolution = 0x02A4;
+		public const int MinimumScreenResolution = 0x029C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData09 = 0x02AC;
+		public const int UnknownData09 = 0x02A4;
 
 		///<summary>TArray&lt;FTeamColorAndIcon&gt;</summary>
-		public const int OverrideMarkerColorAndIcons = 0x02B0;
+		public const int OverrideMarkerColorAndIcons = 0x02A8;
 
 		///<summary>float</summary>
-		public const int PunchClientHitLeeway_Attacker = 0x02C0;
+		public const int PunchClientHitLeeway_Attacker = 0x02B8;
 
 		///<summary>float</summary>
-		public const int PunchClientHitLeeway_Victim = 0x02C4;
+		public const int PunchClientHitLeeway_Victim = 0x02BC;
 
 		///<summary>float</summary>
-		public const int ClientSideHitLeeway = 0x02C8;
+		public const int PunchClientHitLeeway_VictimInPlace = 0x02C0;
+
+		///<summary>float</summary>
+		public const int ClientSideHitLeeway = 0x02C4;
+
+		///<summary>float</summary>
+		public const int ClientSideHitLeewayInPlace = 0x02C8;
 
 		///<summary>float</summary>
 		public const int LogClientSideHitLeeway = 0x02CC;
@@ -6864,112 +6982,124 @@ namespace Offsets
 		public const int ClientSideOriginDistanceLeeway = 0x02D0;
 
 		///<summary>float</summary>
-		public const int TravelDistanceLeeway = 0x02D4;
+		public const int ClientSideOriginDistanceLeewayInPlace = 0x02D4;
 
 		///<summary>float</summary>
-		public const int AllowedHitLag = 0x02D8;
+		public const int ClientSideOriginDistanceMax = 0x02D8;
 
 		///<summary>float</summary>
-		public const int LogMinHitLag = 0x02DC;
+		public const int TravelDistanceLeeway = 0x02DC;
 
 		///<summary>float</summary>
-		public const int HackDetectionSpeed = 0x02E0;
+		public const int AllowedHitLag = 0x02E0;
+
+		///<summary>float</summary>
+		public const int LogMinHitLag = 0x02E4;
+
+		///<summary>float</summary>
+		public const int HackDetectionSpeed = 0x02E8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData10 = 0x02E4;
+		public const int UnknownData10 = 0x02EC;
 
 		///<summary>TArray&lt;FOverrideScalability&gt;</summary>
-		public const int OverrideScalabilities = 0x02E8;
+		public const int OverrideScalabilities = 0x02F0;
 
 		///<summary>float</summary>
-		public const int FakeDoorBlockMaxY = 0x02F8;
+		public const int FakeDoorBlockMaxY = 0x0300;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData11 = 0x02FC;
+		public const int UnknownData11 = 0x0304;
 
 		///<summary>TArray&lt;FReportCauseData&gt;</summary>
-		public const int ReportCauses = 0x0300;
+		public const int ReportCauses = 0x0308;
 
 		///<summary>TArray&lt;FSubjectToReport&gt;</summary>
-		public const int SubjectToReport = 0x0310;
+		public const int SubjectToReport = 0x0318;
 
 		///<summary>float</summary>
-		public const int FreelookRecoveryInterpSpeed = 0x0320;
+		public const int FreelookRecoveryInterpSpeed = 0x0328;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData12 = 0x0324;
+		public const int UnknownData12 = 0x032C;
 
 		///<summary>TMap&lt;FName,float&gt;</summary>
-		public const int GamepadSensitiveMultiplier = 0x0328;
+		public const int GamepadSensitiveMultiplier = 0x0330;
 
 		///<summary>float</summary>
-		public const int GamePadInnerDeadZone = 0x0378;
+		public const int GamePadInnerDeadZone = 0x0380;
 
 		///<summary>float</summary>
-		public const int GamePadOutDeadZoneAcceleration = 0x037C;
+		public const int GamePadOutDeadZoneAcceleration = 0x0384;
 
 		///<summary>float</summary>
-		public const int GamePadOutMaxAxisValue = 0x0380;
+		public const int GamePadOutMaxAxisValue = 0x0388;
 
 		///<summary>float</summary>
-		public const int GamePadAccelerationStandardFps = 0x0384;
+		public const int GamePadAccelerationStandardFps = 0x038C;
 
 		///<summary>float</summary>
-		public const int AimAssistDecisionRadius = 0x0388;
+		public const int AimAssistDecisionRadius = 0x0390;
 
 		///<summary>bool</summary>
-		public const int bApplyInputValue = 0x038C;
+		public const int bApplyInputValue = 0x0394;
 
 		///<summary>bool</summary>
-		public const int bIgnorePadSensitive = 0x038D;
+		public const int bIgnorePadSensitive = 0x0395;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData13 = 0x038E;
+		public const int UnknownData13 = 0x0396;
 
 		///<summary>float</summary>
-		public const int InsensitiveZone = 0x0390;
+		public const int InsensitiveZone = 0x0398;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData14 = 0x0394;
+		public const int UnknownData14 = 0x039C;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int AimCameraAssists = 0x0398;
+		public const int AimCameraAssists = 0x03A0;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int ADSCameraAssists = 0x03A8;
+		public const int ADSCameraAssists = 0x03B0;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int Scope2XCameraAssists = 0x03B8;
+		public const int Scope2XCameraAssists = 0x03C0;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int Scope4XCameraAssists = 0x03C8;
+		public const int Scope4XCameraAssists = 0x03D0;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int Scope8XCameraAssists = 0x03D8;
+		public const int Scope8XCameraAssists = 0x03E0;
 
 		///<summary>TArray&lt;FAimAssistData&gt;</summary>
-		public const int Scope15XCameraAssists = 0x03E8;
+		public const int Scope15XCameraAssists = 0x03F0;
 
 		///<summary>bool</summary>
-		public const int bIsESports = 0x03F8;
+		public const int bIsESports = 0x0400;
 
-		///<summary>unsigned char[0x57]</summary>
-		public const int UnknownData15 = 0x03F9;
+		///<summary>unsigned char[0x7]</summary>
+		public const int UnknownData15 = 0x0401;
+
+		///<summary>FStringAssetReference</summary>
+		public const int DialogUMGWidgetClassStringAssetReference = 0x0408;
+
+		///<summary>unsigned char[0x50]</summary>
+		public const int UnknownData16 = 0x0418;
 
 		///<summary>UCurveFloat *</summary>
-		public const int LoadedMouseSensitivityCurve = 0x0450;
+		public const int LoadedMouseSensitivityCurve = 0x0468;
 
 		///<summary>UCurveFloat *</summary>
-		public const int LoadedGammaCurve = 0x0458;
+		public const int LoadedGammaCurve = 0x0470;
 
 		///<summary>UTextureRenderTarget2D *</summary>
-		public const int CharacterStudioRenderTarget = 0x0460;
+		public const int CharacterStudioRenderTarget = 0x0478;
 
-		///<summary>TArray&lt;FName&gt;</summary>
-		public const int AnimatableHairNames = 0x0468;
+		///<summary>TArray&lt;FAnimatableCustomizableObjectData&gt;</summary>
+		public const int AnimatableCustomizableDatas = 0x0480;
 
 		///<summary>TMap&lt;FName,float&gt;</summary>
-		public const int NotifyDistanceLimitMap = 0x0478;
+		public const int NotifyDistanceLimitMap = 0x0490;
 
 	}
 
@@ -7011,195 +7141,198 @@ namespace Offsets
 		///<summary>UClass *</summary>
 		public const int LobbyWidgetClass = 0x0288;
 
-		///<summary>unsigned char[0x140]</summary>
+		///<summary>unsigned char[0x150]</summary>
 		public const int UnknownData02 = 0x0290;
 
 		///<summary>ULobbyWidget *</summary>
-		public const int LobbyWidget = 0x03D0;
+		public const int LobbyWidget = 0x03E0;
 
 		///<summary>unsigned char[0xA8]</summary>
-		public const int UnknownData03 = 0x03D8;
+		public const int UnknownData03 = 0x03E8;
 
 		///<summary>TArray&lt;FReplayKillEventItem&gt;</summary>
-		public const int ReplayKillEventItems = 0x0480;
+		public const int ReplayKillEventItems = 0x0490;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnEnumerateReplayKillEventsDone = 0x0490;
+		public const int OnEnumerateReplayKillEventsDone = 0x04A0;
 
 		///<summary>unsigned char[0xA0]</summary>
-		public const int UnknownData04 = 0x04A0;
+		public const int UnknownData04 = 0x04B0;
 
 		///<summary>TArray&lt;FReplayGroggyEventItem&gt;</summary>
-		public const int ReplayGroggyEventItems = 0x0540;
+		public const int ReplayGroggyEventItems = 0x0550;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnEnumerateReplayGroggyEventsDone = 0x0550;
+		public const int OnEnumerateReplayGroggyEventsDone = 0x0560;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData05 = 0x0560;
+		public const int UnknownData05 = 0x0570;
 
 		///<summary>TArray&lt;FReplayItem&gt;</summary>
-		public const int ReplayItemList = 0x0570;
+		public const int ReplayItemList = 0x0580;
 
 		///<summary>unsigned char[0x38]</summary>
-		public const int UnknownData06 = 0x0580;
+		public const int UnknownData06 = 0x0590;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnGetReplayListDone = 0x05B8;
+		public const int OnGetReplayListDone = 0x05C8;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnGotoTimelineDone = 0x05C8;
+		public const int OnGotoTimelineDone = 0x05D8;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnRecordStarted = 0x05D8;
+		public const int OnRecordStarted = 0x05E8;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnDownloadZippedReplayProgressDelegate = 0x05E8;
+		public const int OnDownloadZippedReplayProgressDelegate = 0x05F8;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnDownloadZippedReplayCompleteDelegate = 0x05F8;
+		public const int OnDownloadZippedReplayCompleteDelegate = 0x0608;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData07 = 0x0608;
+		public const int UnknownData07 = 0x0618;
 
 		///<summary>int</summary>
-		public const int MaxReplaysForNullStreamer = 0x0630;
+		public const int MaxReplaysForNullStreamer = 0x0640;
 
 		///<summary>int</summary>
-		public const int NumReplaysForNullStreamer = 0x0634;
+		public const int NumReplaysForNullStreamer = 0x0644;
 
 		///<summary>int</summary>
-		public const int NumReplaysToKeepForNullStreamer = 0x0638;
+		public const int NumReplaysToKeepForNullStreamer = 0x0648;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x063C;
+		public const int UnknownData08 = 0x064C;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnKeepAndDeleteOldestReplaysDoneDelegate = 0x0640;
+		public const int OnKeepAndDeleteOldestReplaysDoneDelegate = 0x0650;
 
-		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData09 = 0x0650;
+		///<summary>unsigned char[0x10]</summary>
+		public const int UnknownData09 = 0x0660;
 
 		///<summary>UGameEventObserver *</summary>
-		public const int GameEventObserver = 0x0658;
+		public const int GameEventObserver = 0x0670;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData10 = 0x0660;
+		public const int UnknownData10 = 0x0678;
 
 		///<summary>FTslReplaySummary</summary>
-		public const int ReplaySummaryForPlayback = 0x0678;
+		public const int ReplaySummaryForPlayback = 0x0690;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnGetReplaySummaryDone = 0x06F8;
+		public const int OnGetReplaySummaryDone = 0x0710;
 
 		///<summary>bool</summary>
-		public const int bIsStartedFromReplayListMap = 0x0708;
+		public const int bIsStartedFromReplayListMap = 0x0720;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData11 = 0x0709;
+		public const int UnknownData11 = 0x0721;
 
 		///<summary>ATslPlayerState *</summary>
-		public const int CachedDemoPlayerState = 0x0710;
+		public const int CachedDemoPlayerState = 0x0728;
 
-		///<summary>unsigned char[0xB8]</summary>
-		public const int UnknownData12 = 0x0718;
+		///<summary>unsigned char[0x90]</summary>
+		public const int UnknownData12 = 0x0730;
+
+		///<summary>UHighlightSession *</summary>
+		public const int HighlightSession = 0x07C0;
+
+		///<summary>unsigned char[0x48]</summary>
+		public const int UnknownData13 = 0x07C8;
 
 	}
 
 	public class ALobbyHUD
 	{
-		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x09B0;
-
 		///<summary>UCurveFloat *</summary>
-		public const int CameraTransitionCurve = 0x09B8;
+		public const int CameraTransitionCurve = 0x09C0;
 
 		///<summary>float</summary>
-		public const int CameraTransitionElapsedTime = 0x09C0;
+		public const int CameraTransitionElapsedTime = 0x09C8;
 
 		///<summary>bool</summary>
-		public const int bIsCameraTransitionPlaying = 0x09C4;
+		public const int bIsCameraTransitionPlaying = 0x09CC;
 
 		///<summary>ELobbyCameraStates</summary>
-		public const int LastCameraState = 0x09C5;
+		public const int LastCameraState = 0x09CD;
 
 		///<summary>ELobbyCameraStates</summary>
-		public const int FromCameraState = 0x09C6;
+		public const int FromCameraState = 0x09CE;
 
 		///<summary>ELobbyCameraStates</summary>
-		public const int ToCameraState = 0x09C7;
+		public const int ToCameraState = 0x09CF;
 
 		///<summary>FName</summary>
-		public const int MainMenuStreamingLevelName = 0x0A18;
+		public const int MainMenuStreamingLevelName = 0x0A20;
 
 		///<summary>FName</summary>
-		public const int CustomizationStreamingLevelName = 0x0A20;
+		public const int CustomizationStreamingLevelName = 0x0A28;
 
 		///<summary>UCurveFloat *</summary>
-		public const int FadeInOutCurve = 0x0A28;
+		public const int FadeInOutCurve = 0x0A30;
 
 		///<summary>ATslPostProcessEffect *</summary>
-		public const int LobbyPPE = 0x0A30;
+		public const int LobbyPPE = 0x0A38;
 
 		///<summary>float</summary>
-		public const int FadeInOutEffectElapsedTime = 0x0A38;
+		public const int FadeInOutEffectElapsedTime = 0x0A40;
 
 		///<summary>bool</summary>
-		public const int bIsFadeInOutEffectPlaying = 0x0A3C;
+		public const int bIsFadeInOutEffectPlaying = 0x0A44;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x0A3D;
+		public const int UnknownData00 = 0x0A45;
 
 		///<summary>FTimerHandle</summary>
-		public const int TimerHandle_FadeInOut = 0x0A40;
+		public const int TimerHandle_FadeInOut = 0x0A48;
 
 		///<summary>ATslPostProcessEffect *</summary>
-		public const int MainMenuPPE = 0x0A48;
+		public const int MainMenuPPE = 0x0A50;
+
+		///<summary>float</summary>
+		public const int CachedDOFFarBlueSize = 0x0A58;
 
 		///<summary>ELobbyBlurChangingStates</summary>
-		public const int BlurChangingState = 0x0A50;
+		public const int BlurChangingState = 0x0A5C;
 
 		///<summary>bool</summary>
-		public const int bInitCameraTransition = 0x0A51;
+		public const int bInitCameraTransition = 0x0A5D;
 
-		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData02 = 0x0A52;
-
-		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnCreateCharacter = 0x0A58;
+		///<summary>unsigned char[0x2]</summary>
+		public const int UnknownData01 = 0x0A5E;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnDestroyCharacter = 0x0A68;
+		public const int OnCreateCharacter = 0x0A60;
+
+		///<summary>FScriptMulticastDelegate</summary>
+		public const int OnDestroyCharacter = 0x0A70;
 
 		///<summary>FString</summary>
-		public const int StartURL = 0x0A78;
+		public const int StartURL = 0x0A80;
 
 		///<summary>TArray&lt;UCoherentCommonBinder * &gt;</summary>
-		public const int CommonBinders = 0x0A88;
+		public const int CommonBinders = 0x0A90;
 
 		///<summary>UAkComponent *</summary>
-		public const int AkSound = 0x0A98;
+		public const int AkSound = 0x0AA0;
 
 		///<summary>ACameraActor *</summary>
-		public const int MainCamera = 0x0AA0;
+		public const int MainCamera = 0x0AA8;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData03 = 0x0AA8;
+		public const int UnknownData02 = 0x0AB0;
 
 		///<summary>UClass *</summary>
-		public const int LobbyCharacterMaleClass = 0x0AC8;
+		public const int LobbyCharacterMaleClass = 0x0AD0;
 
 		///<summary>UClass *</summary>
-		public const int LobbyCharacterFemaleClass = 0x0AD0;
+		public const int LobbyCharacterFemaleClass = 0x0AD8;
 
 		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData04 = 0x0AD8;
+		public const int UnknownData03 = 0x0AE0;
 
 		///<summary>FViewTargetTransitionParams</summary>
-		public const int ViewTargetTransitionParams = 0x0B28;
-
-		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData05 = 0x0B38;
+		public const int ViewTargetTransitionParams = 0x0B30;
 
 	}
 
@@ -7211,8 +7344,11 @@ namespace Offsets
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnStateChanged = 0x0558;
 
-		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData01 = 0x0568;
+		///<summary>EWelcomeState</summary>
+		public const int WelcomeState = 0x0568;
+
+		///<summary>unsigned char[0x27]</summary>
+		public const int UnknownData01 = 0x0569;
 
 	}
 
@@ -7226,23 +7362,23 @@ namespace Offsets
 	public class APerfBotPlayerController
 	{
 		///<summary>int</summary>
-		public const int AmmoClips = 0x0A18;
+		public const int AmmoClips = 0x0B30;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x0A1C;
+		public const int UnknownData00 = 0x0B34;
 
 		///<summary>UClass *</summary>
-		public const int WeaponType = 0x0A20;
+		public const int WeaponType = 0x0B38;
 
 		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData01 = 0x0A28;
+		public const int UnknownData01 = 0x0B40;
 
 	}
 
 	public class ATslDemoSpectator
 	{
-		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData00 = 0x0A18;
+		///<summary>unsigned char[0x30]</summary>
+		public const int UnknownData00 = 0x0B30;
 
 	}
 
@@ -7260,6 +7396,22 @@ namespace Offsets
 
 		///<summary>unsigned char[0x4]</summary>
 		public const int UnknownData00 = 0x0414;
+
+	}
+
+	public class AHealOverTimeBuff
+	{
+		///<summary>float</summary>
+		public const int HealPerTick = 0x0410;
+
+		///<summary>float</summary>
+		public const int HealLimit = 0x0414;
+
+		///<summary>int</summary>
+		public const int BuffCount = 0x0418;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData00 = 0x041C;
 
 	}
 
@@ -7414,7 +7566,7 @@ namespace Offsets
 
 	public class UTslCheatManager
 	{
-		///<summary>unsigned char[0x10]</summary>
+		///<summary>unsigned char[0x18]</summary>
 		public const int UnknownData00 = 0x0078;
 
 	}
@@ -7523,6 +7675,43 @@ namespace Offsets
 
 		///<summary>unsigned char[0xC]</summary>
 		public const int UnknownData03 = 0x03E4;
+
+	}
+
+	public class UTslDeathCameraComponent
+	{
+		///<summary>float</summary>
+		public const int MaxCameraDistance = 0x01E0;
+
+		///<summary>float</summary>
+		public const int CollisionDistanceFactor = 0x01E4;
+
+		///<summary>float</summary>
+		public const int DeathFollowBlendTime = 0x01E8;
+
+		///<summary>TEnumAsByte&lt;EViewTargetBlendFunction&gt;</summary>
+		public const int DeathFollowBlendFunc = 0x01EC;
+
+		///<summary>unsigned char[0x3]</summary>
+		public const int UnknownData00 = 0x01ED;
+
+		///<summary>float</summary>
+		public const int DeathFollowBlendExp = 0x01F0;
+
+		///<summary>float</summary>
+		public const int DeathFollowTime = 0x01F4;
+
+		///<summary>float</summary>
+		public const int DefaultFreeCameraArmLength = 0x01F8;
+
+		///<summary>FVector</summary>
+		public const int DeathLocationOffset = 0x01FC;
+
+		///<summary>ATslCharacter *</summary>
+		public const int DeathCharacter = 0x0208;
+
+		///<summary>unsigned char[0x20]</summary>
+		public const int UnknownData01 = 0x0210;
 
 	}
 
@@ -7771,22 +7960,31 @@ namespace Offsets
 	public class UTslReactionComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x09C0;
+		public const int UnknownData00 = 0x09D0;
 
 		///<summary>unsigned char:1</summary>
-		public const int bPendingDestroy = 0x09C8;
+		public const int bPendingDestroy = 0x09D8;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData01 = 0x09C9;
+		public const int UnknownData01 = 0x09D9;
 
 		///<summary>UTslReactionData *</summary>
-		public const int ReactionData = 0x09D0;
+		public const int ReactionData = 0x09E0;
 
 		///<summary>UDestructibleMesh *</summary>
-		public const int ReactionDM = 0x09D8;
+		public const int ReactionDM = 0x09E8;
 
-		///<summary>unsigned char[0x30]</summary>
-		public const int UnknownData02 = 0x09E0;
+		///<summary>unsigned char[0x8]</summary>
+		public const int UnknownData02 = 0x09F0;
+
+		///<summary>UDestructibleComponent *</summary>
+		public const int ReactionDestructible = 0x09F8;
+
+		///<summary>UStaticMeshComponent *</summary>
+		public const int ReactionStaticMeshComponent = 0x0A00;
+
+		///<summary>unsigned char[0x18]</summary>
+		public const int UnknownData03 = 0x0A08;
 
 	}
 
@@ -8180,13 +8378,16 @@ namespace Offsets
 		public const int bUseFreeLookInterp = 0x0203;
 
 		///<summary>bool</summary>
-		public const int bUseKillcam = 0x0204;
+		public const int bUseClientReplay = 0x0204;
 
 		///<summary>bool</summary>
-		public const int bPreloadingMap = 0x0205;
+		public const int bUseKillcam = 0x0205;
 
-		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData07 = 0x0206;
+		///<summary>bool</summary>
+		public const int bPreloadingMap = 0x0206;
+
+		///<summary>unsigned char[0x1]</summary>
+		public const int UnknownData07 = 0x0207;
 
 		///<summary>TArray&lt;FString&gt;</summary>
 		public const int PreloadingMaps = 0x0208;
@@ -8340,34 +8541,34 @@ namespace Offsets
 	public class UTslGlassWindowComponent
 	{
 		///<summary>UDestructibleMesh *</summary>
-		public const int DestructibleMesh = 0x09C0;
+		public const int DestructibleMesh = 0x09D0;
 
 		///<summary>float</summary>
-		public const int DestroyDelayAfterDestructed = 0x09C8;
+		public const int DestroyDelayAfterDestructed = 0x09D8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x09CC;
+		public const int UnknownData00 = 0x09DC;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int DestructSound = 0x09D0;
+		public const int DestructSound = 0x09E0;
 
 		///<summary>float</summary>
-		public const int DestructSoundOcclusionRefreshInterval = 0x09D8;
+		public const int DestructSoundOcclusionRefreshInterval = 0x09E8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x09DC;
+		public const int UnknownData01 = 0x09EC;
 
 		///<summary>UDestructibleComponent *</summary>
-		public const int DestructibleComponent = 0x09E0;
+		public const int DestructibleComponent = 0x09F0;
 
 		///<summary>unsigned char:1</summary>
-		public const int bReplicatedOnClient = 0x09E8;
+		public const int bReplicatedOnClient = 0x09F8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bDestroyed = 0x09E8;
+		public const int bDestroyed = 0x09F8;
 
 		///<summary>unsigned char[0x17]</summary>
-		public const int UnknownData02 = 0x09E9;
+		public const int UnknownData02 = 0x09F9;
 
 	}
 
@@ -8516,50 +8717,53 @@ namespace Offsets
 	public class UTslInstancedGlassWindowComponent
 	{
 		///<summary>UDestructibleMesh *</summary>
-		public const int DestructibleMesh = 0x0BC0;
+		public const int DestructibleMesh = 0x0BD0;
 
 		///<summary>float</summary>
-		public const int DestroyDelayAfterDestructed = 0x0BC8;
+		public const int DestroyDelayAfterDestructed = 0x0BD8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x0BCC;
+		public const int UnknownData00 = 0x0BDC;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int DestructSound = 0x0BD0;
+		public const int DestructSound = 0x0BE0;
 
 		///<summary>float</summary>
-		public const int DestructSoundOcclusionRefreshInterval = 0x0BD8;
+		public const int DestructSoundOcclusionRefreshInterval = 0x0BE8;
 
 		///<summary>unsigned char:1</summary>
-		public const int bReplicatedOnClient = 0x0BDC;
+		public const int bReplicatedOnClient = 0x0BEC;
 
 		///<summary>unsigned char[0x13]</summary>
-		public const int UnknownData01 = 0x0BDD;
+		public const int UnknownData01 = 0x0BED;
 
 		///<summary>TArray&lt;int&gt;</summary>
-		public const int DestroyedInstances = 0x0BF0;
+		public const int DestroyedInstances = 0x0C00;
 
 		///<summary>TArray&lt;int&gt;</summary>
-		public const int PendingDestroyInstances = 0x0C00;
+		public const int PendingDestroyInstances = 0x0C10;
 
 		///<summary>unsigned char[0xD0]</summary>
-		public const int UnknownData02 = 0x0C10;
+		public const int UnknownData02 = 0x0C20;
 
 	}
 
 	public class UTslInstancedReactionComponent
 	{
 		///<summary>TArray&lt;int&gt;</summary>
-		public const int PendingDestroyInstances = 0x0BC0;
+		public const int PendingDestroyInstances = 0x0BD0;
 
 		///<summary>UTslReactionData *</summary>
-		public const int ReactionData = 0x0BD0;
+		public const int ReactionData = 0x0BE0;
 
 		///<summary>UDestructibleMesh *</summary>
-		public const int ReactionDM = 0x0BD8;
+		public const int ReactionDM = 0x0BE8;
 
-		///<summary>unsigned char[0x1C0]</summary>
-		public const int UnknownData00 = 0x0BE0;
+		///<summary>unsigned char[0x80]</summary>
+		public const int UnknownData00 = 0x0BF0;
+
+		///<summary>unsigned char[0xA0]</summary>
+		public const int UnknownData01 = 0x0D10;
 
 	}
 
@@ -8700,8 +8904,11 @@ namespace Offsets
 		///<summary>float</summary>
 		public const int BulletSpeed = 0x0414;
 
+		///<summary>UMaterialInterface *</summary>
+		public const int UnderWaterMaterialOverride = 0x0418;
+
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x0418;
+		public const int UnknownData00 = 0x0420;
 
 	}
 
@@ -9048,24 +9255,43 @@ namespace Offsets
 		///<summary>UAkAudioEvent *</summary>
 		public const int CreateSound = 0x04E8;
 
+		///<summary>FText</summary>
+		public const int DisplayName = 0x04F0;
+
+	}
+
+	public class ATslProjectile_Flare
+	{
+		///<summary>float</summary>
+		public const int DamageRadius = 0x03B0;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData00 = 0x03B4;
+
+		///<summary>UClass *</summary>
+		public const int DebuffTemplate = 0x03B8;
+
 	}
 
 	public class UTslReactionDoorComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x09C0;
+		public const int UnknownData00 = 0x09D0;
 
 		///<summary>UTslReactionDoorData *</summary>
-		public const int ReactionDoorData = 0x09C8;
+		public const int ReactionDoorData = 0x09D8;
 
 		///<summary>UDestructibleMesh *</summary>
-		public const int DoorDestructibleMesh = 0x09D0;
+		public const int DoorDestructibleMesh = 0x09E0;
+
+		///<summary>int</summary>
+		public const int HLODChildIndex = 0x09E8;
 
 		///<summary>FDoorBreakingState</summary>
-		public const int DoorBreakingState = 0x09D8;
+		public const int DoorBreakingState = 0x09EC;
 
-		///<summary>unsigned char[0x37]</summary>
-		public const int UnknownData01 = 0x09D9;
+		///<summary>unsigned char[0x43]</summary>
+		public const int UnknownData01 = 0x09ED;
 
 	}
 
@@ -9280,83 +9506,56 @@ namespace Offsets
 		///<summary>UArrowComponent *</summary>
 		public const int AudioListener = 0x0480;
 
-		///<summary>unsigned char[0x4]</summary>
+		///<summary>unsigned char[0x8]</summary>
 		public const int UnknownData00 = 0x0488;
 
-		///<summary>float</summary>
-		public const int DeathFollowBlendTime = 0x048C;
-
-		///<summary>TEnumAsByte&lt;EViewTargetBlendFunction&gt;</summary>
-		public const int DeathFollowBlendFunc = 0x0490;
-
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x0491;
+		///<summary>UTslDeathCameraComponent *</summary>
+		public const int DeathCameraComponent = 0x0490;
 
 		///<summary>float</summary>
-		public const int DeathFollowBlendExp = 0x0494;
-
-		///<summary>float</summary>
-		public const int DeathFollowTime = 0x0498;
+		public const int LocationUpdateIntervalSeconds = 0x0498;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData02 = 0x049C;
+		public const int UnknownData01 = 0x049C;
 
 		///<summary>float</summary>
-		public const int DeathFollowDistance = 0x04A0;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x04A4;
-
-		///<summary>FName</summary>
-		public const int DeathFollowBone = 0x04A8;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData04 = 0x04B0;
+		public const int LimitMinFreeCamFov = 0x04A0;
 
 		///<summary>float</summary>
-		public const int LocationUpdateIntervalSeconds = 0x04B4;
+		public const int LimitMaxFreeCamFov = 0x04A4;
 
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData05 = 0x04B8;
-
-		///<summary>float</summary>
-		public const int LimitMinFreeCamFov = 0x04BC;
+		///<summary>unsigned char[0x10]</summary>
+		public const int UnknownData02 = 0x04A8;
 
 		///<summary>float</summary>
-		public const int LimitMaxFreeCamFov = 0x04C0;
-
-		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData06 = 0x04C4;
+		public const int FollowCameraZoomSpeed = 0x04B8;
 
 		///<summary>float</summary>
-		public const int FollowCameraZoomSpeed = 0x04D0;
+		public const int LimitTargetArmLength = 0x04BC;
 
 		///<summary>float</summary>
-		public const int LimitTargetArmLength = 0x04D4;
-
-		///<summary>ATslCharacter *</summary>
-		public const int DeathCharacter = 0x04D8;
+		public const int SpectatableCheckLength = 0x04C0;
 
 		///<summary>float</summary>
-		public const int SpectatableCheckLength = 0x04E0;
-
-		///<summary>float</summary>
-		public const int SpectatableCheckScreenRatio = 0x04E4;
+		public const int SpectatableCheckScreenRatio = 0x04C4;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData07 = 0x04E8;
+		public const int UnknownData03 = 0x04C8;
 
 		///<summary>UClass *</summary>
-		public const int OutlineEffectClass = 0x0500;
+		public const int OutlineEffectClass = 0x04E0;
 
 		///<summary>ATslPostProcessEffect *</summary>
-		public const int OutlineEffect = 0x0508;
+		public const int OutlineEffect = 0x04E8;
 
 		///<summary>TArray&lt;FSavedObPos&gt;</summary>
-		public const int ArrObPos = 0x0510;
+		public const int ArrObPos_Erangel = 0x04F0;
 
-		///<summary>unsigned char[0x70]</summary>
-		public const int UnknownData08 = 0x0520;
+		///<summary>TArray&lt;FSavedObPos&gt;</summary>
+		public const int ArrObPos_Desert = 0x0500;
+
+		///<summary>unsigned char[0x80]</summary>
+		public const int UnknownData04 = 0x0510;
 
 		///<summary>UClass *</summary>
 		public const int ReplayZoneEffectClass = 0x0590;
@@ -9367,8 +9566,8 @@ namespace Offsets
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnPlayerInfoDistanceDelegate = 0x05A0;
 
-		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData09 = 0x05B0;
+		///<summary>unsigned char[0x60]</summary>
+		public const int UnknownData05 = 0x05B0;
 
 	}
 
@@ -9495,55 +9694,55 @@ namespace Offsets
 	public class UTslThrowableTrajectoryViewComponent
 	{
 		///<summary>UStaticMesh *</summary>
-		public const int SplineSegmentMesh = 0x0910;
+		public const int SplineSegmentMesh = 0x0920;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int SplineSegmentMeshMaterial = 0x0918;
+		public const int SplineSegmentMeshMaterial = 0x0928;
 
 		///<summary>FVector2D</summary>
-		public const int SegmentMeshScale = 0x0920;
+		public const int SegmentMeshScale = 0x0930;
 
 		///<summary>UStaticMesh *</summary>
-		public const int ImpactMesh = 0x0928;
+		public const int ImpactMesh = 0x0938;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int ImpactMeshMaterial = 0x0930;
+		public const int ImpactMeshMaterial = 0x0940;
 
 		///<summary>FVector</summary>
-		public const int ImpactMeshScale = 0x0938;
+		public const int ImpactMeshScale = 0x0948;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x0944;
+		public const int UnknownData00 = 0x0954;
 
 		///<summary>unsigned char[0x50]</summary>
-		public const int UnknownData01 = 0x0944;
+		public const int UnknownData01 = 0x0954;
 
 		///<summary>float</summary>
-		public const int PredictionTime = 0x0998;
+		public const int PredictionTime = 0x09A8;
 
 		///<summary>float</summary>
-		public const int DistanceScaleFactor = 0x099C;
+		public const int DistanceScaleFactor = 0x09AC;
 
 		///<summary>FName</summary>
-		public const int MaterialParam_NearDepthFadeOrigin = 0x09A0;
+		public const int MaterialParam_NearDepthFadeOrigin = 0x09B0;
 
 		///<summary>FName</summary>
-		public const int MaterialParam_FarDepthFadeOrigin = 0x09A8;
+		public const int MaterialParam_FarDepthFadeOrigin = 0x09B8;
 
 		///<summary>float</summary>
-		public const int SplineGenerationAngThresholdDeg = 0x09B0;
+		public const int SplineGenerationAngThresholdDeg = 0x09C0;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData02 = 0x09B4;
+		public const int UnknownData02 = 0x09C4;
 
 		///<summary>UStaticMeshComponent *</summary>
-		public const int ImpactMeshComponent = 0x09C0;
+		public const int ImpactMeshComponent = 0x09D0;
 
 		///<summary>TArray&lt;USplineMeshComponent * &gt;</summary>
-		public const int SplineMeshArray = 0x09C8;
+		public const int SplineMeshArray = 0x09D8;
 
 		///<summary>UMaterialInstanceDynamic *</summary>
-		public const int SplineSegmentMeshMaterialDynamic = 0x09D8;
+		public const int SplineSegmentMeshMaterialDynamic = 0x09E8;
 
 	}
 
@@ -9685,8 +9884,14 @@ namespace Offsets
 		///<summary>FSequence_Float</summary>
 		public const int PlayerIconResetSequence = 0x0590;
 
+		///<summary>float</summary>
+		public const int PlayerIconPositionX_Start = 0x0630;
+
+		///<summary>float</summary>
+		public const int PlayerIconPositionX_End = 0x0634;
+
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x0630;
+		public const int UnknownData00 = 0x0638;
 
 	}
 
@@ -9746,6 +9951,13 @@ namespace Offsets
 
 	}
 
+	public class UHudMainBaseWidget
+	{
+		///<summary>TArray&lt;FHudUiConfig&gt;</summary>
+		public const int GeneralUiConfigs = 0x02C8;
+
+	}
+
 	public class UInteractionBaseWidget
 	{
 		///<summary>FUmgWidgetBinder_Border</summary>
@@ -9775,47 +9987,50 @@ namespace Offsets
 		///<summary>FUmgWidgetBinder_TextBlock</summary>
 		public const int InteractionKeyTextBinder = 0x03A0;
 
-		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int AdditionalMessageBlinkingBinder = 0x03C0;
+		///<summary>FUmgWidgetBinder_Border</summary>
+		public const int InteractionKeyTextBorder_Binder = 0x03C0;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int AdditionalMessageNormalBinder = 0x03E0;
+		public const int AdditionalMessageBlinkingBinder = 0x03E0;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int ShowAnimationBinder = 0x0400;
+		public const int AdditionalMessageNormalBinder = 0x0400;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int HiddenAnimationBinder = 0x0420;
+		public const int ShowAnimationBinder = 0x0420;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int SwitchAnimationBinder = 0x0440;
+		public const int HiddenAnimationBinder = 0x0440;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int SwitchAnimationResetBinder = 0x0460;
+		public const int SwitchAnimationBinder = 0x0460;
+
+		///<summary>FUmgWidgetBinder_Animation</summary>
+		public const int SwitchAnimationResetBinder = 0x0480;
 
 		///<summary>FUmgWidgetBinder_WidgetSwitcher</summary>
-		public const int InteractionInputMethodSwitcherBinder = 0x0480;
+		public const int InteractionInputMethodSwitcherBinder = 0x04A0;
 
 		///<summary>FName</summary>
-		public const int InteractionKeyName = 0x04A0;
+		public const int InteractionKeyName = 0x04C0;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int ProgressCircle_Binder = 0x04A8;
+		public const int ProgressCircle_Binder = 0x04C8;
 
 		///<summary>FLinearColor</summary>
-		public const int InteractionTextColor_Interactable = 0x04D0;
+		public const int InteractionTextColor_Interactable = 0x04F0;
 
 		///<summary>FLinearColor</summary>
-		public const int InteractionTextShadowColor_Interactable = 0x04E0;
+		public const int InteractionTextShadowColor_Interactable = 0x0500;
 
 		///<summary>FLinearColor</summary>
-		public const int InteractionTextColor_NotInteractable = 0x04F0;
+		public const int InteractionTextColor_NotInteractable = 0x0510;
 
 		///<summary>FLinearColor</summary>
-		public const int InteractionTextShadowColor_NotInteractable = 0x0500;
+		public const int InteractionTextShadowColor_NotInteractable = 0x0520;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData01 = 0x0510;
+		public const int UnknownData01 = 0x0530;
 
 	}
 
@@ -10218,131 +10433,137 @@ namespace Offsets
 		///<summary>float</summary>
 		public const int Contrast = 0x042C;
 
-		///<summary>float</summary>
-		public const int ZoomLevel = 0x0430;
+		///<summary>unsigned char[0xC]</summary>
+		public const int UnknownData01 = 0x0430;
 
 		///<summary>float</summary>
-		public const int ShowGridZoomLevel = 0x0434;
+		public const int ZoomLevel = 0x043C;
+
+		///<summary>float</summary>
+		public const int ShowGridZoomLevel = 0x0440;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData02 = 0x0444;
 
 		///<summary>UCurveFloat *</summary>
-		public const int ViewRatioCurve = 0x0438;
+		public const int ViewRatioCurve = 0x0448;
 
 		///<summary>bool</summary>
-		public const int bRectangleViewMode = 0x0440;
+		public const int bRectangleViewMode = 0x0450;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData01 = 0x0441;
+		public const int UnknownData03 = 0x0451;
 
 		///<summary>UFont *</summary>
-		public const int GridFont = 0x0448;
+		public const int GridFont = 0x0458;
 
 		///<summary>FName</summary>
-		public const int FontTypeFace = 0x0450;
+		public const int FontTypeFace = 0x0460;
 
 		///<summary>TArray&lt;FString&gt;</summary>
-		public const int GridTextHorizentalArray = 0x0458;
+		public const int GridTextHorizentalArray = 0x0468;
 
 		///<summary>TArray&lt;FString&gt;</summary>
-		public const int GridTextVerticalArray = 0x0468;
+		public const int GridTextVerticalArray = 0x0478;
 
 		///<summary>FLinearColor</summary>
-		public const int ColorLargeGrid = 0x0478;
+		public const int ColorLargeGrid = 0x0488;
 
 		///<summary>FLinearColor</summary>
-		public const int ColorSmallGrid = 0x0488;
+		public const int ColorSmallGrid = 0x0498;
 
 		///<summary>FLinearColor</summary>
-		public const int ColorText = 0x0498;
+		public const int ColorText = 0x04A8;
 
 		///<summary>FLinearColor</summary>
-		public const int ColorSafetyZone = 0x04A8;
+		public const int ColorSafetyZone = 0x04B8;
 
 		///<summary>float</summary>
-		public const int ThicknessLargeGrid = 0x04B8;
+		public const int ThicknessLargeGrid = 0x04C8;
 
 		///<summary>float</summary>
-		public const int ThicknessSmallGrid = 0x04BC;
+		public const int ThicknessSmallGrid = 0x04CC;
 
 		///<summary>FLinearColor</summary>
-		public const int ColorPoisonGasWarning = 0x04C0;
+		public const int ColorPoisonGasWarning = 0x04D0;
 
 		///<summary>bool</summary>
-		public const int bDrawGridLine = 0x04D0;
+		public const int bDrawGridLine = 0x04E0;
 
 		///<summary>bool</summary>
-		public const int bDrawGridText = 0x04D1;
+		public const int bDrawGridText = 0x04E1;
 
 		///<summary>bool</summary>
-		public const int bDrawNextPlayzoneGuideLine = 0x04D2;
+		public const int bDrawNextPlayzoneGuideLine = 0x04E2;
 
 		///<summary>bool</summary>
-		public const int bUseZOrderSort = 0x04D3;
+		public const int bUseZOrderSort = 0x04E3;
 
 		///<summary>bool</summary>
-		public const int bUseTeamMemberColor = 0x04D4;
+		public const int bUseTeamMemberColor = 0x04E4;
 
 		///<summary>bool</summary>
-		public const int bRemoveDeadIcon = 0x04D5;
+		public const int bRemoveDeadIcon = 0x04E5;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData02 = 0x04D6;
+		public const int UnknownData04 = 0x04E6;
 
 		///<summary>FLinearColor</summary>
-		public const int DefaultIconNameTagColor = 0x04D8;
+		public const int DefaultIconNameTagColor = 0x04E8;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData03 = 0x04E8;
+		public const int UnknownData05 = 0x04F8;
 
 		///<summary>UMaterialInstanceDynamic *</summary>
-		public const int MatInst = 0x04F8;
+		public const int MatInst = 0x0508;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData04 = 0x0500;
+		public const int UnknownData06 = 0x0510;
 
 		///<summary>UMapMarkerBaseWidget *</summary>
-		public const int MyMapMarker = 0x0518;
+		public const int MyMapMarker = 0x0528;
 
 		///<summary>TMap&lt;ATeam *,UMapMarkerBaseWidget * &gt;</summary>
-		public const int TeamPlayerMarkers = 0x0520;
+		public const int TeamPlayerMarkers = 0x0530;
 
 		///<summary>UMapCharacterIconBaseWidget *</summary>
-		public const int MyCharacterMapIcon = 0x0570;
+		public const int MyCharacterMapIcon = 0x0580;
 
 		///<summary>TMap&lt;AActor *,UMapCharacterIconBaseWidget * &gt;</summary>
-		public const int OtherCharacterMapIcons = 0x0578;
+		public const int OtherCharacterMapIcons = 0x0588;
 
 		///<summary>TMap&lt;ACarePackageItem *,UMapCarePackageItemIconBaseWidget * &gt;</summary>
-		public const int MapCarePackageItemIcons = 0x05C8;
+		public const int MapCarePackageItemIcons = 0x05D8;
 
 		///<summary>FTimerHandle</summary>
-		public const int ReplicatedCharacterListUpdateTimer = 0x0618;
+		public const int ReplicatedCharacterListUpdateTimer = 0x0628;
 
 		///<summary>FTimerHandle</summary>
-		public const int ReplicatedCarePackageItemListUpdateTimer = 0x0620;
+		public const int ReplicatedCarePackageItemListUpdateTimer = 0x0630;
 
 		///<summary>TArray&lt;ATslCharacter * &gt;</summary>
-		public const int ReplicatedCharacterList = 0x0628;
+		public const int ReplicatedCharacterList = 0x0638;
 
 		///<summary>TArray&lt;ACarePackageItem * &gt;</summary>
-		public const int ReplicatedCarePackageItemList = 0x0638;
+		public const int ReplicatedCarePackageItemList = 0x0648;
 
 		///<summary>TArray&lt;ATeam * &gt;</summary>
-		public const int ShowMarkerOnwerList = 0x0648;
+		public const int ShowMarkerOnwerList = 0x0658;
 
-		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData05 = 0x0658;
-
-		///<summary>UMaterialInstance *</summary>
-		public const int MyOrTeamIconMaterial = 0x0678;
+		///<summary>unsigned char[0x28]</summary>
+		public const int UnknownData07 = 0x0668;
 
 		///<summary>UMaterialInstance *</summary>
-		public const int OtherCharacterIconMaterial = 0x0680;
+		public const int MyOrTeamIconMaterial = 0x0690;
+
+		///<summary>UMaterialInstance *</summary>
+		public const int OtherCharacterIconMaterial = 0x0698;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int CloseMySelf = 0x0688;
+		public const int CloseMySelf = 0x06A0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnHideOwner = 0x0698;
+		public const int OnHideOwner = 0x06B0;
 
 	}
 
@@ -10419,83 +10640,86 @@ namespace Offsets
 		///<summary>float</summary>
 		public const int DeadMarkInvisibleDistance = 0x02D8;
 
-		///<summary>float</summary>
-		public const int DefaultImageAlpha = 0x02DC;
-
-		///<summary>float</summary>
-		public const int DefaultTextAlpha = 0x02E0;
-
-		///<summary>float</summary>
-		public const int AmingImageAlpha = 0x02E4;
-
-		///<summary>float</summary>
-		public const int ScopingImageAlpha = 0x02E8;
-
-		///<summary>float</summary>
-		public const int AmingTextAlpha = 0x02EC;
-
-		///<summary>float</summary>
-		public const int ScopingTextAlpha = 0x02F0;
+		///<summary>FVector2D</summary>
+		public const int OffScreenEdgeSize = 0x02DC;
 
 		///<summary>FVector2D</summary>
-		public const int OffScreenEdgeSize = 0x02F4;
-
-		///<summary>FVector2D</summary>
-		public const int OffScreenImageEdgeSize = 0x02FC;
+		public const int OffScreenImageEdgeSize = 0x02E4;
 
 		///<summary>float</summary>
-		public const int AnimationMaxDistance = 0x0304;
+		public const int AnimationMaxPercent = 0x02EC;
+
+		///<summary>float</summary>
+		public const int AnimationMaxDistance = 0x02F0;
+
+		///<summary>unsigned char[0x4]</summary>
+		public const int UnknownData00 = 0x02F4;
 
 		///<summary>FUmgWidgetBinder_Gerneral</summary>
-		public const int StateSwitcherBinder = 0x0308;
+		public const int StateSwitcherBinder = 0x02F8;
 
 		///<summary>FUmgWidgetBinder_TextBlock</summary>
-		public const int PlayerNameTextBinder = 0x0328;
+		public const int PlayerNameTextBinder = 0x0318;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int OutLineImageBinder = 0x0348;
+		public const int OutLineImageBinder = 0x0338;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int DirectionImageBinder = 0x0370;
+		public const int DirectionImageBinder = 0x0360;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int NormalImageBinder = 0x0398;
+		public const int NormalImageBinder = 0x0388;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int GroggyImageBinder = 0x03C0;
+		public const int GroggyImageBinder = 0x03B0;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int DeadImageBinder = 0x03E8;
+		public const int DeadImageBinder = 0x03D8;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int VehicleImageBinder = 0x0410;
+		public const int VehicleImageBinder = 0x0400;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int ParachuteImageBinder = 0x0438;
+		public const int ParachuteImageBinder = 0x0428;
 
 		///<summary>FUmgWidgetBinder_Image</summary>
-		public const int QuitterImageBinder = 0x0460;
+		public const int QuitterImageBinder = 0x0450;
 
 		///<summary>FUmgWidgetBinder_Animation</summary>
-		public const int ScaleOpacityByDistanceAnim = 0x0488;
+		public const int OpacityByRadiusPercentAnim = 0x0478;
+
+		///<summary>FUmgWidgetBinder_Animation</summary>
+		public const int ScaleByDistanceAnim = 0x0498;
 
 		///<summary>FUmgWidgetBinder_Border</summary>
-		public const int ImageMarkBorderBinder = 0x04A8;
+		public const int ImageMarkBorderBinder = 0x04B8;
+
+		///<summary>float</summary>
+		public const int AmingImageAlpha = 0x04D8;
+
+		///<summary>float</summary>
+		public const int ScopingImageAlpha = 0x04DC;
+
+		///<summary>float</summary>
+		public const int AmingTextAlpha = 0x04E0;
+
+		///<summary>float</summary>
+		public const int ScopingTextAlpha = 0x04E4;
 
 		///<summary>UTexture *</summary>
-		public const int OutScreenImage = 0x04C8;
+		public const int OutScreenImage = 0x04E8;
 
 		///<summary>UTexture *</summary>
-		public const int GroggyImage = 0x04D0;
+		public const int GroggyImage = 0x04F0;
 
 		///<summary>UTexture *</summary>
-		public const int VehicleImage = 0x04D8;
+		public const int VehicleImage = 0x04F8;
 
 		///<summary>UTexture *</summary>
-		public const int ParachuteImage = 0x04E0;
+		public const int ParachuteImage = 0x0500;
 
-		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData00 = 0x04E8;
+		///<summary>unsigned char[0x20]</summary>
+		public const int UnknownData01 = 0x0508;
 
 	}
 
@@ -10947,35 +11171,47 @@ namespace Offsets
 		///<summary>FUmgWidgetBinder_Overlay</summary>
 		public const int TeamOverlayBinder = 0x0348;
 
+		///<summary>FUmgWidgetBinder_TextBlock</summary>
+		public const int DirectionTextBlockBinder = 0x0368;
+
 		///<summary>UClass *</summary>
-		public const int CompassMarkerWidgetClass = 0x0368;
+		public const int CompassMarkerWidgetClass = 0x0388;
 
 		///<summary>UTslCompassMarkerWidget *</summary>
-		public const int MyCompassMarkerWidget = 0x0370;
+		public const int MyCompassMarkerWidget = 0x0390;
 
 		///<summary>TArray&lt;UTslCompassMarkerWidget * &gt;</summary>
-		public const int TeamMarkerWidgetOfTeam = 0x0378;
+		public const int TeamMarkerWidgetOfTeam = 0x0398;
 
 		///<summary>float</summary>
-		public const int DivisionLevel = 0x0388;
+		public const int DivisionLevel = 0x03A8;
 
 		///<summary>float</summary>
-		public const int Offset = 0x038C;
+		public const int Offset = 0x03AC;
 
 		///<summary>bool</summary>
-		public const int bClockwise = 0x0390;
-
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0391;
-
-		///<summary>float</summary>
-		public const int Width = 0x0394;
-
-		///<summary>bool</summary>
-		public const int bIsInitilzed = 0x0398;
+		public const int bClockwise = 0x03B0;
 
 		///<summary>unsigned char[0x7]</summary>
-		public const int UnknownData01 = 0x0399;
+		public const int UnknownData00 = 0x03B1;
+
+		///<summary>FLinearColor</summary>
+		public const int DefaultDirectionTextColor = 0x0408;
+
+		///<summary>int</summary>
+		public const int BearingUnit = 0x0418;
+
+		///<summary>float</summary>
+		public const int Width = 0x041C;
+
+		///<summary>bool</summary>
+		public const int bIsInitilzed = 0x0420;
+
+		///<summary>unsigned char[0x3]</summary>
+		public const int UnknownData01 = 0x0421;
+
+		///<summary>float</summary>
+		public const int CompassYaw = 0x0424;
 
 	}
 
@@ -11129,29 +11365,32 @@ namespace Offsets
 		///<summary>FUmgWidgetBinder_Image</summary>
 		public const int VoiceImage_Binder = 0x0338;
 
+		///<summary>FUmgWidgetBinder_Border</summary>
+		public const int BackgroundBorder_Binder = 0x0360;
+
 		///<summary>bool</summary>
-		public const int bTestAlwaysShowIcons = 0x0360;
+		public const int bTestAlwaysShowIcons = 0x0380;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0361;
+		public const int UnknownData00 = 0x0381;
 
 		///<summary>int</summary>
-		public const int SlotIndex = 0x0364;
+		public const int SlotIndex = 0x0384;
 
 		///<summary>FVector</summary>
-		public const int NameTagOffsetTranslation = 0x0368;
+		public const int NameTagOffsetTranslation = 0x0388;
 
 		///<summary>bool</summary>
-		public const int bIsHost = 0x0374;
+		public const int bIsHost = 0x0394;
 
 		///<summary>bool</summary>
-		public const int bIsReady = 0x0375;
+		public const int bIsReady = 0x0395;
 
 		///<summary>bool</summary>
-		public const int bIsSpeaking = 0x0376;
+		public const int bIsSpeaking = 0x0396;
 
 		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData01 = 0x0377;
+		public const int UnknownData01 = 0x0397;
 
 	}
 
@@ -11243,8 +11482,14 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int bSpeaking = 0x02C9;
 
-		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x02CA;
+		///<summary>unsigned char:1</summary>
+		public const int bMute = 0x02CA;
+
+		///<summary>unsigned char:1</summary>
+		public const int bIsRestricted = 0x02CA;
+
+		///<summary>unsigned char[0x5]</summary>
+		public const int UnknownData00 = 0x02CB;
 
 		///<summary>FUmgWidgetBinder_HorizontalBox</summary>
 		public const int TeamHpAreaBinder = 0x02D0;
@@ -11869,79 +12114,82 @@ namespace Offsets
 		public const int MinVelocityForSurfaceCheck = 0x0438;
 
 		///<summary>float</summary>
-		public const int MinSlip = 0x043C;
+		public const int MinRotationSpeedForSurfaceCheck = 0x043C;
 
 		///<summary>float</summary>
-		public const int MinSpin = 0x0440;
+		public const int MinSlip = 0x0440;
 
 		///<summary>float</summary>
-		public const int MinVelocityForBreak = 0x0444;
+		public const int MinSpin = 0x0444;
 
 		///<summary>float</summary>
-		public const int BrakeNoDriverMultiplier = 0x0448;
+		public const int MinVelocityForBreak = 0x0448;
+
+		///<summary>float</summary>
+		public const int BrakeNoDriverMultiplier = 0x044C;
 
 		///<summary>int</summary>
-		public const int VelocityInterpSpeed = 0x044C;
+		public const int VelocityInterpSpeed = 0x0450;
 
 		///<summary>int</summary>
-		public const int SlipInterpSpeed = 0x0450;
+		public const int SlipInterpSpeed = 0x0454;
 
 		///<summary>int</summary>
-		public const int SpinInterpSpeed = 0x0454;
+		public const int SpinInterpSpeed = 0x0458;
 
 		///<summary>int</summary>
-		public const int BreakInterpSpeed = 0x0458;
+		public const int BreakInterpSpeed = 0x045C;
 
 		///<summary>bool</summary>
-		public const int bDebugVisualizedMeasuredWheels = 0x045C;
+		public const int bDebugVisualizedMeasuredWheels = 0x0460;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData05 = 0x045D;
+		public const int UnknownData05 = 0x0461;
 
 		///<summary>float</summary>
-		public const int AngularVelocityCoefficient = 0x0460;
+		public const int AngularVelocityCoefficient = 0x0464;
 
 		///<summary>float</summary>
-		public const int LateralVelocityCoeffictient = 0x0464;
+		public const int LateralVelocityCoeffictient = 0x0468;
 
 		///<summary>float</summary>
-		public const int LateralVelocityClamp = 0x0468;
+		public const int LateralVelocityClamp = 0x046C;
 
 		///<summary>bool</summary>
-		public const int bProcessShiftStart = 0x046C;
+		public const int bProcessShiftStart = 0x0470;
 
 		///<summary>bool</summary>
-		public const int bProcessShiftEnd = 0x046D;
+		public const int bProcessShiftEnd = 0x0471;
 
 		///<summary>bool</summary>
-		public const int bProcessReverse = 0x046E;
+		public const int bProcessReverse = 0x0472;
 
-		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData06 = 0x046F;
-
-		///<summary>UAkAudioEvent *</summary>
-		public const int GearUpSound_Start = 0x0470;
+		///<summary>unsigned char[0x5]</summary>
+		public const int UnknownData06 = 0x0473;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int GearDownSound_Start = 0x0478;
+		public const int GearUpSound_Start = 0x0478;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int GearUpSound_End = 0x0480;
+		public const int GearDownSound_Start = 0x0480;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int GearDownSound_End = 0x0488;
+		public const int GearUpSound_End = 0x0488;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int GearReverseSound = 0x0490;
+		public const int GearDownSound_End = 0x0490;
+
+		///<summary>UAkAudioEvent *</summary>
+		public const int GearReverseSound = 0x0498;
 
 		///<summary>unsigned char[0x90]</summary>
-		public const int UnknownData07 = 0x0498;
+		public const int UnknownData07 = 0x04A0;
 
 		///<summary>float</summary>
-		public const int ApplyDestroyedMaterialDelay = 0x0578;
+		public const int ApplyDestroyedMaterialDelay = 0x0580;
 
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData08 = 0x057C;
+		///<summary>unsigned char[0xC]</summary>
+		public const int UnknownData08 = 0x0584;
 
 	}
 
@@ -12336,215 +12584,206 @@ namespace Offsets
 	public class ATslMotorbikeVehicle
 	{
 		///<summary>bool</summary>
-		public const int bUseKickstandStabilize = 0x0728;
+		public const int bStabilizeOnServer = 0x07A0;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0729;
+		public const int UnknownData00 = 0x07A1;
 
 		///<summary>float</summary>
-		public const int MinSuspensionOffsetForContact = 0x072C;
-
-		///<summary>bool</summary>
-		public const int bStabilizeOnServer = 0x0730;
-
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x0731;
+		public const int KickstandStabilizeDamping = 0x07A4;
 
 		///<summary>float</summary>
-		public const int KickstandStabilizeDamping = 0x0734;
+		public const int KickstandMaxAngVelocity = 0x07A8;
 
 		///<summary>float</summary>
-		public const int KickstandMaxAngVelocity = 0x0738;
+		public const int DefaultAngularDamping = 0x07AC;
 
 		///<summary>float</summary>
-		public const int DefaultAngularDamping = 0x073C;
+		public const int KickstandStabilizeTorqueScalar = 0x07B0;
 
 		///<summary>float</summary>
-		public const int KickstandStabilizeTorqueScalar = 0x0740;
+		public const int KickstandStabilizeRollScalar = 0x07B4;
 
 		///<summary>float</summary>
-		public const int KickstandStabilizeRollScalar = 0x0744;
+		public const int KickstandStabilizeRollMinRange = 0x07B8;
 
 		///<summary>float</summary>
-		public const int KickstandStabilizeRollMinRange = 0x0748;
-
-		///<summary>float</summary>
-		public const int MinVelocityForStabilizeOverride = 0x074C;
+		public const int MinVelocityForStabilizeOverride = 0x07BC;
 
 		///<summary>FName</summary>
-		public const int StabilizeBone_Low = 0x0750;
+		public const int StabilizeBone_Low = 0x07C0;
 
 		///<summary>FName</summary>
-		public const int StabilizeBone_High = 0x0758;
+		public const int StabilizeBone_High = 0x07C8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_Roll = 0x0760;
+		public const int Curve_Roll = 0x07D0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_RollReturn = 0x0768;
+		public const int Curve_RollReturn = 0x07D8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_Steer = 0x0770;
+		public const int Curve_Steer = 0x07E0;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_Yaw = 0x0778;
+		public const int Curve_Yaw = 0x07E8;
 
 		///<summary>UCurveFloat *</summary>
-		public const int Curve_Torque = 0x0780;
+		public const int Curve_Torque = 0x07F0;
 
 		///<summary>FVector</summary>
-		public const int StabStaticVector = 0x0788;
+		public const int StabStaticVector = 0x07F8;
 
 		///<summary>FVector</summary>
-		public const int StabStaticVectorKickstand = 0x0794;
+		public const int StabStaticVectorKickstand = 0x0804;
 
 		///<summary>FVector</summary>
-		public const int StabNoDriverVector = 0x07A0;
+		public const int StabNoDriverVector = 0x0810;
 
 		///<summary>FVector2D</summary>
-		public const int StabX_Velocity_In = 0x07AC;
+		public const int StabX_Velocity_In = 0x081C;
 
 		///<summary>FVector2D</summary>
-		public const int StabX_Velocity_Out = 0x07B4;
+		public const int StabX_Velocity_Out = 0x0824;
 
 		///<summary>FVector2D</summary>
-		public const int StabX_Pitch_In = 0x07BC;
+		public const int StabX_Pitch_In = 0x082C;
 
 		///<summary>FVector2D</summary>
-		public const int StabX_Pitch_Out = 0x07C4;
+		public const int StabX_Pitch_Out = 0x0834;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Velocity_In = 0x07CC;
+		public const int StabZ_Velocity_In = 0x083C;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Velocity_Out = 0x07D4;
+		public const int StabZ_Velocity_Out = 0x0844;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Roll_In = 0x07DC;
+		public const int StabZ_Roll_In = 0x084C;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Roll_Out = 0x07E4;
+		public const int StabZ_Roll_Out = 0x0854;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Pitch_In = 0x07EC;
+		public const int StabZ_Pitch_In = 0x085C;
 
 		///<summary>FVector2D</summary>
-		public const int StabZ_Pitch_Out = 0x07F4;
+		public const int StabZ_Pitch_Out = 0x0864;
 
 		///<summary>FVector2D</summary>
-		public const int StabTorque_In = 0x07FC;
+		public const int StabTorque_In = 0x086C;
 
 		///<summary>FVector2D</summary>
-		public const int StabTorque_Out = 0x0804;
+		public const int StabTorque_Out = 0x0874;
 
 		///<summary>float</summary>
-		public const int StabTorque_ForceScalar = 0x080C;
+		public const int StabTorque_ForceScalar = 0x087C;
 
 		///<summary>FVector2D</summary>
-		public const int StabTorque_Pitch_In = 0x0810;
+		public const int StabTorque_Pitch_In = 0x0880;
 
 		///<summary>FVector2D</summary>
-		public const int StabTorque_Pitch_Out = 0x0818;
+		public const int StabTorque_Pitch_Out = 0x0888;
 
 		///<summary>bool</summary>
-		public const int bUseFlipping = 0x0820;
+		public const int bUseFlipping = 0x0890;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x0821;
+		public const int UnknownData01 = 0x0891;
 
 		///<summary>float</summary>
-		public const int FlippingForce = 0x0824;
+		public const int FlippingForce = 0x0894;
 
 		///<summary>float</summary>
-		public const int InitialFlipTimer = 0x0828;
+		public const int InitialFlipTimer = 0x0898;
 
 		///<summary>float</summary>
-		public const int MinVelocityForFlipping = 0x082C;
+		public const int MinVelocityForFlipping = 0x089C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x0830;
+		public const int UnknownData02 = 0x08A0;
 
 		///<summary>float</summary>
-		public const int ContactAlpha_RiseRate = 0x0834;
+		public const int ContactAlpha_RiseRate = 0x08A4;
 
 		///<summary>float</summary>
-		public const int ContactAlpha_FallRate = 0x0838;
+		public const int ContactAlpha_FallRate = 0x08A8;
 
 		///<summary>float</summary>
-		public const int ContactAlpha_LowerClamp = 0x083C;
+		public const int ContactAlpha_LowerClamp = 0x08AC;
 
 		///<summary>FVector2D</summary>
-		public const int ContactAlpha_MapPitchIn = 0x0840;
+		public const int ContactAlpha_MapPitchIn = 0x08B0;
 
 		///<summary>FVector2D</summary>
-		public const int ContactAlpha_MapRollIn = 0x0848;
+		public const int ContactAlpha_MapRollIn = 0x08B8;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlF_VelMap = 0x0850;
+		public const int AirControlF_VelMap = 0x08C0;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlB_VelMap = 0x0858;
+		public const int AirControlB_VelMap = 0x08C8;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlL_VelMap = 0x0860;
+		public const int AirControlL_VelMap = 0x08D0;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlR_VelMap = 0x0868;
+		public const int AirControlR_VelMap = 0x08D8;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlQ_VelMap = 0x0870;
+		public const int AirControlQ_VelMap = 0x08E0;
 
 		///<summary>FVector2D</summary>
-		public const int AirControlE_VelMap = 0x0878;
+		public const int AirControlE_VelMap = 0x08E8;
 
 		///<summary>float</summary>
-		public const int AirControl_FB_Torque = 0x0880;
+		public const int AirControl_FB_Torque = 0x08F0;
 
 		///<summary>float</summary>
-		public const int AirControl_LR_Torque = 0x0884;
+		public const int AirControl_LR_Torque = 0x08F4;
 
 		///<summary>float</summary>
-		public const int AirControl_QE_Torque = 0x0888;
+		public const int AirControl_QE_Torque = 0x08F8;
 
 		///<summary>bool</summary>
-		public const int bStabilizeInAir = 0x088C;
+		public const int bStabilizeInAir = 0x08FC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData04 = 0x088D;
+		public const int UnknownData03 = 0x08FD;
 
 		///<summary>float</summary>
-		public const int StabilizeAirPercentage = 0x0890;
+		public const int StabilizeAirPercentage = 0x0900;
 
 		///<summary>float</summary>
-		public const int FC_PitchUp = 0x0894;
+		public const int FC_PitchUp = 0x0904;
 
 		///<summary>float</summary>
-		public const int FC_PitchDown = 0x0898;
+		public const int FC_PitchDown = 0x0908;
 
 		///<summary>unsigned char[0x31]</summary>
-		public const int UnknownData05 = 0x089C;
+		public const int UnknownData04 = 0x090C;
 
 		///<summary>bool</summary>
-		public const int bKickstandStabilize = 0x08CD;
+		public const int bKickstandStabilize = 0x093D;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData06 = 0x08CE;
+		public const int UnknownData05 = 0x093E;
 
 	}
 
 	public class ATslMotorbikeVehicle_Sidecar
 	{
 		///<summary>float</summary>
-		public const int Sidecar_COM_Y_Left = 0x08D0;
+		public const int Sidecar_COM_Y_Left = 0x0940;
 
 		///<summary>float</summary>
-		public const int Sidecar_COM_Y_Right = 0x08D4;
+		public const int Sidecar_COM_Y_Right = 0x0944;
 
 		///<summary>FVector</summary>
-		public const int Sidecar_StabilizerHigh_StaticCOM = 0x08D8;
+		public const int Sidecar_StabilizerHigh_StaticCOM = 0x0948;
 
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x08E4;
+		///<summary>unsigned char[0xC]</summary>
+		public const int UnknownData00 = 0x0954;
 
 	}
 
@@ -12684,76 +12923,79 @@ namespace Offsets
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int OnParticipantMuteChanged = 0x01E8;
 
+		///<summary>FScriptMulticastDelegate</summary>
+		public const int OnParticipantRestrictionChanged = 0x01F8;
+
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x01F8;
+		public const int UnknownData01 = 0x0208;
 
 		///<summary>FVivoxConnectionInfo</summary>
-		public const int ConnectionInfo = 0x0200;
+		public const int ConnectionInfo = 0x0210;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData02 = 0x0220;
+		public const int UnknownData02 = 0x0230;
 
 		///<summary>FString</summary>
-		public const int TeamChannelUrl = 0x0228;
+		public const int TeamChannelUrl = 0x0238;
 
 		///<summary>FString</summary>
-		public const int GlobalChannelUrl = 0x0238;
+		public const int GlobalChannelUrl = 0x0248;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x0248;
+		public const int UnknownData03 = 0x0258;
 
 		///<summary>float</summary>
-		public const int ResetFailureDelaySeconds = 0x024C;
+		public const int ResetFailureDelaySeconds = 0x025C;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData04 = 0x0250;
+		public const int UnknownData04 = 0x0260;
 
 		///<summary>float</summary>
-		public const int UpdatePositionIntervalSeconds = 0x0268;
+		public const int UpdatePositionIntervalSeconds = 0x0278;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData05 = 0x026C;
+		public const int UnknownData05 = 0x027C;
 
 		///<summary>float</summary>
-		public const int UserInputVolumeModifier = 0x0278;
+		public const int UserInputVolumeModifier = 0x0288;
 
 		///<summary>float</summary>
-		public const int UserOutputVolumeModifier = 0x027C;
+		public const int UserOutputVolumeModifier = 0x028C;
 
 	}
 
 	public class UVivoxComponent
 	{
 		///<summary>unsigned char[0x2C]</summary>
-		public const int UnknownData00 = 0x0280;
+		public const int UnknownData00 = 0x0290;
 
 		///<summary>float</summary>
-		public const int SuddenMovementDistance = 0x02AC;
+		public const int SuddenMovementDistance = 0x02BC;
 
 		///<summary>float</summary>
-		public const int SuddenMovementModifier = 0x02B0;
+		public const int SuddenMovementModifier = 0x02C0;
 
 		///<summary>float</summary>
-		public const int SuddenMovementModifierDuration = 0x02B4;
+		public const int SuddenMovementModifierDuration = 0x02C4;
 
 		///<summary>float</summary>
-		public const int SuddenMovementModifierRestoreDuration = 0x02B8;
+		public const int SuddenMovementModifierRestoreDuration = 0x02C8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x02BC;
+		public const int UnknownData01 = 0x02CC;
 
 		///<summary>bool</summary>
-		public const int bEnableObserverTeamChat = 0x02C0;
+		public const int bEnableObserverTeamChat = 0x02D0;
 
 		///<summary>unsigned char[0xF]</summary>
-		public const int UnknownData02 = 0x02C1;
+		public const int UnknownData02 = 0x02D1;
 
 	}
 
 	public class UVivoxLobbyComponent
 	{
 		///<summary>unsigned char[0x40]</summary>
-		public const int UnknownData00 = 0x0280;
+		public const int UnknownData00 = 0x0290;
 
 	}
 

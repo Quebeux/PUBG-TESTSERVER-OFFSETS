@@ -8,25 +8,25 @@ namespace Offsets
 	public class UBP_CompassWidget_C
 	{
 		///<summary>UImage *</summary>
-		public const int Compass_Center = 0x03A0;
+		public const int Compass_Center = 0x0428;
 
 		///<summary>UImage *</summary>
-		public const int compass_marker = 0x03A8;
+		public const int compass_marker = 0x0430;
 
 		///<summary>UImage *</summary>
-		public const int CompassImage = 0x03B0;
+		public const int CompassImage = 0x0438;
 
 		///<summary>UVerticalBox *</summary>
-		public const int CompassMain = 0x03B8;
+		public const int CompassMain = 0x0440;
 
 		///<summary>UOverlay *</summary>
-		public const int My = 0x03C0;
+		public const int My = 0x0448;
 
 		///<summary>UOverlay *</summary>
-		public const int MyMarkerLyaer = 0x03C8;
+		public const int MyMarkerLyaer = 0x0450;
 
 		///<summary>UOverlay *</summary>
-		public const int Team = 0x03D0;
+		public const int Team = 0x0458;
 
 	}
 

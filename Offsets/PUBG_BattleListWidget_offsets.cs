@@ -22,6 +22,18 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int IsShow = 0x0268;
 
+		///<summary>unsigned char[0x7]</summary>
+		public const int UnknownData00 = 0x0269;
+
+		///<summary>TArray&lt;UPlayerInfoWidget_C * &gt;</summary>
+		public const int PlayerInfoPool = 0x0270;
+
+		///<summary>TArray&lt;UBattleListSubTitle_C * &gt;</summary>
+		public const int BattleListSubTitlePool = 0x0280;
+
+		///<summary>int</summary>
+		public const int IndexCount = 0x0290;
+
 	}
 
 }

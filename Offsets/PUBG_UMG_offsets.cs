@@ -2128,139 +2128,139 @@ namespace Offsets
 	public class UWidgetComponent
 	{
 		///<summary>EWidgetSpace</summary>
-		public const int Space = 0x0930;
+		public const int Space = 0x0940;
 
 		///<summary>EWidgetTimingPolicy</summary>
-		public const int TimingPolicy = 0x0931;
+		public const int TimingPolicy = 0x0941;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x0932;
+		public const int UnknownData00 = 0x0942;
 
 		///<summary>UClass *</summary>
-		public const int WidgetClass = 0x0938;
+		public const int WidgetClass = 0x0948;
 
 		///<summary>FIntPoint</summary>
-		public const int DrawSize = 0x0940;
+		public const int DrawSize = 0x0950;
 
 		///<summary>bool</summary>
-		public const int bManuallyRedraw = 0x0948;
+		public const int bManuallyRedraw = 0x0958;
 
 		///<summary>bool</summary>
-		public const int bRedrawRequested = 0x0949;
+		public const int bRedrawRequested = 0x0959;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData01 = 0x094A;
+		public const int UnknownData01 = 0x095A;
 
 		///<summary>float</summary>
-		public const int RedrawTime = 0x094C;
+		public const int RedrawTime = 0x095C;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData02 = 0x0950;
+		public const int UnknownData02 = 0x0960;
 
 		///<summary>FIntPoint</summary>
-		public const int CurrentDrawSize = 0x0958;
+		public const int CurrentDrawSize = 0x0968;
 
 		///<summary>bool</summary>
-		public const int bDrawAtDesiredSize = 0x0960;
+		public const int bDrawAtDesiredSize = 0x0970;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x0961;
+		public const int UnknownData03 = 0x0971;
 
 		///<summary>FVector2D</summary>
-		public const int Pivot = 0x0964;
+		public const int Pivot = 0x0974;
 
 		///<summary>bool</summary>
-		public const int bReceiveHardwareInput = 0x096C;
+		public const int bReceiveHardwareInput = 0x097C;
 
 		///<summary>bool</summary>
-		public const int bWindowFocusable = 0x096D;
+		public const int bWindowFocusable = 0x097D;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData04 = 0x096E;
+		public const int UnknownData04 = 0x097E;
 
 		///<summary>ULocalPlayer *</summary>
-		public const int OwnerPlayer = 0x0970;
+		public const int OwnerPlayer = 0x0980;
 
 		///<summary>FLinearColor</summary>
-		public const int BackgroundColor = 0x0978;
+		public const int BackgroundColor = 0x0988;
 
 		///<summary>FLinearColor</summary>
-		public const int TintColorAndOpacity = 0x0988;
+		public const int TintColorAndOpacity = 0x0998;
 
 		///<summary>float</summary>
-		public const int OpacityFromTexture = 0x0998;
+		public const int OpacityFromTexture = 0x09A8;
 
 		///<summary>EWidgetBlendMode</summary>
-		public const int BlendMode = 0x099C;
+		public const int BlendMode = 0x09AC;
 
 		///<summary>bool</summary>
-		public const int bIsTwoSided = 0x099D;
+		public const int bIsTwoSided = 0x09AD;
 
 		///<summary>bool</summary>
-		public const int TickWhenOffscreen = 0x099E;
+		public const int TickWhenOffscreen = 0x09AE;
 
 		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData05 = 0x099F;
+		public const int UnknownData05 = 0x09AF;
 
 		///<summary>UUserWidget *</summary>
-		public const int Widget = 0x09A0;
+		public const int Widget = 0x09B0;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData06 = 0x09A8;
+		public const int UnknownData06 = 0x09B8;
 
 		///<summary>UBodySetup *</summary>
-		public const int BodySetup = 0x09C8;
+		public const int BodySetup = 0x09D8;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int TranslucentMaterial = 0x09D0;
+		public const int TranslucentMaterial = 0x09E0;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int TranslucentMaterial_OneSided = 0x09D8;
+		public const int TranslucentMaterial_OneSided = 0x09E8;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int OpaqueMaterial = 0x09E0;
+		public const int OpaqueMaterial = 0x09F0;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int OpaqueMaterial_OneSided = 0x09E8;
+		public const int OpaqueMaterial_OneSided = 0x09F8;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int MaskedMaterial = 0x09F0;
+		public const int MaskedMaterial = 0x0A00;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int MaskedMaterial_OneSided = 0x09F8;
+		public const int MaskedMaterial_OneSided = 0x0A08;
 
 		///<summary>UTextureRenderTarget2D *</summary>
-		public const int RenderTarget = 0x0A00;
+		public const int RenderTarget = 0x0A10;
 
 		///<summary>UMaterialInstanceDynamic *</summary>
-		public const int MaterialInstance = 0x0A08;
+		public const int MaterialInstance = 0x0A18;
 
 		///<summary>bool</summary>
-		public const int bAddedToScreen = 0x0A10;
+		public const int bAddedToScreen = 0x0A20;
 
 		///<summary>bool</summary>
-		public const int bEditTimeUsable = 0x0A11;
+		public const int bEditTimeUsable = 0x0A21;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData07 = 0x0A12;
+		public const int UnknownData07 = 0x0A22;
 
 		///<summary>FName</summary>
-		public const int SharedLayerName = 0x0A18;
+		public const int SharedLayerName = 0x0A28;
 
 		///<summary>int</summary>
-		public const int LayerZOrder = 0x0A20;
+		public const int LayerZOrder = 0x0A30;
 
 		///<summary>EWidgetGeometryMode</summary>
-		public const int GeometryMode = 0x0A24;
+		public const int GeometryMode = 0x0A34;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData08 = 0x0A25;
+		public const int UnknownData08 = 0x0A35;
 
 		///<summary>float</summary>
-		public const int CylinderArcAngle = 0x0A28;
+		public const int CylinderArcAngle = 0x0A38;
 
 		///<summary>unsigned char[0x34]</summary>
-		public const int UnknownData09 = 0x0A2C;
+		public const int UnknownData09 = 0x0A3C;
 
 	}
 

@@ -29,55 +29,55 @@ namespace Offsets
 		public const int HoldRotation = 0x0318;
 
 		///<summary>UQualityComboBox_C *</summary>
-		public const int Killcam = 0x0320;
+		public const int Map = 0x0320;
 
 		///<summary>UQualityComboBox_C *</summary>
-		public const int Map = 0x0328;
+		public const int Peek = 0x0328;
 
 		///<summary>UQualityComboBox_C *</summary>
-		public const int Peek = 0x0330;
+		public const int Prone = 0x0330;
+
+		///<summary>UReplaySettings_C *</summary>
+		public const int ReplaySettings = 0x0338;
 
 		///<summary>UQualityComboBox_C *</summary>
-		public const int PreloadingMap = 0x0338;
-
-		///<summary>UQualityComboBox_C *</summary>
-		public const int Prone = 0x0340;
-
-		///<summary>UQualityComboBox_C *</summary>
-		public const int Sprint = 0x0348;
+		public const int Sprint = 0x0340;
 
 		///<summary>UUiSettings_C *</summary>
-		public const int UiSettings = 0x0350;
+		public const int UiSettings = 0x0348;
 
 		///<summary>UQualityComboBox_C *</summary>
-		public const int Walk = 0x0358;
+		public const int Walk = 0x0350;
 
 		///<summary>TArray&lt;UQualityComboBox_C * &gt;</summary>
-		public const int ContentsForInputMode = 0x0360;
+		public const int ContentsForInputMode = 0x0358;
 
 		///<summary>FString</summary>
-		public const int StrToggle = 0x0370;
+		public const int StrToggle = 0x0368;
 
 		///<summary>FString</summary>
-		public const int StrDoubleTap = 0x0380;
+		public const int StrDoubleTap = 0x0378;
 
 		///<summary>FString</summary>
-		public const int StrHold = 0x0390;
+		public const int StrHold = 0x0388;
 
 		///<summary>TArray&lt;UQualityComboBox_C * &gt;</summary>
-		public const int ContentsForFunctionalities = 0x03A0;
+		public const int ContentsForFunctionalities = 0x0398;
 
 		///<summary>FString</summary>
-		public const int StrEnable = 0x03B0;
+		public const int StrEnable = 0x03A8;
 
 		///<summary>FString</summary>
-		public const int StrDisable = 0x03C0;
+		public const int StrDisable = 0x03B8;
 
 		///<summary>FString</summary>
-		public const int StrOn = 0x03D0;
+		public const int StrOn = 0x03C8;
 
 		///<summary>FString</summary>
-		public const int StrOff = 0x03E0;
+		public const int StrOff = 0x03D8;
+
+		///<summary>TArray&lt;UQualityComboBox_C * &gt;</summary>
+		public const int ContentsForClientReplay = 0x03E8;
 
 	}
 

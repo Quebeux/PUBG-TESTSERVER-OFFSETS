@@ -13,20 +13,26 @@ namespace Offsets
 		///<summary>UBorder *</summary>
 		public const int FocusImage = 0x0248;
 
-		///<summary>UTextBlock *</summary>
-		public const int SelectOptionNameTextBlock = 0x0250;
+		///<summary>UImage *</summary>
+		public const int Image_1 = 0x0250;
+
+		///<summary>UImage *</summary>
+		public const int Image_4 = 0x0258;
 
 		///<summary>UTextBlock *</summary>
-		public const int TextBlock_1 = 0x0258;
+		public const int SelectOptionNameTextBlock = 0x0260;
+
+		///<summary>UTextBlock *</summary>
+		public const int TextBlock_1 = 0x0268;
 
 		///<summary>FText</summary>
-		public const int DisplayName = 0x0260;
+		public const int DisplayName = 0x0270;
 
 		///<summary>TArray&lt;FString&gt;</summary>
-		public const int OptionList = 0x0278;
+		public const int OptionList = 0x0288;
 
 		///<summary>FString</summary>
-		public const int SelectOption = 0x0288;
+		public const int SelectOption = 0x0298;
 
 	}
 
