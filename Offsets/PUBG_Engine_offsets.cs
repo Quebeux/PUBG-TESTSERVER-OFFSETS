@@ -495,8 +495,14 @@ namespace Offsets
 		///<summary>TWeakObjectPtr&lt;APhysicsVolume&gt;</summary>
 		public const int PhysicsVolume = 0x024C;
 
-		///<summary>unsigned char[0x6C]</summary>
+		///<summary>unsigned char[0x2C]</summary>
 		public const int UnknownData04 = 0x0254;
+
+		///<summary>FVector</summary>
+		public const int Location = 0x0280;
+
+		///<summary>unsigned char[0x34]</summary>
+		public const int UnknownData05 = 0x028C;
 
 		///<summary>FVector</summary>
 		public const int RelativeLocation = 0x02C0;
@@ -505,7 +511,7 @@ namespace Offsets
 		public const int RelativeRotation = 0x02CC;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData05 = 0x02D8;
+		public const int UnknownData06 = 0x02D8;
 
 		///<summary>FVector</summary>
 		public const int RelativeScale3D = 0x0300;
@@ -520,19 +526,19 @@ namespace Offsets
 		public const int DetailMode = 0x0319;
 
 		///<summary>unsigned char[0x1E]</summary>
-		public const int UnknownData06 = 0x031A;
+		public const int UnknownData07 = 0x031A;
 
 		///<summary>FVector</summary>
 		public const int ComponentVelocity = 0x0338;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData07 = 0x0344;
+		public const int UnknownData08 = 0x0344;
 
 		///<summary>FScriptMulticastDelegate</summary>
 		public const int PhysicsVolumeChangedDelegate = 0x0348;
 
 		///<summary>unsigned char[0x88]</summary>
-		public const int UnknownData08 = 0x0358;
+		public const int UnknownData09 = 0x0358;
 
 	}
 
@@ -4613,8 +4619,11 @@ namespace Offsets
 
 	public class ULevel
 	{
-		///<summary>unsigned char[0x98]</summary>
+		///<summary>unsigned char[0x88]</summary>
 		public const int UnknownData00 = 0x0028;
+
+		///<summary>TArray&lt;AActor * &gt;</summary>
+		public const int AActors = 0x00B0;
 
 		///<summary>UWorld *</summary>
 		public const int OwningWorld = 0x00C0;

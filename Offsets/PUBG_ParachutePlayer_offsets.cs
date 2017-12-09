@@ -49,7 +49,7 @@ namespace Offsets
 		///<summary>TEnumAsByte&lt;ETimelineDirection&gt;</summary>
 		public const int _____0__Direction_48D534754930C313D14949AAF35C3B50 = 0x05E4;
 
-		///<summary>unsigned char[0x3]</summary>
+		///<summary>unsigned char[0xB]</summary>
 		public const int UnknownData00 = 0x05E5;
 
 		///<summary>float</summary>
