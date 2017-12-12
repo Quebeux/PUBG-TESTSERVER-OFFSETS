@@ -34,56 +34,56 @@ namespace Offsets
 		///<summary>UBP_ObserverPlayerInfoWidget_C *</summary>
 		public const int BP_ObserverPlayerInfoWidget = 0x0318;
 
-		///<summary>UBP_StanceManagerWidget_C *</summary>
-		public const int BP_StanceManagerWidget = 0x0320;
-
 		///<summary>UBP_TeamWidget_C *</summary>
-		public const int BP_TeamWidget = 0x0328;
+		public const int BP_TeamWidget = 0x0320;
 
 		///<summary>UBP_WeaponSlotHudWidget_C *</summary>
-		public const int BP_WeaponSlotHudWidget = 0x0330;
+		public const int BP_WeaponSlotHudWidget = 0x0328;
 
 		///<summary>UCarePackageInteractionWidget_C *</summary>
-		public const int CarePackageInteractionWidget = 0x0338;
+		public const int CarePackageInteractionWidget = 0x0330;
 
 		///<summary>UCarePackgeItemListWidget_C *</summary>
-		public const int CarePackgeItemListWidget = 0x0340;
+		public const int CarePackgeItemListWidget = 0x0338;
 
 		///<summary>UCanvasPanel *</summary>
-		public const int CharacterCanvas = 0x0348;
+		public const int CharacterCanvas = 0x0340;
 
 		///<summary>UCountDownWidget_C *</summary>
-		public const int CountDownWidget_621 = 0x0350;
+		public const int CountDownWidget_621 = 0x0348;
 
 		///<summary>UTextBlock *</summary>
-		public const int DebugInformation = 0x0358;
+		public const int DebugInformation = 0x0350;
 
 		///<summary>UCanvasPanel *</summary>
-		public const int HideOnObserverSpectating = 0x0360;
+		public const int HideOnObserverSpectating = 0x0358;
 
 		///<summary>UTextBlock *</summary>
-		public const int KeyInfo = 0x0368;
+		public const int KeyInfo = 0x0360;
 
 		///<summary>UBorder *</summary>
-		public const int MiniMapBorder = 0x0370;
+		public const int MiniMapBorder = 0x0368;
 
 		///<summary>UMiniMapWidget_C *</summary>
-		public const int MiniMapWidget_147 = 0x0378;
+		public const int MiniMapWidget_147 = 0x0370;
 
 		///<summary>UTextBlock *</summary>
-		public const int Name = 0x0380;
+		public const int Name = 0x0378;
 
 		///<summary>UImage *</summary>
-		public const int ObserverCrossHair = 0x0388;
+		public const int ObserverCrossHair = 0x0380;
 
 		///<summary>UObserverTagManagerWidget_C *</summary>
-		public const int ObserverTagManagerWidget = 0x0390;
+		public const int ObserverTagManagerWidget = 0x0388;
 
 		///<summary>UCanvasPanel *</summary>
-		public const int OnlySpectating = 0x0398;
+		public const int OnlySpectating = 0x0390;
 
 		///<summary>UCanvasPanel *</summary>
-		public const int OverlayCanvas = 0x03A0;
+		public const int OverlayCanvas = 0x0398;
+
+		///<summary>UReplayZoneAreaMessage_C *</summary>
+		public const int ReplayZoneAreaMessage = 0x03A0;
 
 		///<summary>UTextBlock *</summary>
 		public const int Spectating = 0x03A8;

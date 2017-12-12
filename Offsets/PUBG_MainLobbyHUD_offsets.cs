@@ -22,53 +22,38 @@ namespace Offsets
 		///<summary>UButton *</summary>
 		public const int Button_Setting = 0x0260;
 
-		///<summary>UHorizontalBox *</summary>
-		public const int HorizontalBox_91 = 0x0268;
-
-		///<summary>UImage *</summary>
-		public const int Image_13 = 0x0270;
-
-		///<summary>ULobbyNameTag_C *</summary>
-		public const int NameTag_1 = 0x0278;
-
-		///<summary>ULobbyNameTag_C *</summary>
-		public const int NameTag_2 = 0x0280;
-
-		///<summary>ULobbyNameTag_C *</summary>
-		public const int NameTag_3 = 0x0288;
-
-		///<summary>ULobbyNameTag_C *</summary>
-		public const int NameTag_4 = 0x0290;
-
 		///<summary>UButton *</summary>
-		public const int ReplayTestButton = 0x0298;
+		public const int ReplayTestButton = 0x0268;
 
 		///<summary>UCanvasPanel *</summary>
-		public const int WebPopupCavas = 0x02A0;
+		public const int WebPopupCavas = 0x0270;
 
 		///<summary>ALobbyHUD *</summary>
-		public const int HUD = 0x02A8;
+		public const int HUD = 0x0278;
 
 		///<summary>int</summary>
-		public const int ContinousReloadCount = 0x02B0;
+		public const int ContinousReloadCount = 0x0280;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x02B4;
+		public const int UnknownData00 = 0x0284;
 
 		///<summary>FDateTime</summary>
-		public const int LastReload = 0x02B8;
+		public const int LastReload = 0x0288;
 
 		///<summary>TArray&lt;UWebPopup_C * &gt;</summary>
-		public const int VisibleWebPopupArray = 0x02C0;
+		public const int VisibleWebPopupArray = 0x0290;
 
 		///<summary>float</summary>
-		public const int NameTagHeight = 0x02D0;
+		public const int NameTagHeight = 0x02A0;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x02D4;
+		public const int UnknownData01 = 0x02A4;
 
 		///<summary>AReplayList_BP_C *</summary>
-		public const int refReplayListBp = 0x02D8;
+		public const int refReplayListBp = 0x02A8;
+
+		///<summary>ULobbyNameTagHUD_C *</summary>
+		public const int LobbyNameTagHUD = 0x02B0;
 
 	}
 

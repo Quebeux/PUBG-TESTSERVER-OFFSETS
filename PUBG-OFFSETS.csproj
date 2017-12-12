@@ -192,6 +192,7 @@
 <Compile Include="Offsets\PUBG_LightPropagationVolumeRuntime_offsets.cs" />
 <Compile Include="Offsets\PUBG_ListBaseGroupWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_ListBaseGroupWidget_Gamepad_offsets.cs" />
+<Compile Include="Offsets\PUBG_LobbyNameTagHUD_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyNameTag_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyPostPorcessEffect_offsets.cs" />
 <Compile Include="Offsets\PUBG_LobbyWebView_offsets.cs" />
@@ -262,6 +263,7 @@
 <Compile Include="Offsets\PUBG_ReplayTimelineDBNOEventItem_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayTimelineKillEventItem_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReplayTimeline_offsets.cs" />
+<Compile Include="Offsets\PUBG_ReplayZoneAreaMessage_offsets.cs" />
 <Compile Include="Offsets\PUBG_ReportPlayerWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_RoadRuntime_offsets.cs" />
 <Compile Include="Offsets\PUBG_ScreenSettingWidget_offsets.cs" />

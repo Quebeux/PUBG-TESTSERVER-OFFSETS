@@ -110,16 +110,13 @@ namespace Offsets
 		public const int CompileOptions = 0x00B0;
 
 		///<summary>FGuid</summary>
-		public const int VersionId = 0x00BC;
-
-		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x00CC;
+		public const int VersionId = 0x00C8;
 
 		///<summary>TArray&lt;FMutableModelParameterProperties&gt;</summary>
-		public const int ParameterProperties = 0x00D0;
+		public const int ParameterProperties = 0x00D8;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData02 = 0x00E0;
+		public const int UnknownData01 = 0x00E8;
 
 	}
 

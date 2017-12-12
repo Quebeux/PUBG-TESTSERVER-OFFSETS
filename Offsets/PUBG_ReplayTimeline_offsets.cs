@@ -118,6 +118,9 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int IsFirstConstruct = 0x0365;
 
+		///<summary>bool</summary>
+		public const int IsRecording = 0x0366;
+
 	}
 
 }
