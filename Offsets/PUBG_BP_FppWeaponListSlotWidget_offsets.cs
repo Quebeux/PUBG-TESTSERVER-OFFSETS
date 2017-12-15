@@ -8,19 +8,19 @@ namespace Offsets
 	public class UBP_FppWeaponListSlotWidget_C
 	{
 		///<summary>UImage *</summary>
-		public const int WeaponImage = 0x0618;
+		public const int WeaponImage = 0x0698;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ShowStart = 0x0620;
+		public const int ShowStart = 0x06A0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ShowEnd = 0x0630;
+		public const int ShowEnd = 0x06B0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int HIddenStart = 0x0640;
+		public const int HIddenStart = 0x06C0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int HIddenEnd = 0x0650;
+		public const int HIddenEnd = 0x06D0;
 
 	}
 

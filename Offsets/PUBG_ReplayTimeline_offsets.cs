@@ -121,6 +121,24 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int IsRecording = 0x0366;
 
+		///<summary>unsigned char[0x1]</summary>
+		public const int UnknownData01 = 0x0367;
+
+		///<summary>FString</summary>
+		public const int KillerIDToFind = 0x0368;
+
+		///<summary>FString</summary>
+		public const int KillerNameToFind = 0x0378;
+
+		///<summary>FString</summary>
+		public const int VictimIDToFind = 0x0388;
+
+		///<summary>FString</summary>
+		public const int VictimNameToFind = 0x0398;
+
+		///<summary>int</summary>
+		public const int CountForFindingCharacter = 0x03A8;
+
 	}
 
 }

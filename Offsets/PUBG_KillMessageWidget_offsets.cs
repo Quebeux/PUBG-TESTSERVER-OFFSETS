@@ -44,7 +44,7 @@ namespace Offsets
 		public const int DeathMessage = 0x0340;
 
 		///<summary>FSlateColor</summary>
-		public const int TeamColor = 0x03D8;
+		public const int teamColor = 0x03D8;
 
 		///<summary>FSlateColor</summary>
 		public const int ImportantColor = 0x0400;

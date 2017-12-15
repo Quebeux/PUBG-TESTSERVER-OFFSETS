@@ -8,10 +8,10 @@ namespace Offsets
 	public class UFoliageInstancedStaticMeshComponent
 	{
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnInstanceTakePointDamage = 0x0BC0;
+		public const int OnInstanceTakePointDamage = 0x0BD0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int OnInstanceTakeRadialDamage = 0x0BD0;
+		public const int OnInstanceTakeRadialDamage = 0x0BE0;
 
 	}
 
@@ -361,7 +361,7 @@ namespace Offsets
 	public class UInteractiveFoliageComponent
 	{
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData00 = 0x09D0;
+		public const int UnknownData00 = 0x09E0;
 
 	}
 

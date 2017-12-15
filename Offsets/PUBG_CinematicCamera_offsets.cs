@@ -71,46 +71,46 @@ namespace Offsets
 	public class UCineCameraComponent
 	{
 		///<summary>FCameraFilmbackSettings</summary>
-		public const int FilmbackSettings = 0x0990;
+		public const int FilmbackSettings = 0x09A0;
 
 		///<summary>FCameraLensSettings</summary>
-		public const int LensSettings = 0x099C;
+		public const int LensSettings = 0x09AC;
 
 		///<summary>FCameraFocusSettings</summary>
-		public const int FocusSettings = 0x09B0;
+		public const int FocusSettings = 0x09C0;
 
 		///<summary>float</summary>
-		public const int CurrentFocalLength = 0x09E8;
+		public const int CurrentFocalLength = 0x09F8;
 
 		///<summary>float</summary>
-		public const int CurrentAperture = 0x09EC;
+		public const int CurrentAperture = 0x09FC;
 
 		///<summary>float</summary>
-		public const int CurrentFocusDistance = 0x09F0;
+		public const int CurrentFocusDistance = 0x0A00;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData00 = 0x09F4;
+		public const int UnknownData00 = 0x0A04;
 
 		///<summary>TArray&lt;FNamedFilmbackPreset&gt;</summary>
-		public const int FilmbackPresets = 0x0A00;
+		public const int FilmbackPresets = 0x0A10;
 
 		///<summary>TArray&lt;FNamedLensPreset&gt;</summary>
-		public const int LensPresets = 0x0A10;
+		public const int LensPresets = 0x0A20;
 
 		///<summary>FString</summary>
-		public const int DefaultFilmbackPresetName = 0x0A20;
+		public const int DefaultFilmbackPresetName = 0x0A30;
 
 		///<summary>FString</summary>
-		public const int DefaultLensPresetName = 0x0A30;
+		public const int DefaultLensPresetName = 0x0A40;
 
 		///<summary>float</summary>
-		public const int DefaultLensFocalLength = 0x0A40;
+		public const int DefaultLensFocalLength = 0x0A50;
 
 		///<summary>float</summary>
-		public const int DefaultLensFStop = 0x0A44;
+		public const int DefaultLensFStop = 0x0A54;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x0A48;
+		public const int UnknownData01 = 0x0A58;
 
 	}
 

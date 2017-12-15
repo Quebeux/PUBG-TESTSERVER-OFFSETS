@@ -8,88 +8,88 @@ namespace Offsets
 	public class UBuoyancyForceComponent
 	{
 		///<summary>AOceanManager *</summary>
-		public const int OceanManager = 0x03E0;
+		public const int OceanManager = 0x03F0;
 
 		///<summary>float</summary>
-		public const int MeshDensity = 0x03E8;
+		public const int MeshDensity = 0x03F8;
 
 		///<summary>float</summary>
-		public const int FluidDensity = 0x03EC;
+		public const int FluidDensity = 0x03FC;
 
 		///<summary>float</summary>
-		public const int FluidLinearDamping = 0x03F0;
+		public const int FluidLinearDamping = 0x0400;
 
 		///<summary>float</summary>
-		public const int FluidAngularDamping = 0x03F4;
+		public const int FluidAngularDamping = 0x0404;
 
 		///<summary>FVector</summary>
-		public const int VelocityDamper = 0x03F8;
+		public const int VelocityDamper = 0x0408;
 
 		///<summary>bool</summary>
-		public const int ClampMaxVelocity = 0x0404;
+		public const int ClampMaxVelocity = 0x0414;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0405;
+		public const int UnknownData00 = 0x0415;
 
 		///<summary>float</summary>
-		public const int MaxUnderwaterVelocity = 0x0408;
+		public const int MaxUnderwaterVelocity = 0x0418;
 
 		///<summary>float</summary>
-		public const int TestPointRadius = 0x040C;
+		public const int TestPointRadius = 0x041C;
 
 		///<summary>TArray&lt;FVector&gt;</summary>
-		public const int TestPoints = 0x0410;
+		public const int TestPoints = 0x0420;
 
 		///<summary>bool</summary>
-		public const int ApplyForceToBones = 0x0420;
+		public const int ApplyForceToBones = 0x0430;
 
 		///<summary>bool</summary>
-		public const int SnapToSurfaceIfNoPhysics = 0x0421;
+		public const int SnapToSurfaceIfNoPhysics = 0x0431;
 
 		///<summary>bool</summary>
-		public const int TwoGerstnerIterations = 0x0422;
+		public const int TwoGerstnerIterations = 0x0432;
 
 		///<summary>unsigned char[0x5]</summary>
-		public const int UnknownData01 = 0x0423;
+		public const int UnknownData01 = 0x0433;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int PointDensityOverride = 0x0428;
+		public const int PointDensityOverride = 0x0438;
 
 		///<summary>TArray&lt;FStructBoneOverride&gt;</summary>
-		public const int BoneOverride = 0x0438;
+		public const int BoneOverride = 0x0448;
 
 		///<summary>bool</summary>
-		public const int DrawDebugPoints = 0x0448;
+		public const int DrawDebugPoints = 0x0458;
 
 		///<summary>bool</summary>
-		public const int EnableStayUprightConstraint = 0x0449;
+		public const int EnableStayUprightConstraint = 0x0459;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData02 = 0x044A;
+		public const int UnknownData02 = 0x045A;
 
 		///<summary>float</summary>
-		public const int StayUprightStiffness = 0x044C;
+		public const int StayUprightStiffness = 0x045C;
 
 		///<summary>float</summary>
-		public const int StayUprightDamping = 0x0450;
+		public const int StayUprightDamping = 0x0460;
 
 		///<summary>FRotator</summary>
-		public const int StayUprightDesiredRotation = 0x0454;
+		public const int StayUprightDesiredRotation = 0x0464;
 
 		///<summary>bool</summary>
-		public const int EnableWaveForces = 0x0460;
+		public const int EnableWaveForces = 0x0470;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x0461;
+		public const int UnknownData03 = 0x0471;
 
 		///<summary>float</summary>
-		public const int WaveForceMultiplier = 0x0464;
+		public const int WaveForceMultiplier = 0x0474;
 
 		///<summary>TEnumAsByte&lt;ETickingGroup&gt;</summary>
-		public const int TickGroup = 0x0468;
+		public const int TickGroup = 0x0478;
 
 		///<summary>unsigned char[0x17]</summary>
-		public const int UnknownData04 = 0x0469;
+		public const int UnknownData04 = 0x0479;
 
 	}
 
@@ -154,88 +154,88 @@ namespace Offsets
 	public class UAdvancedBuoyancyComponent
 	{
 		///<summary>bool</summary>
-		public const int bUseDrag = 0x03E0;
+		public const int bUseDrag = 0x03F0;
 
 		///<summary>bool</summary>
-		public const int bDebugOn = 0x03E1;
+		public const int bDebugOn = 0x03F1;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x03E2;
+		public const int UnknownData00 = 0x03F2;
 
 		///<summary>AOceanManager *</summary>
-		public const int TheOcean = 0x03E8;
+		public const int TheOcean = 0x03F8;
 
 		///<summary>float</summary>
-		public const int WaterDensity = 0x03F0;
+		public const int WaterDensity = 0x0400;
 
 		///<summary>float</summary>
-		public const int Gravity = 0x03F4;
+		public const int Gravity = 0x0404;
 
 		///<summary>float</summary>
-		public const int MeshDensity = 0x03F8;
+		public const int MeshDensity = 0x0408;
 
 		///<summary>unsigned char[0x14]</summary>
-		public const int UnknownData01 = 0x03FC;
+		public const int UnknownData01 = 0x040C;
 
 		///<summary>UStaticMeshComponent *</summary>
-		public const int BuoyantMesh = 0x0410;
+		public const int BuoyantMesh = 0x0420;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData02 = 0x0418;
+		public const int UnknownData02 = 0x0428;
 
 		///<summary>FTransform</summary>
-		public const int MeshTransform = 0x0420;
+		public const int MeshTransform = 0x0430;
 
 		///<summary>float</summary>
-		public const int FalseVolume = 0x0450;
+		public const int FalseVolume = 0x0460;
 
 		///<summary>float</summary>
-		public const int BuoyancyReductionCoefficient = 0x0454;
+		public const int BuoyancyReductionCoefficient = 0x0464;
 
 		///<summary>float</summary>
-		public const int BuoyancyPitchReductionCoefficient = 0x0458;
+		public const int BuoyancyPitchReductionCoefficient = 0x0468;
 
 		///<summary>float</summary>
-		public const int DensityCorrection = 0x045C;
+		public const int DensityCorrection = 0x046C;
 
 		///<summary>float</summary>
-		public const int DensityCorrectionModifier = 0x0460;
+		public const int DensityCorrectionModifier = 0x0470;
 
 		///<summary>float</summary>
-		public const int SubmergedVolume = 0x0464;
+		public const int SubmergedVolume = 0x0474;
 
 		///<summary>float</summary>
-		public const int ImpactCoefficient = 0x0468;
+		public const int ImpactCoefficient = 0x0478;
 
 		///<summary>FVector</summary>
-		public const int DragCoefficient = 0x046C;
+		public const int DragCoefficient = 0x047C;
 
 		///<summary>FVector</summary>
-		public const int SuctionCoefficient = 0x0478;
+		public const int SuctionCoefficient = 0x0488;
 
 		///<summary>float</summary>
-		public const int ViscousDragCoefficient = 0x0484;
+		public const int ViscousDragCoefficient = 0x0494;
 
 		///<summary>float</summary>
-		public const int MaxSlamAcceleration = 0x0488;
+		public const int MaxSlamAcceleration = 0x0498;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x048C;
+		public const int UnknownData03 = 0x049C;
 
 		///<summary>TArray&lt;FVector&gt;</summary>
-		public const int AdvancedGridHeight = 0x0490;
+		public const int AdvancedGridHeight = 0x04A0;
 
 		///<summary>TArray&lt;FForceTriangle&gt;</summary>
-		public const int SubmergedTris = 0x04A0;
+		public const int SubmergedTris = 0x04B0;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int TriSizes = 0x04B0;
+		public const int TriSizes = 0x04C0;
 
 		///<summary>TArray&lt;float&gt;</summary>
-		public const int TriSubmergedArea = 0x04C0;
+		public const int TriSubmergedArea = 0x04D0;
 
 		///<summary>unsigned char[0x30]</summary>
-		public const int UnknownData04 = 0x04D0;
+		public const int UnknownData04 = 0x04E0;
 
 	}
 
@@ -312,58 +312,58 @@ namespace Offsets
 	public class UBuoyantDestructibleComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x0B90;
+		public const int UnknownData00 = 0x0BA0;
 
 		///<summary>AOceanManager *</summary>
-		public const int OceanManager = 0x0B98;
+		public const int OceanManager = 0x0BA8;
 
 		///<summary>float</summary>
-		public const int ChunkDensity = 0x0BA0;
+		public const int ChunkDensity = 0x0BB0;
 
 		///<summary>float</summary>
-		public const int FluidDensity = 0x0BA4;
+		public const int FluidDensity = 0x0BB4;
 
 		///<summary>float</summary>
-		public const int FluidLinearDamping = 0x0BA8;
+		public const int FluidLinearDamping = 0x0BB8;
 
 		///<summary>float</summary>
-		public const int FluidAngularDamping = 0x0BAC;
+		public const int FluidAngularDamping = 0x0BBC;
 
 		///<summary>FVector</summary>
-		public const int VelocityDamper = 0x0BB0;
+		public const int VelocityDamper = 0x0BC0;
 
 		///<summary>bool</summary>
-		public const int ClampMaxVelocity = 0x0BBC;
+		public const int ClampMaxVelocity = 0x0BCC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x0BBD;
+		public const int UnknownData01 = 0x0BCD;
 
 		///<summary>float</summary>
-		public const int MaxUnderwaterVelocity = 0x0BC0;
+		public const int MaxUnderwaterVelocity = 0x0BD0;
 
 		///<summary>float</summary>
-		public const int TestPointRadius = 0x0BC4;
+		public const int TestPointRadius = 0x0BD4;
 
 		///<summary>bool</summary>
-		public const int DrawDebugPoints = 0x0BC8;
+		public const int DrawDebugPoints = 0x0BD8;
 
 		///<summary>bool</summary>
-		public const int EnableWaveForces = 0x0BC9;
+		public const int EnableWaveForces = 0x0BD9;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData02 = 0x0BCA;
+		public const int UnknownData02 = 0x0BDA;
 
 		///<summary>float</summary>
-		public const int WaveForceMultiplier = 0x0BCC;
+		public const int WaveForceMultiplier = 0x0BDC;
 
 		///<summary>float</summary>
-		public const int ChunkSleepThreshold = 0x0BD0;
+		public const int ChunkSleepThreshold = 0x0BE0;
 
 		///<summary>float</summary>
-		public const int ChunkStabilizationThreshold = 0x0BD4;
+		public const int ChunkStabilizationThreshold = 0x0BE4;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData03 = 0x0BD8;
+		public const int UnknownData03 = 0x0BE8;
 
 	}
 
@@ -377,76 +377,76 @@ namespace Offsets
 	public class UBuoyantMeshComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x09D0;
+		public const int UnknownData00 = 0x09E0;
 
 		///<summary>bool</summary>
-		public const int bVerticalForcesOnly = 0x09D8;
+		public const int bVerticalForcesOnly = 0x09E8;
 
 		///<summary>bool</summary>
-		public const int bUseWaterPatch = 0x09D9;
+		public const int bUseWaterPatch = 0x09E9;
 
 		///<summary>bool</summary>
-		public const int bUseStaticForces = 0x09DA;
+		public const int bUseStaticForces = 0x09EA;
 
 		///<summary>bool</summary>
-		public const int bUseDynamicForces = 0x09DB;
+		public const int bUseDynamicForces = 0x09EB;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x09DC;
+		public const int UnknownData01 = 0x09EC;
 
 		///<summary>AOceanManager *</summary>
-		public const int OceanManager = 0x09E0;
+		public const int OceanManager = 0x09F0;
 
 		///<summary>bool</summary>
-		public const int bDrawForceArrows = 0x09E8;
+		public const int bDrawForceArrows = 0x09F8;
 
 		///<summary>bool</summary>
-		public const int bDrawWaterline = 0x09E9;
+		public const int bDrawWaterline = 0x09F9;
 
 		///<summary>bool</summary>
-		public const int bDrawVertices = 0x09EA;
+		public const int bDrawVertices = 0x09FA;
 
 		///<summary>bool</summary>
-		public const int bDrawTriangles = 0x09EB;
+		public const int bDrawTriangles = 0x09FB;
 
 		///<summary>bool</summary>
-		public const int bDrawSubtriangles = 0x09EC;
+		public const int bDrawSubtriangles = 0x09FC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x09ED;
+		public const int UnknownData02 = 0x09FD;
 
 		///<summary>float</summary>
-		public const int ForceArrowSize = 0x09F0;
+		public const int ForceArrowSize = 0x0A00;
 
 		///<summary>bool</summary>
-		public const int bOverrideMeshDensity = 0x09F4;
+		public const int bOverrideMeshDensity = 0x0A04;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData03 = 0x09F5;
+		public const int UnknownData03 = 0x0A05;
 
 		///<summary>float</summary>
-		public const int MeshDensity = 0x09F8;
+		public const int MeshDensity = 0x0A08;
 
 		///<summary>bool</summary>
-		public const int bOverrideMass = 0x09FC;
+		public const int bOverrideMass = 0x0A0C;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData04 = 0x09FD;
+		public const int UnknownData04 = 0x0A0D;
 
 		///<summary>float</summary>
-		public const int Mass = 0x0A00;
+		public const int Mass = 0x0A10;
 
 		///<summary>float</summary>
-		public const int WaterDensity = 0x0A04;
+		public const int WaterDensity = 0x0A14;
 
 		///<summary>unsigned char[0x28]</summary>
-		public const int UnknownData05 = 0x0A08;
+		public const int UnknownData05 = 0x0A18;
 
 		///<summary>UWaterHeightmapComponent *</summary>
-		public const int WaterHeightmap = 0x0A30;
+		public const int WaterHeightmap = 0x0A40;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData06 = 0x0A38;
+		public const int UnknownData06 = 0x0A48;
 
 	}
 
@@ -591,40 +591,40 @@ namespace Offsets
 	public class UInfiniteSystemComponent
 	{
 		///<summary>bool</summary>
-		public const int UpdateInEditor = 0x03E0;
+		public const int UpdateInEditor = 0x03F0;
 
 		///<summary>TEnumAsByte&lt;EFollowMethod&gt;</summary>
-		public const int FollowMethod = 0x03E1;
+		public const int FollowMethod = 0x03F1;
 
 		///<summary>unsigned char[0x2]</summary>
-		public const int UnknownData00 = 0x03E2;
+		public const int UnknownData00 = 0x03F2;
 
 		///<summary>float</summary>
-		public const int GridSnapSize = 0x03E4;
+		public const int GridSnapSize = 0x03F4;
 
 		///<summary>float</summary>
-		public const int MaxLookAtDistance = 0x03E8;
+		public const int MaxLookAtDistance = 0x03F8;
 
 		///<summary>bool</summary>
-		public const int ScaleByDistance = 0x03EC;
+		public const int ScaleByDistance = 0x03FC;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData01 = 0x03ED;
+		public const int UnknownData01 = 0x03FD;
 
 		///<summary>float</summary>
-		public const int ScaleDistanceFactor = 0x03F0;
+		public const int ScaleDistanceFactor = 0x0400;
 
 		///<summary>float</summary>
-		public const int ScaleStartDistance = 0x03F4;
+		public const int ScaleStartDistance = 0x0404;
 
 		///<summary>float</summary>
-		public const int ScaleMin = 0x03F8;
+		public const int ScaleMin = 0x0408;
 
 		///<summary>float</summary>
-		public const int ScaleMax = 0x03FC;
+		public const int ScaleMax = 0x040C;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData02 = 0x0400;
+		public const int UnknownData02 = 0x0410;
 
 	}
 

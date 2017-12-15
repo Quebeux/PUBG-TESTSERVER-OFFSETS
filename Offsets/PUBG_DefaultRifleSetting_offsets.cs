@@ -8,28 +8,28 @@ namespace Offsets
 	public class ADefaultRifleSetting_C
 	{
 		///<summary>FPointerToUberGraphFrame</summary>
-		public const int UberGraphFrame = 0x0CE0;
+		public const int UberGraphFrame = 0x0CE8;
 
 		///<summary>bool</summary>
-		public const int bDebugMuzzleVector = 0x0CE8;
+		public const int bDebugMuzzleVector = 0x0CF0;
 
 		///<summary>bool</summary>
-		public const int bDebugRecoil = 0x0CE9;
+		public const int bDebugRecoil = 0x0CF1;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x0CEA;
+		public const int UnknownData00 = 0x0CF2;
 
 		///<summary>FDebugFloatHistory</summary>
-		public const int History_RecoilTargetY = 0x0CF0;
+		public const int History_RecoilTargetY = 0x0CF8;
 
 		///<summary>FDebugFloatHistory</summary>
-		public const int History_RecoilTargetX = 0x0D10;
+		public const int History_RecoilTargetX = 0x0D18;
 
 		///<summary>FDebugFloatHistory</summary>
-		public const int History_RecoveryTarget = 0x0D30;
+		public const int History_RecoveryTarget = 0x0D38;
 
 		///<summary>FDebugFloatHistory</summary>
-		public const int History_RecoilValue = 0x0D50;
+		public const int History_RecoilValue = 0x0D58;
 
 	}
 

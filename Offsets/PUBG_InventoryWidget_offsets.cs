@@ -103,119 +103,122 @@ namespace Offsets
 		///<summary>UTextBlock *</summary>
 		public const int TextType = 0x0388;
 
+		///<summary>UUIBlurBackground_C *</summary>
+		public const int UIBlurBackground = 0x0390;
+
 		///<summary>UTextBlock *</summary>
-		public const int UserIDText = 0x0390;
+		public const int UserIDText = 0x0398;
 
 		///<summary>UImage *</summary>
-		public const int VerticalLine = 0x0398;
+		public const int VerticalLine = 0x03A0;
 
 		///<summary>UInventoryListBaseWidget_C *</summary>
-		public const int Vicinity = 0x03A0;
+		public const int Vicinity = 0x03A8;
 
 		///<summary>USizeBox *</summary>
-		public const int Vicinity_SizeBox = 0x03A8;
+		public const int Vicinity_SizeBox = 0x03B0;
 
 		///<summary>UBorder *</summary>
-		public const int VicinityInfoBlock = 0x03B0;
+		public const int VicinityInfoBlock = 0x03B8;
 
 		///<summary>UWeaponEquipmentWidget_C *</summary>
-		public const int Weapon = 0x03B8;
+		public const int Weapon = 0x03C0;
 
 		///<summary>USizeBox *</summary>
-		public const int Weapon_SizeBox = 0x03C0;
+		public const int Weapon_SizeBox = 0x03C8;
 
 		///<summary>UBorder *</summary>
-		public const int XBoxHelpTextBorder = 0x03C8;
+		public const int XBoxHelpTextBorder = 0x03D0;
 
 		///<summary>AItemExplorer *</summary>
-		public const int ItemExplorer = 0x03D0;
+		public const int ItemExplorer = 0x03D8;
 
 		///<summary>UDragDropOperation *</summary>
-		public const int DragDroppingContent = 0x03D8;
+		public const int DragDroppingContent = 0x03E0;
 
 		///<summary>UItem *</summary>
-		public const int DragDroppingItem = 0x03E0;
+		public const int DragDroppingItem = 0x03E8;
 
 		///<summary>bool</summary>
-		public const int wasVicinityEmpty = 0x03E8;
+		public const int wasVicinityEmpty = 0x03F0;
 
 		///<summary>bool</summary>
-		public const int willDropToVicinity = 0x03E9;
+		public const int willDropToVicinity = 0x03F1;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData00 = 0x03EA;
+		public const int UnknownData00 = 0x03F2;
 
 		///<summary>TScriptInterface&lt;USlotInterface&gt;</summary>
-		public const int MouseOverSlot = 0x03F0;
+		public const int MouseOverSlot = 0x03F8;
 
 		///<summary>TScriptInterface&lt;USlotContainerInterface&gt;</summary>
-		public const int SlotContainer = 0x0400;
+		public const int SlotContainer = 0x0408;
 
 		///<summary>UItem *</summary>
-		public const int MouseOverItem = 0x0410;
+		public const int MouseOverItem = 0x0418;
 
 		///<summary>UEquipableItem *</summary>
-		public const int MouseOverEquipableItem = 0x0418;
+		public const int MouseOverEquipableItem = 0x0420;
 
 		///<summary>UAttachableItem *</summary>
-		public const int MouseOverAttachmentItem = 0x0420;
+		public const int MouseOverAttachmentItem = 0x0428;
 
 		///<summary>FSlateColor</summary>
-		public const int SelectColor = 0x0428;
+		public const int SelectColor = 0x0430;
 
 		///<summary>FSlateColor</summary>
-		public const int DefaultColor = 0x0450;
+		public const int DefaultColor = 0x0458;
 
 		///<summary>int</summary>
-		public const int SelectIndex = 0x0478;
+		public const int SelectIndex = 0x0480;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x047C;
+		public const int UnknownData01 = 0x0484;
 
 		///<summary>TArray&lt;UUserWidget * &gt;</summary>
-		public const int FocusableWidgetLis = 0x0480;
+		public const int FocusableWidgetLis = 0x0488;
 
 		///<summary>bool</summary>
-		public const int bLeft = 0x0490;
+		public const int bLeft = 0x0498;
 
 		///<summary>bool</summary>
-		public const int bRight = 0x0491;
+		public const int bRight = 0x0499;
 
 		///<summary>bool</summary>
-		public const int bUp = 0x0492;
+		public const int bUp = 0x049A;
 
 		///<summary>bool</summary>
-		public const int bDown = 0x0493;
+		public const int bDown = 0x049B;
 
 		///<summary>int</summary>
-		public const int MoveState = 0x0494;
+		public const int MoveState = 0x049C;
 
 		///<summary>float</summary>
-		public const int LeftMoveTimeCheck = 0x0498;
+		public const int LeftMoveTimeCheck = 0x04A0;
 
 		///<summary>float</summary>
-		public const int RightMoveTimeCheck = 0x049C;
+		public const int RightMoveTimeCheck = 0x04A4;
 
 		///<summary>float</summary>
-		public const int UpMoveTimeCheck = 0x04A0;
+		public const int UpMoveTimeCheck = 0x04A8;
 
 		///<summary>float</summary>
-		public const int DownMoveTimeCheck = 0x04A4;
+		public const int DownMoveTimeCheck = 0x04AC;
 
 		///<summary>float</summary>
-		public const int LeftTimeInterval = 0x04A8;
+		public const int LeftTimeInterval = 0x04B0;
 
 		///<summary>float</summary>
-		public const int RightTimeInterval = 0x04AC;
+		public const int RightTimeInterval = 0x04B4;
 
 		///<summary>float</summary>
-		public const int UpTimeInterval = 0x04B0;
+		public const int UpTimeInterval = 0x04B8;
 
 		///<summary>float</summary>
-		public const int DownTimeInterval = 0x04B4;
+		public const int DownTimeInterval = 0x04BC;
 
 		///<summary>UAttachableItem *</summary>
-		public const int GamepadadSelectedAttachableItem = 0x04B8;
+		public const int GamepadadSelectedAttachableItem = 0x04C0;
 
 	}
 

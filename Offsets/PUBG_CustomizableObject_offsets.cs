@@ -8,10 +8,10 @@ namespace Offsets
 	public class UCustomizableSkeletalComponent
 	{
 		///<summary>UCustomizableObjectInstance *</summary>
-		public const int CustomizableObjectInstance = 0x03E0;
+		public const int CustomizableObjectInstance = 0x03F0;
 
 		///<summary>unsigned char[0x48]</summary>
-		public const int UnknownData00 = 0x03E8;
+		public const int UnknownData00 = 0x03F8;
 
 	}
 

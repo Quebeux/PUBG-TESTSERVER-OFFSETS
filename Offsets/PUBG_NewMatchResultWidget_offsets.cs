@@ -349,6 +349,9 @@ namespace Offsets
 		///<summary>FText</summary>
 		public const int UnableReplayKillcamTooltipText = 0x0730;
 
+		///<summary>FText</summary>
+		public const int KillcamUnusualMovementTooltip = 0x0748;
+
 	}
 
 }

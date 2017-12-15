@@ -8,13 +8,16 @@ namespace Offsets
 	public class UReplayProblemWidget_C
 	{
 		///<summary>UWidgetAnimation *</summary>
-		public const int IconBlinking = 0x02F0;
+		public const int IconBlinking = 0x0348;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int Vanishing = 0x02F8;
+		public const int Vanishing = 0x0350;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int Emerging = 0x0300;
+		public const int Emerging = 0x0358;
+
+		///<summary>UTextBlock *</summary>
+		public const int replaytext = 0x0360;
 
 	}
 

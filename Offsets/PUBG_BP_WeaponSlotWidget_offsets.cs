@@ -8,52 +8,52 @@ namespace Offsets
 	public class UBP_WeaponSlotWidget_C
 	{
 		///<summary>UWidgetAnimation *</summary>
-		public const int NewScaleDown = 0x0618;
+		public const int NewScaleDown = 0x0698;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int NewScaleUp = 0x0620;
+		public const int NewScaleUp = 0x06A0;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int ZeroDistIncreasing = 0x0628;
+		public const int ZeroDistIncreasing = 0x06A8;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int ZeroDistDecreasing = 0x0630;
+		public const int ZeroDistDecreasing = 0x06B0;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int UnloadedAmmoIncreasing = 0x0638;
+		public const int UnloadedAmmoIncreasing = 0x06B8;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int UnloadedAmmoDecreasing = 0x0640;
+		public const int UnloadedAmmoDecreasing = 0x06C0;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int AmmoIncreasing = 0x0648;
+		public const int AmmoIncreasing = 0x06C8;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int AmmoDecreasing = 0x0650;
+		public const int AmmoDecreasing = 0x06D0;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int ScaleDown = 0x0658;
+		public const int ScaleDown = 0x06D8;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int ScaleUp = 0x0660;
+		public const int ScaleUp = 0x06E0;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int Hidden = 0x0668;
+		public const int Hidden = 0x06E8;
 
 		///<summary>UWidgetAnimation *</summary>
-		public const int show = 0x0670;
+		public const int show = 0x06F0;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ShowStart = 0x0678;
+		public const int ShowStart = 0x06F8;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int ShowEnd = 0x0688;
+		public const int ShowEnd = 0x0708;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int HIddenStart = 0x0698;
+		public const int HIddenStart = 0x0718;
 
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int HIddenEnd = 0x06A8;
+		public const int HIddenEnd = 0x0728;
 
 	}
 

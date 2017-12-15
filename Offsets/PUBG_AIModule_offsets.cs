@@ -1835,7 +1835,7 @@ namespace Offsets
 	public class UEQSRenderingComponent
 	{
 		///<summary>unsigned char[0x30]</summary>
-		public const int UnknownData00 = 0x0840;
+		public const int UnknownData00 = 0x0850;
 
 	}
 

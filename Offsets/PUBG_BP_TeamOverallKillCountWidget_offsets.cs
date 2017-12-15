@@ -34,6 +34,9 @@ namespace Offsets
 		///<summary>UWidgetAnimation *</summary>
 		public const int Default = 0x0330;
 
+		///<summary>UBorder *</summary>
+		public const int ColorOverlay = 0x0338;
+
 	}
 
 }

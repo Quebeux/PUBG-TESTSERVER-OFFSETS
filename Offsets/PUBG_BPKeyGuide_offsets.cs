@@ -5,13 +5,13 @@
 
 namespace Offsets
 {
-	public class UStepperHelp_C
+	public class UBPKeyGuide_C
 	{
 		///<summary>UImage *</summary>
-		public const int Image_1 = 0x0240;
+		public const int Image_6 = 0x0240;
 
 		///<summary>UImage *</summary>
-		public const int Image_2 = 0x0248;
+		public const int Image_7 = 0x0248;
 
 	}
 

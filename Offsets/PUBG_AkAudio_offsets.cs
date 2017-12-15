@@ -69,34 +69,34 @@ namespace Offsets
 	public class UAkComponent
 	{
 		///<summary>bool</summary>
-		public const int StopWhenOwnerDestroyed = 0x03E0;
+		public const int StopWhenOwnerDestroyed = 0x03F0;
 
 		///<summary>bool</summary>
-		public const int bDynamicReverb = 0x03E1;
+		public const int bDynamicReverb = 0x03F1;
 
 		///<summary>bool</summary>
-		public const int bUseDoppler = 0x03E2;
+		public const int bUseDoppler = 0x03F2;
 
 		///<summary>unsigned char[0x1]</summary>
-		public const int UnknownData00 = 0x03E3;
+		public const int UnknownData00 = 0x03F3;
 
 		///<summary>float</summary>
-		public const int AttenuationScalingFactor = 0x03E4;
+		public const int AttenuationScalingFactor = 0x03F4;
 
 		///<summary>float</summary>
-		public const int OcclusionRefreshInterval = 0x03E8;
+		public const int OcclusionRefreshInterval = 0x03F8;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x03EC;
+		public const int UnknownData01 = 0x03FC;
 
 		///<summary>UAkAudioEvent *</summary>
-		public const int AkAudioEvent = 0x03F0;
+		public const int AkAudioEvent = 0x0400;
 
 		///<summary>FString</summary>
-		public const int EventName = 0x03F8;
+		public const int EventName = 0x0408;
 
 		///<summary>unsigned char[0x48]</summary>
-		public const int UnknownData02 = 0x0408;
+		public const int UnknownData02 = 0x0418;
 
 	}
 

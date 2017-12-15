@@ -56,6 +56,7 @@
 <Compile Include="Offsets\PUBG_BigEquipmentSlotWidget_Gamepad_offsets.cs" />
 <Compile Include="Offsets\PUBG_BloodSpotWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BoostGaugeWidget_BP_offsets.cs" />
+<Compile Include="Offsets\PUBG_BPKeyGuide_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AliveHumansInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AlivePlayerInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AliveZombiesInfoWidget_offsets.cs" />
@@ -280,7 +281,6 @@
 <Compile Include="Offsets\PUBG_SpectatingSelectionWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_SquadPlayerInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_StackCountHandlingPopupWidget_offsets.cs" />
-<Compile Include="Offsets\PUBG_StepperHelp_offsets.cs" />
 <Compile Include="Offsets\PUBG_SystemMessageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_TcpMessaging_offsets.cs" />
 <Compile Include="Offsets\PUBG_TeamCountWidget_offsets.cs" />
@@ -298,6 +298,7 @@
 <Compile Include="Offsets\PUBG_TslLobby_v2_offsets.cs" />
 <Compile Include="Offsets\PUBG_TslLobby_ver_3_offsets.cs" />
 <Compile Include="Offsets\PUBG_UdpMessaging_offsets.cs" />
+<Compile Include="Offsets\PUBG_UIBlurBackground_offsets.cs" />
 <Compile Include="Offsets\PUBG_UiReplayList_offsets.cs" />
 <Compile Include="Offsets\PUBG_UiSettings_offsets.cs" />
 <Compile Include="Offsets\PUBG_UMG_offsets.cs" />

@@ -8,115 +8,115 @@ namespace Offsets
 	public class ULandscapeComponent
 	{
 		///<summary>int</summary>
-		public const int ComponentSizeQuads = 0x0840;
+		public const int ComponentSizeQuads = 0x0850;
 
 		///<summary>int</summary>
-		public const int SubsectionSizeQuads = 0x0844;
+		public const int SubsectionSizeQuads = 0x0854;
 
 		///<summary>int</summary>
-		public const int NumSubsections = 0x0848;
+		public const int NumSubsections = 0x0858;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData00 = 0x084C;
+		public const int UnknownData00 = 0x085C;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int OverrideMaterial = 0x0850;
+		public const int OverrideMaterial = 0x0860;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int OverrideHoleMaterial = 0x0858;
+		public const int OverrideHoleMaterial = 0x0868;
 
 		///<summary>TArray&lt;UMaterialInstanceConstant * &gt;</summary>
-		public const int MaterialInstances = 0x0860;
+		public const int MaterialInstances = 0x0870;
 
 		///<summary>TArray&lt;FWeightmapLayerAllocationInfo&gt;</summary>
-		public const int WeightmapLayerAllocations = 0x0870;
+		public const int WeightmapLayerAllocations = 0x0880;
 
 		///<summary>TArray&lt;UTexture2D * &gt;</summary>
-		public const int WeightmapTextures = 0x0880;
+		public const int WeightmapTextures = 0x0890;
 
 		///<summary>UTexture2D *</summary>
-		public const int XYOffsetmapTexture = 0x0890;
+		public const int XYOffsetmapTexture = 0x08A0;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x0898;
+		public const int UnknownData01 = 0x08A8;
 
 		///<summary>FVector4</summary>
-		public const int WeightmapScaleBias = 0x08A0;
+		public const int WeightmapScaleBias = 0x08B0;
 
 		///<summary>float</summary>
-		public const int WeightmapSubsectionOffset = 0x08B0;
+		public const int WeightmapSubsectionOffset = 0x08C0;
 
 		///<summary>unsigned char[0xC]</summary>
-		public const int UnknownData02 = 0x08B4;
+		public const int UnknownData02 = 0x08C4;
 
 		///<summary>FVector4</summary>
-		public const int HeightmapScaleBias = 0x08C0;
+		public const int HeightmapScaleBias = 0x08D0;
 
 		///<summary>UTexture2D *</summary>
-		public const int HeightmapTexture = 0x08D0;
+		public const int HeightmapTexture = 0x08E0;
 
 		///<summary>FBox</summary>
-		public const int CachedLocalBox = 0x08D8;
+		public const int CachedLocalBox = 0x08E8;
 
 		///<summary>TLazyObjectPtr&lt;ULandscapeHeightfieldCollisionComponent&gt;</summary>
-		public const int CollisionComponent = 0x08F4;
+		public const int CollisionComponent = 0x0904;
 
 		///<summary>FGuid</summary>
-		public const int MapBuildDataId = 0x0910;
+		public const int MapBuildDataId = 0x0920;
 
 		///<summary>TArray&lt;FGuid&gt;</summary>
-		public const int IrrelevantLights = 0x0920;
+		public const int IrrelevantLights = 0x0930;
 
 		///<summary>int</summary>
-		public const int CollisionMipLevel = 0x0930;
+		public const int CollisionMipLevel = 0x0940;
 
 		///<summary>int</summary>
-		public const int SimpleCollisionMipLevel = 0x0934;
+		public const int SimpleCollisionMipLevel = 0x0944;
 
 		///<summary>float</summary>
-		public const int NegativeZBoundsExtension = 0x0938;
+		public const int NegativeZBoundsExtension = 0x0948;
 
 		///<summary>float</summary>
-		public const int PositiveZBoundsExtension = 0x093C;
+		public const int PositiveZBoundsExtension = 0x094C;
 
 		///<summary>float</summary>
-		public const int StaticLightingResolution = 0x0940;
+		public const int StaticLightingResolution = 0x0950;
 
 		///<summary>int</summary>
-		public const int ForcedLOD = 0x0944;
+		public const int ForcedLOD = 0x0954;
 
 		///<summary>int</summary>
-		public const int LODBias = 0x0948;
+		public const int LODBias = 0x0958;
 
 		///<summary>FGuid</summary>
-		public const int StateId = 0x094C;
+		public const int StateId = 0x095C;
 
 		///<summary>FGuid</summary>
-		public const int BakedTextureMaterialGuid = 0x095C;
+		public const int BakedTextureMaterialGuid = 0x096C;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData03 = 0x096C;
+		public const int UnknownData03 = 0x097C;
 
 		///<summary>UTexture2D *</summary>
-		public const int GIBakedBaseColorTexture = 0x0970;
+		public const int GIBakedBaseColorTexture = 0x0980;
 
 		///<summary>bool</summary>
-		public const int bRemoveGrass = 0x0978;
+		public const int bRemoveGrass = 0x0988;
 
 		///<summary>unsigned char</summary>
-		public const int MobileBlendableLayerMask = 0x0979;
+		public const int MobileBlendableLayerMask = 0x0989;
 
 		///<summary>unsigned char[0x6]</summary>
-		public const int UnknownData04 = 0x097A;
+		public const int UnknownData04 = 0x098A;
 
 		///<summary>UMaterialInterface *</summary>
-		public const int MobileMaterialInterface = 0x0980;
+		public const int MobileMaterialInterface = 0x0990;
 
 		///<summary>UTexture2D *</summary>
-		public const int MobileWeightNormalmapTexture = 0x0988;
+		public const int MobileWeightNormalmapTexture = 0x0998;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData05 = 0x0990;
+		public const int UnknownData05 = 0x09A0;
 
 	}
 
@@ -161,53 +161,53 @@ namespace Offsets
 	public class ULandscapeHeightfieldCollisionComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x0840;
+		public const int UnknownData00 = 0x0850;
 
 		///<summary>int</summary>
-		public const int SectionBaseX = 0x0848;
+		public const int SectionBaseX = 0x0858;
 
 		///<summary>int</summary>
-		public const int SectionBaseY = 0x084C;
+		public const int SectionBaseY = 0x085C;
 
 		///<summary>int</summary>
-		public const int CollisionSizeQuads = 0x0850;
+		public const int CollisionSizeQuads = 0x0860;
 
 		///<summary>float</summary>
-		public const int CollisionScale = 0x0854;
+		public const int CollisionScale = 0x0864;
 
 		///<summary>int</summary>
-		public const int SimpleCollisionSizeQuads = 0x0858;
+		public const int SimpleCollisionSizeQuads = 0x0868;
 
 		///<summary>unsigned char[0x4]</summary>
-		public const int UnknownData01 = 0x085C;
+		public const int UnknownData01 = 0x086C;
 
 		///<summary>TArray&lt;unsigned char&gt;</summary>
-		public const int CollisionQuadFlags = 0x0860;
+		public const int CollisionQuadFlags = 0x0870;
 
 		///<summary>FGuid</summary>
-		public const int HeightfieldGuid = 0x0870;
+		public const int HeightfieldGuid = 0x0880;
 
 		///<summary>FBox</summary>
-		public const int CachedLocalBox = 0x0880;
+		public const int CachedLocalBox = 0x0890;
 
 		///<summary>TLazyObjectPtr&lt;ULandscapeComponent&gt;</summary>
-		public const int RenderComponent = 0x089C;
+		public const int RenderComponent = 0x08AC;
 
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData02 = 0x08B8;
+		public const int UnknownData02 = 0x08C8;
 
 		///<summary>TArray&lt;UPhysicalMaterial * &gt;</summary>
-		public const int CookedPhysicalMaterials = 0x08C8;
+		public const int CookedPhysicalMaterials = 0x08D8;
 
 		///<summary>unsigned char[0x48]</summary>
-		public const int UnknownData03 = 0x08D8;
+		public const int UnknownData03 = 0x08E8;
 
 	}
 
 	public class ULandscapeMeshCollisionComponent
 	{
 		///<summary>unsigned char[0x10]</summary>
-		public const int UnknownData00 = 0x0920;
+		public const int UnknownData00 = 0x0930;
 
 	}
 
@@ -291,16 +291,16 @@ namespace Offsets
 	public class ULandscapeMeshProxyComponent
 	{
 		///<summary>FGuid</summary>
-		public const int LandscapeGuid = 0x09D0;
+		public const int LandscapeGuid = 0x09E0;
 
 		///<summary>TArray&lt;FIntPoint&gt;</summary>
-		public const int ProxyComponentBases = 0x09E0;
+		public const int ProxyComponentBases = 0x09F0;
 
 		///<summary>int8_t</summary>
-		public const int ProxyLOD = 0x09F0;
+		public const int ProxyLOD = 0x0A00;
 
 		///<summary>unsigned char[0xF]</summary>
-		public const int UnknownData00 = 0x09F1;
+		public const int UnknownData00 = 0x0A01;
 
 	}
 
@@ -465,16 +465,16 @@ namespace Offsets
 	public class ULandscapeSplinesComponent
 	{
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData00 = 0x0840;
+		public const int UnknownData00 = 0x0850;
 
 		///<summary>TArray&lt;ULandscapeSplineSegment * &gt;</summary>
-		public const int Segments = 0x0848;
+		public const int Segments = 0x0858;
 
 		///<summary>TArray&lt;UMeshComponent * &gt;</summary>
-		public const int CookedForeignMeshComponents = 0x0858;
+		public const int CookedForeignMeshComponents = 0x0868;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData01 = 0x0868;
+		public const int UnknownData01 = 0x0878;
 
 	}
 

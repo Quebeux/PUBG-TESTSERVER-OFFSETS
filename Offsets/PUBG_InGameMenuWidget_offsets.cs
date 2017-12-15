@@ -40,11 +40,14 @@ namespace Offsets
 		///<summary>UTextBlock *</summary>
 		public const int TextBlock_3 = 0x02E0;
 
+		///<summary>UUIBlurBackground_C *</summary>
+		public const int UIBlurBackground = 0x02E8;
+
 		///<summary>FScriptMulticastDelegate</summary>
-		public const int TestDispatcher = 0x02E8;
+		public const int TestDispatcher = 0x02F0;
 
 		///<summary>bool</summary>
-		public const int IsGamePad = 0x02F8;
+		public const int IsGamePad = 0x0300;
 
 	}
 
