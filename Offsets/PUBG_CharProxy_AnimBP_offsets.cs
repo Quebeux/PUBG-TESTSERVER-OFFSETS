@@ -268,7 +268,7 @@ namespace Offsets
 		///<summary>FAnimNode_AnimDynamics</summary>
 		public const int AnimGraphNode_AnimDynamics_5AC0BDB14D2A3D1267886E90B77FE3C8 = 0x3978;
 
-		///<summary>TEnumAsByte&lt;EAnimWeaponType&gt;</summary>
+		///<summary>EAnimWeaponType</summary>
 		public const int AnimWeaponType = 0x3BF8;
 
 		///<summary>unsigned char[0x7]</summary>

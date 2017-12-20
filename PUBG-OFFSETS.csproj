@@ -56,7 +56,6 @@
 <Compile Include="Offsets\PUBG_BigEquipmentSlotWidget_Gamepad_offsets.cs" />
 <Compile Include="Offsets\PUBG_BloodSpotWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BoostGaugeWidget_BP_offsets.cs" />
-<Compile Include="Offsets\PUBG_BPKeyGuide_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AliveHumansInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AlivePlayerInfoWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_AliveZombiesInfoWidget_offsets.cs" />
@@ -77,6 +76,7 @@
 <Compile Include="Offsets\PUBG_BP_HealItemSelectorWidget_Gamepad_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_InteractionWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_InventoryCapacityWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_BP_KeyGuide_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_KillMessageListWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_KillMessageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_BP_LifeGaugeTemplateWidget2_offsets.cs" />
@@ -284,6 +284,7 @@
 <Compile Include="Offsets\PUBG_SystemMessageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_TcpMessaging_offsets.cs" />
 <Compile Include="Offsets\PUBG_TeamCountWidget_offsets.cs" />
+<Compile Include="Offsets\PUBG_teenage_info_offsets.cs" />
 <Compile Include="Offsets\PUBG_ThrowableWeaponStudio_offsets.cs" />
 <Compile Include="Offsets\PUBG_ToolTipGauageWidget_offsets.cs" />
 <Compile Include="Offsets\PUBG_TslCheckBox_offsets.cs" />

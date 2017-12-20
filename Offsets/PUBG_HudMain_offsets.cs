@@ -40,7 +40,7 @@ namespace Offsets
 		///<summary>UBP_WeaponSlotHudWidget_C *</summary>
 		public const int BP_WeaponSlotHudWidget = 0x0328;
 
-		///<summary>UBPKeyGuide_C *</summary>
+		///<summary>UBP_KeyGuide_C *</summary>
 		public const int BPKeyGuide = 0x0330;
 
 		///<summary>UCarePackageInteractionWidget_C *</summary>

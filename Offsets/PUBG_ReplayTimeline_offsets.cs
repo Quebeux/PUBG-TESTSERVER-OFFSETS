@@ -137,7 +137,10 @@ namespace Offsets
 		public const int VictimNameToFind = 0x0398;
 
 		///<summary>int</summary>
-		public const int CountForFindingCharacter = 0x03A8;
+		public const int CountForFindingKillerOrVictim = 0x03A8;
+
+		///<summary>int</summary>
+		public const int CountForFindingCharacter = 0x03AC;
 
 	}
 

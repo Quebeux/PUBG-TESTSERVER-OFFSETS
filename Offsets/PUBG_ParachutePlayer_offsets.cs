@@ -52,9 +52,6 @@ namespace Offsets
 		///<summary>unsigned char[0x3]</summary>
 		public const int UnknownData00 = 0x05E5;
 
-		///<summary>UTimelineComponent *</summary>
-		public const int bla = 0x05E8;
-
 		///<summary>float</summary>
 		public const int MaxTerminalVelocity = 0x05F0;
 

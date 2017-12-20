@@ -168,19 +168,31 @@ namespace Offsets
 	public class UIpNetDriver
 	{
 		///<summary>unsigned char:1</summary>
-		public const int LogPortUnreach = 0x0420;
+		public const int LogPortUnreach = 0x0438;
 
 		///<summary>unsigned char:1</summary>
-		public const int AllowPlayerPortUnreach = 0x0420;
+		public const int AllowPlayerPortUnreach = 0x0438;
 
 		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData00 = 0x0421;
+		public const int UnknownData00 = 0x0439;
 
 		///<summary>uint32_t</summary>
-		public const int MaxPortCountToTry = 0x0424;
+		public const int MaxPortCountToTry = 0x043C;
 
 		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData01 = 0x0428;
+		public const int UnknownData01 = 0x0440;
+
+		///<summary>uint32_t</summary>
+		public const int ServerDesiredSocketReceiveBufferBytes = 0x0458;
+
+		///<summary>uint32_t</summary>
+		public const int ServerDesiredSocketSendBufferBytes = 0x045C;
+
+		///<summary>uint32_t</summary>
+		public const int ClientDesiredSocketReceiveBufferBytes = 0x0460;
+
+		///<summary>uint32_t</summary>
+		public const int ClientDesiredSocketSendBufferBytes = 0x0464;
 
 	}
 
@@ -266,7 +278,7 @@ namespace Offsets
 		///<summary>EBeaconConnectionState</summary>
 		public const int ConnectionState = 0x03E8;
 
-		///<summary>unsigned char[0x57]</summary>
+		///<summary>unsigned char[0x77]</summary>
 		public const int UnknownData00 = 0x03E9;
 
 	}
@@ -308,25 +320,25 @@ namespace Offsets
 	public class APartyBeaconClient
 	{
 		///<summary>unsigned char[0xC0]</summary>
-		public const int UnknownData00 = 0x0440;
+		public const int UnknownData00 = 0x0460;
 
 		///<summary>FString</summary>
-		public const int DestSessionId = 0x0500;
+		public const int DestSessionId = 0x0520;
 
 		///<summary>FPartyReservation</summary>
-		public const int PendingReservation = 0x0510;
+		public const int PendingReservation = 0x0530;
 
 		///<summary>EClientRequestType</summary>
-		public const int RequestType = 0x0540;
+		public const int RequestType = 0x0560;
 
 		///<summary>bool</summary>
-		public const int bPendingReservationSent = 0x0541;
+		public const int bPendingReservationSent = 0x0561;
 
 		///<summary>bool</summary>
-		public const int bCancelReservation = 0x0542;
+		public const int bCancelReservation = 0x0562;
 
 		///<summary>unsigned char[0x2D]</summary>
-		public const int UnknownData01 = 0x0543;
+		public const int UnknownData01 = 0x0563;
 
 	}
 
@@ -386,8 +398,11 @@ namespace Offsets
 
 	public class UOnlineEngineInterfaceImpl
 	{
-		///<summary>unsigned char[0xF8]</summary>
-		public const int UnknownData00 = 0x0028;
+		///<summary>FName</summary>
+		public const int VoiceSubsystemNameOverride = 0x0028;
+
+		///<summary>unsigned char[0x100]</summary>
+		public const int UnknownData00 = 0x0030;
 
 	}
 

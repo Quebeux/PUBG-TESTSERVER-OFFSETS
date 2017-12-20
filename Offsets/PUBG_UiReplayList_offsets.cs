@@ -139,6 +139,9 @@ namespace Offsets
 		///<summary>bool</summary>
 		public const int bIsExit = 0x0458;
 
+		///<summary>bool</summary>
+		public const int bIsVersionCompatible = 0x0459;
+
 	}
 
 }

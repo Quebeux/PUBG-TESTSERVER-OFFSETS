@@ -495,6 +495,9 @@ namespace Offsets
 		///<summary>TWeakObjectPtr&lt;APhysicsVolume&gt;</summary>
 		public const int PhysicsVolume = 0x024C;
 
+		///<summary>unsigned char[0x7C]</summary>
+		public const int UnknownData04 = 0x0254;
+
 		///<summary>FVector</summary>
 		public const int RelativeLocation = 0x02D0;
 
@@ -3828,6 +3831,12 @@ namespace Offsets
 		///<summary>unsigned char[0x20]</summary>
 		public const int UnknownData06 = 0x0420;
 
+		///<summary>bool</summary>
+		public const int bShouldUpdateReplicatedPing = 0x0440;
+
+		///<summary>unsigned char[0x7]</summary>
+		public const int UnknownData07 = 0x0441;
+
 	}
 
 	public class UShapeComponent
@@ -4610,7 +4619,7 @@ namespace Offsets
 
 	public class ULevel
 	{
-		///<summary>unsigned char[0x88]</summary>
+		///<summary>unsigned char[0x98]</summary>
 		public const int UnknownData00 = 0x0028;
 
 		///<summary>UWorld *</summary>
@@ -10228,47 +10237,50 @@ namespace Offsets
 		///<summary>float</summary>
 		public const int ConnectionTimeout = 0x0068;
 
-		///<summary>bool</summary>
-		public const int bNoTimeouts = 0x006C;
+		///<summary>float</summary>
+		public const int TimeoutMultiplierForUnoptimizedBuilds = 0x006C;
 
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x006D;
+		///<summary>bool</summary>
+		public const int bNoTimeouts = 0x0070;
+
+		///<summary>unsigned char[0x7]</summary>
+		public const int UnknownData02 = 0x0071;
 
 		///<summary>UNetConnection *</summary>
-		public const int ServerConnection = 0x0070;
+		public const int ServerConnection = 0x0078;
 
 		///<summary>TArray&lt;UNetConnection * &gt;</summary>
-		public const int ClientConnections = 0x0078;
+		public const int ClientConnections = 0x0080;
 
-		///<summary>unsigned char[0x18]</summary>
-		public const int UnknownData03 = 0x0088;
+		///<summary>unsigned char[0x28]</summary>
+		public const int UnknownData03 = 0x0090;
 
 		///<summary>UWorld *</summary>
-		public const int World = 0x00A0;
+		public const int World = 0x00B8;
 
 		///<summary>unsigned char[0x20]</summary>
-		public const int UnknownData04 = 0x00A8;
+		public const int UnknownData04 = 0x00C0;
 
 		///<summary>UClass *</summary>
-		public const int NetConnectionClass = 0x00C8;
+		public const int NetConnectionClass = 0x00E0;
 
 		///<summary>UProperty *</summary>
-		public const int RoleProperty = 0x00D0;
+		public const int RoleProperty = 0x00E8;
 
 		///<summary>UProperty *</summary>
-		public const int RemoteRoleProperty = 0x00D8;
+		public const int RemoteRoleProperty = 0x00F0;
 
 		///<summary>FName</summary>
-		public const int NetDriverName = 0x00E0;
+		public const int NetDriverName = 0x00F8;
 
 		///<summary>unsigned char[0x8]</summary>
-		public const int UnknownData05 = 0x00E8;
+		public const int UnknownData05 = 0x0100;
 
 		///<summary>float</summary>
-		public const int Time = 0x00F0;
+		public const int Time = 0x0108;
 
 		///<summary>unsigned char[0x32C]</summary>
-		public const int UnknownData06 = 0x00F4;
+		public const int UnknownData06 = 0x010C;
 
 	}
 
@@ -10287,38 +10299,41 @@ namespace Offsets
 		///<summary>UNetDriver *</summary>
 		public const int Driver = 0x0058;
 
+		///<summary>UClass *</summary>
+		public const int PackageMapClass = 0x0060;
+
 		///<summary>UPackageMap *</summary>
-		public const int PackageMap = 0x0060;
+		public const int PackageMap = 0x0068;
 
 		///<summary>TArray&lt;UChannel * &gt;</summary>
-		public const int OpenChannels = 0x0068;
+		public const int OpenChannels = 0x0070;
 
 		///<summary>TArray&lt;AActor * &gt;</summary>
-		public const int SentTemporaries = 0x0078;
+		public const int SentTemporaries = 0x0080;
 
 		///<summary>AActor *</summary>
-		public const int ViewTarget = 0x0088;
+		public const int ViewTarget = 0x0090;
 
 		///<summary>AActor *</summary>
-		public const int OwningActor = 0x0090;
+		public const int OwningActor = 0x0098;
 
 		///<summary>int</summary>
-		public const int MaxPacket = 0x0098;
+		public const int MaxPacket = 0x00A0;
 
 		///<summary>unsigned char:1</summary>
-		public const int InternalAck = 0x009C;
+		public const int InternalAck = 0x00A4;
 
 		///<summary>unsigned char[0xB3]</summary>
-		public const int UnknownData00 = 0x009D;
+		public const int UnknownData00 = 0x00A5;
 
 		///<summary>FUniqueNetIdRepl</summary>
-		public const int PlayerId = 0x0150;
+		public const int PlayerId = 0x0158;
 
 		///<summary>unsigned char[0x68]</summary>
-		public const int UnknownData01 = 0x0168;
+		public const int UnknownData01 = 0x0170;
 
 		///<summary>double</summary>
-		public const int LastReceiveTime = 0x01D0;
+		public const int LastReceiveTime = 0x01D8;
 
 	}
 
@@ -10329,19 +10344,19 @@ namespace Offsets
 	public class UDemoNetDriver
 	{
 		///<summary>unsigned char[0xF8]</summary>
-		public const int UnknownData00 = 0x0420;
+		public const int UnknownData00 = 0x0438;
 
 		///<summary>TMap&lt;FString,FRollbackNetStartupActorInfo&gt;</summary>
-		public const int RollbackNetStartupActors = 0x0518;
+		public const int RollbackNetStartupActors = 0x0530;
 
-		///<summary>unsigned char[0x3D0]</summary>
-		public const int UnknownData01 = 0x0568;
+		///<summary>unsigned char[0x3C8]</summary>
+		public const int UnknownData01 = 0x0580;
 
 		///<summary>bool</summary>
-		public const int bIsLocalReplay = 0x0938;
+		public const int bIsLocalReplay = 0x0948;
 
 		///<summary>unsigned char[0x77]</summary>
-		public const int UnknownData02 = 0x0939;
+		public const int UnknownData02 = 0x0949;
 
 	}
 
@@ -14531,6 +14546,9 @@ namespace Offsets
 		public const int PixelDepthOffset = 0x07A0;
 
 		///<summary>unsigned char:1</summary>
+		public const int bPrepassMasked = 0x07E0;
+
+		///<summary>unsigned char:1</summary>
 		public const int bEnableSeparateTranslucency = 0x07E0;
 
 		///<summary>unsigned char:1</summary>
@@ -14552,10 +14570,10 @@ namespace Offsets
 		public const int DitherOpacityMask = 0x07E0;
 
 		///<summary>unsigned char:1</summary>
-		public const int bAllowNegativeEmissiveColor = 0x07E0;
+		public const int bAllowNegativeEmissiveColor = 0x07E1;
 
-		///<summary>unsigned char[0x3]</summary>
-		public const int UnknownData02 = 0x07E1;
+		///<summary>unsigned char[0x2]</summary>
+		public const int UnknownData02 = 0x07E2;
 
 		///<summary>int</summary>
 		public const int NumCustomizedUVs = 0x07E4;
